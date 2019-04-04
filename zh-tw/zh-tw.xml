@@ -30,8 +30,26 @@
     <LocaleResource Name="Account.AssociatedExternalAuth.Remove">
         <Value>刪除</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.AssociatedExternalAuth.Or">
-        <Value>- 或 -</Value>
+    <LocaleResource Name="Account.AssociatedExternalAuth.YourAccountWillBeLinkedTo">
+        <Value>帳號連接：您的新帳戶將被連接到</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.AssociatedExternalAuth.YourAccountWillBeLinkedTo.Remove">
+        <Value>(移除)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.Auctions.NoAuctions">
+        <Value>你沒有任何拍賣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.Auctions.NoEndedAuctions">
+        <Value>你沒有得標任何拍賣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.Auctions.NoOngoingAuctions">
+        <Value>你沒有參加任何拍賣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.Auctions.Tab.Ended">
+        <Value>拍賣結束</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.Auctions.Tab.Ongoing">
+        <Value>正在進行的拍賣</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Avatar">
         <Value>頭像</Value>
@@ -141,6 +159,42 @@
     <LocaleResource Name="Account.CustomerAddresses.NoAddresses">
         <Value>還沒有任何地址</Value>
     </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions">
+        <Value>拍賣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.AuctionEndTime">
+        <Value>拍賣結束時間</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Highestbid">
+        <Value>最高出價</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.OrderDetails">
+        <Value>訂單詳細訊息</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Product">
+        <Value>商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.ProductName">
+        <Value>商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Status">
+        <Value>狀態</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Status.Ended">
+        <Value>已結束</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Status.HighestBidder">
+        <Value>最高出價者</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Status.Ongoing">
+        <Value>正在進行</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerAuctions.Status.Outbid">
+        <Value>提高價格</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerExportToXls">
+        <Value>到期日期</Value>
+    </LocaleResource>
     <LocaleResource Name="Account.CustomerInfo">
         <Value>基本資料</Value>
     </LocaleResource>
@@ -183,9 +237,6 @@
     <LocaleResource Name="Account.CustomerOrders.RecurringOrders.NextPayment">
         <Value>下次付款</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.CustomerOrders.RecurringOrders.RetryLastPayment">
-        <Value>重試上次款方式</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.CustomerOrders.RecurringOrders.StartDate">
         <Value>開始日期</Value>
     </LocaleResource>
@@ -197,21 +248,6 @@
     </LocaleResource>
     <LocaleResource Name="Account.CustomerOrders.ReturnItems">
         <Value>退貨項目</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.CustomerProductReviews">
-        <Value>商品評論</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.CustomerProductReviews.ApprovalStatus.Approved">
-        <Value>批准</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.CustomerProductReviews.ApprovalStatus.Pending">
-        <Value>等待</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.CustomerProductReviews.NoRecords">
-        <Value>您還沒有寫過任何評論</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.CustomerProductReviews.ProductReviewFor">
-        <Value>評論商品</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerReturnRequests">
         <Value>退貨紀錄</Value>
@@ -234,23 +270,23 @@
     <LocaleResource Name="Account.CustomerReturnRequests.Title">
         <Value>已退物品 編號：{0} - {1}</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.CustomerReturnRequests.UploadedFile">
-        <Value>上傳檔案:</Value>
+    <LocaleResource Name="Account.DeleteAccount">
+        <Value>刪除的帳號</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.CustomerReturnRequests.UploadedFile.Download">
-        <Value>下載</Value>
+    <LocaleResource Name="Account.DeleteAccount.Button">
+        <Value>刪除</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.DeleteAccount.DangerAlert">
+        <Value>你可以在任何時間刪除您的帳戶。如果您改變心意，刪除的帳戶可能無法復原。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.DeleteAccount.Fields.Password">
+        <Value>目前密碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.DeleteAccount.Fields.Password.Required">
+        <Value>密碼欄位必填</Value>
     </LocaleResource>
     <LocaleResource Name="Account.DownloadableProducts">
-        <Value>下載商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.EmailRevalidation">
-        <Value>驗證Email</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.EmailRevalidation.AlreadyChanged">
-        <Value>您的Email已經被驗證</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.EmailRevalidation.Changed">
-        <Value>您的Email被驗證</Value>
+        <Value>可下載的商品</Value>
     </LocaleResource>
     <LocaleResource Name="Account.EmailUsernameErrors.EmailAlreadyExists">
         <Value>該電子信箱已被使用</Value>
@@ -287,12 +323,6 @@
     </LocaleResource>
     <LocaleResource Name="Account.Fields.Company.Required">
         <Value>請輸入公司名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Fields.ConfirmEmail">
-        <Value>確認郵件</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Fields.ConfirmEmail.Required">
-        <Value>請輸入電子郵件</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Fields.ConfirmPassword">
         <Value>確認密碼</Value>
