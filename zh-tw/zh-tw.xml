@@ -1579,7 +1579,7 @@
         <Value>結帳屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Acl">
-        <Value>訪問控制列表</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Added">
         <Value>新增結帳屬性成功</Value>
@@ -1782,6 +1782,189 @@
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Values.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes">
+        <Value>聯絡屬性</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Acl">
+        <Value>權限管理</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Added">
+        <Value>成功加入新的屬性</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.AddNew">
+        <Value>加入新的聯絡屬性</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.BackToList">
+        <Value>返回聯絡屬性列表</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition">
+        <Value>條件</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition.Attributes">
+        <Value>屬性</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition.Attributes.Hint">
+        <Value>選擇屬性</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition.EnableCondition">
+        <Value>啟用條件</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition.EnableCondition.Hint">
+        <Value>Check to specify a condition (depending on other attribute) when this attribute should be enabled (visible).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition.NoAttributeExists">
+        <Value>No attribute exists that could be used as condition.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Condition.SaveBeforeEdit">
+        <Value>You need to save the Contact attribute before you can edit conditional attributes.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Deleted">
+        <Value>The attribute has been deleted successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.EditAttributeDetails">
+        <Value>Edit Contact attribute details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.AclCustomerRoles">
+        <Value>會員角色</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.AclCustomerRoles.Hint">
+        <Value>Select customer roles for which the manufacturer will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.AttributeControlType">
+        <Value>控制類型</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.AttributeControlType.Hint">
+        <Value>Choose how to display your attribute values.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.AvailableStores">
+        <Value>街</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the attribute will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.DefaultValue">
+        <Value>Default value</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.DefaultValue.Hint">
+        <Value>Enter default value for attribute.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.DisplayOrder">
+        <Value>顯示順序</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.DisplayOrder.Hint">
+        <Value>The Contact attribute display order. 1 represents the first item in the list.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.FileAllowedExtensions">
+        <Value>Allowed file extensions</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.FileAllowedExtensions.Hint">
+        <Value>Specify a comma-separated list of allowed file extensions. Leave empty to allow any file extension.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.FileMaximumSize">
+        <Value>最大檔案大小 (KB)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.FileMaximumSize.Hint">
+        <Value>Specify maximum file size in kilobytes. Leave empty to skip this validation.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.IsRequired">
+        <Value>必填</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.IsRequired.Hint">
+        <Value>When an attribute is required, the customer must choose an appropriate attribute value before they can continue.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.IsTaxExempt">
+        <Value>免稅</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.IsTaxExempt.Hint">
+        <Value>Determines whether this option is tax exempt (tax will not be applied to this option at Contact).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.LimitedToStores">
+        <Value>只限於商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.LimitedToStores.Hint">
+        <Value>Determines whether the attribute is available only at certain stores.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.MaxLength">
+        <Value>最大長度</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.MaxLength.Hint">
+        <Value>Specify maximum length. Leave empty to skip this validation.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.MinLength">
+        <Value>最小長度</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.MinLength.Hint">
+        <Value>Specify minimum length. Leave empty to skip this validation.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.Name">
+        <Value>名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.Name.Hint">
+        <Value>The name of the Contact attribute.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.Name.Required">
+        <Value>請提供名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.SubjectToAcl">
+        <Value>ACL主題</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.SubjectToAcl.Hint">
+        <Value>Determines whether the Contact attrubutes is subject to ACL (access control list).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.TextPrompt">
+        <Value>Text prompt</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.TextPrompt.Hint">
+        <Value>Enter text prompt.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Info">
+        <Value>Attribute info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Stores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Updated">
+        <Value>The attribute has been updated successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values">
+        <Value>Attribute values</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.AddNew">
+        <Value>Add a new Contact value</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.EditValueDetails">
+        <Value>Edit Contact value details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.ColorSquaresRgb">
+        <Value>RGB顏色</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.ColorSquaresRgb.Hint">
+        <Value>Choose color to be used with the color squares attribute control.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.DisplayOrder">
+        <Value>顯示順序</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.DisplayOrder.Hint">
+        <Value>The display order of the attribute value. 1 represents the first item in attribute value list.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.IsPreSelected">
+        <Value>預先選擇</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.IsPreSelected.Hint">
+        <Value>Determines whether this attribute value is pre selected for the customer.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.Name">
+        <Value>名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.Name.Hint">
+        <Value>The name of the Contact value.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.Fields.Name.Required">
+        <Value>請提供名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.SaveBeforeEdit">
+        <Value>You need to save the Contact attribute before you can add values for this Contact attribute page.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes">
         <Value>商品屬性</Value>
     </LocaleResource>
@@ -1796,9 +1979,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.Deleted">
         <Value>刪除商品屬性成功</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.Description">
-        <Value>商品屬性是最小存貨單位，是商品的銷售屬性集合。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.EditAttributeDetails">
         <Value>編輯商品屬性</Value>
@@ -1863,12 +2043,6 @@
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
         <Value>選擇此屬性值時應用的價格調整。 比如'10'加10美元。 如果勾選“使用百分比”，則為10％。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage">
-        <Value>價格調整。 使用百分比</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustmentUsePercentage.Hint">
-        <Value>確定是否將百分比應用於產品。 如果未啟用，則使用固定值。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
         <Value>重量調整</Value>
     </LocaleResource>
@@ -1910,9 +2084,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Deleted">
         <Value>刪除規格成功</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Description">
-        <Value>規格是商品的非銷售屬性，例如：屏幕尺寸，USB連接埠數量，可在商品詳細資訊頁面上看到，並可以過濾商品。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.EditAttributeDetails">
         <Value>編輯屬性規格</Value>
@@ -1980,23 +2151,11 @@
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Updated">
         <Value>修改規格成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts">
-        <Value>由商品使用</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Product">
-        <Value>商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.UsedByProducts.Published">
-        <Value>發布</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit">
         <Value>商品批次管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod">
         <Value>庫存管理</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.ManageInventoryMethod.MultipleWarehouse">
-        <Value>(多個倉庫)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.Name">
         <Value>名稱</Value>
@@ -2036,6 +2195,24 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories">
         <Value>分類管理</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Acl">
+        <Value>Access control list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.ActivityLog">
+        <Value>Activity Log</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.ActivityLogType">
+        <Value>Activity Log Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Comment">
+        <Value>Comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Customer">
+        <Value>Customer</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Added">
         <Value>新增分類成功</Value>
