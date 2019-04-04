@@ -17863,6 +17863,510 @@
         <Value>願望清單{0}</Value>
     </LocaleResource>
     <LocaleResource Name="Wishlist.YourWishlistURL">
-        <Value>我的願望清單地址</Value>
+        <Value>我的願望清單分享網址</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications.Messages">
+        <Value>訊息</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications.Receivers">
+        <Value>Receivers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications.Send">
+        <Value>Send</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.PrivateApiKey">
+        <Value>Private Api Key</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.PushApiKey">
+        <Value>Public Api Key</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.SenderId">
+        <Value>Sender Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.AuthDomain">
+        <Value>Auth Domain</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.DatabaseUrl">
+        <Value>Database URL</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.ProjectId">
+        <Value>Project Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.StorageBucket">
+        <Value>Storage Bucket</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.AllowGuestNotifications">
+        <Value>Allow guest notifications</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.AllowGuestNotifications.Hint">
+        <Value>Should be checked if you want to allow guest to register for push notifications</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.ClickUrl">
+        <Value>Click Url</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.ClickUrl.Hint">
+        <Value>Page that will be opened after user clicks on notification</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.PictureId">
+        <Value>Picture Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.PushMessageText">
+        <Value>Message text</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.PushTitle">
+        <Value>Title</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Error.NoReceivers">
+        <Value>No receviers yet. Wait for someone to register for push notifications.</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.MessageSent">
+        <Value>Notification sent</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.Id">
+        <Value>Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.Title">
+        <Value>Title</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.Text">
+        <Value>Text</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.NumberOfReceivers">
+        <Value>Number of receivers</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.SentOn">
+        <Value>Sent on</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.CustomerEmail">
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.Allowed">
+        <Value>Allowed</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Message.Fields.RegisteredOn">
+        <Value>Registered on</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.PushNotications">
+        <Value>Push notifications</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.PushNotications.Info">
+        <Value>We are using firebase for push notifications. You can find more info in our manuals or on firebase docs.</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.SendPush">
+        <Value>Send</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.MessageTextPlaceholder">
+        <Value>Message text</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.MessageTitlePlaceholder">
+        <Value>Message title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications">
+        <Value>Push notifications</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Error.PushApiMessage">
+        <Value>API Key and Message text is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.NotificationsEnabled">
+        <Value>Enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.Fields.NotificationsEnabled.Hint">
+        <Value>If left unchecked, registration script won't be added to homepage.</Value>
+    </LocaleResource>
+    <LocaleResource Name="PushNotifications.PushNotications.Warning">
+        <Value>Warning! Press "Save" button every time you upgrade GrandNode to new version, as the settings will be wiped out in registration script.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Pushnotifications.Pushnotications.Messages">
+        <Value>Messages</Value>
+    </LocaleResource>
+    <LocaleResource Name="Pushnotifications.Pushnotications.Receivers">
+        <Value>Receivers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.PushNotifications">
+        <Value>Push notifications settings</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.Fields.VatNumber.Required">
+        <Value>Vat number is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Address.Fields.VatNumber.Required">
+        <Value>Vat number is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Address.Fields.VatNumber">
+        <Value>Vat number</Value>
+    </LocaleResource>
+    <LocaleResource Name="Address.Fields.VatNumber">
+        <Value>Vat number</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.VatNumberEnabled">
+        <Value>'Vat number' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.VatNumberEnabled.Hint">
+        <Value>Set if 'Vat number' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.VatNumberRequired">
+        <Value>'Vat number' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.VatNumberRequired.Hint">
+        <Value>Check if 'Vat number' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Clearold">
+        <Value>Clear old, unused records</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications.Receivers">
+        <Value>Receivers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications.Send">
+        <Value>Send</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.PushNotifications.Messages">
+        <Value>Messages</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch">
+        <Value>Admin search</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInProducts">
+        <Value>Search in products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInProducts.Hint">
+        <Value>Searches by product name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInCategories">
+        <Value>Search in categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInCategories.Hint">
+        <Value>Searches by category name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInManufacturers">
+        <Value>Search in manufacturers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInManufacturers.Hint">
+        <Value>Searches by manufacturer name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInTopics">
+        <Value>Search in topics</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInTopics.Hint">
+        <Value>Searches by topic system name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInNews">
+        <Value>Search in news</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInNews.Hint">
+        <Value>Searches by news item title.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInBlogs">
+        <Value>Search in blogs</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInBlogs.Hint">
+        <Value>Searches by blog post title.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInCustomers">
+        <Value>Search in customers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInCustomers.Hint">
+        <Value>Searches by customer email and username.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInOrders">
+        <Value>Search in orders</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInOrders.Hint">
+        <Value>Searches by order number, should be integer.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.MinSearchTermLength">
+        <Value>Minimum search term length</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.MinSearchTermLength.Hint">
+        <Value>Minimum number of characters required to perform search for inputed phrase.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.MaxSearchResultsCount">
+        <Value>Maximum search results count</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.MaxSearchResultsCount.Hint">
+        <Value>Number of maximum search results to show in result box. Shouldn't be greater than 100.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.ProductsDisplayOrder">
+        <Value>Products display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.CategoriesDisplayOrder">
+        <Value>Categories display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.ManufacturersDisplayOrder">
+        <Value>Manufacturers display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.TopicsDisplayOrder">
+        <Value>Topics display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.NewsDisplayOrder">
+        <Value>News display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.BlogsDisplayOrder">
+        <Value>Blogs display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.CustomersDisplayOrder">
+        <Value>Customers display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.OrdersDisplayOrder">
+        <Value>Orders display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.ProductsDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.CategoriesDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.ManufacturersDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.TopicsDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.NewsDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.BlogsDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.CustomersDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.OrdersDisplayOrder.Hint">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.AdminSearch.Placeholder">
+        <Value>Search in store...</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInMenu">
+        <Value>Search in menu</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.SearchInMenu.Hint">
+        <Value>Searches in left side menu items.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.MenuDisplayOrder">
+        <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.AdminSearch.Menu">
+        <Value>Menu</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AllowComments">
+        <Value>Allow comments</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AllowComments.Hint">
+        <Value>When checked, customers can leave comments about your article.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.CommentText">
+        <Value>Comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.CommentText.Required">
+        <Value>Enter comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.Comments.LeaveYourComment">
+        <Value>Leave your comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.Comments">
+        <Value>Comments</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.Comments.SubmitButton">
+        <Value>New comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.Comments.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments">
+        <Value>Allow not registered users to leave comments</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments.Hint">
+        <Value>Check to allow not registered users to leave comments.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.Comments.OnlyRegisteredUsersLeaveComments">
+        <Value>Only registered users can leave comments.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.NotifyAboutNewArticleComments">
+        <Value>Notify about new article comments</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.NotifyAboutNewArticleComments.Hint">
+        <Value>Check to notify store owner about new article comments.</Value>
+    </LocaleResource>
+    <LocaleResource Name="ActivityLog.PublicStore.AddArticleComment">
+        <Value>Added an article comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnArticleCommentPage">
+        <Value>Show on article page (comments)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnArticleCommentPage.Hint">
+        <Value>Check to show CAPTCHA on article page when writing a comment.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.Comments.SuccessfullyAdded">
+        <Value>Article comment was successfully added.</Value>
+    </LocaleResource>
+    <LocaleResource Name="ReturnRequests.SelectPickupAddressOrEnterNewOne">
+        <Value>Select a pickup address from your address book or enter a new address.</Value>
+    </LocaleResource>
+    <LocaleResource Name="ReturnRequests.NewAddress">
+        <Value>New Address</Value>
+    </LocaleResource>
+    <LocaleResource Name="ReturnRequests.PickupDate">
+        <Value>Specify pickup date</Value>
+    </LocaleResource>
+    <LocaleResource Name="PageTitle.ReturnRequestDetails">
+        <Value>Return request details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerNotes">
+        <Value>Customer notes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerNotes.Attachment">
+        <Value>Attachment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerNotes.Createdate">
+        <Value>Create date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerNotes.NoExists">
+        <Value>You don't have any notes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerNotes.Title">
+        <Value>Title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerReturnRequests.Quantity">
+        <Value>數量</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerReturnRequests.UnitPrice">
+        <Value>Unit price</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerReturnRequests.Totals">
+        <Value>{0} product(s), {1} total</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerReturnRequests.Details">
+        <Value>Details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerReturnRequests.PickupDate">
+        <Value>Pickup date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.CustomerReturnRequests.PickupAddress">
+        <Value>Pickup address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.Total">
+        <Value>Total</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.Item">
+        <Value>Returned item</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.UnitPrice">
+        <Value>Unit price</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.ReturnReason">
+        <Value>Return reason</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.ReturnAction">
+        <Value>Return action</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.PickupDate">
+        <Value>Pickup date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Fields.PickupAddress">
+        <Value>Pickup address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.NotifyCustomer.Hint">
+        <Value>Check if you want customer to be notified by email abouy this return request status change.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.Order.Product(s).ReturnReason">
+        <Value>Return reason</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.Order.Product(s).ReturnAction">
+        <Value>Requested action</Value>
+    </LocaleResource>
+    <LocaleResource Name="OrderNote.Fields.Title.Required">
+        <Value>Title is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="OrderNote.Fields.Title">
+        <Value>Title</Value>
+    </LocaleResource>
+    <LocaleResource Name="OrderNote.SubmitButton">
+        <Value>Submit order note</Value>
+    </LocaleResource>
+    <LocaleResource Name="OrderNote.Added">
+        <Value>Order note has been added.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Orders.OrderNotes.Fields.CreatedByCustomer">
+        <Value>Created by customer</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.AllowCustomerToAddOrderNote">
+        <Value>Allow customer to add order note</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.AllowCustomerToAddOrderNote.Hint">
+        <Value>Check if you want to allow customers to add order notes from order details page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Order.AddOrderNote">
+        <Value>Add order note</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.CurrentCartWishlists">
+        <Value>Current shopping carts and wishlists</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.NotReturnable">
+        <Value>Product is not returnable</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AdditionalShippingCharge">
+        <Value>Additional Shipping Charge:</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.GiftCard.Message">
+        <Value>Message</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.GiftCard.RecipientEmail">
+        <Value>Recipient's Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.GiftCard.RecipientName">
+        <Value>Recipient's Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.GiftCard.SenderEmail">
+        <Value>您的 Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.GiftCard.SenderName">
+        <Value>您的姓名</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.QuickView">
+        <Value>快速檢視</Value>
+    </LocaleResource>
+    <LocaleResource Name="Reviews.AdministrationResponse">
+        <Value>Administration response</Value>
+    </LocaleResource>
+    <LocaleResource Name="Catalog.Selectors.Items">
+        <Value>Items</Value>
+    </LocaleResource>
+    <LocaleResource Name="Catalog.Selectors.Fiters">
+        <Value>過濾</Value>
+    </LocaleResource>
+    <LocaleResource Name="Catalog.Selectors.Of">
+        <Value>of</Value>
+    </LocaleResource>
+    <LocaleResource Name="Mobile.Categories.Back">
+        <Value>返回</Value>
+    </LocaleResource>
+    <LocaleResource Name="Mobile.Category.Show">
+        <Value>顯示</Value>
+    </LocaleResource>
+    <LocaleResource Name="Menu.Links">
+        <Value>連結</Value>
+    </LocaleResource>
+    <LocaleResource Name="Mobile.Menu">
+        <Value>選單</Value>
+    </LocaleResource>
+    <LocaleResource Name="Footer.Aboutus">
+        <Value>關於我們</Value>
+    </LocaleResource>
+    <LocaleResource Name="Footer.Address.Title">
+        <Value>地址:</Value>
+    </LocaleResource>
+    <LocaleResource Name="Footer.Phone.Title">
+        <Value>手機號碼:</Value>
+    </LocaleResource>
+    <LocaleResource Name="Footer.Email.Title">
+        <Value>Email:</Value>
+    </LocaleResource>
+    <LocaleResource Name="Footer.Hour.Title">
+        <Value>小時:</Value>
+    </LocaleResource>
+    <LocaleResource Name="Newsletter.Desc">
+        <Value>Sign up to newsletter and stay in touch.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Edit">
+        <Value>編輯</Value>
     </LocaleResource>
 </Language>
