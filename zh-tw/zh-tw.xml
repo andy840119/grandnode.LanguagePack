@@ -10773,12 +10773,6 @@
     <LocaleResource Name="Admin.Customers.Customers.List.SearchFirstName.Hint">
         <Value>名稱篩選</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.List.SearchIpAddress">
-        <Value>IP地址</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.List.SearchIpAddress.Hint">
-        <Value>IP地址</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.List.SearchLastName">
         <Value>姓氏</Value>
     </LocaleResource>
@@ -10809,9 +10803,6 @@
     <LocaleResource Name="Admin.Customers.Customers.Orders.CreatedOn">
         <Value>建立日期</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.Orders.CustomOrderNumber">
-        <Value>自定義訂單編號</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Orders.ID">
         <Value>訂單編號</Value>
     </LocaleResource>
@@ -10824,9 +10815,6 @@
     <LocaleResource Name="Admin.Customers.Customers.Orders.PaymentStatus">
         <Value>付款狀態</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.Orders.RegisteredInStore">
-        <Value>註冊商店</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Orders.ShippingStatus">
         <Value>配送狀態</Value>
     </LocaleResource>
@@ -10836,6 +10824,30 @@
     <LocaleResource Name="Admin.Customers.Customers.PasswordChanged">
         <Value>密碼已成功修改。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct">
+        <Value>Personalized products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.AddNew">
+        <Value>Add new product</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.ProductName">
+        <Value>Product name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.ProductPrice">
+        <Value>Individual Product Prices</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.ProductPrice.AddNew">
+        <Value>Add new product</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.ProductPrice.Price">
+        <Value>Price</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.ProductPrice.ProductName">
+        <Value>Product Name</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ReSendActivationMessage">
         <Value>從新發送啟用消息</Value>
     </LocaleResource>
@@ -10844,9 +10856,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.RewardPoints">
         <Value>我的紅利積點</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.RewardPoints.ActivatedLater">
-        <Value>紅利積點將在{0}被啟用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.RewardPoints.AddButton">
         <Value>新增</Value>
@@ -10941,11 +10950,80 @@
     <LocaleResource Name="Admin.Customers.Customers.SendWelcomeMessage.Success">
         <Value>歡迎電子郵件已成功發送。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.ShoppingCartWishlist">
+        <Value>Current cart and wishlist</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Updated">
         <Value>修改會員成功</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.VendorShouldBeInVendorsRole">
-        <Value>注意：如果此帳戶和供應商關聯，請確保供應商帳號也有Vendors權限</Value>
+        <Value>Note: if you have a vendor associated with this customer, then also ensure it is in "Vendors" customer role.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags">
+        <Value>Customer tags</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Added">
+        <Value>Added a tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.AddNew">
+        <Value>Add a new tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.BackToList">
+        <Value>back to tags list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Customers">
+        <Value>Customers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Customers.SaveBeforeEdit">
+        <Value>You need to save the tag.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Deleted">
+        <Value>The tag has been deleted successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.EditCustomerTagDetails">
+        <Value>Edit customer tag details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Count">
+        <Value>Count</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Email">
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Name.Hint">
+        <Value>The name of this tag.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Name.Required">
+        <Value>Tag name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Info">
+        <Value>Tag Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products">
+        <Value>Suggested products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products.AddNew">
+        <Value>Suggested products assigned to the Customer Tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.AddNew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.Name">
+        <Value>Product name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products.Info">
+        <Value>In order to use this functionality you have to enable the following setting: Configuration &gt; Catalog settings &gt; General &gt; 'Suggested products' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Products.SaveBeforeEdit">
+        <Value>You need to save the customer tag before you can add values for this page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerTags.Updated">
+        <Value>The tag has been updated successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Guest">
         <Value>匿名用戶</Value>
@@ -10970,6 +11048,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.Location">
         <Value>位置</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Products.AddNew">
+        <Value>新增</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Reports">
         <Value>會員報表</Value>
@@ -11019,18 +11100,6 @@
     <LocaleResource Name="Admin.Customers.Reports.BestBy.StartDate.Hint">
         <Value>開始日期</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Reports.CustomerStatistics">
-        <Value>用戶統計</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Reports.CustomerStatistics.Month">
-        <Value>月</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Reports.CustomerStatistics.Week">
-        <Value>周</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Reports.CustomerStatistics.Year">
-        <Value>年</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers">
         <Value>註冊用戶</Value>
     </LocaleResource>
@@ -11058,35 +11127,83 @@
     <LocaleResource Name="Admin.Dashboard">
         <Value>後台首頁</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.CommonStatistics">
-        <Value>統計</Value>
+    <LocaleResource Name="Admin.Dashboard.ActiveShoppingCarts">
+        <Value>Active Shopping Carts</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.IncompleteOrders">
-        <Value>未完成的訂單</Value>
+    <LocaleResource Name="Admin.Dashboard.ActivityOverview">
+        <Value>Activity Overview</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.LatestOrders">
-        <Value>最新訂單</Value>
+    <LocaleResource Name="Admin.Dashboard.ActivityOverview.AbandonedCarts">
+        <Value>Abandoned carts</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.LatestOrders.ViewAll">
-        <Value>查看全部</Value>
+    <LocaleResource Name="Admin.Dashboard.ActivityOverview.LowStockProducts">
+        <Value>Low Stock Products</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.MoreInfo">
-        <Value>更多...</Value>
+    <LocaleResource Name="Admin.Dashboard.ActivityOverview.OrderPending">
+        <Value>Order Pending</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.NumberOfCustomers">
-        <Value>註冊用戶數</Value>
+    <LocaleResource Name="Admin.Dashboard.ActivityOverview.ReturnRequests">
+        <Value>Pending return requests</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.NumberOfLowStockProducts">
-        <Value>低庫存商品數</Value>
+    <LocaleResource Name="Admin.Dashboard.ActivityOverview.TodayRegisteredCustomers">
+        <Value>Today Registered Customers</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.NumberOfOrders">
-        <Value>訂單數</Value>
+    <LocaleResource Name="Admin.Dashboard.GoogleAnalytics">
+        <Value>Google Analytics</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Dashboard.NumberOfPendingReturnRequests">
-        <Value>退貨數</Value>
+    <LocaleResource Name="Admin.Dashboard.GoogleAnalytics.Device">
+        <Value>Google Analytics - Device</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.GoogleAnalytics.Exit">
+        <Value>Google Analytics - Exit Pages</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.GoogleAnalytics.Localization">
+        <Value>Google Analytics - Localization</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.GoogleAnalytics.Source">
+        <Value>Google Analytics - All Traffic</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.OnlineCustomerMinutes">
+        <Value>in the last {0} minutes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.OnlineCustomers">
+        <Value>Online Visitors</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.OnlineShoppingCart">
+        <Value>in the last {0} minutes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.Reportcustomertime.Titlechart">
+        <Value>Number of registered customers in time</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.ReportLatestOrder">
+        <Value>Latest orders</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.ReportOrderTime.Count">
+        <Value>Number of orders</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.ReportOrderTime.TitleChart">
+        <Value>Orders in time</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.ReportOrderTime.TotalSales">
+        <Value>Total sales</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.ReportOverviewHelper">
+        <Value>report overview...</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.Statistics">
+        <Value>Statistics</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Dashboard.StoreStatistics">
         <Value>商店統計</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.TodayOrders">
+        <Value>Today orders</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.TodayOrders.AmountCount">
+        <Value>Amount / Count</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Dashboard.ViewMore">
+        <Value>View more</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Download.DownloadUploadedFile">
         <Value>下載上傳文件</Value>
@@ -11139,12 +11256,6 @@
     <LocaleResource Name="Admin.GiftCards.Fields.CreatedOn.Hint">
         <Value>創建日期</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.GiftCards.Fields.CustomOrderNumber">
-        <Value>訂單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.GiftCards.Fields.CustomOrderNumber.Hint">
-        <Value>購買禮品卡的訂單</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode">
         <Value>折扣碼</Value>
     </LocaleResource>
@@ -11153,6 +11264,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode.Hint">
         <Value>結帳使用的禮品卡折扣碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode.Required">
+        <Value>Coupon code is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.GiftCardType">
         <Value>禮品卡類型</Value>
@@ -11186,12 +11300,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.Order.Hint">
         <Value>訂單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.GiftCards.Fields.OrderId">
-        <Value>訂單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.GiftCards.Fields.OrderId.Hint">
-        <Value>購買禮品卡的訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.RecipientEmail">
         <Value>收卡人電子信箱</Value>
@@ -11228,9 +11336,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.History.CreatedOn">
         <Value>使用時間</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.GiftCards.History.CustomOrderNumber">
-        <Value>自定義訂單編號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.History.Order">
         <Value>訂單</Value>
@@ -11274,8 +11379,29 @@
     <LocaleResource Name="Admin.Header.ClearCache">
         <Value>清除緩存</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.header.loggedinas">
-        <Value>登入為：{0}</Value>
+    <LocaleResource Name="Admin.grandnodeNews.HideAdv">
+        <Value>Hide advertisements</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.grandnodeNews.ShowAdv">
+        <Value>Show advertisements</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Header.ClearCacheMemory">
+        <Value>Clear memory cache</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Header.ClearCacheRedis">
+        <Value>Clear redis cache</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Header.Community">
+        <Value>Community</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Header.Documentation">
+        <Value>Documentation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Header.Profile">
+        <Value>My profile</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Header.LoggedInAs">
+        <Value>登入為: {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Header.Logout">
         <Value>登出</Value>
@@ -11303,18 +11429,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Home">
         <Value>首頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.menu.search">
-        <Value>搜尋</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.NopCommerceNews">
-        <Value>nopCommerce新聞</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.NopCommerceNews.HideAdv">
-        <Value>隱藏nopcommerce廣告</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.NopCommerceNews.ShowAdv">
-        <Value>顯示廣告</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders">
         <Value>訂單管理</Value>
@@ -11460,29 +11574,11 @@
     <LocaleResource Name="Admin.Orders.Fields.CustomerIP.Hint">
         <Value>在新訂單時的會員IP地址。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.CustomOrderNumber">
-        <Value>訂單ID</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.CustomOrderNumber.Hint">
-        <Value>訂單編號、可至系統設定 =&gt; 參數設定 =&gt; 訂單設定，編輯規則</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.CustomValues">
         <Value>自定義值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.CustomValues.Hint">
         <Value>在付款方式中的自定義值。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.Edit.CompanyTaxId">
-        <Value>統一編號</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.orders.fields.edit.companytaxid.hint">
-        <Value>會員輸入帳單的統一編號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.Edit.CompanyTitle">
-        <Value>公司抬頭</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.orders.fields.edit.companytitle.hint">
-        <Value>會員輸入帳單的公司抬頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.Edit.ExclTax">
         <Value>不含稅：</Value>
@@ -11550,7 +11646,7 @@
     <LocaleResource Name="Admin.Orders.Fields.GiftCardInfo.Hint">
         <Value>禮品卡</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.ID">
+    <LocaleResource Name="Admin.Orders.Fields.Id">
         <Value>訂單編號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.ID.Hint">
