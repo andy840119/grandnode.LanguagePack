@@ -13311,8 +13311,98 @@
     <LocaleResource Name="Admin.StockQuantityHistory.Messages.PlaceOrder">
         <Value>通過訂單＃{0}減少庫存數量</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System">
-        <Value>系統資訊</Value>
+    <LocaleResource Name="Admin.System.ContactForm.deletedall">
+        <Value>Delete all</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Details">
+        <Value>Contact form - details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.ContactAttributeDescription">
+        <Value>Attribute description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.ContactAttributeDescription.hint">
+        <Value>Selected attribute description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.CreatedOn.hint">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Email">
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Email.hint">
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.EmailAccountName">
+        <Value>Email account</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.EmailAccountName.hint">
+        <Value>The email account that will be used to send this email.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Enquiry">
+        <Value>Enquiry</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Enquiry.hint">
+        <Value>Enquiry</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Contactform.Fields.Fullname">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Contactform.Fields.Fullname.hint">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Id">
+        <Value>Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.IpAddress">
+        <Value>IP Address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.IpAddress.hint">
+        <Value>IP Address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Store">
+        <Value>Store name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Store.hint">
+        <Value>Store name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Subject">
+        <Value>Subject</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.Fields.Subject.hint">
+        <Value>Subject</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.Email">
+        <Value>Email address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.Email.Hint">
+        <Value>Filter by email address.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.EndDate">
+        <Value>End date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.EndDate.Hint">
+        <Value>The end date for the search.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.StartDate">
+        <Value>Start date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.StartDate.Hint">
+        <Value>The start date for the search</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.Store">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ContactForm.List.Store.hint">
+        <Value>Search by a specific store.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Field.QueryEditor">
+        <Value>Query</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Field.QueryEditor.hint">
+        <Value>Enter query</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Log">
         <Value>系統日誌</Value>
@@ -15042,400 +15132,400 @@
     <LocaleResource Name="DownloadableProducts.UserAgreement">
         <Value>用戶協議</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.Checkboxes">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.Checkboxes">
         <Value>復選框</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.ColorSquares">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.ColorSquares">
         <Value>顏色選擇</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.Datepicker">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.Datepicker">
         <Value>日期控件</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.DropdownList">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.DropdownList">
         <Value>下拉框</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.FileUpload">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.FileUpload">
         <Value>上傳文件</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.MultilineTextbox">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.MultilineTextbox">
         <Value>多行文本框</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.RadioList">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.RadioList">
         <Value>單選按鈕列表</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.ReadonlyCheckboxes">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.ReadonlyCheckboxes">
         <Value>只讀 checkboxes</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeControlType.TextBox">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeControlType.TextBox">
         <Value>文本框</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeValueType.AssociatedToProduct">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeValueType.AssociatedToProduct">
         <Value>與商品相關聯</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.AttributeValueType.Simple">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeValueType.Simple">
         <Value>簡單</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0">
         <Value>允許缺貨銷售</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0AndNotifyCustomer">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0AndNotifyCustomer">
         <Value>允許缺貨銷售，並通知用戶</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.BackorderMode.NoBackorders">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.BackorderMode.NoBackorders">
         <Value>不允許缺貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.DownloadActivationType.Manually">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.DownloadActivationType.Manually">
         <Value>手動</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.DownloadActivationType.WhenOrderIsPaid">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.DownloadActivationType.WhenOrderIsPaid">
         <Value>付款</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.GiftCardType.Physical">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.GiftCardType.Physical">
         <Value>物理</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.GiftCardType.Virtual">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.GiftCardType.Virtual">
         <Value>虛擬</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.LowStockActivity.DisableBuyButton">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.LowStockActivity.DisableBuyButton">
         <Value>禁用購買按鈕</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.LowStockActivity.Nothing">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.LowStockActivity.Nothing">
         <Value>無</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.LowStockActivity.Unpublish">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.LowStockActivity.Unpublish">
         <Value>取消發佈</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ManageInventoryMethod.DontManageStock">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ManageInventoryMethod.DontManageStock">
         <Value>不跟蹤庫存</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ManageInventoryMethod.ManageStock">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ManageInventoryMethod.ManageStock">
         <Value>跟蹤庫存</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ManageInventoryMethod.ManageStockByAttributes">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ManageInventoryMethod.ManageStockByAttributes">
         <Value>通過商品屬性跟蹤庫存</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
         <Value>創建日期</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.NameAsc">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.NameAsc">
         <Value>名稱: A 到 Z</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.NameDesc">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.NameDesc">
         <Value>名稱: Z 到 A</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.Position">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.Position">
         <Value>預設</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.PriceAsc">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.PriceAsc">
         <Value>價格: 從低到高</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductSortingEnum.PriceDesc">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.PriceDesc">
         <Value>價格: 從高到低</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductType.GroupedProduct">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.GroupedProduct">
         <Value>分組的商品</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.ProductType.SimpleProduct">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.SimpleProduct">
         <Value>簡單的商品</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Days">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RecurringProductCyclePeriod.Days">
         <Value>日</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Months">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RecurringProductCyclePeriod.Months">
         <Value>月</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Weeks">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RecurringProductCyclePeriod.Weeks">
         <Value>周</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RecurringProductCyclePeriod.Years">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RecurringProductCyclePeriod.Years">
         <Value>年</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Days">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Days">
         <Value>日</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Months">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Months">
         <Value>月</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Weeks">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Weeks">
         <Value>周</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.RentalPricePeriod.Years">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Years">
         <Value>年</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.CustomHtmlText">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.SpecificationAttributeType.CustomHtmlText">
         <Value>會員 HTML 文本</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.CustomText">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.SpecificationAttributeType.CustomText">
         <Value>會員 文本</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.Hyperlink">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.SpecificationAttributeType.Hyperlink">
         <Value>超連結</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Catalog.SpecificationAttributeType.Option">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.SpecificationAttributeType.Option">
         <Value>選項</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Common.FulltextSearchMode.And">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Common.FulltextSearchMode.And">
         <Value>使用contains和and作為前置詞</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Common.FulltextSearchMode.ExactMatch">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Common.FulltextSearchMode.ExactMatch">
         <Value>精確匹配(使用contains作為前置詞)</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Common.FulltextSearchMode.Or">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Common.FulltextSearchMode.Or">
         <Value>使用contains和or作為前置詞</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowEmails">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.CustomerNameFormat.ShowEmails">
         <Value>顯示郵件</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowFirstName">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.CustomerNameFormat.ShowFirstName">
         <Value>顯示姓氏</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowFullNames">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.CustomerNameFormat.ShowFullNames">
         <Value>顯示全名</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.CustomerNameFormat.ShowUsernames">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.CustomerNameFormat.ShowUsernames">
         <Value>顯示用戶名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Clear">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.PasswordFormat.Clear">
         <Value>明碼</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Encrypted">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.PasswordFormat.Encrypted">
         <Value>加密</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Customers.PasswordFormat.Hashed">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Customers.PasswordFormat.Hashed">
         <Value>雜湊</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
         <Value>所有用戶</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.NTimesPerCustomer">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountLimitationType.NTimesPerCustomer">
         <Value>註冊用戶</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountLimitationType.Unlimited">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountLimitationType.Unlimited">
         <Value>無限制</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToCategories">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToCategories">
         <Value>應用到各種種類</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToManufacturers">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToManufacturers">
         <Value>應用到品牌</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToOrderSubTotal">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToOrderSubTotal">
         <Value>應用到訂單小計</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToOrderTotal">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToOrderTotal">
         <Value>應用到訂單總計</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToShipping">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToShipping">
         <Value>應用到配送金額</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Discounts.DiscountType.AssignedToSkus">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToSkus">
         <Value>應用到商品系列商品料號（SKU）</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.BBCodeEditor">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.EditorType.BBCodeEditor">
         <Value>BBCode編輯器</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.HtmlEditor">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.EditorType.HtmlEditor">
         <Value>HTML編輯器</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.EditorType.SimpleTextBox">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.EditorType.SimpleTextBox">
         <Value>簡易文本框</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumSearchType.All">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.ForumSearchType.All">
         <Value>貼文和回文</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumSearchType.PostTextOnly">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.ForumSearchType.PostTextOnly">
         <Value>僅回貼</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumSearchType.TopicTitlesOnly">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.ForumSearchType.TopicTitlesOnly">
         <Value>僅限專題標題</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Announcement">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.ForumTopicType.Announcement">
         <Value>論壇公告</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Normal">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.ForumTopicType.Normal">
         <Value>正常</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Forums.ForumTopicType.Sticky">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Forums.ForumTopicType.Sticky">
         <Value>轉載</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Debug">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Logging.LogLevel.Debug">
         <Value>除錯</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Error">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Logging.LogLevel.Error">
         <Value>錯誤</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Fatal">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Logging.LogLevel.Fatal">
         <Value>嚴重</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Information">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Logging.LogLevel.Information">
         <Value>資訊中心</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Logging.LogLevel.Warning">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Logging.LogLevel.Warning">
         <Value>警告</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Messages.MessageDelayPeriod.Days">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Messages.MessageDelayPeriod.Days">
         <Value>天數</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Messages.MessageDelayPeriod.Hours">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Messages.MessageDelayPeriod.Hours">
         <Value>小時數</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Messages.QueuedEmailPriority.High">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Messages.QueuedEmailPriority.High">
         <Value>高</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Messages.QueuedEmailPriority.Low">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Messages.QueuedEmailPriority.Low">
         <Value>低</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Cancelled">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.OrderStatus.Cancelled">
         <Value>已取消</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Complete">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.OrderStatus.Complete">
         <Value>已完成</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Pending">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.OrderStatus.Pending">
         <Value>待處理</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.OrderStatus.Processing">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.OrderStatus.Processing">
         <Value>處理中</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.Cancelled">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.Cancelled">
         <Value>已取消</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ItemsRefunded">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.ItemsRefunded">
         <Value>貨物已退款</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ItemsRepaired">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.ItemsRepaired">
         <Value>貨物已更換</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.Pending">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.Pending">
         <Value>待處理</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.Received">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.Received">
         <Value>已收到</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.RequestRejected">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.RequestRejected">
         <Value>拒絕請求</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Orders.ReturnRequestStatus.ReturnAuthorized">
         <Value>授權退貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Authorized">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Payments.PaymentStatus.Authorized">
         <Value>授權</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Paid">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Payments.PaymentStatus.Paid">
         <Value>已付款</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.PartiallyRefunded">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Payments.PaymentStatus.PartiallyRefunded">
         <Value>部分退款</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Pending">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Payments.PaymentStatus.Pending">
         <Value>待處理</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Refunded">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Payments.PaymentStatus.Refunded">
         <Value>退款</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Payments.PaymentStatus.Voided">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Payments.PaymentStatus.Voided">
         <Value>無效</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Clear">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.PasswordFormat.Clear">
         <Value>清空</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Encrypted">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.PasswordFormat.Encrypted">
         <Value>加密</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.PasswordFormat.Hashed">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.PasswordFormat.Hashed">
         <Value>雜湊</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.AdminApproval">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.UserRegistrationType.AdminApproval">
         <Value>管理員審核</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.Disabled">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.UserRegistrationType.Disabled">
         <Value>目前禁止註冊</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.EmailValidation">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.UserRegistrationType.EmailValidation">
         <Value>郵件驗證</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Security.UserRegistrationType.Standard">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Security.UserRegistrationType.Standard">
         <Value>開放註冊</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Seo.PageTitleSeoAdjustment.PagenameAfterStorename">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Seo.PageTitleSeoAdjustment.PagenameAfterStorename">
         <Value>頁面名稱在商店名稱之後</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Seo.PageTitleSeoAdjustment.StorenameAfterPagename">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Seo.PageTitleSeoAdjustment.StorenameAfterPagename">
         <Value>商店名稱在頁面名稱之後</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.NoMatter">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Seo.WwwRequirement.NoMatter">
         <Value>不重要的</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.WithoutWww">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Seo.WwwRequirement.WithoutWww">
         <Value>網頁前面不應該包含"www"</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Seo.WwwRequirement.WithWww">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Seo.WwwRequirement.WithWww">
         <Value>網頁前面應該包含"www"</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.Delivered">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Shipping.ShippingStatus.Delivered">
         <Value>已交貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.NotYetShipped">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Shipping.ShippingStatus.NotYetShipped">
         <Value>未出貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.PartiallyShipped">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Shipping.ShippingStatus.PartiallyShipped">
         <Value>部分配送</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.Shipped">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Shipping.ShippingStatus.Shipped">
         <Value>已出貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Shipping.ShippingStatus.ShippingNotRequired">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Shipping.ShippingStatus.ShippingNotRequired">
         <Value>不需要配送</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.BillingAddress">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.TaxBasedOn.BillingAddress">
         <Value>帳單寄送地址</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.DefaultAddress">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.TaxBasedOn.DefaultAddress">
         <Value>預設地址</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxBasedOn.ShippingAddress">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.TaxBasedOn.ShippingAddress">
         <Value>配送地址</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxDisplayType.ExcludingTax">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.TaxDisplayType.ExcludingTax">
         <Value>不含稅</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.TaxDisplayType.IncludingTax">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.TaxDisplayType.IncludingTax">
         <Value>含稅</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Empty">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.VatNumberStatus.Empty">
         <Value>空的</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Invalid">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.VatNumberStatus.Invalid">
         <Value>無效</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Unknown">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.VatNumberStatus.Unknown">
         <Value>未知</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Domain.Tax.VatNumberStatus.Valid">
+    <LocaleResource Name="Enums.Grand.Core.Domain.Tax.VatNumberStatus.Valid">
         <Value>有效的</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.All">
+    <LocaleResource Name="Enums.Grand.Core.Plugins.LoadPluginsMode.All">
         <Value>所有的</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.InstalledOnly">
+    <LocaleResource Name="Enums.Grand.Core.Plugins.LoadPluginsMode.InstalledOnly">
         <Value>安裝好的</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Core.Plugins.LoadPluginsMode.NotInstalledOnly">
+    <LocaleResource Name="Enums.Grand.Core.Plugins.LoadPluginsMode.NotInstalledOnly">
         <Value>沒有安裝好</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.Automatic">
+    <LocaleResource Name="Enums.Grand.Services.Payments.RecurringPaymentType.Automatic">
         <Value>自動</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.Manual">
+    <LocaleResource Name="Enums.Grand.Services.Payments.RecurringPaymentType.Manual">
         <Value>手動</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Services.Payments.RecurringPaymentType.NotSupported">
+    <LocaleResource Name="Enums.Grand.Services.Payments.RecurringPaymentType.NotSupported">
         <Value>不支援</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Web.Framework.Security.Captcha.ReCaptchaVersion.Version1">
+    <LocaleResource Name="Enums.Grand.Web.Framework.Security.Captcha.ReCaptchaVersion.Version1">
         <Value>Version 1.0</Value>
     </LocaleResource>
-    <LocaleResource Name="Enums.Nop.Web.Framework.Security.Captcha.ReCaptchaVersion.Version2">
+    <LocaleResource Name="Enums.Grand.Web.Framework.Security.Captcha.ReCaptchaVersion.Version2">
         <Value>Version 2.0</Value>
     </LocaleResource>
     <LocaleResource Name="EUCookieLaw.CannotBrowse">
