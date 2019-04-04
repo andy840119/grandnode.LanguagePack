@@ -4404,14 +4404,56 @@
     <LocaleResource Name="Admin.Catalog.ProductTags.Fields.ProductCount">
         <Value>包含商品數量</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ViewMode.Grid">
-        <Value>表格</Value>
+    <LocaleResource Name="Admin.Catalog.ProductTags.Fields.ProductName">
+        <Value>商品名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ViewMode.List">
-        <Value>清單</Value>
+    <LocaleResource Name="Admin.Catalog.ProductTags.Info">
+        <Value>商品標籤資訊</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Common.ActionConfirmation">
-        <Value>您確定要執行此操作嗎？</Value>
+    <LocaleResource Name="Admin.Catalog.ProductTags.Products">
+        <Value>商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.stores.fields.name">
+        <Value>商店名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.stores.list.searchstorename">
+        <Value>根據商店名稱搜尋</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.stores.list.searchstorename.hint">
+        <Value>根據商店名稱搜尋</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.Fields.Email">
+        <Value>E-mail</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.Fields.Email.Hint">
+        <Value>The vendor's e-mail.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.Fields.Name">
+        <Value>名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.Fields.Name.Hint">
+        <Value>The vendor's name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.Fields.Name.Required">
+        <Value>Please provide a name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.List.SearchStore">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.List.SearchStore.Hint">
+        <Value>Search by a specific store.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.List.SearchVendorEmail">
+        <Value>Vendor e-mail</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.List.SearchVendorEmail.Hint">
+        <Value>The vendor's e-mail.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.List.SearchVendorName">
+        <Value>Vendor name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Vendors.List.SearchVendorName.Hint">
+        <Value>A vendor name.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.AddNew">
         <Value>新增</Value>
@@ -4425,14 +4467,8 @@
     <LocaleResource Name="Admin.Common.AreYouSure">
         <Value>確認該操作</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Common.BulkEdit">
-        <Value>批量編輯</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Common.Cancel">
         <Value>取消</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Common.CancelChanges">
-        <Value>取消變更</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.Change">
         <Value>修改</Value>
@@ -4497,17 +4533,11 @@
     <LocaleResource Name="Admin.Common.Hide">
         <Value>隱藏</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Common.Import">
-        <Value>匯入</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Common.ImportFromCsv">
         <Value>從CSV匯入</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.ImportFromExcel">
         <Value>從Excel匯入</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Common.ImportFromExcel.ManyRecordsWarning">
-        <Value>匯入需要大量的內存資源。 建議不要一次匯入超過500 - 1,000條記錄， 如果您有更多的記錄，最好將它們分成多個Excel文件並單獨匯入。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.List">
         <Value>列表</Value>
@@ -4524,17 +4554,29 @@
     <LocaleResource Name="Admin.Common.Preview">
         <Value>預覽</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Common.Run">
+        <Value>執行</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Common.RunScript">
+        <Value>執行腳本 (eval)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Common.RunQuery">
+        <Value>執行查詢</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Common.Save">
         <Value>儲存</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Common.SaveChanges">
-        <Value>儲存變更</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.SaveContinue">
         <Value>儲存並繼續編輯</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.Search">
         <Value>搜尋</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.common.search.filter.close">
+        <Value>隱藏過濾器</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.common.search.filter.open">
+        <Value>顯示過濾器</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.Select">
         <Value>請選擇</Value>
@@ -4547,6 +4589,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Common.Standard">
         <Value>標準</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Common.Treeview">
+        <Value>樹狀檢視</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Common.Update">
         <Value>更新</Value>
@@ -4563,17 +4608,11 @@
     <LocaleResource Name="Admin.Common.Yes">
         <Value>是</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Common.ZipFile">
-        <Value>壓縮檔</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration">
         <Value>系統設定</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ACL">
         <Value>權限管理</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.ACL.Description">
-        <Value>權限管理列表可用來設定不同角色針對各頁面的使用權限，當取消勾選該頁面的選項，該角色將不能進入對應頁面。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ACL.Permission">
         <Value>名稱</Value>
@@ -4623,6 +4662,12 @@
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CustomerEmail.Hint">
         <Value>電子信箱</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.IpAddress">
+        <Value>Ip 位置</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.IpAddress.Hint">
+        <Value>搜尋Ip位置</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLogType">
         <Value>日誌設定</Value>
     </LocaleResource>
@@ -4634,6 +4679,18 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLogType.Updated">
         <Value>修改日誌設定成功</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats">
+        <Value>Activity Stat</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.ActivityLogType">
+        <Value>Activity Types</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.Count">
+        <Value>Visit counter</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.Name">
+        <Value>Catalog name</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries">
         <Value>縣市管理</Value>
@@ -4667,6 +4724,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.Fields.AllowsShipping.Hint">
         <Value>允許配送到該縣市</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Countries.Fields.AvailableStores">
+        <Value>商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Countries.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the country will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -4740,9 +4803,6 @@
     <LocaleResource Name="Admin.Configuration.Countries.ImportSuccess">
         <Value>{0}鄉鎮市區已成功匯入。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Countries.ImportTip">
-        <Value>您可以在以下頁面下載其他國家/地區列表的CSV文件：</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.Info">
         <Value>基本資訊</Value>
     </LocaleResource>
@@ -4791,6 +4851,9 @@
     <LocaleResource Name="Admin.Configuration.Countries.States.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Countries.Stores">
+        <Value>商店</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.UnpublishSelected">
         <Value>取消發佈</Value>
     </LocaleResource>
@@ -4803,17 +4866,11 @@
     <LocaleResource Name="Admin.Configuration.Currencies.Added">
         <Value>新增貨幣成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Currencies.AdditionalConfirm">
-        <Value>&lt;p&gt;WARNING. It is not recommended to do this on live sites because: &lt;/p&gt;&lt;ol&gt;&lt;li&gt;Product prices, order totals, shipping rates, etc are not automatically converted to a new currency&lt;/li&gt;&lt;li&gt;Currency exhange rates are not automatically updated&lt;/li&gt;&lt;/ol&gt;</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.AddNew">
         <Value>新增新的貨幣</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.ApplyRate">
         <Value>應用匯率</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Currencies.ApplyRate.All">
-        <Value>套用所有</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.BackToList">
         <Value>返回貨幣列表</Value>
@@ -4829,6 +4886,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.EditCurrencyDetails">
         <Value>編輯貨幣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Currencies.Fields.AvailableStores">
+        <Value>商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Currencies.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the currency will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CreatedOn">
         <Value>創建日期</Value>
@@ -4850,9 +4913,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CurrencyRateAutoUpdateEnabled">
         <Value>自動更新匯率</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Currencies.Fields.CurrencyRateAutoUpdateEnabled.Hint">
-        <Value>確定匯率是否會自動更新。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CustomFormatting">
         <Value>自定義格式</Value>
@@ -4884,9 +4944,6 @@
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.ExchangeRateProvider">
         <Value>目前的匯率提供商</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Currencies.Fields.ExchangeRateProvider.Hint">
-        <Value>選擇匯率提供商。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.IsPrimaryExchangeRateCurrency">
         <Value>是貨幣主匯率</Value>
     </LocaleResource>
@@ -4904,6 +4961,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.MarkAsPrimaryStoreCurrency">
         <Value>標記為主貨幣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Currencies.Fields.MidpointRound">
+        <Value>Mathematical rounding methods</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Currencies.Fields.MidpointRound.Hint">
+        <Value>Specifies how mathematical rounding methods should process a number that is midway between two numbers.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.Name">
         <Value>名稱</Value>
@@ -4941,17 +5004,20 @@
     <LocaleResource Name="Admin.Configuration.Currencies.GetLiveRates">
         <Value>獲取匯率</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Currencies.Info">
+        <Value>基本資訊</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.LiveRates">
         <Value>實時貨幣匯率</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Localization">
         <Value>本地化內容</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Currencies.PublishedCurrencyRequired">
-        <Value>至少需要一種已公佈的貨幣</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Select">
         <Value>請選擇貨幣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Currencies.Stores">
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Updated">
         <Value>修改貨幣成功</Value>
@@ -4986,12 +5052,6 @@
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Email.Hint">
         <Value>郵件地址</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.EnableSsl">
-        <Value>SSL</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.EnableSsl.Hint">
-        <Value>啟用SSL</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Host">
         <Value>主機</Value>
     </LocaleResource>
@@ -5022,6 +5082,12 @@
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Port.Hint">
         <Value>郵件服務器連接埠，預設連接埠是25</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.SecureSocketOptions">
+        <Value>Secure socket options (specify the SSL and/or TLS encryption)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.SecureSocketOptions.hint">
+        <Value>Provides a way of specifying the SSL and/or TLS encryption that should be used for a connection</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.SendTestEmailTo">
         <Value>發送郵件到</Value>
     </LocaleResource>
@@ -5031,17 +5097,17 @@
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.SendTestEmailTo.Hint">
         <Value>發送測試郵件以確保所有選項已經正確配置</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.UseDefaultCredentials">
-        <Value>使用預設憑證</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.UseDefaultCredentials.Hint">
-        <Value>使用預設憑證</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Username">
         <Value>使用者帳號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.Username.Hint">
         <Value>使用者帳號</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.UseServerCertificateValidation">
+        <Value>The remote certificate is invalid</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.EmailAccounts.Fields.UseServerCertificateValidation.hint">
+        <Value>Gets or sets a value that the remote certificate is invalid according to the validation procedure</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.EmailAccounts.SendTestEmail">
         <Value>發送測試郵件(請先保存設定後再發送測試郵件)</Value>
@@ -5096,6 +5162,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Export">
         <Value>匯出語言包</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Languages.Fields.AvailableStores">
+        <Value>商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Languages.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the language will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Fields.DefaultCurrency">
         <Value>預設貨幣</Value>
@@ -5173,13 +5245,13 @@
         <Value>匯入語言包成功</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Info">
-        <Value>資訊</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Languages.PublishedLanguageRequired">
-        <Value>至少需要一種已發布的語言</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Resources">
         <Value>本地化內容</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Languages.Resources.Description">
+        <Value>To find text or a specific resource (by name), you can apply a filter via the funnel icon in the "Value" or "Resource name" column headers.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Resources.Fields.Name">
         <Value>名稱</Value>
@@ -5199,17 +5271,20 @@
     <LocaleResource Name="Admin.Configuration.Languages.Resources.SaveBeforeEdit">
         <Value>請先儲存語言後，才能針對語言進行資源更新</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceName">
+    <LocaleResource Name="Admin.Configuration.Languages.ResourcesFilter.Fields.ResourceName">
         <Value>資源名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceName.Hint">
+    <LocaleResource Name="Admin.Configuration.Languages.ResourcesFilter.Fields.ResourceName.hint">
         <Value>搜尋資源名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceValue">
+    <LocaleResource Name="Admin.Configuration.Languages.ResourcesFilter.Fields.ResourceValue">
         <Value>資源值</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Languages.Resources.SearchResourceValue.Hint">
+    <LocaleResource Name="Admin.Configuration.Languages.ResourcesFilter.Fields.ResourceValue.hint">
         <Value>搜尋資源值</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Languages.Stores">
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Updated">
         <Value>修改語言成功</Value>
@@ -5223,14 +5298,110 @@
     <LocaleResource Name="Admin.Configuration.Languages.XmlFile.Note2">
         <Value>注意：不要點擊兩次</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures">
+        <Value>Measures</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions">
+        <Value>Dimensions</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.CantDeletePrimary">
+        <Value>The primary dimension can't be deleted.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Description">
+        <Value>NOTE: if you change your primary dimension, then do not forget to update the appropriate ratios of the units</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryDimension">
+        <Value>Is primary dimension</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.MarkAsPrimaryDimension">
+        <Value>Mark as primary dimension</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.Name.Required">
+        <Value>Please provide a name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.Ratio">
+        <Value>Ratio to primary dimension</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.SystemKeyword">
+        <Value>System keyword</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.SystemKeyword.Required">
+        <Value>Please provide a system keyword.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Units">
+        <Value>Units</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.Name.Required">
+        <Value>Please provide a name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights">
+        <Value>Weights</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.CantDeletePrimary">
+        <Value>The primary weight can't be deleted.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Description">
+        <Value>NOTE: if you change your primary weight, then do not forget to update the appropriate ratios of the units</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.IsPrimaryWeight">
+        <Value>Is primary weight</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.MarkAsPrimaryWeight">
+        <Value>Mark as primary weight</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.Name.Required">
+        <Value>Please provide a name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.Ratio">
+        <Value>Ratio to primary weight</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.SystemKeyword">
+        <Value>System keyword</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.SystemKeyword.Required">
+        <Value>Please provide a system keyword.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Payment">
+        <Value>Payment</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions">
         <Value>付款方式的限制</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Country">
         <Value>縣市</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Description">
+    <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.DescriptionCountry">
         <Value>請在您想要使用的縣市付款方式中選擇縣市</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.DescriptionRole">
+        <Value>Please mark the checkbox(es) for the customer roles in which you want the payment method(s) not available</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.DescriptionShipping">
+        <Value>Please mark the checkbox(es) for the shipping method in which you want the payment method(s) not available</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Role">
+        <Value>Customer role</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Shipping">
+        <Value>Shipping method</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Updated">
         <Value>設定成功</Value>
@@ -5243,9 +5414,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.Methods.Configure">
         <Value>配置</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Payment.Methods.DownloadMorePlugins">
-        <Value>你可以從這裡下載更多套件 &lt;a href="https://www.nopcommerce.com/marketplace.aspx?category=2&amp;utm_source=admin-panel&amp;utm_medium=payment-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -5277,26 +5445,11 @@
     <LocaleResource Name="Admin.Configuration.Payment.Methods.Fields.SystemName">
         <Value>系統名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.PaymentMethods">
-        <Value>付款方式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.PaymentMethodsAndRestrictions">
-        <Value>付款方式和限制</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins">
         <Value>套件管理</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.AdditionalInfo">
-        <Value>附加信息</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Deleted">
-        <Value>套件已經被刪除</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description">
         <Value>手動安裝插件</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Description.DownloadMorePlugins">
-        <Value>&lt;p&gt;插件可以下載，在nopcommerce的&lt;a href="http://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&amp;utm_medium=plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;&lt;/p&gt;</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step1">
         <Value>在 nopCommerce目錄的 plugins文件夾中上傳插件</Value>
@@ -5310,26 +5463,23 @@
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step4">
         <Value>單擊安裝連結來安裝插件</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Plugins.Description.Step5">
+        <Value>Note: If you're running grandnode in medium trust, then it's recommended to clear your \Plugins\bin\ directory</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.EditDetails">
         <Value>編輯插件</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles">
-        <Value>僅限於客戶角色</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Fields.AclCustomerRoles.Hint">
-        <Value>選擇一個或多個客戶角色，即管理員，供應商，訪客，他們將能夠使用此插件。 如果您不需要此選項，請將此字段留空。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Author">
         <Value>作者</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the plugin will be used.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Configure">
         <Value>配置</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete">
-        <Value>刪除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Fields.Delete.Progress">
-        <Value>刪除套件中...</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -5478,29 +5628,26 @@
     <LocaleResource Name="Admin.Configuration.Plugins.Upload">
         <Value>更新套件或是主題</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint1">
-        <Value>存檔應該只包含一個根插件或主題目錄（已經為插件編譯）。 例如，Payments.PayPalDirect。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint2">
-        <Value>Or it should have the '{0}' file with the archive structure (in case if the archive has many plugins and themes).</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint3">
-        <Value>請注意，如果插件或主題目錄已存在，則會被覆蓋。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint4">
-        <Value>如果此方法不適合您，您還可以使用FTP手動上傳插件或主題。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.Upload.Progress">
-        <Value>上傳主題或是套件...</Value>
+    <LocaleResource Name="Admin.Configuration.Plugins.Upload.Hint">
+        <Value>Select .zip archive with one plugin inside. Directory will be overwritten if already exists.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Uploaded">
-        <Value>{0} 套件和 {1} 主題已經被上傳</Value>
+        <Value>Plugin uploaded</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings">
         <Value>參數設定</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminLayout">
+        <Value>Admin layout</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AdminLayout.hint">
+        <Value>Allow to set administrator layout</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AllSettings">
         <Value>進階參數設定</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.AllSettings.Description">
+        <Value>To find text or a specific setting (by name), you can apply a filter via the funnel icon in the "Value" or "Setting name" column headers.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AllSettings.Fields.Name">
         <Value>名稱</Value>
@@ -5526,23 +5673,23 @@
     <LocaleResource Name="Admin.Configuration.Settings.Blog.AllowNotRegisteredUsersToLeaveComments.Hint">
         <Value>允許匿名用戶發表評論</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Blog.BlockTitle.BlogComments">
-        <Value>部落格評論</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Blog.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Blog.BlogCommentsMustBeApproved">
-        <Value>部落格評論需審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Blog.BlogCommentsMustBeApproved.Hint">
-        <Value>部落格評論需被管理員審核</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Blog.Enabled">
         <Value>啟用部落格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Blog.Enabled.Hint">
         <Value>啟用部落格</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Blog.HomePageBlogCount">
+        <Value>Number of blog post to display</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.settings.blog.homepageblogcount.hint">
+        <Value>Specify how many items should be shown on homepage</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Blog.MaxTextSizeHomePage">
+        <Value>Maximum size of the text on home page</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.settings.blog.maxtextsizehomepage.hint">
+        <Value>Specify the text size of blog details on homepage</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Blog.NotifyAboutNewBlogComments">
         <Value>接受新評論通知</Value>
@@ -5607,14 +5754,14 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowViewUnpublishedProductPage.Hint">
         <Value>檢查以允許查看未發佈商品的詳細資訊頁面。這樣，搜尋引擎優化將不會受到搜尋爬蟲當一個商品暫時未公佈。請注意，店主始終有權訪問未發佈的商品。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.AdditionalSections">
-        <Value>附加選項</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.AskQuestionEnabled">
+        <Value>'Ask question' enabled</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.CatalogPages">
-        <Value>分類頁面</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.AskQuestionEnabled.Hint">
+        <Value>Check to allow customers to use the 'Ask question' option on the product page in your store</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.BlockTitle.Compare">
-        <Value>商品比較</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.AskQuestionOnProduct">
+        <Value>'Ask question on the product page' enabled</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.AskQuestionOnProduct.Hint">
         <Value>Check to allow customers to use the 'Ask question on the product page' option in your store</Value>
@@ -5630,6 +5777,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.CategoryBreadcrumbEnabled.Hint">
         <Value>啟用商品分類導航(麵包屑)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProducts">
+        <Value>比較商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled">
         <Value>啟用商品比較</Value>
@@ -8821,7 +8971,7 @@
         <Value>請輸入標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Info">
-        <Value>資訊</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.List.SearchStore">
         <Value>商店</Value>
@@ -9085,7 +9235,7 @@
         <Value>請輸入主題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Info">
-        <Value>資訊</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.List.SearchStore">
         <Value>商店</Value>
@@ -9313,7 +9463,7 @@
         <Value>請輸入標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Info">
-        <Value>資訊</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.List.SearchStore">
         <Value>商店</Value>
@@ -9838,7 +9988,7 @@
         <Value>Customer</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.info">
-        <Value>Action Info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.reaction">
         <Value>Reaction</Value>
@@ -9943,7 +10093,7 @@
         <Value>Vendor name</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.info">
-        <Value>Condition info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.manufacturers">
         <Value>Manufacturers</Value>
@@ -10159,7 +10309,7 @@
         <Value>Product Name</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.info">
-        <Value>Condition info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.manufacturers">
         <Value>Manufacturers</Value>
@@ -10276,7 +10426,7 @@
         <Value>Sent on</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.info">
-        <Value>Reminder Info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.AllowedTokens">
         <Value>Allowed Tokens</Value>
@@ -11176,7 +11326,7 @@
         <Value>Tag name is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Info">
-        <Value>Tag Info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products">
         <Value>Suggested products</Value>
@@ -13126,7 +13276,7 @@
         <Value>Minimal lenght to validate.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Info">
-        <Value>Info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="admin.promotions.interactiveforms.attribute.updated">
         <Value>Attribute has been updated</Value>
@@ -13207,7 +13357,7 @@
         <Value>Name is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.Info">
-        <Value>Info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.SaveBeforeEdit">
         <Value>You need to save form before edit</Value>
@@ -13273,7 +13423,7 @@
         <Value>This option should be selected</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Info">
-        <Value>General info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Stores">
         <Value>Stores</Value>
