@@ -2263,19 +2263,40 @@
         <Value>描述</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder">
-        <Value>顯示排序</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.Hint">
-        <Value>選擇要應用於此類別的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.NoDiscounts">
-        <Value>沒有折扣</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder">
         <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder.Hint">
-        <Value>顯示順序</Value>
+        <Value>Set the category's display order. 1 represents the top of the list.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.FeaturedProductsOnHomaPage">
+        <Value>Show featured products on home page</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.FeaturedProductsOnHomaPage.hint">
+        <Value>Check if you want to show a featured product on home page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.Flag">
+        <Value>Flag</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.Flag.Hint">
+        <Value>The flag of the category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.FlagStyle">
+        <Value>Flag style</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.FlagStyle.hint">
+        <Value>The flag style for the category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.HideOnCatalog">
+        <Value>Hide category on category page (subcategory)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.HideOnCatalog.hint">
+        <Value>Allow store owner to hide some categories on category page (subcategories before the list of products).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.Icon">
+        <Value>Icon</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.Icon.Hint">
+        <Value>Display icon in the top menu</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.IncludeInTopMenu">
         <Value>顯示在頂部選單中</Value>
@@ -14109,287 +14130,77 @@
     <LocaleResource Name="Admin.System.Warnings.URL.NoMatch">
         <Value>商店指定的地址({0})和地址({1})匹配失敗</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Bold">
-        <Value>粗體</Value>
+    <LocaleResource Name="Admin.VendorReviews">
+        <Value>Vendor reviews</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Close">
-        <Value>關閉</Value>
+    <LocaleResource Name="Admin.VendorReviews.ApproveSelected">
+        <Value>Approve selected</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.CreateLink">
-        <Value>插入連結</Value>
+    <LocaleResource Name="Admin.VendorReviews.BackToList">
+        <Value>back to product review list</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.DeleteFile">
-        <Value>確定刪除 "{0}"？</Value>
+    <LocaleResource Name="Admin.VendorReviews.Deleted">
+        <Value>Review deleted</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.DirectoryNotFound">
-        <Value>未找到目錄</Value>
+    <LocaleResource Name="Admin.VendorReviews.DisapproveSelected">
+        <Value>Disapprove selected</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.EmptyFolder">
-        <Value>空文件夾</Value>
+    <LocaleResource Name="Admin.VendorReviews.EditVendorReviewDetails">
+        <Value>Edit vendor review details</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.FontName">
-        <Value>選擇字體</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.CreatedOn">
+        <Value>Created on</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.FontNameInherit">
-        <Value>(繼承字體)</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.Customer">
+        <Value>Customer</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.FontSize">
-        <Value>選擇字體大小</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.IsApproved">
+        <Value>Is approved</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.FontSizeInherit">
-        <Value>(繼承大小)</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.Rating">
+        <Value>Rating</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.FormatBlock">
-        <Value>選擇段類型</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.ReviewText">
+        <Value>Review text</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Indent">
-        <Value>縮進</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.ReviewText.Required">
+        <Value>Review text is required.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertHtml">
-        <Value>插入HTML</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.Title">
+        <Value>Title</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertImage">
-        <Value>插入圖片</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.Title.Required">
+        <Value>Title is required.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertOrderedList">
-        <Value>插入有序列表</Value>
+    <LocaleResource Name="Admin.VendorReviews.Fields.Vendor">
+        <Value>Vendor</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.InsertUnorderedList">
-        <Value>插入無序列表</Value>
+    <LocaleResource Name="Admin.VendorReviews.List.CreatedOnFrom">
+        <Value>Created from</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.InvalidFileType">
-        <Value>選定的文件 \"{0}\"無效。支持的文件類型為 {1}</Value>
+    <LocaleResource Name="admin.vendorreviews.list.createdonfrom.hint">
+        <Value>Select the date range</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Italic">
-        <Value>斜體</Value>
+    <LocaleResource Name="Admin.VendorReviews.List.CreatedOnTo">
+        <Value>Created to</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyCenter">
-        <Value>文本居中</Value>
+    <LocaleResource Name="admin.vendorreviews.list.createdonto.hint">
+        <Value>Select the date range</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyFull">
-        <Value>圓</Value>
+    <LocaleResource Name="Admin.VendorReviews.List.SearchText">
+        <Value>Message</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyLeft">
-        <Value>文本左對齊</Value>
+    <LocaleResource Name="admin.vendorreviews.list.searchtext.hint">
+        <Value>Enter the text which you want to search</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.JustifyRight">
-        <Value>文本右對齊</Value>
+    <LocaleResource Name="Admin.VendorReviews.List.SearchVendor">
+        <Value>Vendor</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.OpenInNewWindow">
-        <Value>在新窗口中打開連結</Value>
+    <LocaleResource Name="admin.vendorreviews.list.searchvendor.hint">
+        <Value>Search for vendor</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Or">
-        <Value>或者</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.OrderBy">
-        <Value>排列方式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.OrderByName">
-        <Value>名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.OrderBySize">
-        <Value>大小</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Outdent">
-        <Value>凸出</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.OverwriteFile">
-        <Value>文件名 "{0}"已存在，是否要覆蓋它？</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Strikethrough">
-        <Value>刪除線</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Style">
-        <Value>樣式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Tooltip">
-        <Value>小提示</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Underline">
-        <Value>下劃線</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.Unlink">
-        <Value>移除連結</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.UploadFile">
-        <Value>上傳文件</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.EditorLocalization.WebAddress">
-        <Value>Web地址</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.AddNew">
-        <Value>新增記錄</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Cancel">
-        <Value>取消</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.CancelChanges">
-        <Value>取消更改</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Delete">
-        <Value>刪除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.DeleteConfirmation">
-        <Value>確定刪除該記錄？</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.DisplayingItems">
-        <Value>顯示記錄{0}-{1},共{2}條</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Edit">
-        <Value>編輯</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Filter">
-        <Value>篩選</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterAnd">
-        <Value>與</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterBoolIsFalse">
-        <Value>假</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterBoolIsTrue">
-        <Value>真</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterClear">
-        <Value>清除篩選</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateEq">
-        <Value>等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateGe">
-        <Value>之後或等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateGt">
-        <Value>之後</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateLe">
-        <Value>之前或等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateLt">
-        <Value>之前</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterDateNe">
-        <Value>不等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterEnumEq">
-        <Value>等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterEnumNe">
-        <Value>不等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterForeignKeyEq">
-        <Value>等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterForeignKeyNe">
-        <Value>不等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberEq">
-        <Value>等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberGe">
-        <Value>大於或等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberGt">
-        <Value>大於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberLe">
-        <Value>小於或等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberLt">
-        <Value>小於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterNumberNe">
-        <Value>不等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterOr">
-        <Value>或</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterSelectValue">
-        <Value>-請選擇-</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterShowRows">
-        <Value>顯示行值</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringEndsWith">
-        <Value>以XX結束</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringEq">
-        <Value>等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringNe">
-        <Value>不等於</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringNotSubstringOf">
-        <Value>不包含</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringStartsWith">
-        <Value>以XX開始</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.FilterStringSubstringOf">
-        <Value>包含</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.GroupHint">
-        <Value>拖動該列標題放置組裡</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Insert">
-        <Value>插入</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.NoRecords">
-        <Value>未找到記錄</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Page">
-        <Value>頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.PageOf">
-        <Value>{0}</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Refresh">
-        <Value>刷新</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.SaveChanges">
-        <Value>儲存變更</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Select">
-        <Value>選中</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.SortedAsc">
-        <Value>升序</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.SortedDesc">
-        <Value>降序</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.UnGroup">
-        <Value>取消分組</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.GridLocalization.Update">
-        <Value>更新</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.Cancel">
-        <Value>取消</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.DropFilesHere">
-        <Value>拖放文件至此</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.Remove">
-        <Value>移除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.Retry">
-        <Value>重試</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.Select">
-        <Value>正在查詢...</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.StatusFailed">
-        <Value>失敗</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.StatusUploaded">
-        <Value>上傳</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.StatusUploading">
-        <Value>正在上傳...</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Telerik.UploadLocalization.UploadSelectedFiles">
-        <Value>上傳文件</Value>
+    <LocaleResource Name="Admin.VendorReviews.Updated">
+        <Value>The vendor review has been updated successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors">
         <Value>供應商</Value>
@@ -14400,14 +14211,17 @@
     <LocaleResource Name="Admin.Vendors.AddNew">
         <Value>新增新供應商</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Vendors.Address">
-        <Value>供應商地址</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Vendors.BackToList">
         <Value>回到供應商列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Deleted">
         <Value>已成功刪除供應商</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Discounts">
+        <Value>折扣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Discounts.NoDiscounts">
+        <Value>No discounts available. Create at least one discount before mapping.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.EditVendorDetails">
         <Value>編輯供應商資訊</Value>
@@ -14417,6 +14231,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.Active.Hint">
         <Value>用於表示此供應商是否啟用</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Fields.Address">
+        <Value>Vendor address</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AdminComment">
         <Value>管理員備註</Value>
