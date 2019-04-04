@@ -336,12 +336,6 @@
     <LocaleResource Name="Account.Fields.Country.Required">
         <Value>請輸入國家</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.Fields.County">
-        <Value>國家</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Fields.County.Required">
-        <Value>請輸入國家</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.Fields.DateOfBirth">
         <Value>生日</Value>
     </LocaleResource>
@@ -354,17 +348,8 @@
     <LocaleResource Name="Account.Fields.Email">
         <Value>Email</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.Fields.Email.EnteredEmailsDoNotMatch">
-        <Value>填寫信箱和確認信箱不匹配.</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.Fields.Email.Required">
         <Value>請輸入Email</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Fields.EmailToRevalidate">
-        <Value>新的 email</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Fields.EmailToRevalidate.Note">
-        <Value>(無效)</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Fields.Fax">
         <Value>傳真</Value>
@@ -441,9 +426,6 @@
     <LocaleResource Name="Account.Fields.Username">
         <Value>用戶名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.Fields.Username.NotValid">
-        <Value>無效的用戶名稱</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.Fields.Username.Required">
         <Value>請輸入用戶名稱</Value>
     </LocaleResource>
@@ -479,27 +461,6 @@
     </LocaleResource>
     <LocaleResource Name="Account.ForumSubscriptions.NoSubscriptions">
         <Value>您目前沒有訂閱任何的論壇消息</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr">
-        <Value>GDPR 工具</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr.Delete">
-        <Value>被遺忘的權利</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr.Delete.Button">
-        <Value>刪除帳號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr.Delete.Hint">
-        <Value>您可以使用下面的按鈕從我們的商店中刪除您的個人和其他數據。 請注意，此過程會刪除您的帳戶，因此您將無法再訪問或使用該帳戶。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr.Export">
-        <Value>匯出個人資料</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr.Export.Button">
-        <Value>匯出</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.Gdpr.Export.Hint">
-        <Value>您可以使用下面的按鈕下載我們存儲和使用的所有數據，以便在我們的商店中獲得更好的體驗。</Value>
     </LocaleResource>
     <LocaleResource Name="Account.ImpersonatedAs">
         <Value>模擬會員：{0}</Value>
@@ -630,9 +591,6 @@
     <LocaleResource Name="Account.PasswordRecovery.OldPassword.Required">
         <Value>請輸入舊密碼</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.PasswordRecovery.PasswordAlreadyHasBeenChanged">
-        <Value>您的密碼已經更改。 要再次更改它，您需要再次恢復密碼。</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.PasswordRecovery.PasswordHasBeenChanged">
         <Value>您的密碼已經變更成功</Value>
     </LocaleResource>
@@ -690,29 +648,71 @@
     <LocaleResource Name="Account.RewardPoints">
         <Value>我的紅利積點</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.ShoppingCart">
-        <Value>購物車</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.UserAgreement">
-        <Value>用戶協議</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.VendorInfo">
         <Value>供應商資訊</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Address1">
+        <Value>街道地址</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Address1.Required">
+        <Value>請輸入街道地址</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Address2">
+        <Value>街道地址 2</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Address2.Required">
+        <Value>請輸入街道地址 2</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.City">
+        <Value>城市</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.City.Required">
+        <Value>請輸入城市</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Company">
+        <Value>公司</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Company.Required">
+        <Value>請輸入公司名</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Country">
+        <Value>國家</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Country.Required">
+        <Value>請輸入國家</Value>
     </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Description">
         <Value>供應商描述</Value>
     </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Email">
-        <Value>電子信箱</Value>
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Email.hint">
+        <Value>Email</Value>
     </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Email.Required">
-        <Value>電子信箱必填</Value>
+        <Value>請輸入Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.faxnumber">
+        <Value>傳真號碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.faxnumber.Required">
+        <Value>請輸入傳真號碼</Value>
     </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Name">
         <Value>供應商名稱</Value>
     </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.Name.hint">
+        <Value>供應商名稱</Value>
+    </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Name.Required">
-        <Value>供應商名稱必填.</Value>
+        <Value>請輸入供應商名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.phonenumber">
+        <Value>手機號碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.phonenumber.Required">
+        <Value>請輸入手機號碼</Value>
     </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Picture">
         <Value>圖片</Value>
@@ -722,6 +722,18 @@
     </LocaleResource>
     <LocaleResource Name="Account.VendorInfo.Picture.Remove">
         <Value>刪除圖片</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.StateProvince">
+        <Value>州/省</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.StateProvince.Required">
+        <Value>請輸入 州/省</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.ZipPostalCode">
+        <Value>郵政編號</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.VendorInfo.ZipPostalCode.Required">
+        <Value>請輸入郵政編號</Value>
     </LocaleResource>
     <LocaleResource Name="Account.YourAddress">
         <Value>您的地址</Value>
@@ -735,20 +747,8 @@
     <LocaleResource Name="Account.YourPersonalDetails">
         <Value>個人資料</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewAddressAttribute">
-        <Value>新增了新的地址屬性 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewAddressAttributeValue">
-        <Value>新增了新的地址屬性值 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewAffiliate">
-        <Value>新增了新的會員 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewBlogPost">
-        <Value>新增了一篇新的部落格貼文 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewCampaign">
-        <Value>新增了新廣告系列 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.AbandonedCart">
+        <Value>發送電子郵件 - ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewCategory">
         <Value>新增新的分類('{0}')</Value>
@@ -756,47 +756,35 @@
     <LocaleResource Name="ActivityLog.AddNewCheckoutAttribute">
         <Value>新增新的結帳屬性('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewCountry">
-        <Value>新增新的城市 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewCurrency">
-        <Value>新增新的貨幣 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.AddNewContactAttribute">
+        <Value>新增新的聯絡人屬性 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewCustomer">
         <Value>新增新的會員(編號：{0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewCustomerAttribute">
-        <Value>新增新的會員屬性 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.AddNewCustomerAction">
+        <Value>新增新的會員操作 (ID = {0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewCustomerAttributeValue">
-        <Value>新增新的會員屬性質 (ID = {0})</Value>
+    <LocaleResource Name="activitylog.addnewcustomerreminder">
+        <Value>新增新的會員提醒</Value>
+    </LocaleResource>
+    <LocaleResource Name="activitylog.addnewcustomerreminderlevel">
+        <Value>新增新的會員提醒等級</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewCustomerRole">
-        <Value>新增新的會員角色('{0}')</Value>
+        <Value>新增新的會員角色 ('{0}')</Value>
+    </LocaleResource>
+    <LocaleResource Name="ActivityLog.AddNewCustomerTag">
+        <Value>新增新的會員標籤 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewDiscount">
         <Value>新增新的折扣('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewEmailAccount">
-        <Value>新增新的Email帳號 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewGiftCard">
         <Value>新增新的禮品卡('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewLanguage">
-        <Value>新增新的語言 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewManufacturer">
         <Value>新增新的製造商('{0}')</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewMeasureDimension">
-        <Value>新增新的度量維度 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewMeasureWeight">
-        <Value>新增新的度量權重 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewNews">
-        <Value>新增新的新聞 (ID = {0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewProduct">
         <Value>新增新的商品('{0}')</Value>
@@ -804,59 +792,29 @@
     <LocaleResource Name="ActivityLog.AddNewProductAttribute">
         <Value>新增新的商品屬性('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewReviewType">
-        <Value>新增新的評論類型 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewSetting">
         <Value>新增新的設定('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewSpecAttribute">
         <Value>新增新的屬性規格('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewStateProvince">
-        <Value>新增新的州或省 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewStore">
-        <Value>新增新的商店 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewTopic">
         <Value>新增主題 ("{0}")</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewVendor">
-        <Value>新增新的供應商 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewVendorAttribute">
-        <Value>新增新的供應商屬性 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewVendorAttributeValue">
-        <Value>新增新的供應商值 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.AddNewWarehouse">
-        <Value>新增新的倉庫 (ID = {0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.AddNewWidget">
         <Value>新增新的小工具(編號：{0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteActivityLog">
-        <Value>刪除活動日誌</Value>
+    <LocaleResource Name="ActivityLog.CreateKnowledgebaseArticle">
+        <Value>建立知識庫文章 ('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteAddressAttribute">
-        <Value>刪除地址屬性 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.CreateKnowledgebaseCategory">
+        <Value>建立知識庫分類 ('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteAddressAttributeValue">
-        <Value>刪除地址屬性值 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.DeleteAccount">
+        <Value>會員已刪除</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteAffiliate">
-        <Value>刪除會員 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteBlogPost">
-        <Value>刪除部落格貼文 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteBlogPostComment">
-        <Value>刪除部落格貼文留言 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteCampaign">
-        <Value>刪除廣告系列 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.DeleteBid">
+        <Value>刪除拍買商品的出價 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteCategory">
         <Value>刪除分類('{0}')</Value>
@@ -864,11 +822,8 @@
     <LocaleResource Name="ActivityLog.DeleteCheckoutAttribute">
         <Value>刪除結帳屬性('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteCountry">
-        <Value>刪除城市 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteCurrency">
-        <Value>刪除貨幣 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.DeleteContactAttribute">
+        <Value>刪除會員屬性 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteCustomer">
         <Value>刪除會員(ID = {0})</Value>
