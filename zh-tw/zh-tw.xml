@@ -2206,13 +2206,13 @@
         <Value>Activity Log Type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Comment">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立時間</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Added">
         <Value>新增分類成功</Value>
@@ -2262,8 +2262,8 @@
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Description.Hint">
         <Value>描述</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts">
-        <Value>折扣</Value>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder">
+        <Value>顯示排序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Discounts.Hint">
         <Value>選擇要應用於此類別的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
@@ -15181,10 +15181,19 @@
         <Value>付款</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.GiftCardType.Physical">
-        <Value>物理</Value>
+        <Value>實體禮物卡</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.GiftCardType.Virtual">
-        <Value>虛擬</Value>
+        <Value>電子禮物卡</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.IntervalUnit.Day">
+        <Value>天</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.IntervalUnit.Hour">
+        <Value>小時</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.IntervalUnit.Minute">
+        <Value>分鐘</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.LowStockActivity.DisableBuyButton">
         <Value>禁用購買按鈕</Value>
@@ -15213,6 +15222,9 @@
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.NameDesc">
         <Value>名稱: Z 到 A</Value>
     </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.OnSale">
+        <Value>銷售中</Value>
+    </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.Position">
         <Value>預設</Value>
     </LocaleResource>
@@ -15221,6 +15233,9 @@
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.PriceDesc">
         <Value>價格: 從高到低</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.BundledProduct">
+        <Value>Bundled product</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.GroupedProduct">
         <Value>分組的商品</Value>
@@ -15238,18 +15253,6 @@
         <Value>周</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RecurringProductCyclePeriod.Years">
-        <Value>年</Value>
-    </LocaleResource>
-    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Days">
-        <Value>日</Value>
-    </LocaleResource>
-    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Months">
-        <Value>月</Value>
-    </LocaleResource>
-    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Weeks">
-        <Value>周</Value>
-    </LocaleResource>
-    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RentalPricePeriod.Years">
         <Value>年</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.SpecificationAttributeType.CustomHtmlText">
@@ -15294,6 +15297,30 @@
     <LocaleResource Name="Enums.Grand.Core.Domain.Customers.PasswordFormat.Hashed">
         <Value>雜湊</Value>
     </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding001">
+        <Value>Default rounding</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding005Down">
+        <Value>Rounding down with 0.05 intervals (0.06 round to 0.05)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding005Up">
+        <Value>Rounding up with 0.05 intervals (0.06 round to 0.10)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding01Down">
+        <Value>Rounding down with 0.10 intervals (1.05 round to 1.00)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding01Up">
+        <Value>Rounding up with 0.10 intervals (1.05 round to 1.10)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding05">
+        <Value>Rounding with 0.50 intervals</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding1">
+        <Value>Rounding with 1.00 intervals (1.01-1.49 round to 1.00, 1.50-1.99 round to 2.00)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding1Up">
+        <Value>Rounding up with 1.00 intervals (1.01–1.99 round to 2.00)</Value>
+    </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountLimitationType.NTimesOnly">
         <Value>所有用戶</Value>
     </LocaleResource>
@@ -15302,6 +15329,9 @@
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountLimitationType.Unlimited">
         <Value>無限制</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToAllProducts">
+        <Value>分配給所有商品</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToCategories">
         <Value>應用到各種種類</Value>
@@ -15513,6 +15543,12 @@
     <LocaleResource Name="Enums.Grand.Core.Plugins.LoadPluginsMode.NotInstalledOnly">
         <Value>沒有安裝好</Value>
     </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Framework.Security.Captcha.ReCaptchaVersion.Version2">
+        <Value>版本 2.0</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Framework.Security.Captcha.ReCaptchaVersion.Version3">
+        <Value>版本 3.0</Value>
+    </LocaleResource>
     <LocaleResource Name="Enums.Grand.Services.Payments.RecurringPaymentType.Automatic">
         <Value>自動</Value>
     </LocaleResource>
@@ -15521,12 +15557,6 @@
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Services.Payments.RecurringPaymentType.NotSupported">
         <Value>不支援</Value>
-    </LocaleResource>
-    <LocaleResource Name="Enums.Grand.Web.Framework.Security.Captcha.ReCaptchaVersion.Version1">
-        <Value>Version 1.0</Value>
-    </LocaleResource>
-    <LocaleResource Name="Enums.Grand.Web.Framework.Security.Captcha.ReCaptchaVersion.Version2">
-        <Value>Version 2.0</Value>
     </LocaleResource>
     <LocaleResource Name="EUCookieLaw.CannotBrowse">
         <Value>只有允許Cookies您才能瀏覽這個網站</Value>
@@ -15542,21 +15572,6 @@
     </LocaleResource>
     <LocaleResource Name="EUCookieLaw.Title">
         <Value>Cookie設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="ExampleOfNestedResources">
-        <Value>資源名稱(內部資源例子)</Value>
-    </LocaleResource>
-    <LocaleResource Name="ExampleOfNestedResources.Childred1">
-        <Value>資源名稱(內部資源例子 示例1)</Value>
-    </LocaleResource>
-    <LocaleResource Name="ExampleOfNestedResources.Childred2">
-        <Value>資源名稱(內部資源例子 示例2)</Value>
-    </LocaleResource>
-    <LocaleResource Name="ExampleOfNestedResources.Childred2.Childred3">
-        <Value>資源名稱(內部資源例子 示例3)</Value>
-    </LocaleResource>
-    <LocaleResource Name="extended.reading">
-        <Value>延伸閱讀</Value>
     </LocaleResource>
     <LocaleResource Name="Filtering.FilterResults">
         <Value>從結果中篩選</Value>
@@ -15582,15 +15597,6 @@
     <LocaleResource Name="Filtering.SpecificationFilter.Remove">
         <Value>移除過濾</Value>
     </LocaleResource>
-    <LocaleResource Name="Filtering.SpecificationFilter.Separator">
-        <Value>or </Value>
-    </LocaleResource>
-    <LocaleResource Name="Footer.CheckOut">
-        <Value>結帳</Value>
-    </LocaleResource>
-    <LocaleResource Name="Footer.CustomerInfo">
-        <Value>會員</Value>
-    </LocaleResource>
     <LocaleResource Name="Footer.CustomerService">
         <Value>會員服務</Value>
     </LocaleResource>
@@ -15615,7 +15621,7 @@
     <LocaleResource Name="Footer.Information">
         <Value>訊息</Value>
     </LocaleResource>
-    <LocaleResource Name="footer.myaccount">
+    <LocaleResource Name="Footer.MyAccount">
         <Value>會員中心</Value>
     </LocaleResource>
     <LocaleResource Name="Footer.TaxShipping.ExclTax">
@@ -15624,7 +15630,7 @@
     <LocaleResource Name="Footer.TaxShipping.InclTax">
         <Value>所有價格皆含稅。除了 &lt;a href="{0}"&gt;shipping&lt;/a&gt;</Value>
     </LocaleResource>
-    <LocaleResource Name="forum.activediscussions">
+    <LocaleResource Name="Forum.ActiveDiscussions">
         <Value>熱門討論</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.ActiveDiscussions.ViewAll">
@@ -15735,9 +15741,6 @@
     <LocaleResource Name="Forum.NotifyWhenSomeonePostsInThisTopic">
         <Value>郵件通知回覆資訊</Value>
     </LocaleResource>
-    <LocaleResource Name="Forum.Options">
-        <Value>選項</Value>
-    </LocaleResource>
     <LocaleResource Name="Forum.PageTitle.ActiveDiscussions">
         <Value>熱門貼文</Value>
     </LocaleResource>
@@ -15764,6 +15767,9 @@
     </LocaleResource>
     <LocaleResource Name="Forum.Posted">
         <Value>發表於</Value>
+    </LocaleResource>
+    <LocaleResource Name="Forum.PostLink">
+        <Value>貼文連結</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.PostLinkTitle">
         <Value>連結到這篇文章</Value>
@@ -15795,7 +15801,7 @@
     <LocaleResource Name="Forum.Search">
         <Value>搜尋</Value>
     </LocaleResource>
-    <LocaleResource Name="Forum.Search.AdvancedSearch">
+    <LocaleResource Name="Forum.Search.AdvanceSearch">
         <Value>進階搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.Search.LimitResultsToPrevious">
@@ -15939,6 +15945,33 @@
     <LocaleResource Name="HomePage.Products">
         <Value>主打商品</Value>
     </LocaleResource>
+    <LocaleResource Name="HomePage.Recommended.Products">
+        <Value>Recommended products for you</Value>
+    </LocaleResource>
+    <LocaleResource Name="HomePage.Suggested.Products">
+        <Value>Suggested products for you</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase">
+        <Value>Knowledgebase</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Article.RelatedArticles">
+        <Value>Related articles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Categories">
+        <Value>Categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Notfound">
+        <Value>No articles were found that matched your criteria</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.Search">
+        <Value>Search</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.SearchPlaceholder">
+        <Value>Search in knowledgebase...</Value>
+    </LocaleResource>
+    <LocaleResource Name="Knowledgebase.ResultsFor">
+        <Value>Results for</Value>
+    </LocaleResource>
     <LocaleResource Name="Languages">
         <Value>語言</Value>
     </LocaleResource>
@@ -16071,11 +16104,26 @@
     <LocaleResource Name="Messages.Order.TotalDiscount">
         <Value>折扣：</Value>
     </LocaleResource>
-    <LocaleResource Name="Mobile.ViewFullSite">
-        <Value>預設版型</Value>
+    <LocaleResource Name="Messages.RecentlyViewedProducts.Product(s).Name">
+        <Value>商品名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Mobile.ViewMobileVersion">
-        <Value>移動版</Value>
+    <LocaleResource Name="Messages.RecentlyViewedProducts.Product(s).Picture">
+        <Value>照片</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.RecommendedProducts.Product(s).Name">
+        <Value>照片名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.RecommendedProducts.Product(s).Picture">
+        <Value>Picture</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.ShoppingCart.Product(s).Name">
+        <Value>Product(s) Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.ShoppingCart.Product(s).picture">
+        <Value>Picture</Value>
+    </LocaleResource>
+    <LocaleResource Name="Messages.ShoppingCart.Product(s).Quantity">
+        <Value>Quantity</Value>
     </LocaleResource>
     <LocaleResource Name="News">
         <Value>新聞</Value>
