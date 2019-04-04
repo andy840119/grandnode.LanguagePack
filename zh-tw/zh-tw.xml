@@ -1918,7 +1918,7 @@
         <Value>Enter text prompt.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Info">
-        <Value>Attribute info</Value>
+        <Value>屬性資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Stores">
         <Value>Stores</Value>
@@ -1927,7 +1927,7 @@
         <Value>The attribute has been updated successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values">
-        <Value>Attribute values</Value>
+        <Value>屬性值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Values.AddNew">
         <Value>Add a new Contact value</Value>
@@ -2116,7 +2116,7 @@
         <Value>編輯屬性值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Options.Fields.ColorSquaresRgb">
-        <Value>RGB color</Value>
+        <Value>RGB 顏色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Options.Fields.ColorSquaresRgb.Hint">
         <Value>選擇顏色來代替顏色的文本選項(it"ll be displayed as "color square").</Value>
@@ -2197,13 +2197,13 @@
         <Value>分類管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog">
-        <Value>Activity Log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.ActivityLogType">
-        <Value>Activity Log Type</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Comment">
         <Value>評論</Value>
@@ -2229,6 +2229,12 @@
     <LocaleResource Name="Admin.Catalog.Categories.Deleted">
         <Value>刪除分類成功</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Discounts">
+        <Value>折扣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Discounts.NoDiscounts">
+        <Value>沒有折扣。 Create at least one discount before mapping.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.EditCategoryDetails">
         <Value>編輯分類</Value>
     </LocaleResource>
@@ -2243,6 +2249,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.AllowCustomersToSelectPageSize.Hint">
         <Value>允許會員選擇每頁顯示筆數</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.AvailableStores">
+        <Value>商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the category will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.CategoryTemplate">
         <Value>分類版型</Value>
@@ -2343,9 +2355,6 @@
     <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Hint">
         <Value>每頁顯示筆數</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSize.Positive">
-        <Value>頁面大小應該要大於0。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.PageSizeOptions">
         <Value>每頁顯示筆數選項(逗號隔開)</Value>
     </LocaleResource>
@@ -2360,9 +2369,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Parent.Hint">
         <Value>父級分類</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Fields.Parent.None">
-        <Value>無</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Picture">
         <Value>圖片</Value>
@@ -2382,6 +2388,12 @@
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Published.Hint">
         <Value>是否發佈</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.SearchBoxDisplayOrder">
+        <Value>在搜尋欄顯示順序</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.SearchBoxDisplayOrder.hint">
+        <Value>在搜尋欄顯示順序</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.SeName">
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
@@ -2389,22 +2401,25 @@
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnHomePage">
-        <Value>首頁顯示</Value>
+        <Value>在首頁顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnHomePage.Hint">
-        <Value>首頁顯示</Value>
+        <Value>在首頁顯示</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Import.CategoriesArentImported">
-        <Value>不導入具有以下名稱的類別 - {0}</Value>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnSearchBox">
+        <Value>在搜尋欄顯示類別</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.Imported">
-        <Value>目錄匯入成功</Value>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.ShowOnSearchBox.hint">
+        <Value>You can show which category will shown on search box</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.SubjectToAcl">
+        <Value>Subject to ACL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Fields.SubjectToAcl.Hint">
+        <Value>Determines whether the category is subject to ACL (access control list).</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Info">
         <Value>基本資訊</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Categories.List.ImportFromExcelTip">
-        <Value>被匯入的目錄以ID作為區分,如果ID存在，當前匯入值將更新到數據庫相同ID的值，對於新的目錄不需要指定ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.List.SearchCategoryName">
         <Value>分類名稱</Value>
@@ -2439,14 +2454,53 @@
     <LocaleResource Name="Admin.Catalog.Categories.Products.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.Stores">
+        <Value>商店</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.SwitchToListView">
         <Value>切換到列表視圖</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Categories.SwitchToTreeView">
+        <Value>切換到樹狀視圖</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Updated">
         <Value>修改分類成功</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Category.Imported">
+        <Value>Categories have been imported successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Category.List.ImportFromExcelTip">
+        <Value>Imported categories are distinguished by ID. If the ID already exists, then its corresponding category will be updated. For new categories ID do not need to specify</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.LowStockReport">
+        <Value>Low stock report</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturer.Imported">
+        <Value>Manufacturers have been imported successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturer.List.ImportFromExcelTip">
+        <Value>Imported manufacturers are distinguished by ID. If the ID already exists, then its corresponding manufacturer will be updated. For new manufacturers ID do not need to specify</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers">
         <Value>品牌管理</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Acl">
+        <Value>Access control list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog">
+        <Value>Activity Log</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.ActivityLogType">
+        <Value>Activity Log Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.Comment">
+        <Value>Comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.Customer">
+        <Value>Customer</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Added">
         <Value>新增品牌成功</Value>
@@ -12027,9 +12081,6 @@
     <LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.Link.No">
         <Value>沒有附加文件</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.orders.ordernotes.fields.editor">
-        <Value>客服人員</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Orders.OrderNotes.Fields.Note">
         <Value>備註</Value>
     </LocaleResource>
@@ -12039,23 +12090,14 @@
     <LocaleResource Name="Admin.Orders.PdfInvoice">
         <Value>發票(PDF)</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.orders.pdfinvoice.all">
+    <LocaleResource Name="Admin.Orders.PdfInvoice.All">
         <Value>匯出PDF賬單（所有找到的）</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.PdfInvoice.NoOrders">
         <Value>沒有訂單被選擇</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.orders.pdfinvoice.selected">
+    <LocaleResource Name="Admin.Orders.PdfInvoice.Selected">
         <Value>發票匯出PDF(已經選擇的)</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.PdfInvoices">
-        <Value>匯出PDF發票</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.PdfInvoices.All">
-        <Value>匯出全部訂單PDF發票</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.PdfInvoices.Selected">
-        <Value>匯出所選訂單PDF發票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products">
         <Value>商品</Value>
@@ -12117,9 +12159,6 @@
     <LocaleResource Name="Admin.Orders.Products.AddNew.UnitPriceInclTax.Hint">
         <Value>價格(含稅)</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Products.AddNew.UpdateTotals">
-        <Value>添加產品後，請勿忘記更新訂單總額。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.Discount">
         <Value>折扣</Value>
     </LocaleResource>
@@ -12142,10 +12181,13 @@
         <Value>點擊以重置下載次數</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.Edit.ExclTax">
-        <Value>不含稅</Value>
+        <Value>不含稅:</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.Edit.InclTax">
-        <Value>含稅</Value>
+        <Value>含稅:</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Orders.Products.GiftCard.View">
+        <Value>檢視</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.GiftCards">
         <Value>禮品卡</Value>
@@ -12222,9 +12264,6 @@
     <LocaleResource Name="Admin.Orders.Shipments.AdminComment.Hint">
         <Value>管理員備註，僅供內部使用。</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.orders.shipments.allofshippeddateutcaredated">
-        <Value>此出貨單已配送，貨物已撿</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.BackToOrder">
         <Value>返回訂單詳細頁</Value>
     </LocaleResource>
@@ -12240,7 +12279,7 @@
     <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Button">
         <Value>標記為已交貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.EnterUtc">
+    <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Enter">
         <Value>日期和時間應輸入以世界協調時間 (UTC)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Hint">
@@ -12251,9 +12290,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.DeliverySelected">
         <Value>設定為交付(已選的)</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Shipments.DistributionCompany">
-        <Value>物流公司</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.ID">
         <Value>配送單號</Value>
@@ -12324,23 +12360,11 @@
     <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip">
         <Value>匯出貨物清單</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.orders.shipments.printpackagingslip.all">
+    <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip.All">
         <Value>匯出全部出貨單</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.orders.shipments.printpackagingslip.selected">
+    <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip.Selected">
         <Value>匯出所選出貨單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlips">
-        <Value>匯出出貨單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlips.All">
-        <Value>匯出全部出貨單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlips.Selected">
-        <Value>匯出所選出貨單</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.orders.shipments.printpickinglist.all">
-        <Value>應撿貨列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.Products">
         <Value>商品資訊</Value>
@@ -12405,7 +12429,7 @@
     <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Button">
         <Value>標記為已出貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.EnterUtc">
+    <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Enter">
         <Value>日期和時間應輸入以世界協調時間 (UTC)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Hint">
@@ -12556,7 +12580,16 @@
         <Value>名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Name.Required">
-        <Value>廣告活動名稱是必須</Value>
+        <Value>廣告活動名稱必填</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.NewsletterCategory">
+        <Value>Newsletter categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.NewsletterCategory.hint">
+        <Value>Newsletter categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.SentDate">
+        <Value>Sent date</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Store">
         <Value>限定於商店中</Value>
@@ -12648,8 +12681,38 @@
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts.SaveBeforeEdit">
         <Value>您需要保存這個優惠然後您才可以在優惠頁中新增商品。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToStores">
+        <Value>Applied to stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToStores.AddNew">
+        <Value>Add a new store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToStores.SaveBeforeEdit">
+        <Value>You need to save the discount before you can add stores for this discount page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToStores.Store">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToVendors">
+        <Value>Applied to vendors</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToVendors.AddNew">
+        <Value>Add a new vendor</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToVendors.SaveBeforeEdit">
+        <Value>You need to save the discount before you can add vendors for this discount page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.AppliedToVendors.Vendor">
+        <Value>Vendor</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.BackToList">
         <Value>返回到優惠列表</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.CouponCodes">
+        <Value>Coupon Codes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Discounts.CouponCodes.SaveBeforeEdit">
+        <Value>You need to save the discount before you can add values.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Deleted">
         <Value>這個優惠已成功刪除。</Value>
@@ -12840,35 +12903,8 @@
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.FailedToSave">
         <Value>保存失敗</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupIsEmpty">
-        <Value>群組是空</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.GroupName">
-        <Value>組名</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.InteractionTypeInGroup">
-        <Value>群組間的邏輯關係</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Remove">
         <Value>移除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RemoveGroup">
-        <Value>移除群組</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RemoveRequirement">
-        <Value>移除要求</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Requirement.Title">
-        <Value>Requirement</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RequirementGroup">
-        <Value>加入的群組</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RequirementGroup.Hint">
-        <Value>選擇創建的需求組是屬於哪一組別</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Discounts.Requirements.RequirementGroup.Title">
-        <Value>群組：</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
@@ -12878,6 +12914,249 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Updated">
         <Value>修改折扣成功</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms">
+        <Value>Interactive Forms</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.AddAttribute">
+        <Value>Add Attribute</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Added">
+        <Value>Interactive Form Added</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.AddNew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute">
+        <Value>Attribute</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Added">
+        <Value>Attribute added</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.AddNew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Class">
+        <Value>Css class</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Class.hint">
+        <Value>Enter css class for element</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.DefaultValue">
+        <Value>Default Value</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.DefaultValue.hint">
+        <Value>Enter default value of the attribute field.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.FormControlTypeId">
+        <Value>Choose Form Control</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.FormControlTypeId.hint">
+        <Value>Choose form control type from the list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.IsRequired">
+        <Value>Is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.IsRequired.hint">
+        <Value>Check this box if this attribute is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Name.hint">
+        <Value>Enter name of the attribute.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Name.Required">
+        <Value>Name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.RegexValidation">
+        <Value>Regex Expression</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.RegexValidation.hint">
+        <Value>Enter regex expression for the attribute to the validation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Style">
+        <Value>Css style</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.Style.hint">
+        <Value>Enter css style for element</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.SystemName">
+        <Value>System Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.SystemName.hint">
+        <Value>Enter system name of the attribute.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.SystemName.Required">
+        <Value>System name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.ValidationMaxLength">
+        <Value>Validation Max. Length</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.ValidationMaxLength.hint">
+        <Value>Maximal lenght to validate.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.ValidationMinLength">
+        <Value>Validation Min. Length</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Fields.ValidationMinLength.hint">
+        <Value>Minimal lenght to validate.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Info">
+        <Value>Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.promotions.interactiveforms.attribute.updated">
+        <Value>Attribute has been updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values">
+        <Value>Values</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.AddNew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.EditValue">
+        <Value>Edit</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.DisplayOrder">
+        <Value>Display Order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.DisplayOrder.hint">
+        <Value>Display Order of attribute value</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.IsPreSelected">
+        <Value>Is pre selected</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.IsPreSelected.hint">
+        <Value>Check this box if this value must be pre selected.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.Name.hint">
+        <Value>Enter name of the value.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Attribute.Values.Fields.Name.Required">
+        <Value>Name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.BackToForm">
+        <Value>Back to form</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.BackToList">
+        <Value>Back to list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Deleted">
+        <Value>Interactive form deleted</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.EditAttribute">
+        <Value>Edit Attribute</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.EditDetails">
+        <Value>Edit Details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.AvailableTokens">
+        <Value>Available tokens</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.AvailableTokens.hint">
+        <Value>Available tokens</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.Body">
+        <Value>Body</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.Body.hint">
+        <Value>Enter body of interactive form</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.Body.Required">
+        <Value>Body is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.EmailAccount">
+        <Value>Email Accounts</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.EmailAccount.hint">
+        <Value>The email account that will be used to send this message.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.Name.hint">
+        <Value>Enter name of the interactive form</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Fields.Name.Required">
+        <Value>Name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Info">
+        <Value>Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.SaveBeforeEdit">
+        <Value>You need to save form before edit</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.InteractiveForms.Updated">
+        <Value>Updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory">
+        <Value>Newsletter Category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Added">
+        <Value>Added a new newsletter category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.AddNew">
+        <Value>Add a new newsletter category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.BackToList">
+        <Value>back to newsletter categories list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Deleted">
+        <Value>The newsletter category has been deleted successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Edit">
+        <Value>Edit newsletter category details</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores.hint">
+        <Value>Select stores for which the newsletter category will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Description">
+        <Value>Description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Description.hint">
+        <Value>The description of the newsletter category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.DisplayOrder.hint">
+        <Value>The display order of the newsletter category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.LimitedToStores">
+        <Value>Limited to stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.LimitedToStores.hint">
+        <Value>Determines whether the newsletter category is available only at certain stores.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Name.hint">
+        <Value>The newsletter category's name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Name.Required">
+        <Value>Please provide a name.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Selected">
+        <Value>Selected</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.Selected.hint">
+        <Value>This option should be selected</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Info">
+        <Value>General info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Stores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.NewsletterCategory.Updated">
+        <Value>The newsletter category has been updated successfully</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions">
         <Value>訂閱管理</Value>
@@ -13095,20 +13374,8 @@
     <LocaleResource Name="Admin.ReturnRequests.Fields.CustomerComments.Hint">
         <Value>退貨說明</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.Fields.CustomNumber">
-        <Value>ID</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.Fields.CustomNumber.Hint">
-        <Value>退貨請求編號，可至系統設定 =&gt;參數設定=&gt; 訂單設定 =&gt;退貨請情，設定編號規則</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.Fields.CustomOrderNumber">
-        <Value>自定義訂單號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.Fields.CustomOrderNumber.Hint">
-        <Value>自定義訂單號</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.ID">
-        <Value>編號</Value>
+        <Value>ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.ID.Hint">
         <Value>編號</Value>
@@ -13160,6 +13427,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.Status.Hint">
         <Value>退貨請求狀態</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.Info">
+        <Value>一般訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Notified">
         <Value>已通知會員</Value>
@@ -13365,38 +13635,35 @@
     <LocaleResource Name="Admin.SalesReport.NeverSold.RunReport">
         <Value>查看報表</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.NeverSold.SearchCategory">
-        <Value>商品分類</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.NeverSold.SearchManufacturer">
-        <Value>品牌</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.NeverSold.SearchStore">
-        <Value>商店</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.NeverSold.SearchStore.Hint">
-        <Value>商品過濾後的商店選項</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.NeverSold.SearchVendor">
-        <Value>供應商</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.SalesReport.NeverSold.StartDate">
         <Value>開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.SalesReport.NeverSold.StartDate.Hint">
         <Value>搜尋的開始日期。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.OrderStatistics">
-        <Value>訂單數統計</Value>
+    <LocaleResource Name="Admin.SalesReport.Period">
+        <Value>Sales report in period</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.OrderStatistics.Month">
-        <Value>月</Value>
+    <LocaleResource Name="Admin.SalesReport.Period.14days">
+        <Value>In the last 14 days</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.OrderStatistics.Week">
-        <Value>周</Value>
+    <LocaleResource Name="Admin.SalesReport.Period.7days">
+        <Value>In the last 7 days</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport.OrderStatistics.Year">
-        <Value>年</Value>
+    <LocaleResource Name="Admin.SalesReport.Period.Amount">
+        <Value>Amount</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.SalesReport.Period.Count">
+        <Value>Count</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.SalesReport.Period.month">
+        <Value>In the last month</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.SalesReport.Period.Name">
+        <Value>Period</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.SalesReport.Period.year">
+        <Value>In the last year</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.SearchTermReport">
         <Value>熱門搜尋關鍵字</Value>
@@ -13407,14 +13674,14 @@
     <LocaleResource Name="Admin.SearchTermReport.Keyword">
         <Value>關鍵字</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.Combination.Edit">
-        <Value>商品屬性組合庫存數量修改</Value>
+    <LocaleResource Name="Admin.System">
+        <Value>系統</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.Edit">
-        <Value>商品庫存數量修改</Value>
+    <LocaleResource Name="Admin.System.APIUsers">
+        <Value>管理Api使用者</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditOrder">
-        <Value>通過訂單＃{0}改變庫存數量</Value>
+    <LocaleResource Name="Admin.System.ContactForm">
+        <Value>Message Contact form</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse">
         <Value>產品已被移動{0} {1}</Value>
