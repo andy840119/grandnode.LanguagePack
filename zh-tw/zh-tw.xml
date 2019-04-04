@@ -6915,6 +6915,30 @@
     <LocaleResource Name="Admin.Configuration.Settings.Media">
         <Value>媒體設定</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForCategory">
+        <Value>Watermark On Categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForCategory.Hint">
+        <Value>Apply Watermark to Pictures of Categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForManufacturer">
+        <Value>Watermark On Manufacturers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForManufacturer.Hint">
+        <Value>Apply Watermark to Pictures of Manufacturers</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForProduct">
+        <Value>Watermark On Products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForProduct.Hint">
+        <Value>Apply Watermark to Pictures of Products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkOnPicturesWithOriginalSize">
+        <Value>Watermark On Original Size Pictures</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkOnPicturesWithOriginalSize.Hint">
+        <Value>Indicates if pictures with no change in size should have a watermark onto them</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AssociatedProductPictureSize">
         <Value>關聯的商品圖像大小</Value>
     </LocaleResource>
@@ -7032,11 +7056,107 @@
     <LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize.Hint">
         <Value>供應商縮略圖的預設大小（像素）。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Mode.Advanced">
-        <Value>進階模式</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkDropShadow">
+        <Value>Watermark Shadow</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Mode.Basic">
-        <Value>基本模式</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkDropShadow.Hint">
+        <Value>Text will cast shadow</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkFontColor">
+        <Value>Watermark Text Color</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkFontColor.Hint">
+        <Value>Color of watermark</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkFontFamily">
+        <Value>Watermark Font Family</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkFontFamily.Hint">
+        <Value>Sherif (with endings), Sans Sherif (without endings), Monospace (all letters have the same width)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkFontSizePercent">
+        <Value>Watermark % Font Size</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkFontSizePercent.Hint">
+        <Value>The 1-100% value. Best between 10-30% range.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkForPicturesAboveSize">
+        <Value>Watermark Above Size</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkForPicturesAboveSize.Hint">
+        <Value>Apply Watermark To Pictures Above Size (px)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOpacityPercent">
+        <Value>Watermark % Opacity</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOpacityPercent.Hint">
+        <Value>The 1-100% range of text fading</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayID">
+        <Value>Watermark Overlay Picture File</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayID.Hint">
+        <Value>Add a picture that will be displayed as Watermark Overlay on your Thumbnails</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayOpacityPercent">
+        <Value>Watermark Overlay % Opacity</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayOpacityPercent.Hint">
+        <Value>The 1-100% range of Watermark Overlay fading</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayPositionXPercent">
+        <Value>Watermark Overlay Horizontal % Position</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayPositionXPercent.Hint">
+        <Value>Range 1-100% from left to right</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayPositionYPercent">
+        <Value>Watermark Overlay Vertical % Position</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayPositionYPercent.Hint">
+        <Value>Range 1-100% from top to bottom</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlaySizePercent">
+        <Value>Watermark Overlay % Size</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlaySizePercent.Hint">
+        <Value>The 1-100% value. Best between 10-30% range.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkPositionXPercent">
+        <Value>Watermark Horizontal % Position</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkPositionXPercent.Hint">
+        <Value>Range 1-100% from left to right</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkPositionYPercent">
+        <Value>Watermark Vertical % Position</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkPositionYPercent.Hint">
+        <Value>Range 1-100% from top to bottom</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkRightToLeft">
+        <Value>Watermark Align Right</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkRightToLeft.Hint">
+        <Value>Text will be displayed starting from right edge of picture</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkStyle">
+        <Value>Watermark Style</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkStyle.Hint">
+        <Value>A style applied on watermark, e.g. Italic means tilted text</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkText">
+        <Value>Watermark Text</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkText.Hint">
+        <Value>A watermark text that will appear on product images</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkVertical">
+        <Value>Watermark Vertical</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkVertical.Hint">
+        <Value>Text will be vertical, not horizontal</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.News">
         <Value>新聞設定</Value>
@@ -7140,59 +7260,11 @@
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPlacedEmail.Hint">
         <Value>檢查將PDF發票附加到「訂單」的電子，發送給會員。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.AutoUpdateOrderTotalsOnEditingOrder">
-        <Value>自動更新訂單小計</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.AutoUpdateOrderTotalsOnEditingOrder.Hint">
-        <Value>在後台訂單中修改商品項目，訂單小計會自動更新（**注意：此功能目前在BETA測試狀態）</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.Checkout">
-        <Value>結賬</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.GiftCards">
-        <Value>禮品卡</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.OrderTotals">
-        <Value>訂單總計</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.BlockTitle.PdfInvoice">
-        <Value>PDF發票</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.CompleteOrderWhenDelivered">
         <Value>出貨狀態為"已送達"，訂單狀態才轉"已完成"</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.CompleteOrderWhenDelivered.Hint">
         <Value>當初貨狀態為"已送達"時，訂單狀態轉成"已完成"，否則"已出貨"就足夠了</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask">
-        <Value>訂單編號規則</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Description.DD">
-        <Value>{DD} - 訂單件日日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Description.ID">
-        <Value>{ID} - 訂單流水號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Description.MM">
-        <Value>{MM} - 訂單建立月份</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Description.YY">
-        <Value>{YY} - 訂單建立年份最後兩位數</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Description.YYYY">
-        <Value>{YYYY} - 訂單建立年份</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.CustomOrderNumberMask.Hint">
-        <Value>訂單編號規則</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterCancellingOrder">
-        <Value>禮品卡停用時，訂單狀態是"取消"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterCancellingOrder.Hint">
-        <Value>取消訂單時，禮品卡停用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.DeactivateGiftCardsAfterDeletingOrder">
         <Value>禮品卡停用時，訂單被刪除</Value>
@@ -16953,19 +17025,19 @@
     <LocaleResource Name="Products.FreeShipping">
         <Value>免費</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.GiftCard.Message">
+    <LocaleResource Name="Admin.Orders.Products.GiftCard.Message">
         <Value>訊息</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.GiftCard.RecipientEmail">
+    <LocaleResource Name="Admin.Orders.Products.GiftCard.RecipientEmail">
         <Value>收貨人的Email</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.GiftCard.RecipientName">
+    <LocaleResource Name="Admin.Orders.Products.GiftCard.RecipientName">
         <Value>收貨人的姓名</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.GiftCard.SenderEmail">
+    <LocaleResource Name="Admin.Orders.Products.GiftCard.SenderEmail">
         <Value>您的Email</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.GiftCard.SenderName">
+    <LocaleResource Name="Admin.Orders.Products.GiftCard.SenderName">
         <Value>您的姓名</Value>
     </LocaleResource>
     <LocaleResource Name="Products.GTIN">
@@ -17004,20 +17076,20 @@
     <LocaleResource Name="Products.Price.OldPrice">
         <Value>原價</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.Price.Rental.Days">
+    <LocaleResource Name="Products.Price.Reservation.Days">
         <Value>{0} 每 {1} 天</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.Price.Rental.Months">
+    <LocaleResource Name="Products.Price.Reservation.Hour">
         <Value>{0} 每 {1} 月</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.Price.Rental.Weeks">
+    <LocaleResource Name="Products.Price.Reservation.Minute">
         <Value>{0} 每 {1} 周</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.Price.Rental.Years">
-        <Value>{0} 每 {1} 年</Value>
+    <LocaleResource Name="Products.Price.ReservationPrice">
+        <Value>保留價格</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.Price.RentalPrice">
-        <Value>租用價格</Value>
+    <LocaleResource Name="Products.Price.Startprice">
+        <Value>開始價格</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Price.TaxShipping.ExclTax">
         <Value>不包括 &lt;a href="{0}"&gt;運費&lt;/a&gt;</Value>
@@ -17033,6 +17105,9 @@
     </LocaleResource>
     <LocaleResource Name="Products.ProductAttributes.PriceAdjustment">
         <Value>{0} [{1}]</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.ProductCantAddToCompareList">
+        <Value>商品無法被加入到比較清單</Value>
     </LocaleResource>
     <LocaleResource Name="Products.ProductHasBeenAddedToCompareList">
         <Value>這個商品已經加入到您的商品比較列表</Value>
@@ -17061,11 +17136,29 @@
     <LocaleResource Name="Products.RelatedProducts">
         <Value>相關商品</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.RentalEndDate">
-        <Value>結束日期</Value>
+    <LocaleResource Name="Products.Reservation.Date">
+        <Value>保留時間</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.RentalStartDate">
-        <Value>開始日期</Value>
+    <LocaleResource Name="Products.Reservation.DateFrom">
+        <Value>保留開始時間</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Reservation.DateTo">
+        <Value>保留結束時間</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Reservation.Hour">
+        <Value>保留小時數</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.ReservationEndDate">
+        <Value>結束時間</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.ReservationStartDate">
+        <Value>開始時間</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Reviews">
+        <Value>評論</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Reviews.Empty">
+        <Value>還沒有任何評論</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Sku">
         <Value>商品料號(SKU)</Value>
@@ -17081,12 +17174,6 @@
     </LocaleResource>
     <LocaleResource Name="Products.Tags.Count">
         <Value>({0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="Products.Tags.PageSize">
-        <Value>顯示</Value>
-    </LocaleResource>
-    <LocaleResource Name="Products.Tags.PageSize.PerPage">
-        <Value>每頁</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Tags.Popular">
         <Value>熱門標籤</Value>
@@ -17247,14 +17334,11 @@
     <LocaleResource Name="Reviews.Overview.Reviews">
         <Value>評價</Value>
     </LocaleResource>
-    <LocaleResource Name="reviews.productreviewpossibleonlyafterpurchasing">
+    <LocaleResource Name="Reviews.ProductReviewPossibleOnlyAfterPurchasing">
         <Value>只有購買此商品的人，才可以對此商品進行評價</Value>
     </LocaleResource>
-    <LocaleResource Name="reviews.productreviewsfor">
+    <LocaleResource Name="Reviews.ProductReviewsFor">
         <Value>商品評價</Value>
-    </LocaleResource>
-    <LocaleResource Name="reviews.reply">
-        <Value>管理者回覆了該評價</Value>
     </LocaleResource>
     <LocaleResource Name="Reviews.SeeAfterApproving">
         <Value>請等待管理員審核</Value>
@@ -17266,13 +17350,13 @@
         <Value>該商品評論已新增</Value>
     </LocaleResource>
     <LocaleResource Name="Reviews.TotalReviews">
-        <Value>{0} 行動方案審評</Value>
+        <Value>{0} 則評論</Value>
+    </LocaleResource>
+    <LocaleResource Name="Reviews.VendorReviewsFor">
+        <Value>供應商評論</Value>
     </LocaleResource>
     <LocaleResource Name="Reviews.Write">
         <Value>寫下您的評論</Value>
-    </LocaleResource>
-    <LocaleResource Name="RewardPoints.ActivatedLater">
-        <Value>紅利積點將在{0}被啟用</Value>
     </LocaleResource>
     <LocaleResource Name="RewardPoints.CurrentBalance">
         <Value>當前有{0}紅利積點可用，價值為：({1})</Value>
@@ -17307,7 +17391,7 @@
     <LocaleResource Name="RewardPoints.Message.ReturnedForOrder">
         <Value>返回訂單 #{0}</Value>
     </LocaleResource>
-    <LocaleResource Name="rewardpoints.minimumbalance">
+    <LocaleResource Name="RewardPoints.MinimumBalance">
         <Value>允許的最低消費紅利積點是{0}。{1}</Value>
     </LocaleResource>
     <LocaleResource Name="RewardPoints.NoHistory">
@@ -17360,9 +17444,6 @@
     </LocaleResource>
     <LocaleResource Name="Search.Vendor">
         <Value>供應商</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShippingReturns">
-        <Value>退換商品</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart">
         <Value>購物車</Value>
@@ -17622,8 +17703,8 @@
     <LocaleResource Name="ShoppingCart.SenderNameError">
         <Value>請輸入有效的發件人名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="shoppingcart.sku">
-        <Value>商品料號（SKU）</Value>
+    <LocaleResource Name="ShoppingCart.SKU">
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.TaxShipping.ExclTax">
         <Value>            所有的價格都輸入不含稅。除了 配送        </Value>
@@ -17658,13 +17739,13 @@
     <LocaleResource Name="ShoppingCart.Totals.PaymentMethodAdditionalFee">
         <Value>付款方式附加費</Value>
     </LocaleResource>
-    <LocaleResource Name="shoppingcart.totals.rewardpoints">
+    <LocaleResource Name="ShoppingCart.Totals.RewardPoints">
         <Value>{0} 紅利積點</Value>
     </LocaleResource>
-    <LocaleResource Name="shoppingcart.totals.rewardpoints.willearn">
+    <LocaleResource Name="ShoppingCart.Totals.RewardPoints.WillEarn">
         <Value>您將獲得</Value>
     </LocaleResource>
-    <LocaleResource Name="shoppingcart.totals.rewardpoints.willearn.point">
+    <LocaleResource Name="ShoppingCart.Totals.RewardPoints.WillEarn.Point">
         <Value>紅利積點{0} 點</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.Totals.Shipping">
@@ -17718,9 +17799,6 @@
     <LocaleResource Name="Sitemap.Products">
         <Value>商品</Value>
     </LocaleResource>
-    <LocaleResource Name="Sitemap.Topics">
-        <Value>資訊</Value>
-    </LocaleResource>
     <LocaleResource Name="StoreClosed">
         <Value>商店關閉</Value>
     </LocaleResource>
@@ -17728,7 +17806,10 @@
         <Value>商店關閉</Value>
     </LocaleResource>
     <LocaleResource Name="StoreTheme">
-        <Value>選擇商店風格</Value>
+        <Value>選擇商店主題</Value>
+    </LocaleResource>
+    <LocaleResource Name="Stores">
+        <Value>選擇商店</Value>
     </LocaleResource>
     <LocaleResource Name="Tax.Exclusive">
         <Value>不含稅的價格</Value>
@@ -17748,11 +17829,75 @@
     <LocaleResource Name="Topic.WrongPassword">
         <Value>密碼錯誤</Value>
     </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.Actual">
+        <Value>
+            <![CDATA[You have the actual version of the system.]]>
+            </Value>
+    </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.ApplicationVersion">
+        <Value>Application version</Value>
+    </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.DatabaseVersion">
+        <Value>Database version</Value>
+    </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.Message1">
+        <Value>Before run upgrade, please make sure that you've done  backup of database.</Value>
+    </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.Message2">
+        <Value>After upgrade, please restart application.</Value>
+    </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.NonActual">
+        <Value>
+            <![CDATA[You have an old version of the system.]]>
+            </Value>
+    </LocaleResource>
+    <LocaleResource Name="UpgradeSystem.RunUpgrade">
+        <Value>Run upgrade</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.Helpfulness.OnlyRegistered">
+        <Value>Only registered customers can set review helpfulness.</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.Helpfulness.SuccessfullyVoted">
+        <Value>Successfully voted.</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.Helpfulness.YourOwnReview">
+        <Value>You cannot vote for your own review.</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.OnlyRegisteredUsersCanWriteReviews">
+        <Value>Only registered users can write reviews.</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.Overview.AddNew">
+        <Value>Add your review</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.Overview.First">
+        <Value>Be the first to review this vendor</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.Overview.Reviews">
+        <Value>review(s)</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.SeeAfterApproving">
+        <Value>You will see the vendor review after approving by a store administrator or a vendor.</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.SuccessfullyAdded">
+        <Value>Vendor review was successfully added.</Value>
+    </LocaleResource>
+    <LocaleResource Name="VendorReviews.VendorReviewPossibleOnlyAfterPurchasing">
+        <Value>Vendor can be reviewed only after purchasing a product from this vendor.</Value>
+    </LocaleResource>
     <LocaleResource Name="Vendors">
         <Value>供應商</Value>
     </LocaleResource>
     <LocaleResource Name="Vendors.ApplyAccount">
         <Value>申請供應商帳戶</Value>
+    </LocaleResource>
+    <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService">
+        <Value>我同意使用者條款</Value>
+    </LocaleResource>
+    <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService.Read">
+        <Value>(詳閱)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Vendors.ApplyAccount.AcceptTermsOfService.Required">
+        <Value>請同意使用者條款</Value>
     </LocaleResource>
     <LocaleResource Name="Vendors.ApplyAccount.AlreadyApplied">
         <Value>您已經申請了供應商帳戶，請註冊一個新帳戶來申請供應商帳戶。</Value>
@@ -17845,10 +17990,7 @@
         <Value>請輸入您的電子信箱</Value>
     </LocaleResource>
     <LocaleResource Name="Wishlist.HeaderQuantity">
-        <Value>({0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="Wishlist.HeaderQuantity.Mobile">
-        <Value>({0})</Value>
+        <Value>{0}</Value>
     </LocaleResource>
     <LocaleResource Name="Wishlist.TaxShipping.ExclTax">
         <Value>所有輸入的價格不含稅。 不包含 &lt;a href="{0}"&gt;運費&lt;/a&gt;</Value>
