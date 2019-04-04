@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Language Name="English">
+<Language Name="繁體中文">
     <LocaleResource Name="Account.AccountActivation">
         <Value>啟用帳戶</Value>
     </LocaleResource>
     <LocaleResource Name="Account.AccountActivation.Activated">
         <Value>您的帳戶已啟用</Value>
-    </LocaleResource>
-    <LocaleResource Name="Account.AccountActivation.AlreadyActivated">
-        <Value>您的帳戶已經被啟用</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Administration">
         <Value>後台管理</Value>
@@ -24,17 +21,17 @@
     <LocaleResource Name="Account.AssociatedExternalAuth.Email">
         <Value>電子信箱</Value>
     </LocaleResource>
-    <LocaleResource Name="Account.AssociatedExternalAuth.EmailAlreadyExists">
-        <Value>這個email已經被註冊掉了，如果這是你的帳戶，想要對 '{0}' 進行關聯，請先登入</Value>
-    </LocaleResource>
     <LocaleResource Name="Account.AssociatedExternalAuth.ExternalIdentifier">
         <Value>外部標識符</Value>
     </LocaleResource>
     <LocaleResource Name="Account.AssociatedExternalAuth.Or">
-        <Value>- or -</Value>
+        <Value>- 或 -</Value>
     </LocaleResource>
     <LocaleResource Name="Account.AssociatedExternalAuth.Remove">
         <Value>刪除</Value>
+    </LocaleResource>
+    <LocaleResource Name="Account.AssociatedExternalAuth.Or">
+        <Value>- 或 -</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Avatar">
         <Value>頭像</Value>
