@@ -2485,22 +2485,22 @@
         <Value>品牌管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog">
-        <Value>Activity Log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.ActivityLogType">
-        <Value>Activity Log Type</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.Comment">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.ActivityLog.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Added">
         <Value>新增品牌成功</Value>
@@ -2513,6 +2513,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Deleted">
         <Value>刪除品牌成功。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Discounts">
+        <Value>折扣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Discounts.NoDiscounts">
+        <Value>沒有折扣， Create at least one discount before mapping.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.EditManufacturerDetails">
         <Value>編輯品牌</Value>
@@ -2529,6 +2535,12 @@
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AllowCustomersToSelectPageSize.Hint">
         <Value>允許會員選擇每頁顯示筆數</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AvailableStores">
+        <Value>商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AvailableStores.Hint">
+        <Value>選擇顯示製造商的商店</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.CreatedOn">
         <Value>創建日期</Value>
     </LocaleResource>
@@ -2541,20 +2553,29 @@
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Description.Hint">
         <Value>描述</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts">
-        <Value>折扣</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.Hint">
-        <Value>選擇要應用於此製造商的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Discounts.NoDiscounts">
-        <Value>沒有折扣</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.DisplayOrder">
         <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.DisplayOrder.Hint">
         <Value>顯示順序</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.FeaturedProductsOnHomaPage">
+        <Value>在首頁顯示推薦商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.FeaturedProductsOnHomaPage.hint">
+        <Value>Check if you want to show a featured product on home page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Icon">
+        <Value>Icon</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Icon.Hint">
+        <Value>Display icon in the top menu</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.IncludeInTopMenu">
+        <Value>Include in top menu</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.IncludeInTopMenu.Hint">
+        <Value>Display in the top menu bar.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.LimitedToStores">
         <Value>限定用於某商店</Value>
@@ -2601,9 +2622,6 @@
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Hint">
         <Value>每頁顯示筆數</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSize.Positive">
-        <Value>頁樹需要大於0</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.PageSizeOptions">
         <Value>每頁顯示筆數選項(逗號隔開)</Value>
     </LocaleResource>
@@ -2637,14 +2655,20 @@
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SeName.Hint">
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Manufacturers.Imported">
-        <Value>品牌資料匯入成功</Value>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.ShowOnHomePage">
+        <Value>在首頁顯示</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.ShowOnHomePage.Hint">
+        <Value>Check if you want to show a manufacturer on home page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SubjectToAcl">
+        <Value>Subject to ACL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.SubjectToAcl.Hint">
+        <Value>Determines whether the manufacturer is subject to ACL (access control list).</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Info">
         <Value>基本資訊</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Manufacturers.List.ImportFromExcelTip">
-        <Value>被匯入的品牌以ID作為區分,如果ID存在，當前匯入值將更新到數據庫相同ID的值，對於新的品牌不需要指定ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.List.SearchManufacturerName">
         <Value>品牌名稱</Value>
@@ -2676,8 +2700,32 @@
     <LocaleResource Name="Admin.Catalog.Manufacturers.Products.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Manufacturers.Stores">
+        <Value>商店</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Updated">
         <Value>修改品牌成功</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReservations.CantDeleteWithOrder">
+        <Value>You can't delete reservation with the order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Days.Finaldatemustbegreaterthanstartdate">
+        <Value>Final date must be greater than start date</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.productreservations.fields.endtime.required">
+        <Value>End date is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Interval.Intervalmustbegreaterthanzero">
+        <Value>Interval must be greater than zero</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Quantity.Quantitymustbegreaterthanzero">
+        <Value>Quantity must be greater than zero</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Resource.Required">
+        <Value>Resource name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.productreservations.fields.starttime.required">
+        <Value>Start time is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews">
         <Value>商品評論</Value>
@@ -2690,9 +2738,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Deleted">
         <Value>刪除商品評論成功</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ProductReviews.DeleteSelected">
-        <Value>刪除所選</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.DisapproveSelected">
         <Value>反審核(已選項)</Value>
@@ -2745,6 +2790,12 @@
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText.Required">
         <Value>請輸入評論</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Signature">
+        <Value>簽名</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Signature.Hint">
+        <Value>商店所有人的簽名</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Store">
         <Value>商店</Value>
     </LocaleResource>
@@ -2772,18 +2823,6 @@
     <LocaleResource Name="Admin.Catalog.ProductReviews.List.CreatedOnTo.Hint">
         <Value>結束日期</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved">
-        <Value>審核狀態</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.All">
-        <Value>全部</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.ApprovedOnly">
-        <Value>已審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchApproved.DisapprovedOnly">
-        <Value>未審核</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.List.SearchProduct">
         <Value>商品</Value>
     </LocaleResource>
@@ -2808,8 +2847,29 @@
     <LocaleResource Name="Admin.Catalog.Products">
         <Value>商品維護</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.AclStores">
+        <Value>ACL and Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.ActivityLog">
+        <Value>Activity Log</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.ActivityLog.ActivityLogType">
+        <Value>Activity Log Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Comment">
+        <Value>Comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.ActivityLog.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Customer">
+        <Value>Customer</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Added">
         <Value>新增商品成功</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Additional">
+        <Value>額外訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.AddNew">
         <Value>新增新的商品</Value>
@@ -2835,14 +2895,107 @@
     <LocaleResource Name="Admin.Catalog.Products.AssociatedProducts.SaveBeforeEdit">
         <Value>您需要保存商品之前您可以新增相關聯的商品，此商品頁。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.AvailableDiscounts">
+        <Value>可用折扣</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.BackToList">
         <Value>返回商品列表</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.CommonInfo">
-        <Value>一般資訊</Value>
+    <LocaleResource Name="Admin.Catalog.Products.Bids">
+        <Value>競標</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Copied">
-        <Value>該產品已成功複製</Value>
+    <LocaleResource Name="Admin.Catalog.Products.Bids.Amount">
+        <Value>數量</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Bids.CantDeleteWithOrder">
+        <Value>Cannot delete bid wiht order id</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Bids.CustomerId">
+        <Value>Customer Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Bids.Date">
+        <Value>Date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Bids.OrderId">
+        <Value>Order Id</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Bids.SaveBeforeEdit">
+        <Value>You need to save before editing this section</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.BundleProducts">
+        <Value>Bundle product</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.BundleProducts.AddNew">
+        <Value>Add new products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.Product">
+        <Value>Product name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.Quantity">
+        <Value>Quantity</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.BundleProducts.SaveBeforeEdit">
+        <Value>You need to save the product before you can add new bundle product</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar">
+        <Value>Reservation calendar</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Calendarconfiguration">
+        <Value>Calendar configuration</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.CannotChangeInterval">
+        <Value>You can't change interval because records with conflicting interval exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Clearcalendar">
+        <Value>Clear calendar</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Date">
+        <Value>Date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Duration">
+        <Value>Duration</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Generatecalendar">
+        <Value>Generate calendar</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.OrderId">
+        <Value>Order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Parameter">
+        <Value>Parameter</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.Resource">
+        <Value>Resource</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.SaveBeforeEdit">
+        <Value>You need to save the product before you can generate calendar</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Calendar.WeekDay">
+        <Value>Week day</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Cannoteditauction">
+        <Value>Cannot edit ended auctions</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Categories">
+        <Value>Category mappings</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.Category">
+        <Value>Category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.IsFeaturedProduct">
+        <Value>Is featured product?</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Categories.NoCategoriesAvailable">
+        <Value>No categories available. Create at least one category before mapping.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Categories.SaveBeforeEdit">
+        <Value>You need to save the product before you can map categories for this product page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Copy">
         <Value>複製商品</Value>
@@ -2859,17 +3012,11 @@
     <LocaleResource Name="Admin.Catalog.Products.Copy.Name.Hint">
         <Value>名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Copy.Name.New">
-        <Value>{0} - copy</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Copy.Published">
         <Value>是否發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Copy.Published.Hint">
         <Value>是否發佈</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Copy.SKU.New">
-        <Value>{0}-複製</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.CrossSells">
         <Value>交叉銷售</Value>
@@ -2880,23 +3027,20 @@
     <LocaleResource Name="Admin.Catalog.Products.CrossSells.Fields.Product">
         <Value>商品</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.CrossSells.Hint">
-        <Value>當該商品加入購車時，在購物車頁面會出現設定為交叉銷售的商品。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.CrossSells.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Deleted">
         <Value>刪除商品成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.DownloadableProduct">
-        <Value>可下載的商品</Value>
+    <LocaleResource Name="Admin.Catalog.Products.Discounts">
+        <Value>折扣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Discounts.NoDiscounts">
+        <Value>No discounts available. Create at least one discount before mapping.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.EditProductDetails">
         <Value>編輯商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.ExceededMaximumNumber">
-        <Value>超過商品允許的最大值 ({0})</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AclCustomerRoles">
         <Value>會員角色</Value>
@@ -2958,6 +3102,9 @@
     <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableEndDateTime.Hint">
         <Value>該商品的可用性以世界協調時間 (UTC) 的結尾。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableEndDateTime.Required">
+        <Value>Available end date is required</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableForPreOrder">
         <Value>接受預購</Value>
     </LocaleResource>
@@ -2969,6 +3116,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStartDateTime.Hint">
         <Value>該商品的可用性以世界協調時間 (UTC) 的開始。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStores">
+        <Value>商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the product will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.BackorderMode">
         <Value>延期交貨</Value>
@@ -3006,20 +3159,89 @@
     <LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceUnit.Hint">
         <Value>請輸入商品單位。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.EndDate">
+        <Value>End date</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.enddate.hint">
+        <Value>Select the end date of reservations</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.EndTime">
+        <Value>To hour</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Friday">
+        <Value>Friday</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.IncBothDate">
+        <Value>Include both dates</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.incbothdate.hint">
+        <Value>Distinguish if you would like to count reservation from start date or not. Useful when you want to book a course from Friday to Sunday).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Interval">
+        <Value>Interval</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.interval.hint">
+        <Value>Enter the interval between reservations</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Monday">
+        <Value>Monday</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Parameter">
+        <Value>Additional parameter</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.parameter.hint">
+        <Value>Enter the parameter of reservation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Quantity">
+        <Value>Quantity</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.quantity.hint">
+        <Value>Enter the amount of time. How many minutes or hours has one reservation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Resource">
+        <Value>Resource</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.resource.hint">
+        <Value>Enter the resource of reservation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Saturday">
+        <Value>Saturday</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.StartDate">
+        <Value>Start date</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.catalog.products.fields.calendar.startdate.hint">
+        <Value>Select the start date of reservations</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.StartTime">
+        <Value>From hour</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Sunday">
+        <Value>Sunday</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Thursday">
+        <Value>Thursday</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Tuesday">
+        <Value>Tuesday</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.Calendar.Wednesday">
+        <Value>Wednesday</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CallForPrice">
         <Value>價格歡迎來電咨詢</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CallForPrice.Hint">
         <Value>請檢查以顯示"調用的定價"呼籲報價單"而不是價格</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Fields.Categories">
-        <Value>所屬分類</Value>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.CatalogPrice">
+        <Value>目錄價格</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.Hint">
-        <Value>選擇類別。 您可以通過選擇目錄＆gt;來管理產品類別。分類。</Value>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.CatalogPrice.hint">
+        <Value>The catalog price of the product. If you set an catalog price, this will display alongside the current price on the product page to show the difference in price.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Fields.Categories.NoCategoriesAvailable">
-        <Value>沒有可用的類別。</Value>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.ChangedWarning">
+        <Value>You can't edit the product because has been changed. Please refresh page and try to change again.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
         <Value>建立時間</Value>
@@ -3054,20 +3276,29 @@
     <LocaleResource Name="Admin.Catalog.Products.Fields.DisableWishlistButton.Hint">
         <Value>請檢查以禁用此商品願望清單按鈕。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts">
-        <Value>折扣</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.Hint">
-        <Value>選擇要應用於此產品的折扣。 您可以通過從“促銷”菜單中選擇“折扣”來管理折扣。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Catalog.Products.Fields.Discounts.NoDiscounts">
-        <Value>沒有折扣。 在映射之前創建至少一個折扣。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrder">
         <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrder.Hint">
         <Value>商品顯示順序。1表示在列表中第一個項目。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrderCategory">
+        <Value>Display order for category page</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrderCategory.Hint">
+        <Value>Display order of the product for category page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrderManufacturer">
+        <Value>Display order for manufacturer page</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrderManufacturer.Hint">
+        <Value>Display order of the product for manufacturer page.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrderOnSale">
+        <Value>Sort product on sale</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayOrderOnSale.Hint">
+        <Value>Sort product on sale.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.DisplayStockAvailability">
         <Value>顯示存貨可用性</Value>
