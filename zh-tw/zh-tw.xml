@@ -828,50 +828,35 @@
     <LocaleResource Name="ActivityLog.DeleteCustomer">
         <Value>刪除會員(ID = {0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteCustomerAttribute">
-        <Value>刪除會員屬性 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.DeleteCustomerAction">
+        <Value>刪除會員行為</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteCustomerAttributeValue">
-        <Value>刪除會員屬性值 (ID = {0})</Value>
+    <LocaleResource Name="activitylog.deletecustomerreminder">
+        <Value>刪除會員提醒</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteCustomerRole">
-        <Value>刪除會員角色('{0}')</Value>
+        <Value>刪除會員角色 ('{0}')</Value>
+    </LocaleResource>
+    <LocaleResource Name="ActivityLog.DeleteCustomerTag">
+        <Value>刪除會員角色 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteDiscount">
         <Value>刪除折扣('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteEmailAccount">
-        <Value>刪除Email帳號 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteGiftCard">
         <Value>刪除禮品卡('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteLanguage">
-        <Value>刪除語言 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.DeleteKnowledgebaseArticle">
+        <Value>刪除知識庫文章 ('{0}')</Value>
+    </LocaleResource>
+    <LocaleResource Name="ActivityLog.DeleteKnowledgebaseCategory">
+        <Value>刪除知識庫文章分類 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteManufacturer">
         <Value>刪除品牌('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteMeasureDimension">
-        <Value>刪除度量維度 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteMeasureWeight">
-        <Value>刪除度量權重 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteMessageTemplate">
-        <Value>刪除郵件模板 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteNews">
-        <Value>刪除一則新聞 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteNewsComment">
-        <Value>刪除一則新聞評論 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteOrder">
         <Value>刪除訂單 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeletePlugin">
-        <Value>刪除一個Plugin (名稱: '{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteProduct">
         <Value>刪除商品('{0}')</Value>
@@ -879,14 +864,8 @@
     <LocaleResource Name="ActivityLog.DeleteProductAttribute">
         <Value>刪除商品屬性('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteProductReview">
-        <Value>刪除商品評論 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteReturnRequest">
         <Value>刪除退貨請求(編號：{0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteReviewType">
-        <Value>刪除商品評論類型 (ID = {0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteSetting">
         <Value>刪除設定('{0}')</Value>
@@ -894,113 +873,56 @@
     <LocaleResource Name="ActivityLog.DeleteSpecAttribute">
         <Value>刪除屬性規格('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteStateProvince">
-        <Value>刪除州或省 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteStore">
-        <Value>刪除商店 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteSystemLog">
-        <Value>刪除系統日誌</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteTopic">
         <Value>刪除當前主題 ("{0}")</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteVendor">
-        <Value>刪除共應商 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteVendorAttribute">
-        <Value>刪除供應商屬性 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteVendorAttributeValue">
-        <Value>刪除供應商屬性值 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.DeleteWarehouse">
-        <Value>刪除會員 (ID = {0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteWidget">
         <Value>刪除小工具(編號：{0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditActivityLogTypes">
-        <Value>編輯活動日誌的類型</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditAddressAttribute">
-        <Value>編輯地址屬性 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditAddressAttributeValue">
-        <Value>編輯地址屬性值 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditAffiliate">
-        <Value>編輯一個會員 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditBlogComment">
-        <Value>編輯部落格評論 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditBlogPost">
-        <Value>編輯部落格會員 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditCampaign">
-        <Value>編輯會員 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.EditCategory">
-        <Value>編輯分類('{0}')</Value>
+        <Value>編輯分類 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditCheckoutAttribute">
-        <Value>編輯結帳屬性('{0}')</Value>
+        <Value>編輯結帳屬性 ('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditCountry">
-        <Value>編輯國家 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditCurrency">
-        <Value>編輯貨幣 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.EditContactAttribute">
+        <Value>編輯聯絡人屬性 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditCustomer">
-        <Value>編輯會員(ID = {0})</Value>
+        <Value>編輯一個會員 (ID = {0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditCustomerAttribute">
-        <Value>編輯會員屬性 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.editcustomeraction">
+        <Value>編輯會員操作 ('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditCustomerAttributeValue">
-        <Value>編輯會員屬性質 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.editcustomeractioncondition">
+        <Value>編輯會員操作條件 ('{0}')</Value>
+    </LocaleResource>
+    <LocaleResource Name="activitylog.editcustomerreminder">
+        <Value>編輯會員提醒</Value>
+    </LocaleResource>
+    <LocaleResource Name="activitylog.editcustomerremindercondition">
+        <Value>編輯會員提醒條件</Value>
+    </LocaleResource>
+    <LocaleResource Name="activitylog.editcustomerreminderlevel">
+        <Value>編輯會員提醒等級</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditCustomerRole">
-        <Value>編輯會員角色('{0}')</Value>
+        <Value>編輯會員角色 ('{0}')</Value>
+    </LocaleResource>
+    <LocaleResource Name="ActivityLog.EditCustomerTag">
+        <Value>編輯會員標籤 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditDiscount">
         <Value>編輯折扣('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditEmailAccount">
-        <Value>編輯Email帳號 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.EditGiftCard">
         <Value>編輯禮品卡('{0}')</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditLanguage">
-        <Value>編輯語言 (ID = {0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditManufacturer">
         <Value>編輯品牌('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditMeasureDimension">
-        <Value>編輯度量維度 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditMeasureWeight">
-        <Value>編輯量度 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditMessageTemplate">
-        <Value>編輯訊息樣板 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditNews">
-        <Value>編輯新聞 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditNewsComment">
-        <Value>編輯新聞評論 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.EditOrder">
         <Value>編輯訂單 (ID = {0}). 查看訂單詳情備註</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditPlugin">
-        <Value>編輯Plugin (名稱: '{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditProduct">
         <Value>編輯商品('{0}')</Value>
@@ -1008,14 +930,8 @@
     <LocaleResource Name="ActivityLog.EditProductAttribute">
         <Value>編輯商品屬性('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditProductReview">
-        <Value>編輯商品評論 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.EditReturnRequest">
         <Value>編輯退貨請求(編號：{0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditReviewType">
-        <Value>編輯商品評論類型 (ID = {0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditSettings">
         <Value>編輯設定</Value>
@@ -1023,29 +939,20 @@
     <LocaleResource Name="ActivityLog.EditSpecAttribute">
         <Value>編輯屬性規格('{0}')</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditStateProvince">
-        <Value>編輯州或省 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditStore">
-        <Value>編輯商店 (ID = {0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditTask">
-        <Value>新增任務 (ID = {0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ActivityLog.EditTopic">
         <Value>編輯主題 ("{0}")</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditVendor">
-        <Value>編輯供應商 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.EditWidget">
+        <Value>編輯小元件 (ID = {0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditVendorAttribute">
-        <Value>編輯供應商屬性 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.InteractiveFormAdd">
+        <Value>新增互動表單 - {0}</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditVendorAttributeValue">
-        <Value>編輯供應商屬性值 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.InteractiveFormAddAttribute">
+        <Value>新增互動表單屬性 - {0}</Value>
     </LocaleResource>
-    <LocaleResource Name="ActivityLog.EditWarehouse">
-        <Value>編輯一個倉庫 (ID = {0})</Value>
+    <LocaleResource Name="ActivityLog.InteractiveFormAddAttributeValue">
+        <Value>新增互動表單屬性值 - {0}</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.EditWidget">
         <Value>編輯小工具(編號：{0})</Value>
