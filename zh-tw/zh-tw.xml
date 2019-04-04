@@ -5176,16 +5176,22 @@
         <Value>確定該插件只在某些商店是否可用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Logo">
-        <Value>Logo標記</Value>
+        <Value>Logo</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Plugins.Fields.Remove">
+        <Value>移除</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.SystemName">
         <Value>系統名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Uninstall">
-        <Value>卸載</Value>
+        <Value>移除</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Uninstall.Progress">
-        <Value>正在卸載...</Value>
+        <Value>正在移除套件...</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Plugins.Fields.Reload.List">
+        <Value>更新套件列表...</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Version">
         <Value>版本</Value>
@@ -5229,9 +5235,6 @@
     <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Download">
         <Value>下載</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Instructions">
-        <Value>&lt;p&gt;在這裡，您可以找到其他nopcommerce的合作夥伴、社群，所開發的第三方擴展和主題，也可以在nopcommerce    &lt;a href="http://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&amp;utm_medium=official-plugins&amp;utm_campaign=admin-panel" target="_blank"&gt;marketplace&lt;/a&gt;&lt;/p&gt;</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Name">
         <Value>名稱</Value>
     </LocaleResource>
@@ -5265,8 +5268,11 @@
     <LocaleResource Name="Admin.Configuration.Plugins.ReloadList">
         <Value>重載插件</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Plugins.ReloadList.Progress">
-        <Value>正在載入插件...</Value>
+    <LocaleResource Name="Admin.Configuration.Plugins.Removed">
+        <Value>套件已被移除</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Plugins.Stores">
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Uninstalled">
         <Value>套件已經被移除</Value>
@@ -5742,6 +5748,9 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage.Hint">
         <Value>在產品資訊頁面顯示商品料號（SKU）</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions">
+        <Value>排序選項</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.DisplayOrder">
         <Value>排序</Value>
     </LocaleResource>
@@ -5795,18 +5804,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountryEnabled.Hint">
         <Value>設置是否啟用“國家/地區”</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyEnabled">
-        <Value>'縣'啟用</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyEnabled.Hint">
-        <Value>設置是否啟用“縣”</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyRequired">
-        <Value>'縣'需要輸入</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.CountyRequired.Hint">
-        <Value>檢查是否需要'縣'。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.Description">
         <Value>在結帳時您可新增和管理要顯示在地址中的資訊</Value>
@@ -5877,18 +5874,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AddressFormFields.ZipPostalCodeRequired.Hint">
         <Value>郵遞區號欄位必填</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToCheckGiftCardBalance">
-        <Value>允許客戶檢查禮品卡餘額</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToCheckGiftCardBalance.Hint">
-        <Value>檢查以允許客戶檢查禮品卡餘額。 如果選中，則必須在管理區域中啟用CAPTCHA設置。 此功能可能不安全，需要CAPTCHA來防止和復雜暴力。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToRemoveAssociations">
-        <Value>允許客戶刪除關聯</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToRemoveAssociations.Hint">
-        <Value>選中以允許客戶刪除外部身份驗證關聯。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowCustomersToSetTimeZone">
         <Value>允許會員選擇時區</Value>
     </LocaleResource>
@@ -5922,17 +5907,8 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.DefaultFields">
         <Value>預設欄位</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.ExternalAuthentication">
-        <Value>外部認證</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Password">
-        <Value>密碼與安全性</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Profile">
-        <Value>其他設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.TimeZone">
-        <Value>時區</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowViewingProfiles.Hint">
+        <Value>A value indicating whether the viewing of customer profiles is allowed.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CheckUsernameAvailabilityEnabled">
         <Value>允許會員檢查用戶名是否可用</Value>
@@ -8961,6 +8937,12 @@
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.EditNewsItemDetails">
         <Value>編輯新聞</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.AclCustomerRoles">
+        <Value>會員角色</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.AclCustomerRoles.Hint">
+        <Value>Select customer roles for which the category will be shown.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.AllowComments">
         <Value>允許評論</Value>
     </LocaleResource>
@@ -9225,9 +9207,6 @@
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.DisplayOrder.Hint">
         <Value>主題顯示順序。1表示在列表中的第一個項目。它和屬性如「包含在主菜單中」或者「包含在頁尾裡」一起使用。</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.contentmanagement.topics.fields.id">
-        <Value>Id</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1">
         <Value>包含在頁尾裡（列1）</Value>
     </LocaleResource>
@@ -9294,12 +9273,6 @@
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.Password.Hint">
         <Value>密碼</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Topics.Fields.Published">
-        <Value>是否發佈</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Topics.Fields.Published.Hint">
-        <Value>決定您的商店中是否發布（可見）此主題。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.SeName">
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
@@ -9356,6 +9329,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchStore.Hint">
         <Value>搜尋特定的商店</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Topics.NoStoresDefined">
+        <Value>沒有商店被定義</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Stores">
         <Value>商店</Value>
@@ -9417,11 +9393,329 @@
     <LocaleResource Name="Admin.CurrentCarts.UpdatedOn">
         <Value>更新日期</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.CurrentCartWishlists">
+        <Value>目前的購物車和願望清單</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.CurrentWishlists">
         <Value>願望清單記錄</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers">
         <Value>會員管理</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype">
+        <Value>Customer action type</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.fields.enabled">
+        <Value>Is enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.fields.name">
+        <Value>Action type name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.AddOrder">
+        <Value>Add order – Action type when customer add order with specified conditions.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.AddToCart">
+        <Value>Add to cart – Action type when customer add specified products to cart.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.AllOfThem">
+        <Value>All of them – All of the conditions must be met.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Banner">
+        <Value>Banner – Store automatically view banner which is assigned to a particular action.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Customerrole">
+        <Value>Assign to customer role – Store automatically assign customer to specified customer role.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Customertag">
+        <Value>Assign to customer tag – Store automatically assign customer to specified customer tag.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Email">
+        <Value>Email – Store automatically send email to customer, who made particular action.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Actiontype.helptext.interactiveform">
+        <Value>Interactive form – Store automatically view form which is assigned to a particular action.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.OneOfThem">
+        <Value>One of them – One of condition must be met.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Registration">
+        <Value>Customer Registration - Action type, when a new customer registers to our store.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Url">
+        <Value>URL – Action type when customer come to site from referral url.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.helpText.Viewed">
+        <Value>Viewed – Action type when customer view specified products, categories, manufacturers.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.actiontype.updated">
+        <Value>Action type updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.addcustomeractioncondition">
+        <Value>Add new condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.added">
+        <Value>Action added</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.addnew">
+        <Value>Add new action</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.backtoaction">
+        <Value>Back to Action</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.backtolist">
+        <Value>Back to customer action list</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.conditions">
+        <Value>Conditions</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.conditions.addnew">
+        <Value>Add new condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.Deleted">
+        <Value>The customer action has been deleted successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.editcustomeraction">
+        <Value>Edit action</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.editcustomeractioncondition">
+        <Value>Edit condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.actionTypeId">
+        <Value>Action Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.actionTypeId.hint">
+        <Value>Action Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.active">
+        <Value>Active</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.active.hint">
+        <Value>Active</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.Banner">
+        <Value>Display banner</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.Banner.hint">
+        <Value>Display banner</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.conditionId">
+        <Value>Condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.conditionId.hint">
+        <Value>Condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.conditiontype">
+        <Value>Condition type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerRole">
+        <Value>Customer role</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerRole.hint">
+        <Value>Customer role</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerTag">
+        <Value>Customer tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerTag.hint">
+        <Value>Customer tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.endDateTime">
+        <Value>End datetime</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.endDateTime.hint">
+        <Value>End datetime</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.InteractiveForm">
+        <Value>Interactive forms</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.InteractiveForm.hint">
+        <Value>Please select a interactive forms</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.MessageTemplate">
+        <Value>Send email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.MessageTemplate.hint">
+        <Value>Send email</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.name.hint">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.name.required">
+        <Value>Field name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.ReactionType">
+        <Value>Reaction type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerAction.Fields.ReactionType.hint">
+        <Value>Run event when the conditions are met.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.startDateTime">
+        <Value>Start DateTime</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.fields.startDateTime.hint">
+        <Value>Start DateTime</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.history">
+        <Value>History</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.history.fields.createdate">
+        <Value>Create date</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.history.fields.customer">
+        <Value>Customer</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.info">
+        <Value>Action Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.reaction">
+        <Value>Reaction</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.saveBeforeEdit">
+        <Value>You need to save the  before you can add values for this page</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeraction.updated">
+        <Value>Action updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.added">
+        <Value>Added condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.categories">
+        <Value>Categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.category.addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerActionCondition.customCustomerAttribute">
+        <Value>Custom Customer Attributes</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.customerregister">
+        <Value>Customer register</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.customerrole">
+        <Value>Customer role</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.customertag">
+        <Value>Customer tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.categoryname">
+        <Value>Add category</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.conditionId">
+        <Value>Condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.conditionId.hint">
+        <Value>Condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActionCondition.Fields.CustomCustomerAttributeName">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActionCondition.Fields.CustomCustomerAttributeValue">
+        <Value>Value</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.customerconditionTypeId">
+        <Value>Condition Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.customerconditionTypeId.hint">
+        <Value>Condition Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRegisterName">
+        <Value>Customer registration - field name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRegisterValue">
+        <Value>Customer registration - field value</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRoleName">
+        <Value>Customer role</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerActionCondition.fields.customerTagName">
+        <Value>Tag name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.manufacturer">
+        <Value>Manufacturer</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.name">
+        <Value>Condition name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.name.hint">
+        <Value>Condition name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.name.required">
+        <Value>Field name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.productattributename">
+        <Value>Product attribute</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.productattributevaluename">
+        <Value>Product attribute value</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.productname">
+        <Value>Product name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.specificationname">
+        <Value>Product Specification</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.specificationvaluename">
+        <Value>Product specification value</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerActionCondition.fields.storeName">
+        <Value>Store name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActionCondition.Fields.UrlCurrentName">
+        <Value>Current Url</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActionCondition.Fields.UrlReferrerName">
+        <Value>Url Referrer</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.fields.vendorname">
+        <Value>Vendor name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.info">
+        <Value>Condition info</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.manufacturers">
+        <Value>Manufacturers</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.manufacturers.addnew">
+        <Value>Add new manufacturer</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.productattributes">
+        <Value>Product attributes</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.products">
+        <Value>Products</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.products.addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.productspecifications">
+        <Value>Product specifications</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.saveBeforeEdit">
+        <Value>You need to save the  before you can add values for this page</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActionCondition.Store">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.updated">
+        <Value>Condition updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.urlcurrent">
+        <Value>Current URL</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.urlreferrer">
+        <Value>Url referrer</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customeractioncondition.vendors">
+        <Value>Vendors</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActions">
+        <Value>Customer actions</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerActionType">
+        <Value>Customer Action Type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes">
         <Value>自定義會員屬性</Value>
@@ -9510,6 +9804,330 @@
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Values.SaveBeforeEdit">
         <Value>請先保存會員屬性,然後才可以對該會員屬性頁面進行編輯。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminder.Addcondition">
+        <Value>Add condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.added">
+        <Value>Reminder added</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminder.Addlevel">
+        <Value>Add level</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminder.Addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.backtoaction">
+        <Value>Back to action</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.backtolist">
+        <Value>Back to customer reminder list</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.added">
+        <Value>Condition added</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.categories">
+        <Value>Categories</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.category.addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.customcustomerattribute">
+        <Value>Customer attribute</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.customerregister">
+        <Value>Customer register</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.customerrole">
+        <Value>Customer Role</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.customertag">
+        <Value>Customer tag</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.categoryname">
+        <Value>Category name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.ConditionId">
+        <Value>Condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.ConditionId.Hint">
+        <Value>Select condition.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.ConditionTypeId">
+        <Value>Condition type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.ConditionTypeId.Hint">
+        <Value>Select condition type</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.customcustomerattributename">
+        <Value>Customer Attribute Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.customcustomerattributevalue">
+        <Value>Customer Attribute Value</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistername">
+        <Value>Customer Register Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistervalue">
+        <Value>Customer Register Value</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerrolename">
+        <Value>Customer Role Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.customertagname">
+        <Value>Customer Tag Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.manufacturer">
+        <Value>Manufacturer</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.name">
+        <Value>Condition name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.Name.hint">
+        <Value>Enter condition name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.fields.productname">
+        <Value>Product Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.info">
+        <Value>Condition info</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.manufacturers">
+        <Value>Manufacturers</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.manufacturers.addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminder.Condition.Products.Addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.condition.savebeforeedit">
+        <Value>You must save it before edit.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.conditions">
+        <Value>Reminder Conditions</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.conditions.addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.deleted">
+        <Value>Customer Reminder Deleted</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminder.Edit">
+        <Value>Reminder Edit</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminder.Editcondition">
+        <Value>Edit condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.editlevel">
+        <Value>Edit level</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.active">
+        <Value>Active</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.active.hint">
+        <Value>Select if this reminder is active</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.AllowRenew">
+        <Value>Allow renew</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.AllowRenew.hint">
+        <Value>Choose when reminder should run again.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.ConditionId">
+        <Value>Condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.conditionid.hint">
+        <Value>Select condition</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.conditiontype">
+        <Value>Condition Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.DisplayOrder">
+        <Value>Display Order</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.displayorder.hint">
+        <Value>Choose reminder display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.EndDate">
+        <Value>End date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.EndDate.hint">
+        <Value>Date of end the campaign</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.LastUpdateDate">
+        <Value>Activity date for rule</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.LastUpdateDate.hint">
+        <Value>Activity date for rule</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.level">
+        <Value>Reminder level</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.name">
+        <Value>Reminder name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.name.hint">
+        <Value>Enter the reminder name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.name.required">
+        <Value>Reminder name requires</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.ReminderRule">
+        <Value>Reminder Rule</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.reminderrule.hint">
+        <Value>Choose reminder rule</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.RenewedDay">
+        <Value>Renewed Days</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.fields.renewedday.hint">
+        <Value>Choose when reminder should run again.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.StartDate">
+        <Value>Date start</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Fields.StartDate.hint">
+        <Value>Date of start the campaign</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.history">
+        <Value>History mailings</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.history.fields.customer">
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.history.fields.level">
+        <Value>Level</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.history.fields.order">
+        <Value>Ordered</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.history.fields.senddate">
+        <Value>Sent on</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.info">
+        <Value>Reminder Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.AllowedTokens">
+        <Value>Allowed Tokens</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.AllowedTokens.Hint">
+        <Value>Tokens which you can use.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.BccEmailAddresses">
+        <Value>BCC</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.level.fields.bccemailaddresses.Hint">
+        <Value>Enter BCC email addresses</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Body">
+        <Value>Body</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Body.Hint">
+        <Value>Body of your email</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.level.fields.body.required">
+        <Value>Body is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.level.fields.DayHourMin.required">
+        <Value>You must enter Day or Hour or Minutes.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.level.fields.emailaccountid">
+        <Value>Email Account</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Level">
+        <Value>Level</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Level.Hint">
+        <Value>Enter level</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Name">
+        <Value>Level name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Name.Hint">
+        <Value>Enter the level name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.level.fields.name.required">
+        <Value>Level name required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.SendDay">
+        <Value>Send after days</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.SendDay.Hint">
+        <Value>Select how many days is to send.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.SendHour">
+        <Value>Send after hours</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.SendHour.Hint">
+        <Value>Select how many hours is to send.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.SendMinutes">
+        <Value>Send after minutes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.SendMinutes.Hint">
+        <Value>Select how many minutes is to send.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Subject">
+        <Value>Subject</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerReminder.Level.Fields.Subject.Hint">
+        <Value>Enter the subject</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.level.fields.subject.required">
+        <Value>Subject required</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.levels">
+        <Value>Reminder Levels</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.levels.addnew">
+        <Value>Add new</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.run">
+        <Value>Completed the process of customer reminder</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.savebeforeedit">
+        <Value>You must save it before edit</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text1">
+        <Value>Abandoned cart – You can set custom reminder to customers who left their carts without confirming order. Activity date is counting "from this date".</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text2">
+        <Value>Registered customer – You can set custom reminder to customers who just register in your store. Activity date is counting from this date.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text3">
+        <Value>Last purchase – You can set custom reminder to customers who made last purchase to specified date. Activity date is counting "to this date"</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text4">
+        <Value>Last activity – You can set custom reminder to customers who made last activity to specified date. Activity date is counting "to this date".</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text5">
+        <Value>Birthday – You can set custom reminder related to customers birthday (field Activity date is not used).</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text6">
+        <Value>Completed order – You can set custom reminder related to completed order (Activity date is counting from this order date).</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.text7">
+        <Value>Unpaid order – You can set custom reminder related to unpaid order (Activity date is counting from this order date).</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminder.updated">
+        <Value>Reminder updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerremindercondition.updated">
+        <Value>Condition updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminderlevel.added">
+        <Value>Level added</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminderlevel.exists">
+        <Value>This level exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.customers.customerreminderlevel.updated">
+        <Value>Reminder level updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customerreminders">
+        <Value>Customer reminders</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerRoles">
         <Value>會員角色</Value>
     </LocaleResource>
@@ -9589,7 +10207,31 @@
         <Value>免稅</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.TaxExempt.Hint">
-        <Value>免稅</Value>
+        <Value>會員在這個角色時可以免稅</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Info">
+        <Value>會員角色資訊</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products">
+        <Value>推薦商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products.AddNew">
+        <Value>Recommended products assigned to the Customer Role</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products.Fields.AddNew">
+        <Value>新增</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products.Fields.DisplayOrder">
+        <Value>顯示順序</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products.Fields.Name">
+        <Value>商品名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products.Info">
+        <Value>In order to use this functionality you have to enable the following setting: Configuration &gt; Catalog settings &gt; General &gt; 'Recommended products' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Products.SaveBeforeEdit">
+        <Value>You need to save the customer role before you can add values for this page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerRoles.Updated">
         <Value>修改會員角色成功</Value>
@@ -9610,9 +10252,6 @@
         <Value>創建日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.IpAddress">
-        <Value>IP地址</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.ActivityLog.IpAddress.Hint">
         <Value>IP地址</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Added">
@@ -9641,15 +10280,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Addresses.Updated">
         <Value>修改地址成功</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.AdminAccountShouldExists.Deactivate">
-        <Value>您不可停用最後一個管理員，至少應有一個管理員帳戶。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.AdminAccountShouldExists.DeleteAdministrator">
-        <Value>您不可刪掉最後一個管理員，至少應有一個管理員帳戶。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.AdminAccountShouldExists.DeleteRole">
-        <Value>您不可移除最後一個管理員，至少應有一個管理員帳戶。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.AdminCouldNotbeVendor">
         <Value>已和供應商關聯的顧客不能有管理員權限</Value>
@@ -9692,6 +10322,48 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CurrentWishlist">
         <Value>願望清單</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.CustomerNotes">
+        <Value>Customer notes</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.DisplayToCustomer">
+        <Value>Display to customer</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.DisplayToCustomer.Hint">
+        <Value>A value indicating whether to display this customer note to a customer.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Title">
+        <Value>Title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Title.Hint">
+        <Value>Enter this customer note title.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Note">
+        <Value>Note</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Note.Hint">
+        <Value>Enter this customer note message.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download">
+        <Value>Download</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.AddTitle">
+        <Value>Add customer note</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.AddButton">
+        <Value>Add customer note</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.Link">
+        <Value>Download</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.Link.No">
+        <Value>No file attached</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.HasDownload">
+        <Value>(check to upload file)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerRoles">
         <Value>會員角色</Value>
@@ -9744,12 +10416,6 @@
     <LocaleResource Name="Admin.Customers.Customers.Fields.Company.Required">
         <Value>請輸入公司</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.customers.customers.fields.companytaxid">
-        <Value>統一編號</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.customers.customers.fields.companytitle">
-        <Value>公司抬頭</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.Country">
         <Value>國家</Value>
     </LocaleResource>
@@ -9764,6 +10430,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CustomerRoles">
         <Value>會員角色</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.CustomerTags">
+        <Value>會員標籤</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.CustomerTags.Hint">
+        <Value>Customer tags are keywords that this customer can also be identified by. Enter a comma separated list of the tags to be associated with this customer.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.DateOfBirth">
         <Value>出生日期</Value>
