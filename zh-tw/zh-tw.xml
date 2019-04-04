@@ -5856,6 +5856,18 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreFeaturedProducts.Hint">
         <Value>忽略特色商品，對提高性能有顯著效果</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreFilterableAvailableStartEndDateTime">
+        <Value>Ignore "filtering start and end date available products" (sitewide)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreFilterableAvailableStartEndDateTime.Hint">
+        <Value>Check to ignore "filtering start and end date available products" configured for entities (sitewide). Recommended to enable this setting if you have only one store or don't use it. It can significantly improve performance.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreFilterableSpecAttributeOption">
+        <Value>Ignore "filtering specifications attribute option" (sitewide)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreFilterableSpecAttributeOption.Hint">
+        <Value>Check to ignore "filtering specifications attribute option" configured for entities (sitewide). Recommended to enable this setting if you have only one store or don't use it. It can significantly improve performance.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreStoreLimitations">
         <Value>忽視「限制每個商店」規則(站點範圍)</Value>
     </LocaleResource>
@@ -5916,11 +5928,29 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.PageShareCode.Hint">
         <Value>一頁共享按鈕的代碼。預設情況下，我們使用 AddThis 服務。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.Performance">
+        <Value>Performance</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.PersonalizedProductsEnabled">
+        <Value>'Personalized products' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.PersonalizedProductsEnabled.Hint">
+        <Value>Check to allow customers to use the 'Personalized products' feature in your store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.PersonalizedProductsNumber">
+        <Value>Number of 'Personalized products'</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.PersonalizedProductsNumber.Hint">
+        <Value>The number of 'Personalized products' to display when 'Personalized products' option is enabled.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewPossibleOnlyAfterPurchasing">
         <Value>產品購買後才能進行產品評審</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewPossibleOnlyAfterPurchasing.Hint">
         <Value>商品購買後才能被評論</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviews">
+        <Value>Product reviews</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsMustBeApproved">
         <Value>商品評論必須通過管理員的審核</Value>
@@ -5988,11 +6018,14 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsNumber.Hint">
         <Value>顯示『近期瀏覽的水平』數量當啟用『近期瀏覽的水平』選項option。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.RemoveRequiredProducts">
-        <Value>刪除所需的產品</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecommendedProductsEnabled">
+        <Value>'Recommended products' enabled</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.RemoveRequiredProducts.Hint">
-        <Value>如果卸下主要產品，請從購物車中取出所需產品。</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecommendedProductsEnabled.Hint">
+        <Value>Check to allow customers to use the 'Recommended products - customer role' feature in your store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.Search">
+        <Value>Search</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize">
         <Value>搜尋頁，允許會員從預先定義的選項列表中選擇頁筆數。</Value>
@@ -6011,6 +6044,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageProductsPerPage.Hint">
         <Value>設定搜尋頁顯示商品數量。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.Sharing">
+        <Value>Sharing</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowBestsellersOnHomepage">
         <Value>在首頁顯示暢銷商品</Value>
@@ -6042,12 +6078,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowGtin.Hint">
         <Value>在商品頁顯示GTIN</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowLinkToAllResultInSearchAutoComplete">
-        <Value>在自動填充框中顯示指向所有搜索結果的鏈接</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowLinkToAllResultInSearchAutoComplete.Hint">
-        <Value>確定是否應在自動填充搜索框中顯示指向所有結果的鏈接。 如果找到的項目數大於自動完成框中顯示的數量，則顯示。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowManufacturerPartNumber">
         <Value>在商品頁顯示品牌零件編號</Value>
     </LocaleResource>
@@ -6065,12 +6095,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsPerStore.Hint">
         <Value>會員只能看到某商品在此商店的評論(在產品詳細頁面上)</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsTabOnAccountPage">
-        <Value>在會員中心顯示商品評論</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductReviewsTabOnAccountPage.Hint">
-        <Value>在會員中心顯示評論過的商品評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowProductsFromSubcategories">
         <Value>分類中包含子分類的商品</Value>
@@ -6108,8 +6132,17 @@
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.Name">
         <Value>名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerSettings.RegexValidationRule.Error">
-        <Value>用戶名驗證的正則表達式不正確</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsEnabled">
+        <Value>'Suggested products' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsEnabled.Hint">
+        <Value>Check to allow customers to use the 'Suggested products - customer tag' feature in your store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsNumber">
+        <Value>Number of 'Suggested products'</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsNumber.Hint">
+        <Value>The number of 'Suggested products' to display when 'Suggested products' option is enabled.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser">
         <Value>會員中心設定</Value>
@@ -6243,20 +6276,20 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowViewingProfiles">
         <Value>允許會員查看其他會員資料</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowUsersToDeleteAccount.hint">
+        <Value>A value indicating whether users are allowed to delete account. Option appears in my account (left side).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowUsersToExportData">
+        <Value>Allow users to export account</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowUsersToExportData.hint">
+        <Value>A value indicating whether users are allowed to export account to XLS. Option appears in account info.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowViewingProfiles">
+        <Value>Allow viewing of customer profiles</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowViewingProfiles.Hint">
         <Value>允許會員查看其他會員資料</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Account">
-        <Value>帳戶</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.BlockTitle.DefaultFields">
-        <Value>預設欄位</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.AllowViewingProfiles.Hint">
-        <Value>A value indicating whether the viewing of customer profiles is allowed.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CheckUsernameAvailabilityEnabled">
         <Value>允許會員檢查用戶名是否可用</Value>
@@ -6300,18 +6333,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountryRequired.Hint">
         <Value>選擇如果『縣市』是必須的。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyEnabled">
-        <Value>'縣'啟用</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyEnabled.Hint">
-        <Value>設置是否啟用“縣”</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyRequired">
-        <Value>'縣'需要</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CountyRequired.Hint">
-        <Value>檢查是否需要'縣'</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.CustomerFormFields">
         <Value>會員表單欄位</Value>
     </LocaleResource>
@@ -6344,6 +6365,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired.Hint">
         <Value>選擇『生日日期』是必須的。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateTimeSettings">
+        <Value>DateTime settings</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DefaultAvatarEnabled">
         <Value>啟用預設頭像</Value>
@@ -6399,6 +6423,12 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.GenderEnabled.Hint">
         <Value>啟用性別欄位</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideAuctionsTab">
+        <Value>Hide 'Auctions' tab</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideAuctionsTab.hint">
+        <Value>Check to hide 'Auctions' tab on 'My account' page</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideBackInStockSubscriptionsTab">
         <Value>隱藏到貨通知選項卡</Value>
     </LocaleResource>
@@ -6416,6 +6446,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideNewsletterBlock.Hint">
         <Value>隱藏訂閱管理模塊</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideNotesTab">
+        <Value>Hide 'Customer notes' tab</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideNotesTab.hint">
+        <Value>Check to hide 'Customer notes' tab on 'My account' page</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterBlockAllowToUnsubscribe">
         <Value>允許取消訂閱。</Value>
@@ -6471,11 +6507,11 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PhoneRequired.Hint">
         <Value>電話號碼欄位必填</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.RequireRegistrationForDownloadableProducts">
-        <Value>需要註冊下載的產品</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.RegistrationFreeShipping">
+        <Value>New customer has a free shipping for the first order</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.RequireRegistrationForDownloadableProducts.Hint">
-        <Value>需要註冊會員才能購買可下載的產品。</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.RegistrationFreeShipping.hint">
+        <Value>New customer has a free shipping for the first order.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ShowCustomersJoinDate">
         <Value>顯示會員註冊日期</Value>
@@ -6560,6 +6596,18 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ZipPostalCodeRequired.Hint">
         <Value>郵遞區號欄位必填</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Filter.Name">
+        <Value>Setting Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Filter.Name.hint">
+        <Value>Setting Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Filter.Value">
+        <Value>Setting Value</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Filter.Value.hint">
+        <Value>Setting Value</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Forums">
         <Value>論壇設定</Value>
@@ -6705,12 +6753,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon">
         <Value>綜合設定</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminArea.UseRichEditorInMessageTemplates">
-        <Value>在消息模板上使用富編輯器</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminArea.UseRichEditorInMessageTemplates.Hint">
-        <Value>指示是否在郵件模板和活動詳細信息頁面上使用富編輯器。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminAreaAllowedIpAddresses">
         <Value>允許進入後台的IP地址</Value>
     </LocaleResource>
@@ -6735,12 +6777,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CanonicalUrlsEnabled.Hint">
         <Value>標準化的目的在於把普通的URL轉換為標準URL，啟用後在源代碼header中能看到效果</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions">
-        <Value>CAPTCHA是一個程序，可以判斷其用戶是一個人類還是一台電腦。您可能已經看過它們 - 在網絡註冊表格底部有多個扭曲文本的彩色圖像。 許多網站都使用CAPTSA來防止“bot”的濫用，或通常用來生成垃圾郵件的自動程序。 沒有計算機程序可以讀取扭曲的文本以及人類可以，所以機器人不能瀏覽受CAPTCHA保護的站點。 nopCommerce使用reCAPTCHA。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaAppropriateKeysNotEnteredError">
-        <Value>Captcha已啟用，但未輸入相應的密鑰</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaEnabled">
         <Value>啟用驗證碼</Value>
     </LocaleResource>
@@ -6752,6 +6788,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnApplyVendorPage.Hint">
         <Value>是否在供應商申請頁面顯示驗證碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnAskQuestionPage">
+        <Value>Show on 'ask question' page</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnAskQuestionPage.Hint">
+        <Value>Check to show CAPTCHA on 'ask question' page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnBlogCommentPage">
         <Value>在部落格頁面顯示評論</Value>
@@ -6806,12 +6848,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ConvertNonWesternChars.Hint">
         <Value>轉換非英文字符</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CustomHeadTags">
-        <Value>自定義標籤</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CustomHeadTags.Hint">
-        <Value>在此輸入自訂標籤。 例如，一些自定義Meta標記，或者留空忽略此設置。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultMetaDescription">
         <Value>商店預設的Meta描述</Value>
