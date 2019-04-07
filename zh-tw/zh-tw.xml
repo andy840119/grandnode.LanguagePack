@@ -8955,6 +8955,12 @@
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.MetaTitle.Hint">
         <Value>重寫META標題。預設標題是部落格標題</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Picture">
+        <Value>Picture</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Picture.Hint">
+        <Value>The blog post picture.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.SeName">
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
@@ -8991,9 +8997,6 @@
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Info">
         <Value>基本資訊</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.List.SearchStore">
-        <Value>商店</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Stores">
         <Value>商店</Value>
     </LocaleResource>
@@ -9003,14 +9006,8 @@
     <LocaleResource Name="Admin.ContentManagement.Blog.Comments">
         <Value>部落格評論</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.ApproveSelected">
-        <Value>審核（已選項）</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.Comments.DeleteSelected">
         <Value>刪除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.DisapproveSelected">
-        <Value>反審核（已選項）</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.BlogPost">
         <Value>部落格</Value>
@@ -9023,33 +9020,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.Customer">
         <Value>會員</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.IsApproved">
-        <Value>是否審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.StoreName">
-        <Value>商店名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnFrom">
-        <Value>開始創建日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.CreatedOnTo">
-        <Value>結束創建日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved">
-        <Value>審核狀態</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.All">
-        <Value>全部</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.ApprovedOnly">
-        <Value>已審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchApproved.DisapprovedOnly">
-        <Value>未審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.Blog.Comments.List.SearchText">
-        <Value>關鍵字</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums">
         <Value>論壇管理</Value>
@@ -9150,8 +9120,317 @@
     <LocaleResource Name="Admin.ContentManagement.Forums.Manage">
         <Value>管理論壇</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase">
+        <Value>Knowledgebase</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Comment">
+        <Value>Comment</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Customer">
+        <Value>Customer</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLogType">
+        <Value>Acitivty log type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseArticle">
+        <Value>Create article</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseCategory">
+        <Value>Create knowledgebase category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseArticle">
+        <Value>Edit article</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseCategory">
+        <Value>Edit category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.BackToList">
+        <Value>Back to list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.CreateKnowgledgebaseArticle">
+        <Value>Create article</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.EditKnowgledgebaseArticle">
+        <Value>Edit article</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.BackToList">
+        <Value>Back to list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.CreateKnowgledgebaseCategory">
+        <Value>Create knowledgebase category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.EditKnowgledgebaseCategory">
+        <Value>Edit knowledgebase category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl">
+        <Value>Access control list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl.hint">
+        <Value>Select customer roles for which the article will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.ActivityLog">
+        <Value>Activity log</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Added">
+        <Value>Article added</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Deleted">
+        <Value>Article deleted</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles">
+        <Value>Acl Customer Roles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles.Hint">
+        <Value>Acl(Access control list) Customer Roles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the article will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Content">
+        <Value>Content</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Content.Hint">
+        <Value>The description of the knowledgebase article.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Displayorder.Hint">
+        <Value>Set the knowledgebase article display order. 1 represents the top of the list.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.LimitedToStores">
+        <Value>Limited to stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.LimitedToStores.Hint">
+        <Value>Determines whether the article is available only at certain stores.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaDescription">
+        <Value>Meta description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaDescription.Hint">
+        <Value>Meta description to be added to page header.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaKeywords">
+        <Value>Meta keywords</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaKeywords.Hint">
+        <Value>Meta keywords to be added to page header.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaTitle">
+        <Value>Meta title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaTitle.Hint">
+        <Value>Override the page title. The default is the name of the category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Name">
+        <Value>Title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Name.Hint">
+        <Value>Title of the article</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Name.Required">
+        <Value>Name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId">
+        <Value>Parent category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId.Hint">
+        <Value>Parent category (id)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId.MustExist">
+        <Value>Parent category must exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId.Required">
+        <Value>Parent category is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Published">
+        <Value>Published</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Published.Hint">
+        <Value>Published</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SeName">
+        <Value>SeName</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SeName.Hint">
+        <Value>Set a search engine friendly page name. Leave empty to generate it automatically based on the name of the article.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ShowOnHomepage">
+        <Value>Show on homepage</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ShowOnHomepage.Hint">
+        <Value>Indicates whether to show this article on knowledgebase homepage or not.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SubjectToAcl">
+        <Value>Subject to ACL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SubjectToAcl.Hint">
+        <Value>Determines whether the knowledgebase article is subject to ACL (access control list).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Info">
+        <Value>Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related">
+        <Value>Related articles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related.AddNew">
+        <Value>Add new related article</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related.SaveBeforeEdit">
+        <Value>Save article before editing this section</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related.SearchArticleName">
+        <Value>Search article title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Seo">
+        <Value>Seo</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Stores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Updated">
+        <Value>Article updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Acl">
+        <Value>Access control list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Acl.hint">
+        <Value>Select customer roles for which the category will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.ActivityLog">
+        <Value>Acitivity log</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Added">
+        <Value>Category added</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Articles">
+        <Value>Articles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Cannotdeletewitharticles">
+        <Value>Cannot delete category with articles assigned to it</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Deleted">
+        <Value>Category deleted</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AclCustomerRoles">
+        <Value>Acl Customer Roles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AclCustomerRoles.Hint">
+        <Value>Select customer roles for which the knowledgebase category will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AvailableStores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the category will be shown.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Description">
+        <Value>Description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Description.Hint">
+        <Value>The description of the knowledgebase category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.DisplayOrder">
+        <Value>Display order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Displayorder.Hint">
+        <Value>Set the knowledgebase category display order. 1 represents the top of the list.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.LimitedToStores">
+        <Value>Limited to stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.LimitedToStores.Hint">
+        <Value>Determines whether the category is available only at certain stores.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.MetaDescription">
+        <Value>Meta description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.MetaDescription.Hint">
+        <Value>Meta description to be added to page header.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.MetaKeywords">
+        <Value>Meta keywords</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.MetaKeywords.Hint">
+        <Value>Meta keywords to be added to page header.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.MetaTitle">
+        <Value>Meta title</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.MetaTitle.Hint">
+        <Value>Override the page title. The default is the name of the category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Name.Hint">
+        <Value>Name of knowledgebase category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Name.Required">
+        <Value>Category name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.ParentCategoryId">
+        <Value>Parent category</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.ParentCategoryId.Hint">
+        <Value>Parent category (id)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.ParentCategoryId.MustExist">
+        <Value>Parent category must exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.ParentCategoryId.Required">
+        <Value>Parent category is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Published">
+        <Value>Published</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Published.Hint">
+        <Value>Check to publish this category (visible in store). Uncheck to unpublish (category not available in store).</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.SeName">
+        <Value>SeName</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.SeName.Hint">
+        <Value>Set a search engine friendly page name. Leave empty to generate it automatically based on the name of the category.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.SubjectToAcl">
+        <Value>Subject to ACL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.SubjectToAcl.Hint">
+        <Value>Indicates whether to use ACL or not</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Info">
+        <Value>Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.SaveBeforeEdit">
+        <Value>Save before editing</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Seo">
+        <Value>Seo</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Stores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Updated">
+        <Value>Category updated</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Knowledgebase.Manage">
+        <Value>Manage knowledgebase</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates">
         <Value>郵件內容版型</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Added">
+        <Value>The message template has been added successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.AddNew">
+        <Value>Add new message template.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.BackToList">
         <Value>返回郵件內容版型列表</Value>
@@ -9161,9 +9440,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Deleted">
         <Value>已成功刪除此郵件內容版型</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Blog.BlogComment">
-        <Value>當創建某個部落格文章的新部落格評論時，將使用此郵件內容版型。 商店管理員將收到此消息。 您可以在配置 - 設定 - 部落格設定中勾選【關於新部落格評論通知】的復選框來設定此選項。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.EditMessageTemplateDetails">
         <Value>編輯郵件內容版型</Value>
@@ -9216,9 +9492,6 @@
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.EmailAccount.Hint">
         <Value>郵件帳戶</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.EmailAccount.Standard">
-        <Value>Standard</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.IsActive">
         <Value>已啟用</Value>
     </LocaleResource>
@@ -9255,6 +9528,12 @@
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Info">
         <Value>基本資訊</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.List.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.List.Name.Hint">
+        <Value>Search by a name.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.List.SearchStore">
         <Value>商店</Value>
     </LocaleResource>
@@ -9263,39 +9542,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Stores">
         <Value>商店</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test">
-        <Value>測試版型</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.BackToTemplate">
-        <Value>返回到版型</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Send">
-        <Value>發送</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.SendTo">
-        <Value>發送電子郵件到</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.SendTo.Hint">
-        <Value>發送測試電子郵件從而保證所有的東西都正確設定。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Success">
-        <Value>電子郵件已成功送入發送佇列。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens">
-        <Value>代碼</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens.Description">
-        <Value>請輸入您要在下面被替換的代碼</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens.Hint">
-        <Value>請輸入代碼。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.TestDetails">
-        <Value>發送測試電子郵件</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Tokens.ConditionalStatement">
-        <Value>對於條件表達式，使用指令％if（您的條件）... endif％</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Updated">
         <Value>郵件內容版型已成功修改。</Value>
@@ -9306,14 +9552,8 @@
     <LocaleResource Name="Admin.ContentManagement.News.Comments">
         <Value>新聞評論</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.ApproveSelected">
-        <Value>審核（已選項）</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.DeleteSelected">
         <Value>刪除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.DisapproveSelected">
-        <Value>反審核（已選項）</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.CommentText">
         <Value>內容</Value>
@@ -9327,38 +9567,14 @@
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.Customer">
         <Value>評論會員</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.IsApproved">
-        <Value>是否審核</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.NewsItem">
         <Value>新聞標題</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.StoreName">
-        <Value>商店名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnFrom">
-        <Value>開始創建日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.CreatedOnTo">
-        <Value>結束創建日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved">
-        <Value>審核狀態</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.All">
-        <Value>全部</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.ApprovedOnly">
-        <Value>已審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchApproved.DisapprovedOnly">
-        <Value>未審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.ContentManagement.News.Comments.List.SearchText">
-        <Value>關鍵字</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems">
         <Value>新聞</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Acl">
+        <Value>Access control list</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Added">
         <Value>新增新聞成功</Value>
@@ -9444,6 +9660,12 @@
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.MetaTitle.Hint">
         <Value>重寫META標題。預設標題是新聞標題</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Picture">
+        <Value>Picture</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Picture.Hint">
+        <Value>The news item picture.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Published">
         <Value>是否發佈</Value>
     </LocaleResource>
@@ -9470,6 +9692,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.StartDate.Hint">
         <Value>開始日期</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.SubjectToAcl">
+        <Value>Subject to ACL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.SubjectToAcl.Hint">
+        <Value>Determines whether the category is subject to ACL (access control list).</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Title">
         <Value>標題</Value>
@@ -9498,11 +9726,20 @@
     <LocaleResource Name="Admin.ContentManagement.Polls">
         <Value>投票設定與統計</Value>
     </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.polls.acl">
+        <Value>Access control list</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Added">
         <Value>新增投票成功</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.AddNew">
         <Value>新增新的投票</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Answer.AddNew">
+        <Value>Add new poll answer</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Answer.EditDetails">
+        <Value>Edit poll answer</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Answers">
         <Value>投票選項</Value>
@@ -9512,6 +9749,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Answers.Fields.Name">
         <Value>名稱</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Answers.Fields.Name.hint">
+        <Value>Name</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Answers.Fields.Name.Required">
         <Value>請輸入名稱</Value>
@@ -9531,11 +9771,23 @@
     <LocaleResource Name="Admin.ContentManagement.Polls.EditPollDetails">
         <Value>編輯投票</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AclCustomerRoles">
+        <Value>Customer roles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AclCustomerRoles.Hint">
+        <Value>Select customer roles for which the poll will be shown.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AllowGuestsToVote">
         <Value>允許匿名用戶投票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AllowGuestsToVote.Hint">
         <Value>允許匿名用戶投票</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AvailableStores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AvailableStores.Hint">
+        <Value>Select stores for which the category will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -9554,6 +9806,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Language.Hint">
         <Value>語言</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.LimitedToStores">
+        <Value>Limited to stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.LimitedToStores.Hint">
+        <Value>Determines whether the attribute is available only at certain stores.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.Name">
         <Value>名稱</Value>
@@ -9582,6 +9840,12 @@
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.StartDate.Hint">
         <Value>開始日期</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.SubjectToAcl">
+        <Value>Subject to ACL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Fields.SubjectToAcl.Hint">
+        <Value>Determines whether the poll is subject to ACL (access control list).</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.SystemKeyword">
         <Value>系統關鍵字</Value>
     </LocaleResource>
@@ -9590,6 +9854,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Info">
         <Value>基本資訊</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Polls.Stores">
+        <Value>Stores</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Updated">
         <Value>修改投票成功</Value>
@@ -9761,6 +10028,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Info">
         <Value>基本資訊</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Topics.List.Name">
+        <Value>Topic name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ContentManagement.Topics.List.Name.hint">
+        <Value>Search by topic name or systemname</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.List.SearchStore">
         <Value>商店</Value>
@@ -10596,6 +10869,9 @@
     <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.EnablePasswordLifetime">
         <Value>啟用密碼生存期</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.EnablePasswordLifetime.Hint">
+        <Value>Check to force customers to change their passwords after a specified time.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerRoles.Fields.FreeShipping">
         <Value>免運費</Value>
     </LocaleResource>
@@ -10908,6 +11184,12 @@
     <LocaleResource Name="Admin.Customers.Customers.Fields.FirstName.Required">
         <Value>請輸入名稱</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.FreeShipping">
+        <Value>Free shipping to the next order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.FreeShipping.hint">
+        <Value>Assign a free shipping to the next order.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.FullName">
         <Value>全名</Value>
     </LocaleResource>
@@ -10950,6 +11232,18 @@
     <LocaleResource Name="Admin.Customers.Customers.Fields.LastName.Required">
         <Value>請輸入名字</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.LastPurchaseDate">
+        <Value>Last purchase date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.LastPurchaseDate.Hint">
+        <Value>The last purchase date.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.LastUrlReferrer">
+        <Value>Last url referrer</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.LastUrlReferrer.Hint">
+        <Value>The url referrer.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.LastVisitedPage">
         <Value>最後瀏覽頁面</Value>
     </LocaleResource>
@@ -10979,15 +11273,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.Phone.Required">
         <Value>請輸入電話號碼</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.Fields.RegisteredInStore">
-        <Value>註冊商店</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.Fields.SaleManId">
-        <Value>業務人員</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Customers.Customers.Fields.SaleManId.Hint">
-        <Value>正航業務人員ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.StateProvince">
         <Value>鄉鎮市區</Value>
@@ -11024,6 +11309,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.TimeZoneId.Hint">
         <Value>時區</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.URLReferrer">
+        <Value>Created from Url</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.Fields.URLReferrer.hint">
+        <Value>Customer created from Url Referrer</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.Username">
         <Value>用戶名</Value>
