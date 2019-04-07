@@ -14949,17 +14949,23 @@
     <LocaleResource Name="Admin.System.SystemInfo.LoadedAssemblies.Hint">
         <Value>已加載的程序集</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.SystemInfo.NopVersion">
-        <Value>nopCommerce版本</Value>
+    <LocaleResource Name="Admin.System.SystemInfo.MachineName">
+        <Value>機器名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.SystemInfo.NopVersion.Hint">
-        <Value>nopCommerce版本</Value>
+    <LocaleResource Name="Admin.System.SystemInfo.MachineName.Hint">
+        <Value>機器名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.OperatingSystem">
         <Value>操作系統</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.OperatingSystem.Hint">
         <Value>操作系統</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.SystemInfo.Scheme">
+        <Value>Http request scheme</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.SystemInfo.Scheme.Hint">
+        <Value>Http request scheme</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.ServerLocalTime">
         <Value>服務器本地時間</Value>
@@ -15030,9 +15036,6 @@
     <LocaleResource Name="Admin.System.Templates.Product.DisplayOrder">
         <Value>顯示順序</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.Templates.Product.IgnoredProductTypes">
-        <Value>忽略產品類型Id (advanced)</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.System.Templates.Product.Name">
         <Value>名稱</Value>
     </LocaleResource>
@@ -15062,6 +15065,21 @@
     </LocaleResource>
     <LocaleResource Name="Admin.System.Templates.Topic.ViewPath.Required">
         <Value>View路徑是必須的</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.UserApi.Email">
+        <Value>Email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.UserApi.Email.CustomerNotExist">
+        <Value>No customer account found</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.UserApi.IsActive">
+        <Value>Is active</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.UserApi.Password">
+        <Value>Password</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.UserApi.Email.Required">
+        <Value>E-mail is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings">
         <Value>系統警告</Value>
@@ -15114,9 +15132,6 @@
     <LocaleResource Name="Admin.System.Warnings.MachineKey.Specified">
         <Value>指定的自定義machine key(web.config 文件)</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.Warnings.NoComputationMethods.OnlyOneOffline">
-        <Value>僅在線下配送的推薦計算方法</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.PaymentMethods.NoActive">
         <Value>未啟用任何付款方式</Value>
     </LocaleResource>
@@ -15132,7 +15147,7 @@
     <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreStoreLimitations">
         <Value>性能。只有一個商店時，建議忽略商店限制</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.system.warnings.performance.ignorestorelimitations.notification">
+    <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreStoreLimitations.Notification">
         <Value>為了使用這個功能您必須關閉隨後的系統設定&gt; 參數設定 &gt; 分類參數設定 &gt;    參數 &gt; 忽略 「限額對於每個商店」 規則 (網站範圍)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.PrimaryCurrency.NotSet">
@@ -15264,6 +15279,12 @@
     <LocaleResource Name="Admin.Vendors.Fields.AdminComment.Hint">
         <Value>管理員備註。限內部使用</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Fields.AllowCustomerReviews">
+        <Value>Allow customer reviews</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.vendors.fields.allowcustomerreviews.hint">
+        <Value>Check if you want to allow for vendor reviews</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AllowCustomersToSelectPageSize">
         <Value>允許會員選擇頁面大小</Value>
     </LocaleResource>
@@ -15354,6 +15375,12 @@
     <LocaleResource Name="Admin.Vendors.Fields.SeName.Hint">
         <Value>設定一個搜尋引擎友好的頁面名稱。「the-best-vendor」讓您的頁面的URL http://www.yourStore.com/the-best-vendor。留下空的自動生成,基於供應商的名稱</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Fields.Store">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Fields.Store.hint">
+        <Value>A store name for which products of vendor will be available.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Info">
         <Value>供應商資訊</Value>
     </LocaleResource>
@@ -15362,6 +15389,9 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.List.SearchName.Hint">
         <Value>供應商名字。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Vendors.Reviews">
+        <Value>Vendor reviews</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Updated">
         <Value>供應商已經更新成功。</Value>
@@ -15384,6 +15414,222 @@
     <LocaleResource Name="Admin.Vendors.VendorNotes.Fields.Note.Hint">
         <Value>輸入供應商備註資訊</Value>
     </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Category.Fields.Name.Required">
+        <Value>Category name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Category.Fields.PageSizeOptions.ShouldHaveUniqueItems">
+        <Value>Page size should have unique items</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Category.Fields.PictureId.NotExists">
+        <Value>Picture Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Category.Fields.ParentCategoryId.NotExists">
+        <Value>Category Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Category.Fields.CategoryTemplateId.NotExists">
+        <Value>Category Template Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Category.Fields.Id.NotExists">
+        <Value>Category Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Manufacturer.Fields.Name.Required">
+        <Value>Manufacturer name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Manufacturer.Fields.PageSizeOptions.ShouldHaveUniqueItems">
+        <Value>Page size should have unique items</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Manufacturer.Fields.PictureId.NotExists">
+        <Value>Picture Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Manufacturer.Fields.ManufacturerTemplateId.NotExists">
+        <Value>Manufacturer template Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Manufacturer.Fields.Id.NotExists">
+        <Value>Manufacturer Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductAttribute.Fields.Name.Required">
+        <Value>Product attribute name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductAttribute.Fields.Id.NotExists">
+        <Value>Product attribute Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.PredefinedProductAttributeValue.Fields.Name.Required">
+        <Value>Predefined product attribute value name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductCategory.Fields.CategoryId.NotExists">
+        <Value>Category Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductManufacturer.Fields.ManufacturerId.NotExists">
+        <Value>Manufacturer Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductPicture.Fields.PictureId.NotExists">
+        <Value>Picture Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductSpecificationAttribute.Fields.SpecificationAttributeId.NotExists">
+        <Value>Specification attribute Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.ProductSpecificationAttribute.Fields.SpecificationAttributeOptionId.NotExists">
+        <Value>Specification attribute option Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.Name.Required">
+        <Value>Product name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.ProductType.Required">
+        <Value>Product type is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.BackorderMode.Required">
+        <Value>Backorder mode is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.DownloadActivationType.Required">
+        <Value>Download activation type is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.IntervalUnitType.Required">
+        <Value>Interval unit type is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.GiftCardType.Required">
+        <Value>Gift card type is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.LowStockActivity.Required">
+        <Value>Low stock activity is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.ManageInventoryMethod.Required">
+        <Value>Manage inventory method is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.RecurringCyclePeriod.Required">
+        <Value>Recurring cycle period is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Products.Cannoteditauction">
+        <Value>Cannot edit auction</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Products.Fields.AvailableEndDateTime.Required">
+        <Value>Available end date time is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.ParentGroupedProductId.NotExists">
+        <Value>Parent grouped product Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.ProductTemplateId.NotExists">
+        <Value>Product template Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.VendorId.NotExists">
+        <Value>Vendor Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.Product.Fields.Id.NotExists">
+        <Value>Product Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.SpecificationAttribute.Fields.Name.Required">
+        <Value>Specification attribute name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.SpecificationAttribute.Fields.Id.NotExists">
+        <Value>Specification attribute Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Catalog.SpecificationAttributeOptions.Fields.Name.Required">
+        <Value>Specification attribute option name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Common.Picture.Fields.PictureBinary.Required">
+        <Value>Picture binary is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Common.Picture.Fields.MimeType.Required">
+        <Value>MIME Type is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Common.Picture.Fields.Id.NotRequired">
+        <Value>Picture Id is not required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.FirstName.Required">
+        <Value>First name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.LastName.Required">
+        <Value>Last name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.Email.Required">
+        <Value>E-mail is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Common.WrongEmail">
+        <Value>Wrong email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.Country.Required">
+        <Value>Country is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.StateProvince.Required">
+        <Value>State province is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.Company.Required">
+        <Value>Company name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.VatNumber.Required">
+        <Value>VAT Number is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.StreetAddress.Required">
+        <Value>Street address is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.StreetAddress2.Required">
+        <Value>Street address 2 is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.ZipPostalCode.Required">
+        <Value>Zip postal code is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.City.Required">
+        <Value>City is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.Phone.Required">
+        <Value>Phone is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Address.Fields.Fax.Required">
+        <Value>Fax is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.CustomerRole.Fields.Name.Required">
+        <Value>Customer role name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.CustomerRole.Fields.PurchasedWithProductId.NotExists">
+        <Value>Purchased with Product Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.CustomerRole.Fields.Id.NotExists">
+        <Value>Customer role Id does not exist</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.CustomerRoles.Fields.Active.CantEditSystem">
+        <Value>You can not edit system roles</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.CustomerRoles.Fields.PurchasedWithProduct.Registered">
+        <Value>You cannot specify "Purchased with product" value for "Registered" customer role</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Fields.Country.Required">
+        <Value>Country is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Fields.StateProvince.Required">
+        <Value>State province is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.Company.Required">
+        <Value>Company name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.StreetAddress.Required">
+        <Value>Street address is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.StreetAddress2.Required">
+        <Value>Street address 2 is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.ZipPostalCode.Required">
+        <Value>Zip/Postal Code is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.City.Required">
+        <Value>City is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.Phone.Required">
+        <Value>Phone is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Customers.Customers.Fields.Fax.Required">
+        <Value>Fax is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Fields.Email.Registered">
+        <Value>Email is already registered</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Fields.Username.Registered">
+        <Value>Username is already registered</Value>
+    </LocaleResource>
+    <LocaleResource Name="Api.Customers.Customer.Fields.Guid.Exists">
+        <Value>Guid exists</Value>
+    </LocaleResource>
+    <LocaleResource Name="api.customers.customer.fields.storeid.notexists">
+        <Value>Store ID doesn't exist</Value>
+    </LocaleResource>
     <LocaleResource Name="BackInStockSubscriptions.AlreadySubscribed">
         <Value>你已經訂閱該商品的到貨通知了，確定要移除訂閱嗎？</Value>
     </LocaleResource>
@@ -15401,6 +15647,9 @@
     </LocaleResource>
     <LocaleResource Name="BackInStockSubscriptions.OnlyRegistered">
         <Value>只有註冊用戶可以使用這個功能</Value>
+    </LocaleResource>
+    <LocaleResource Name="BackInStockSubscriptions.PleaseWait">
+        <Value>Please wait...</Value>
     </LocaleResource>
     <LocaleResource Name="BackInStockSubscriptions.PopupTitle">
         <Value>當有庫存時，發送一封電子郵件</Value>
@@ -15420,7 +15669,7 @@
     <LocaleResource Name="Blog.Archive">
         <Value>部落格檔案</Value>
     </LocaleResource>
-    <LocaleResource Name="blog.categories">
+    <LocaleResource Name="Blog.Category">
         <Value>分類</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Comments">
@@ -15441,9 +15690,6 @@
     <LocaleResource Name="Blog.Comments.OnlyRegisteredUsersLeaveComments">
         <Value>只有註冊用戶才能評論。</Value>
     </LocaleResource>
-    <LocaleResource Name="Blog.Comments.SeeAfterApproving">
-        <Value>部落格評論已成功添加， 您將在商店管理員批准後看到它。</Value>
-    </LocaleResource>
     <LocaleResource Name="Blog.Comments.SubmitButton">
         <Value>新的評論</Value>
     </LocaleResource>
@@ -15453,20 +15699,29 @@
     <LocaleResource Name="Blog.CommentsLink">
         <Value>評論 ({0:d})</Value>
     </LocaleResource>
-    <LocaleResource Name="blog.filteredbycategory">
-        <Value>{0}</Value>
-    </LocaleResource>
     <LocaleResource Name="Blog.FilteredByMonth">
         <Value>部落格文章 '{0}' '{1}'</Value>
     </LocaleResource>
+    <LocaleResource Name="Blog.Latest">
+        <Value>Latest From Our Blog</Value>
+    </LocaleResource>
     <LocaleResource Name="Blog.MoreInfo">
         <Value>詳細</Value>
+    </LocaleResource>
+    <LocaleResource Name="Blog.ResultsFor">
+        <Value>Results for</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.RSS">
         <Value>RSS</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.RSS.Hint">
         <Value>點擊這裡時自動被告知我們，新項目新增到我們的網站</Value>
+    </LocaleResource>
+    <LocaleResource Name="Blog.Search">
+        <Value>Search</Value>
+    </LocaleResource>
+    <LocaleResource Name="Blog.SearchPlaceholder">
+        <Value>Search in blog...</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.TagCloud">
         <Value>熱門關鍵字</Value>
@@ -15477,14 +15732,8 @@
     <LocaleResource Name="Blog.Tags">
         <Value>標籤</Value>
     </LocaleResource>
-    <LocaleResource Name="bloghomepage.block1">
-        <Value>市場趨勢</Value>
-    </LocaleResource>
-    <LocaleResource Name="bloghomepage.block2">
-        <Value>企業資訊服務</Value>
-    </LocaleResource>
-    <LocaleResource Name="Captcha is enabled but the appropriate keys are not entered">
-        <Value>驗證碼已啟用，但沒有輸入相應的密鑰</Value>
+    <LocaleResource Name="Blog.ViewAll">
+        <Value>View All Blog Posts</Value>
     </LocaleResource>
     <LocaleResource Name="Catalog.OrderBy">
         <Value>排序由</Value>
@@ -15501,7 +15750,7 @@
     <LocaleResource Name="Catalog.ViewMode.Grid">
         <Value>網格</Value>
     </LocaleResource>
-    <LocaleResource Name="catalog.viewmode.list">
+    <LocaleResource Name="Catalog.ViewMode.List">
         <Value>列表</Value>
     </LocaleResource>
     <LocaleResource Name="Categories">
@@ -15510,26 +15759,8 @@
     <LocaleResource Name="Categories.Breadcrumb.Top">
         <Value>首頁</Value>
     </LocaleResource>
-    <LocaleResource Name="Categories.OrderBy">
-        <Value>排序方式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Categories.PageSize">
-        <Value>顯示</Value>
-    </LocaleResource>
-    <LocaleResource Name="Categories.PageSize.PerPage">
-        <Value>前頁</Value>
-    </LocaleResource>
     <LocaleResource Name="Categories.TotalProducts">
         <Value>({0})</Value>
-    </LocaleResource>
-    <LocaleResource Name="Categories.ViewMode">
-        <Value>View as</Value>
-    </LocaleResource>
-    <LocaleResource Name="Categories.ViewMode.Grid">
-        <Value>表格</Value>
-    </LocaleResource>
-    <LocaleResource Name="Categories.ViewMode.List">
-        <Value>列表</Value>
     </LocaleResource>
     <LocaleResource Name="Checkout">
         <Value>訂單結算</Value>
@@ -15542,6 +15773,9 @@
     </LocaleResource>
     <LocaleResource Name="Checkout.Button">
         <Value>結帳</Value>
+    </LocaleResource>
+    <LocaleResource Name="checkout.button.login">
+        <Value>Login and Checkout</Value>
     </LocaleResource>
     <LocaleResource Name="Checkout.ConfirmButton">
         <Value>確認</Value>
@@ -15603,8 +15837,20 @@
     <LocaleResource Name="Checkout.PickUpInStore.MethodName">
         <Value>店內提貨</Value>
     </LocaleResource>
-    <LocaleResource Name="Checkout.PickUpInStoreAndFee">
-        <Value>店內提貨 ({0})</Value>
+    <LocaleResource Name="Checkout.PickupPoints">
+        <Value>Pickup</Value>
+    </LocaleResource>
+    <LocaleResource Name="Checkout.PickupPoints.Description">
+        <Value>Pick up your items at the store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Checkout.PickupPoints.Name">
+        <Value>Pickup at {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="Checkout.PickupPoints.NotAvailable">
+        <Value>Pickup points could not be loaded</Value>
+    </LocaleResource>
+    <LocaleResource Name="Checkout.PickupPoints.SelectPickupPoint">
+        <Value>Select pickup point</Value>
     </LocaleResource>
     <LocaleResource Name="Checkout.PlacedOrderDetails">
         <Value>請點擊這裡查看訂單詳細資訊。</Value>
@@ -15825,6 +16071,9 @@
     <LocaleResource Name="Common.WrongCaptchaV2">
         <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
     </LocaleResource>
+    <LocaleResource Name="Common.WrongCaptchaV3">
+        <Value>The reCAPTCHA response is invalid or malformed. Please try again.</Value>
+    </LocaleResource>
     <LocaleResource Name="Common.WrongEmail">
         <Value>電子信箱無效</Value>
     </LocaleResource>
@@ -15833,9 +16082,6 @@
     </LocaleResource>
     <LocaleResource Name="Common.Yes">
         <Value>是</Value>
-    </LocaleResource>
-    <LocaleResource Name="ConditionsOfUse">
-        <Value>使用條件</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs">
         <Value>聯絡我們</Value>
@@ -15873,6 +16119,9 @@
     <LocaleResource Name="ContactUs.FullName.Required">
         <Value>請輸您的全名</Value>
     </LocaleResource>
+    <LocaleResource Name="ContactUs.SelectAttribute">
+        <Value>Please select: {0}</Value>
+    </LocaleResource>
     <LocaleResource Name="ContactUs.Subject">
         <Value>主題</Value>
     </LocaleResource>
@@ -15881,6 +16130,12 @@
     </LocaleResource>
     <LocaleResource Name="ContactUs.Subject.Required">
         <Value>請輸入主題</Value>
+    </LocaleResource>
+    <LocaleResource Name="ContactUs.TextboxMaximumLength">
+        <Value>{0} : maximum length is {1} chars</Value>
+    </LocaleResource>
+    <LocaleResource Name="ContactUs.TextboxMinimumLength">
+        <Value>{0} : minimum length is {1} chars</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.YourEnquiryHasBeenSent">
         <Value>您的正式的查詢已經發送給了電子商店的擁有者。</Value>
@@ -15900,7 +16155,7 @@
     <LocaleResource Name="ContactVendor.Email.Required">
         <Value>請輸入Email</Value>
     </LocaleResource>
-    <LocaleResource Name="contactvendor.emailsubject">
+    <LocaleResource Name="ContactVendor.EmailSubject">
         <Value>{0}. 聯絡我們</Value>
     </LocaleResource>
     <LocaleResource Name="ContactVendor.Enquiry">
@@ -15938,6 +16193,9 @@
     </LocaleResource>
     <LocaleResource Name="Currencies">
         <Value>貨幣</Value>
+    </LocaleResource>
+    <LocaleResource Name="Customer.Notes.Download">
+        <Value>Download file</Value>
     </LocaleResource>
     <LocaleResource Name="Customer.Guest">
         <Value>匿名用戶</Value>
@@ -16053,8 +16311,17 @@
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ManageInventoryMethod.ManageStockByAttributes">
         <Value>通過商品屬性跟蹤庫存</Value>
     </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ManageInventoryMethod.ManageStockByBundleProducts">
+        <Value>Track inventory by bundle products</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.BestSellers">
+        <Value>Best Sellers</Value>
+    </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
         <Value>創建日期</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.MostViewed">
+        <Value>Most Viewed</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.NameAsc">
         <Value>名稱: A 到 Z</Value>
@@ -16079,6 +16346,9 @@
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.GroupedProduct">
         <Value>分組的商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.Reservation">
+        <Value>Reservation</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.SimpleProduct">
         <Value>簡單的商品</Value>
@@ -16190,6 +16460,12 @@
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToSkus">
         <Value>應用到商品系列商品料號（SKU）</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToStores">
+        <Value>Assigned to stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToVendors">
+        <Value>Assigned to vendors</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Forums.EditorType.BBCodeEditor">
         <Value>BBCode編輯器</Value>
@@ -16779,8 +17055,14 @@
     <LocaleResource Name="GiftCardAttribute.From.Virtual">
         <Value>發件人: {0} &lt;{1}&gt;</Value>
     </LocaleResource>
+    <LocaleResource Name="Grand.Knowledgebase.AddArticleComment.Result">
+        <Value>Enter the comment</Value>
+    </LocaleResource>
     <LocaleResource Name="HomePage">
         <Value>首頁</Value>
+    </LocaleResource>
+    <LocaleResource Name="HomePage.Personalized.Products">
+        <Value>Personalized products for you</Value>
     </LocaleResource>
     <LocaleResource Name="HomePage.Products">
         <Value>主打商品</Value>
@@ -16821,26 +17103,17 @@
     <LocaleResource Name="Manufacturers.List">
         <Value>品牌列表</Value>
     </LocaleResource>
-    <LocaleResource Name="Manufacturers.OrderBy">
-        <Value>排序方式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Manufacturers.PageSize">
-        <Value>顯示</Value>
-    </LocaleResource>
-    <LocaleResource Name="Manufacturers.PageSize.PerPage">
-        <Value>每頁</Value>
+    <LocaleResource Name="Manufacturers.Menu">
+        <Value>Manufacturers</Value>
     </LocaleResource>
     <LocaleResource Name="Manufacturers.ViewAll">
-        <Value>更多</Value>
+        <Value>顯示所有</Value>
     </LocaleResource>
-    <LocaleResource Name="Manufacturers.ViewMode">
-        <Value>查看方式</Value>
+    <LocaleResource Name="Media.Blog.ImageAlternateTextFormat">
+        <Value>Picture for blog post {0}</Value>
     </LocaleResource>
-    <LocaleResource Name="Manufacturers.ViewMode.Grid">
-        <Value>網格</Value>
-    </LocaleResource>
-    <LocaleResource Name="Manufacturers.ViewMode.List">
-        <Value>列表</Value>
+    <LocaleResource Name="Media.Blog.ImageLinkTitleFormat">
+        <Value>Show blog post for {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Media.Category.ImageAlternateTextFormat">
         <Value>分類圖片 {0}</Value>
@@ -16868,6 +17141,12 @@
     </LocaleResource>
     <LocaleResource Name="Media.Manufacturer.ImageLinkTitleFormat">
         <Value>顯示商品製造 {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="Media.News.ImageAlternateTextFormat">
+        <Value>Picture for news item {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="Media.News.ImageLinkTitleFormat">
+        <Value>Show news item for {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Media.Product.ImageAlternateTextFormat">
         <Value>圖片 {0}</Value>
@@ -16998,9 +17277,6 @@
     <LocaleResource Name="News.Comments.OnlyRegisteredUsersLeaveComments">
         <Value>只有註冊用戶才能評論</Value>
     </LocaleResource>
-    <LocaleResource Name="News.Comments.SeeAfterApproving">
-        <Value>新聞評論已成功添加， 您將在商店管理員批准後看到它。</Value>
-    </LocaleResource>
     <LocaleResource Name="News.Comments.SubmitButton">
         <Value>提交</Value>
     </LocaleResource>
@@ -17018,9 +17294,6 @@
     </LocaleResource>
     <LocaleResource Name="News.ViewAll">
         <Value>[查看所有]</Value>
-    </LocaleResource>
-    <LocaleResource Name="Newsletter.Button">
-        <Value>提交</Value>
     </LocaleResource>
     <LocaleResource Name="Newsletter.Email.Placeholder">
         <Value>請再次輸入您的電子信箱...</Value>
@@ -17055,17 +17328,20 @@
     <LocaleResource Name="Newsletter.UnsubscribeEmailSent">
         <Value>驗證電子郵件已經發出。 謝謝！</Value>
     </LocaleResource>
-    <LocaleResource Name="Nop.Web.Framework.Validators.MaxDecimal">
-        <Value>The value is out of range. Maximum value is {0}.99</Value>
+    <LocaleResource Name="NewsletterCategory.Options.Save">
+        <Value>Save options</Value>
     </LocaleResource>
-    <LocaleResource Name="order.billingaddress">
+    <LocaleResource Name="NewsletterCategory.Title">
+        <Value>I would like to receive notifications about:</Value>
+    </LocaleResource>
+    <LocaleResource Name="newsrss">
+        <Value>RSS</Value>
+    </LocaleResource>
+    <LocaleResource Name="Order.BillingAddress">
         <Value>帳單寄送地址</Value>
     </LocaleResource>
-    <LocaleResource Name="order.companytaxid">
-        <Value>公司統編</Value>
-    </LocaleResource>
-    <LocaleResource Name="order.companytitle">
-        <Value>公司抬頭</Value>
+    <LocaleResource Name="Order.CancelOrder">
+        <Value>Cancel Order</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Email">
         <Value>電子信箱</Value>
@@ -17121,6 +17397,9 @@
     <LocaleResource Name="Order.Phone">
         <Value>電話號碼</Value>
     </LocaleResource>
+    <LocaleResource Name="Order.PickupAddress">
+        <Value>Pickup point address</Value>
+    </LocaleResource>
     <LocaleResource Name="Order.Print">
         <Value>列印</Value>
     </LocaleResource>
@@ -17141,12 +17420,6 @@
     </LocaleResource>
     <LocaleResource Name="Order.Product(s).Total">
         <Value>小計</Value>
-    </LocaleResource>
-    <LocaleResource Name="Order.PurchaseOrderNumber">
-        <Value>採購單號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Order.Rental.FormattedDate">
-        <Value>開始日期： {0}. 結束日期： {1}.</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Reorder">
         <Value>重下訂單</Value>
