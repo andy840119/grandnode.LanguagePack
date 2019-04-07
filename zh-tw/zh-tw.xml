@@ -17160,7 +17160,7 @@
     <LocaleResource Name="Order.ReturnItems">
         <Value>需要退貨</Value>
     </LocaleResource>
-    <LocaleResource Name="order.rewardpoints">
+    <LocaleResource Name="Order.RewardPoints">
         <Value>{0}紅利積點</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Shipments">
@@ -17189,6 +17189,9 @@
     </LocaleResource>
     <LocaleResource Name="Order.Shipments.Phone">
         <Value>電話號碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="Order.Shipments.PickupAddress">
+        <Value>Pickup point address</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Shipments.Product(s)">
         <Value>商品</Value>
@@ -17246,9 +17249,6 @@
     </LocaleResource>
     <LocaleResource Name="Order.ShippingAddress">
         <Value>配送地址</Value>
-    </LocaleResource>
-    <LocaleResource Name="Order.ShippingMethod">
-        <Value>配送方式</Value>
     </LocaleResource>
     <LocaleResource Name="Order.SubTotal">
         <Value>訂單小計</Value>
@@ -17313,6 +17313,9 @@
     <LocaleResource Name="PageTitle.AllProductTags">
         <Value>所有商品標籤</Value>
     </LocaleResource>
+    <LocaleResource Name="PageTitle.Auctions">
+        <Value>Auctions</Value>
+    </LocaleResource>
     <LocaleResource Name="PageTitle.BackInStockSubscriptions">
         <Value>到貨通知</Value>
     </LocaleResource>
@@ -17331,11 +17334,11 @@
     <LocaleResource Name="PageTitle.ContactVendor">
         <Value>聯繫供貨商 - {0}</Value>
     </LocaleResource>
-    <LocaleResource Name="PageTitle.CustomerProductReviews">
-        <Value>我的商品評論</Value>
-    </LocaleResource>
     <LocaleResource Name="PageTitle.ForumSubscriptions">
         <Value>論壇訂閱</Value>
+    </LocaleResource>
+    <LocaleResource Name="PageTitle.Knowledgebase">
+        <Value>Knowledgebase</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.Login">
         <Value>登入</Value>
@@ -17349,6 +17352,9 @@
     <LocaleResource Name="PageTitle.NewsArchive">
         <Value>新聞</Value>
     </LocaleResource>
+    <LocaleResource Name="PageTitle.Notes">
+        <Value>Customer notes</Value>
+    </LocaleResource>
     <LocaleResource Name="PageTitle.OrderDetails">
         <Value>訂單詳情</Value>
     </LocaleResource>
@@ -17361,6 +17367,9 @@
     <LocaleResource Name="PageTitle.PrivateMessages">
         <Value>私人訊息</Value>
     </LocaleResource>
+    <LocaleResource Name="PageTitle.ProductAskQuestion">
+        <Value>Ask question</Value>
+    </LocaleResource>
     <LocaleResource Name="PageTitle.ProductEmailAFriend">
         <Value>郵件給朋友</Value>
     </LocaleResource>
@@ -17372,9 +17381,6 @@
     </LocaleResource>
     <LocaleResource Name="PageTitle.Profile">
         <Value>個人資訊</Value>
-    </LocaleResource>
-    <LocaleResource Name="PageTitle.RecentlyAddedProducts">
-        <Value>最新新增商品</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.RecentlyViewedProducts">
         <Value>最近瀏覽商品</Value>
@@ -17405,6 +17411,9 @@
     </LocaleResource>
     <LocaleResource Name="PageTitle.VendorInfo">
         <Value>供應商資料</Value>
+    </LocaleResource>
+    <LocaleResource Name="Pagetitle.VendorReviews">
+        <Value>Vendor reviews</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.Vendors">
         <Value>供應商</Value>
@@ -17514,6 +17523,9 @@
     <LocaleResource Name="PDFInvoice.Phone">
         <Value>電話號碼： {0}</Value>
     </LocaleResource>
+    <LocaleResource Name="PDFInvoice.Pickup">
+        <Value>Pickup point:</Value>
+    </LocaleResource>
     <LocaleResource Name="PDFInvoice.Product(s)">
         <Value>商品</Value>
     </LocaleResource>
@@ -17528,9 +17540,6 @@
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.ProductTotal">
         <Value>小計</Value>
-    </LocaleResource>
-    <LocaleResource Name="PDFInvoice.PurchaseOrderNumber">
-        <Value>採購單號: {0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.RewardPoints">
         <Value>{0}紅利積點：</Value>
@@ -17688,6 +17697,9 @@
     <LocaleResource Name="Permission.ManageMeasures">
         <Value>系統管理後台.管理量具</Value>
     </LocaleResource>
+    <LocaleResource Name="Permission.ManageMessageContactForm">
+        <Value>Admin area. Manage Message Contact Form</Value>
+    </LocaleResource>
     <LocaleResource Name="Permission.ManageMessageQueue">
         <Value>系統管理後台.郵件日誌管理</Value>
     </LocaleResource>
@@ -17778,8 +17790,23 @@
     <LocaleResource Name="Polls.VotesResultLine">
         <Value>{0}({1}票-{2}%)</Value>
     </LocaleResource>
-    <LocaleResource Name="PrivacyNotice">
-        <Value>隱私權政策</Value>
+    <LocaleResource Name="PopupInteractiveForm.EmailForm">
+        <Value>Message from form {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="PopupInteractiveForm.Fields.IsRequired">
+        <Value>The value of the field {0} is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="PopupInteractiveForm.Fields.Regex">
+        <Value>The value of the {0} does not meet the requirements</Value>
+    </LocaleResource>
+    <LocaleResource Name="PopupInteractiveForm.Fields.TextboxMaximumLength">
+        <Value>{0} : maximum length is {1} chars</Value>
+    </LocaleResource>
+    <LocaleResource Name="PopupInteractiveForm.Fields.TextboxMinimumLength">
+        <Value>{0} : minimum length is {1} chars</Value>
+    </LocaleResource>
+    <LocaleResource Name="PopupInteractiveForm.Send">
+        <Value>SEND</Value>
     </LocaleResource>
     <LocaleResource Name="PrivateMessages.Inbox">
         <Value>收件箱</Value>
@@ -17862,9 +17889,6 @@
     <LocaleResource Name="PrivateMessages.View.From">
         <Value>發件人電子信箱：</Value>
     </LocaleResource>
-    <LocaleResource Name="PrivateMessages.View.Message">
-        <Value>內容：</Value>
-    </LocaleResource>
     <LocaleResource Name="PrivateMessages.View.ReplyButton">
         <Value>回覆</Value>
     </LocaleResource>
@@ -17878,10 +17902,70 @@
         <Value>顯示訊息</Value>
     </LocaleResource>
     <LocaleResource Name="PrivateMessages.YouHaveUnreadPM">
-        <Value>收件箱有{0}條未讀消息</Value>
+        <Value>收件箱有{0}則未讀消息</Value>
+    </LocaleResource>
+    <LocaleResource Name="Product.Addtocart.Hourisrequired">
+        <Value>Hour is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Product.Addtocart.Reservation.Required">
+        <Value>Please select hour</Value>
+    </LocaleResource>
+    <LocaleResource Name="Product.AssociatedProducts">
+        <Value>Products variants</Value>
+    </LocaleResource>
+    <LocaleResource Name="Product.Description">
+        <Value>Product description</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AdditionalParameter">
+        <Value>Additional parameter</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AlsoPurchased">
         <Value>購買此商品的顧客還買了</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion">
+        <Value>Ask question</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Button">
+        <Value>Send message</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Email">
+        <Value>Email address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Email.Hint">
+        <Value>Enter your email address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Email.required">
+        <Value>Email is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.FullName">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.FullName.Hint">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.FullName.Required">
+        <Value>FullName is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Message">
+        <Value>Message</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Message.Hint">
+        <Value>Enter message</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Message.Required">
+        <Value>Message is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Phone">
+        <Value>Phone</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Phone.Hint">
+        <Value>Phone</Value>
+    </LocaleResource>
+    <LocaleResource Name="products.askquestion.successfullysent">
+        <Value>Your message has been sent.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.AskQuestion.Title">
+        <Value>Ask question</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Availability">
         <Value>庫存資訊</Value>
@@ -17903,6 +17987,9 @@
     </LocaleResource>
     <LocaleResource Name="Products.Breadcrumb.Top">
         <Value>首頁</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.BuyNowPrice">
+        <Value>Buy now price</Value>
     </LocaleResource>
     <LocaleResource Name="Products.CallForPrice">
         <Value>電話報價</Value>
@@ -17937,8 +18024,14 @@
     <LocaleResource Name="Products.Compare.Title">
         <Value>商品比較</Value>
     </LocaleResource>
+    <LocaleResource Name="Products.ContactUs">
+        <Value>Contact us</Value>
+    </LocaleResource>
     <LocaleResource Name="Products.DeliveryDate">
         <Value>交貨日期</Value>
+    </LocaleResource>
+    <LocaleResource Name="products.description">
+        <Value>Description</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Details">
         <Value>詳情</Value>
@@ -17948,6 +18041,9 @@
     </LocaleResource>
     <LocaleResource Name="Products.DownloadSample">
         <Value>下載樣本</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Duration">
+        <Value>Duration</Value>
     </LocaleResource>
     <LocaleResource Name="Products.EmailAFriend">
         <Value>Email 給好友</Value>
@@ -18048,8 +18144,17 @@
     <LocaleResource Name="Products.NoAssociatedProducts">
         <Value>這個商品已經賣完</Value>
     </LocaleResource>
+    <LocaleResource Name="Products.Noavailablereservations">
+        <Value>No available reservations</Value>
+    </LocaleResource>
     <LocaleResource Name="Products.Price">
         <Value>售價</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Price.CatalogPrice">
+        <Value>Catalog Price</Value>
+    </LocaleResource>
+    <LocaleResource Name="Products.Price.Currentprice">
+        <Value>Current bid</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Price.OldPrice">
         <Value>原價</Value>
@@ -18174,9 +18279,6 @@
     <LocaleResource Name="Products.Vendor">
         <Value>供應商</Value>
     </LocaleResource>
-    <LocaleResource Name="Products.Wishlist.AddToWishlist">
-        <Value>加入願望請單</Value>
-    </LocaleResource>
     <LocaleResource Name="Profile.Country">
         <Value>國家</Value>
     </LocaleResource>
@@ -18213,11 +18315,17 @@
     <LocaleResource Name="Profile.TotalPosts">
         <Value>貼文總數</Value>
     </LocaleResource>
+    <LocaleResource Name="Remove">
+        <Value>移除</Value>
+    </LocaleResource>
     <LocaleResource Name="ReturnRequests.Comments">
         <Value>退貨說明</Value>
     </LocaleResource>
     <LocaleResource Name="ReturnRequests.NoItemsSubmitted">
         <Value>退貨請求失敗，因為您沒有選擇任何商品</Value>
+    </LocaleResource>
+    <LocaleResource Name="ReturnRequests.PickupDateRequired">
+        <Value>Pickup date is required</Value>
     </LocaleResource>
     <LocaleResource Name="ReturnRequests.Products.Name">
         <Value>商品</Value>
@@ -18245,12 +18353,6 @@
     </LocaleResource>
     <LocaleResource Name="ReturnRequests.Title">
         <Value>退貨請求，訂單編號&lt;a href="{0}"&gt;order #{1}&lt;/a&gt;</Value>
-    </LocaleResource>
-    <LocaleResource Name="ReturnRequests.UploadedFile">
-        <Value>上傳檔案</Value>
-    </LocaleResource>
-    <LocaleResource Name="ReturnRequests.WhyReturning">
-        <Value>請問退款原因？</Value>
     </LocaleResource>
     <LocaleResource Name="Reviews">
         <Value>評價</Value>
@@ -18399,6 +18501,15 @@
     <LocaleResource Name="Search.NoResultsText">
         <Value>未找到符合的商品</Value>
     </LocaleResource>
+    <LocaleResource Name="search.noresultstextblog">
+        <Value>No blog posts were found that matched your criteria.</Value>
+    </LocaleResource>
+    <LocaleResource Name="search.noresultstextcategory">
+        <Value>No categories were found that matched your criteria.</Value>
+    </LocaleResource>
+    <LocaleResource Name="search.noresultstextmanufacturer">
+        <Value>No manufacturers were found that matched your criteria.</Value>
+    </LocaleResource>
     <LocaleResource Name="Search.PriceRange">
         <Value>價格範圍</Value>
     </LocaleResource>
@@ -18444,11 +18555,32 @@
     <LocaleResource Name="ShoppingCart.AllowedQuantities">
         <Value>這個商品允許的數量:{0}</Value>
     </LocaleResource>
+    <LocaleResource Name="ShoppingCart.AlreadyHighestBidder">
+        <Value>You are already the highest bidder</Value>
+    </LocaleResource>
     <LocaleResource Name="ShoppingCart.AssociatedAttributeWarning">
         <Value>{0}.{1}。{2}</Value>
     </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Auctionends">
+        <Value>Auction ends</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Auctionwonon">
+        <Value>Auction won on</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Bid">
+        <Value>Bid</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.BidMustbeHigher">
+        <Value>Bid must be higher</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Bids">
+        <Value>Bids</Value>
+    </LocaleResource>
     <LocaleResource Name="ShoppingCart.BuyingDisabled">
         <Value>此商品無法購買</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.BuyNow">
+        <Value>Buy now</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.CannotLoadProduct">
         <Value>商品編號({0})無法載入</Value>
@@ -18462,23 +18594,8 @@
     <LocaleResource Name="ShoppingCart.CheckoutAttributes.PriceAdjustment">
         <Value>{0} [{1}]</Value>
     </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Combination.AddToCart">
-        <Value>加入購物車</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Combination.Availability">
-        <Value>庫存量</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Combination.Product(s)">
-        <Value>商品規格</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Combination.Quantity">
-        <Value>數量</Value>
-    </LocaleResource>
-    <LocaleResource Name="shoppingcart.combination.sku">
-        <Value>商品料號（SKU）</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Combination.UnitPrice">
-        <Value>價格</Value>
+    <LocaleResource Name="ShoppingCart.ClearCart">
+        <Value>Clear cart</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.ConflictingShipmentSchedules">
         <Value>您的購物車有自動出貨 （定期） 項目與裝運時間衝突。只有一個汽車船時間表被允許每個訂單。</Value>
@@ -18491,6 +18608,12 @@
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.CustomerEnteredPrice.RangeError">
         <Value>價格必須是從{0}到{1}之間</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Discount">
+        <Value>Discount</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.DiscountedQty">
+        <Value>Discounted qty</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.Discount.CannotBeUsedAnymore">
         <Value>對不起，您已經使用這個折扣</Value>
@@ -18518,6 +18641,12 @@
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.DiscountCouponCode.Tooltip">
         <Value>在此輸入您的折扣碼</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.DiscountCouponCode.UsesTheSameDiscount">
+        <Value>You can't use the same discount.</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.DiscountCouponCode.WasUsed">
+        <Value>This coupon code was used</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.DiscountCouponCode.WrongDiscount">
         <Value>折扣碼無效</Value>
@@ -18567,9 +18696,6 @@
     <LocaleResource Name="ShoppingCart.HeaderQuantity">
         <Value>({0})</Value>
     </LocaleResource>
-    <LocaleResource Name="ShoppingCart.HeaderQuantity.Mobile">
-        <Value>({0})</Value>
-    </LocaleResource>
     <LocaleResource Name="ShoppingCart.Image">
         <Value>商品圖片</Value>
     </LocaleResource>
@@ -18597,6 +18723,9 @@
     <LocaleResource Name="ShoppingCart.Mini.ItemsText">
         <Value>有{0}個商品在購物車中</Value>
     </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Mini.NoDataText">
+        <Value>Your shopping cart is empty. Use the "Add to cart" button to add a product to your cart.</Value>
+    </LocaleResource>
     <LocaleResource Name="ShoppingCart.Mini.NoItems">
         <Value>購物車中沒有商品</Value>
     </LocaleResource>
@@ -18612,11 +18741,17 @@
     <LocaleResource Name="ShoppingCart.MinimumQuantity">
         <Value>購買數量最少為{0}</Value>
     </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Mustberegisteredtobid">
+        <Value>You must be registered to bid</Value>
+    </LocaleResource>
     <LocaleResource Name="ShoppingCart.NotAvailable">
         <Value>商品不存在</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.OutOfStock">
         <Value>缺貨</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.OutOfStock.BundleProduct">
+        <Value>Out of stock for product {0}</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.PreOrder">
         <Value>預購</Value>
@@ -18651,26 +18786,44 @@
     <LocaleResource Name="ShoppingCart.Remove">
         <Value>刪除</Value>
     </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Rent">
-        <Value>租用</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Rental.EnterEndDate">
-        <Value>輸入租用結束日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Rental.EnterStartDate">
-        <Value>輸入租用開始日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Rental.FormattedDate">
-        <Value>開始日期： {0}. 結束日期： {1}.</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Rental.StartDateLessEndDate">
-        <Value>租用開始日期必須小於結束日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="ShoppingCart.Rental.StartDateShouldBeFuture">
-        <Value>租賃起始日期應該是未來的日期</Value>
-    </LocaleResource>
     <LocaleResource Name="ShoppingCart.RequiredProductWarning">
-        <Value>新增商品到購物車失敗</Value>
+        <Value>This product requires the following product is added to the cart: {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation">
+        <Value>Reservation</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Alreadyreserved">
+        <Value>Already reserved</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Choosebothdates">
+        <Value>Please choose both dates</Value>
+    </LocaleResource>
+    <LocaleResource Name="Shoppingcart.Reservation.Date">
+        <Value>Reservation from: {0} to: {1}</Value>
+    </LocaleResource>
+    <LocaleResource Name="Shoppingcart.Reservation.Duration">
+        <Value>Duration: {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Enddatemustbelaterthanstartdate">
+        <Value>End date must be later than start date</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Nofreereservationsinthisperiod">
+        <Value>No free bookings in this period</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Noreservationfound">
+        <Value>Reservation not found</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Option">
+        <Value>Additional parameter: {0}</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Reservationdatesmustbelaterthantoday">
+        <Value>Reservation date must be later than today</Value>
+    </LocaleResource>
+    <LocaleResource Name="ShoppingCart.Reservation.Reservationdeleted">
+        <Value>Reservation was deleted</Value>
+    </LocaleResource>
+    <LocaleResource Name="Shoppingcart.Reservation.Startdate">
+        <Value>Date: {0}</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.SelectAttribute">
         <Value>請選擇{0}</Value>
@@ -18758,6 +18911,9 @@
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.WishlistDisabled">
         <Value>該商品不能加入願望清單</Value>
+    </LocaleResource>
+    <LocaleResource Name="shoppingcart.yourbidhasbeenplaced">
+        <Value>Your bid has been placed</Value>
     </LocaleResource>
     <LocaleResource Name="Sitemap">
         <Value>站點地圖</Value>
