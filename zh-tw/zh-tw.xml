@@ -14097,29 +14097,32 @@
     <LocaleResource Name="Admin.ReturnRequests.NotifyCustomer">
         <Value>通知會員</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.SearchCustomNumber">
-        <Value>會員編號</Value>
+    <LocaleResource Name="Admin.ReturnRequests.List.GoDirectlyToId">
+        <Value>Go directly to return number</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.SearchEndDate">
-        <Value>結束日期</Value>
+    <LocaleResource Name="Admin.ReturnRequests.List.GoDirectlyToId.Hint">
+        <Value>Enter return number and click Go.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.SearchReturnRequestStatus">
-        <Value>退貨狀態</Value>
+    <LocaleResource Name="Admin.ReturnRequests.List.SearchCustomerEmail">
+        <Value>Customer Email</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.SearchReturnRequestStatus.All">
-        <Value>全部</Value>
+    <LocaleResource Name="Admin.ReturnRequests.List.SearchCustomerEmail.Hint">
+        <Value>Search by a customer email.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.ReturnRequests.SearchStartDate">
-        <Value>開始日期</Value>
+    <LocaleResource Name="Admin.ReturnRequests.List.SearchReturnRequestStatus">
+        <Value>Return status</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.List.SearchReturnRequestStatus.Hint">
+        <Value>Search by a specific return status.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Updated">
         <Value>退款請求已更新</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.ReturnRequests.View">
+        <Value>View</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Sales">
         <Value>銷售管理</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.SalesReport">
-        <Value>分析數據</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.SalesReport.Average">
         <Value>訂單匯總</Value>
@@ -14343,17 +14346,17 @@
     <LocaleResource Name="Admin.System.ContactForm">
         <Value>Message Contact form</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse">
-        <Value>產品已被移動{0} {1}</Value>
+    <LocaleResource Name="Admin.System.ContactForm.BackToList">
+        <Value>Back to contact form list</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse.New">
-        <Value>到{0}</Value>
+    <LocaleResource Name="Admin.System.ContactForm.Delete">
+        <Value>Delete</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.EditWarehouse.Old">
-        <Value>從{0}</Value>
+    <LocaleResource Name="Admin.System.ContactForm.deleteall">
+        <Value>Delete all</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.StockQuantityHistory.Messages.PlaceOrder">
-        <Value>通過訂單＃{0}減少庫存數量</Value>
+    <LocaleResource Name="Admin.System.ContactForm.Deleted">
+        <Value>Delete</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.deletedall">
         <Value>Delete all</Value>
@@ -14544,38 +14547,8 @@
     <LocaleResource Name="Admin.System.Maintenance">
         <Value>系統維護</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.BackupCreated">
-        <Value>備份文件已建立</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.BackupDeleted">
-        <Value>備份文件 "{0}" 已刪除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.BackupNow">
-        <Value>開始備份</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.DatabaseBackups">
-        <Value>資料庫備份</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.DatabaseRestored">
-        <Value>資料庫已經還原</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Delete">
-        <Value>刪除</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Download">
-        <Value>下載</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.FileName">
-        <Value>文件名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.FileSize">
-        <Value>文件大小</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Progress">
-        <Value>正在處理資料庫備份...</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Restore">
-        <Value>還原</Value>
+    <LocaleResource Name="Admin.System.Maintenance.ClearMostViewed">
+        <Value>Clear field Most Viewed on the product</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts">
         <Value>刪除購物車資料</Value>
@@ -14588,6 +14561,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.TotalDeleted">
         <Value>{0}項目已被刪除</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Maintenance.DeleteActivityLog">
+        <Value>Deleting activity Log</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Maintenance.DeleteActivityLog.Deleted">
+        <Value>Deleted activity Log</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteExportedFiles">
         <Value>刪除匯出文件</Value>
@@ -14631,8 +14610,8 @@
     <LocaleResource Name="Admin.System.Maintenance.DeleteGuests.TotalDeleted">
         <Value>{0} 會員被刪除</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.Maintenance.Maintenance">
-        <Value>手動維護</Value>
+    <LocaleResource Name="Admin.System.QueryEditor">
+        <Value>Query editor</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails">
         <Value>郵件日誌</Value>
@@ -14654,6 +14633,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.EditQueuedEmailDetails">
         <Value>編輯郵件日誌項目</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachedDownload">
+        <Value>Attached static file</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachedDownload.Hint">
+        <Value>The attached static file that will be sent in this email.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.AttachmentFilePath">
         <Value>附加文件路徑</Value>
@@ -14720,9 +14705,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.Priority.Hint">
         <Value>這個郵件佇列的優先順序。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.QueuedEmails.Fields.Priority.Range">
-        <Value>該值必須是從 0 到 999999之間</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.Priority.Required">
         <Value>請輸入優先順序。</Value>
@@ -14838,23 +14820,89 @@
     <LocaleResource Name="Admin.System.QueuedEmails.Updated">
         <Value>修改郵件佇列成功</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.System.Roslyn">
+        <Value>Roslyn compilation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Roslyn.Disabled">
+        <Value>Compilation of files csx are disabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Roslyn.Errors">
+        <Value>Errors during compilation</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Roslyn.FileName">
+        <Value>File name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.Roslyn.IsCompiled">
+        <Value>Is compiled successfully</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks">
         <Value>排程任務</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.ScheduleTasks.24days">
-        <Value>任務期不得超過24天。</Value>
+    <LocaleResource Name="Admin.System.ScheduleTasks.BackToList">
+        <Value>Back to schedule tasks list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.DayOfMonth">
+        <Value>Day of month</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.DayOfMonth.hint">
+        <Value>Day of month</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.DayOfWeek">
+        <Value>Day of week</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.DayOfWeek.hint">
+        <Value>Day of week</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.Edit">
+        <Value>Edit Schedule task</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Enabled">
         <Value>已啟用</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.Enabled.hint">
+        <Value>Enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.HourOfDay">
+        <Value>Hour of day</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.HourOfDay.hint">
+        <Value>Hour of day</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.LastEnd">
         <Value>最後結束日期</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.LastEndUtc">
+        <Value>Last no success end date</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.LastStart">
         <Value>最後開始日期</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.laststartutc">
+        <Value>Last start date</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.LastSuccess">
         <Value>最後成功日誌</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.lastsuccessutc">
+        <Value>Last success date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.LeasedByMachineName">
+        <Value>The name of the machine</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.LeasedByMachineName.hint">
+        <Value>The name of the machine where the task should be run, leave empty if you have only one server.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.MinuteOfHour">
+        <Value>Minute of hour</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.MinuteOfHour.hint">
+        <Value>Minute of hour</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.MonthOptionChoice">
+        <Value>Month option</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.MonthOptionChoice.hint">
+        <Value>Month option</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Name">
         <Value>名稱</Value>
@@ -14874,6 +14922,12 @@
     <LocaleResource Name="Admin.System.ScheduleTasks.RunNow.Progress">
         <Value>運行排程</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.ScheduleTaskName">
+        <Value>Task Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.ScheduleTaskName.hint">
+        <Value>Task Name</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Seconds">
         <Value>間隔時間(秒)</Value>
     </LocaleResource>
@@ -14882,6 +14936,27 @@
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.StopOnError">
         <Value>發生錯誤時停止</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.StopOnError.hint">
+        <Value>Stop on error</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.TimeInterval">
+        <Value>Time interval</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.TimeInterval.hint">
+        <Value>Time interval</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.TimeIntervalChoice">
+        <Value>Select time interval</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.TimeIntervalChoice.hint">
+        <Value>Select time interval</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.Type">
+        <Value>SheduledTask Type</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.System.ScheduleTasks.Type.hint">
+        <Value>SheduledTask Type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SeNames">
         <Value>關鍵字優化</Value>
@@ -14897,9 +14972,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.System.SeNames.EntityName">
         <Value>名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.System.SeNames.Id">
-        <Value>ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SeNames.IsActive">
         <Value>已啟用</Value>
@@ -14925,11 +14997,11 @@
     <LocaleResource Name="Admin.System.SystemInfo.ASPNETInfo.Hint">
         <Value>ASP.NET版本</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.SystemInfo.CurrentUserTime">
-        <Value>當前用戶時間</Value>
+    <LocaleResource Name="Admin.System.SystemInfo.GrandVersion">
+        <Value>grandnode version</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.SystemInfo.CurrentUserTime.Hint">
-        <Value>當前用戶時間 (基於指定的時間和時區設定).</Value>
+    <LocaleResource Name="Admin.System.SystemInfo.GrandVersion.Hint">
+        <Value>grandnode version</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.HTTPHOST">
         <Value>HTTP_HOST</Value>
@@ -14937,11 +15009,11 @@
     <LocaleResource Name="Admin.System.SystemInfo.HTTPHOST.Hint">
         <Value>HTTP_HOST用於多店解決方案，用來決定哪個商店是當前商店</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.SystemInfo.IsFullTrust">
-        <Value>完全信任級別</Value>
+    <LocaleResource Name="Admin.System.SystemInfo.IsHttps">
+        <Value>Http scheme is https</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.System.SystemInfo.IsFullTrust.Hint">
-        <Value>完全信任級別</Value>
+    <LocaleResource Name="Admin.System.SystemInfo.IsHttps.Hint">
+        <Value>Http scheme is https</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.LoadedAssemblies">
         <Value>已加載的程序集</Value>
