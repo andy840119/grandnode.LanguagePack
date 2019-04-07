@@ -8352,11 +8352,38 @@
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange.Hint">
         <Value>供應商更改資料後，系統會寄一封信提醒管理員</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyVendorAboutNewVendorReviews">
+        <Value>Notify about new vendor reviews</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.settings.vendor.notifyvendoraboutnewvendorreviews.hint">
+        <Value>Check if you want to notify vendors about new reviews</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage">
         <Value>商品詳細資訊頁面上顯示供應商</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage.Hint">
         <Value>查看商品詳細資訊頁面上顯示供應商名稱(如果關聯)</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.TermsOfServiceEnabled">
+        <Value>Terms of service</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.TermsOfServiceEnabled.Hint">
+        <Value>Require vendors to accept terms of service during registration.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorReviewPossibleOnlyAfterPurchasing">
+        <Value>Vendor review possible only after purchasing product from vendor</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.settings.vendor.vendorreviewpossibleonlyafterpurchasing.hint">
+        <Value>Check if you want to allow reviews only after purchasing products from specified vendor</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorReviews">
+        <Value>Vendor reviews</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorReviewsMustBeApproved">
+        <Value>Vendor reviews must be approved</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.settings.vendor.vendorreviewsmustbeapproved.hint">
+        <Value>Check if vendor reviews must be approved</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorsBlockItemsToDisplay">
         <Value>要顯示供應商的數量</Value>
@@ -11379,6 +11406,12 @@
     <LocaleResource Name="Admin.Customers.Customers.List.CustomerRoles.Hint">
         <Value>根據會員角色篩選</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.List.CustomerTags">
+        <Value>Customer tags</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Customers.Customers.List.CustomerTags.Hint">
+        <Value>Filter by customer tag.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.List.SearchCompany">
         <Value>公司</Value>
     </LocaleResource>
@@ -12012,8 +12045,8 @@
     <LocaleResource Name="Admin.GiftCards.Updated">
         <Value>修改禮品卡成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Header.ClearCache">
-        <Value>清除緩存</Value>
+    <LocaleResource Name="Admin.grandnodeNews">
+        <Value>grandnode News</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.grandnodeNews.HideAdv">
         <Value>Hide advertisements</Value>
@@ -12297,12 +12330,6 @@
     <LocaleResource Name="Admin.Orders.Fields.OrderGuid.Hint">
         <Value>訂單GUID</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.OrderShipping">
-        <Value>運費</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.OrderShipping.Hint">
-        <Value>運費</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.OrderShippingExclTax">
         <Value>運費(不含稅)</Value>
     </LocaleResource>
@@ -12329,12 +12356,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.OrderStatus.Hint">
         <Value>訂單狀態</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.OrderSubtotal">
-        <Value>訂單小計</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.OrderSubtotal.Hint">
-        <Value>訂單小計</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.OrderSubTotalDiscountExclTax">
         <Value>訂單小計折扣(不含稅)</Value>
@@ -12420,20 +12441,11 @@
     <LocaleResource Name="Admin.Orders.Fields.PickupAddress.Hint">
         <Value>提取點地址資料</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.PickupAddress.ViewOnGoogleMaps">
-        <Value>Google Maps上預覽地址</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.Profit">
         <Value>利潤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.Profit.Hint">
-        <Value>這個訂單的利潤。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.PurchaseOrderNumber">
-        <Value>訂單編號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.Fields.PurchaseOrderNumber.Hint">
-        <Value>訂單編號</Value>
+        <Value>這個訂單的利潤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.RecurringPayment">
         <Value>定期付款</Value>
@@ -12507,6 +12519,12 @@
     <LocaleResource Name="Admin.Orders.Fields.Tax.Hint">
         <Value>訂單稅收</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Orders.Fields.UrlReferrer">
+        <Value>Url referrer</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Orders.Fields.UrlReferrer.Hint">
+        <Value>The last url referrer from customer at the time of the order.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.UsedDiscounts">
         <Value>所使用的折扣</Value>
     </LocaleResource>
@@ -12545,12 +12563,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.BillingLastName.Hint">
         <Value>通過會員結算姓氏篩選。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.List.CustomerEmail">
-        <Value>賬單郵件地址</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Orders.List.CustomerEmail.Hint">
-        <Value>賬單郵件地址</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.EndDate">
         <Value>結束日期</Value>
@@ -13050,42 +13062,6 @@
     <LocaleResource Name="Admin.Orders.ShippingInfo.NotRequired">
         <Value>不需要配送</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Pager.All">
-        <Value>全部</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Display">
-        <Value>顯示</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Empty">
-        <Value>暫無數據</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.First">
-        <Value>首頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.ItemsPerPage">
-        <Value>每頁顯示筆數</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Last">
-        <Value>末頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.MorePages">
-        <Value>更多...</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Next">
-        <Value>下頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Of">
-        <Value>/</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Page">
-        <Value>頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Previous">
-        <Value>上頁</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Pager.Refresh">
-        <Value>刷新</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.PageTitle">
         <Value>後台管理</Value>
     </LocaleResource>
@@ -13099,7 +13075,49 @@
         <Value>這個插件已成功修改。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions">
-        <Value>促銷管理</Value>
+        <Value>Promotions</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners">
+        <Value>Banners</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Added">
+        <Value>The new banner has been added successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.AddNew">
+        <Value>Add a new banner</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.BackToList">
+        <Value>back to banner list</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Deleted">
+        <Value>The banner has been deleted successfully.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.EditBannerDetails">
+        <Value>Edit banner</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.Body">
+        <Value>Body</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.Body.Hint">
+        <Value>The body of your banner email.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.Body.Required">
+        <Value>Body is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.CreatedOn">
+        <Value>Created on</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.Name.Hint">
+        <Value>The name of this banner.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Fields.Name.Required">
+        <Value>Banner name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Banners.Updated">
+        <Value>The banner has been updated successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns">
         <Value>活動管理</Value>
@@ -13113,11 +13131,17 @@
     <LocaleResource Name="Admin.Promotions.Campaigns.BackToList">
         <Value>返回活動列表</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Conditions">
+        <Value>Conditions for campaign</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Deleted">
         <Value>刪除活動成功</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.EditCampaignDetails">
         <Value>編輯活動</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Emails">
+        <Value>Email address</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.AllowedTokens">
         <Value>可接受的代碼</Value>
@@ -13137,7 +13161,55 @@
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CreatedOn">
         <Value>創建日期</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRole">
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom">
+        <Value>Customers created from date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom.hint">
+        <Value>Select customers created from the date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateTo">
+        <Value>To</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateTo.hint">
+        <Value>Select customers created to the date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasOrders">
+        <Value>Customer has an order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasOrders.hint">
+        <Value>Customer has an order</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasShoppingCart">
+        <Value>Customer has a shopping cart</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasShoppingCart.hint">
+        <Value>Customer has a shopping cart</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastActivityDateFrom">
+        <Value>Last activity from date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastActivityDateFrom.hint">
+        <Value>Last activity from date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastActivityDateTo">
+        <Value>To</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastActivityDateTo.hint">
+        <Value>Last activity to date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastPurchaseDateFrom">
+        <Value>Last purchase from date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastPurchaseDateFrom.hint">
+        <Value>Last purchase from date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastPurchaseDateTo">
+        <Value>To</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastPurchaseDateTo.hint">
+        <Value>Last purchase to date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRoles">
         <Value>限定於會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRole.Hint">
