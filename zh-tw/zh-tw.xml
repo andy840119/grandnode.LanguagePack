@@ -6387,11 +6387,14 @@
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DefaultStoreTimeZone.Hint">
         <Value>商店預設時區</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.EnteringEmailTwice">
-        <Value>強制再次確認信箱</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationAutoRegisterEnabled">
+        <Value>Auto register enabled</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.EnteringEmailTwice.Hint">
-        <Value>強制會員註冊時要寄送確認信，以再次確認信箱</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationAutoRegisterEnabled.Hint">
+        <Value>Check to enable auto registration when using external authentication.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationSettings">
+        <Value>External authentication settings</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordAllowedAttempts">
         <Value>允許登入失敗次數</Value>
@@ -6882,122 +6885,56 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders.Hint">
         <Value>如果選中，則不允許客戶打印掛單的PDF發票。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayApplyVendorAccountFooterItem">
-        <Value>顯示"申請供應商帳戶"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayApplyVendorAccountFooterItem.Hint">
-        <Value>檢查頁腳中是否應顯示“申請供應商帳戶”菜單項。 在這種情況下，還應啟用供應商功能。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayBlogFooterItem">
-        <Value>顯示"部落格"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayBlogFooterItem.Hint">
-        <Value>檢查是否應在頁腳中顯示"部落格"菜單項。 在這種情況下，還應啟用博客功能。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCompareProductsFooterItem">
-        <Value>顯示"比較產品列表"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCompareProductsFooterItem.Hint">
-        <Value>檢查頁腳中是否應顯示"比較產品列表"菜單項。 在這種情況下，還應啟用比較產品功能。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayContactUsFooterItem">
-        <Value>顯示"聯絡我們"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayContactUsFooterItem.Hint">
-        <Value>檢查頁腳中是否應顯示"聯繫我們"菜單項。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerAddressesFooterItem">
-        <Value>顯示"地址"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerAddressesFooterItem.Hint">
-        <Value>檢查頁腳中是否應顯示"地址"菜單項</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerInfoFooterItem">
-        <Value>顯示我的帳戶</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerInfoFooterItem.Hint">
-        <Value>Check if "My account" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerOrdersFooterItem">
-        <Value>Display "Orders"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayCustomerOrdersFooterItem.Hint">
-        <Value>Check if "Orders" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayForumsFooterItem">
-        <Value>Display "Forums"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayForumsFooterItem.Hint">
-        <Value>Check if "Forums" menu item should be displayed in the footer. Forums functionality should be also enabled in this case.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewProductsFooterItem">
-        <Value>Display "New products"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewProductsFooterItem.Hint">
-        <Value>Check if "New products" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewsFooterItem">
-        <Value>Display "News"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayNewsFooterItem.Hint">
-        <Value>Check if "News" menu item should be displayed in the footer. News functionality should be also enabled in this case.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayProductSearchFooterItem">
-        <Value>Display "Search"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayProductSearchFooterItem.Hint">
-        <Value>Check if "Search" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayRecentlyViewedProductsFooterItem">
-        <Value>Display "Recently viewed products"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayRecentlyViewedProductsFooterItem.Hint">
-        <Value>Check if "Recently viewed products" menu item should be displayed in the footer. "Recently viewed products" functionality should be also enabled in this case.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayShoppingCartFooterItem">
-        <Value>Display "Shopping cart"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayShoppingCartFooterItem.Hint">
-        <Value>Check if "Shopping cart" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplaySitemapFooterItem">
-        <Value>Display "Sitemap"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplaySitemapFooterItem.Hint">
-        <Value>Check if "Sitemap" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayWishlistFooterItem">
-        <Value>Display "Wishlist"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultFooterItemSettingsModel.DisplayWishlistFooterItem.Hint">
-        <Value>Check if "Wishlist" menu item should be displayed in the footer.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayBlogMenuItem">
-        <Value>顯示"部落格"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayContactUsMenuItem">
-        <Value>顯示"聯絡我們"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayCustomerInfoMenuItem">
-        <Value>顯示"會員中心"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayForumsMenuItem">
-        <Value>顯示"論壇"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayHomePageMenuItem">
-        <Value>顯示"首頁"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayNewProductsMenuItem">
-        <Value>顯示"新商品"	</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayDefaultMenuItemSettings.DisplayProductSearchMenuItem">
-        <Value>顯示"搜尋"</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayEuCookieLawWarning">
-        <Value>顯示歐盟有關Cookies使用條款的警告</Value>
+        <Value>Display EU cookie law warning</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayEuCookieLawWarning.Hint">
-        <Value>使此站兼容歐盟的cookies使用條款，當啟用時，新用戶會看到相應的彈出警告框</Value>
+        <Value>Make the site EU cookie law compliant. When enabled, new customers will see an appropriate warning box.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayBlogMenu">
+        <Value>Display "Blog"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayBlogMenu.Hint">
+        <Value>Check if "Blog" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayContactUsMenu">
+        <Value>Display "Contact us"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayContactUsMenu.Hint">
+        <Value>Check if "Contact us" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayCustomerMenu">
+        <Value>Display "My account"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayCustomerMenu.Hint">
+        <Value>Check if "My account" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayForumsMenu">
+        <Value>Display "Forums"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayForumsMenu.Hint">
+        <Value>Check if "Forums" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayHomePageMenu">
+        <Value>Display "Home page"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayHomePageMenu.Hint">
+        <Value>Check if "Home page" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayNewProductsMenu">
+        <Value>Display "New products"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplayNewProductsMenu.Hint">
+        <Value>Check if "New products" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplaySearchMenu">
+        <Value>Display "Search"</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayMenuSettings.DisplaySearchMenu.Hint">
+        <Value>Check if "Search" menu item should be displayed in the top menu.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayTopMenu">
+        <Value>Top menu items</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling">
         <Value>CSS打包</Value>
@@ -7044,12 +6981,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.FacebookLink.Hint">
         <Value>Facebook 的 URL，如果沒有就不用填寫.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ForceSslForAllPages">
-        <Value>為所有站點頁面強制 SSL</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ForceSslForAllPages.Hint">
-        <Value>預設情況下並不是所有的站點頁面是 SSL 保護。若要為整個站點強制 SSL 的復選。只有當您有您存儲詳細資訊頁面上啟用 SSL 時，此設定非常有用。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.FullTextSettings">
         <Value>全文檢索</Value>
     </LocaleResource>
@@ -7092,17 +7023,62 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GenerateProductMetaDescription.Hint">
         <Value>當啟用， 商品META描述將被自動生成（如果商品詳細資訊頁沒有規定） 基於商品簡要描述。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GooglePlusLink">
-        <Value>谷歌+ 頁 URL</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics">
+        <Value>Google Analytics</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GooglePlusLink.Hint">
-        <Value>谷歌+ 頁 URL. 如果沒有就不用填寫。</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics.help">
+        <Value>Please configure the settings: Configuration -&gt; Settings -&gt; General settings -&gt; Tab Google Analytics</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics.help2">
+        <Value>An error occurred, please check logs</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help1">
+        <Value>1. Register a Google Analytics account. Keep in mind that you need to wait 24h before GA can obtain some data to display.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help2">
+        <Value>2. Go to https://console.cloud.google.com/apis/credentials &gt; select credentials for your project &gt; New Credentials &gt; Service account key &gt; download a .json file from your account, and open it with text editor.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help3">
+        <Value>3. Copy the value of "private_key" e.g. -----BEGIN PRIVATE KEY-----\n ... -----END PRIVATE KEY-----\n</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help4">
+        <Value>4. Copy the value of "client_email" e.g. asymmetric-rite-000000@appspot.gserviceaccount.com</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help5">
+        <Value>5. Get your view ID, https://analytics.google.com/analytics/web/ &gt; Admin &gt; View Settings &gt; View ID. e.g. 412390048</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help6">
+        <Value>6. If you changed your certificate password, then you will need it too -  but by default the value of certificate password is "notasecret".</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsPrivateKey">
+        <Value>Private Key</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsPrivateKey.hint">
+        <Value>Private Key</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsServiceAccountEmail">
+        <Value>Service AccountEmail</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsServiceAccountEmail.hint">
+        <Value>Service AccountEmail</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsViewID">
+        <Value>ViewID</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsViewID.hint">
+        <Value>ViewID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.HoneypotEnabled">
         <Value>啟用honeypot</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.HoneypotEnabled.Hint">
         <Value>選擇從而在註冊頁啟用honeypot技術。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.InstagramLink">
+        <Value>Instagram page URL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.InstagramLink.Hint">
+        <Value>Specify your Instagram page URL. Leave empty if you have no such page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.InvoiceFooterTextColumn1">
         <Value>發票頁尾文本(左列)</Value>
@@ -7115,6 +7091,18 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.InvoiceFooterTextColumn2.Hint">
         <Value>輸入的文本將出現在生成發票的底部(右列)。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.KnowledgebaseSettings.Enabled">
+        <Value>Knowledge base enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.KnowledgebaseSettings.Enabled.hint">
+        <Value>Indicates whether knowledge base should be enabled or not.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LinkedInLink">
+        <Value>LinkedIn page URL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LinkedInLink.Hint">
+        <Value>Specify your LinkedIn page URL. Leave empty if you have no such page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllLocaleRecordsOnStartup">
         <Value>啟動時初始化所有本地資源</Value>
@@ -7140,11 +7128,8 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Logo">
         <Value>Logo</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.MobileDevicesSupported">
-        <Value>啟用移動設備支持</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.MobileDevicesSupported.Hint">
-        <Value>啟用移動設備支持</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Logo.Hint">
+        <Value>Upload your store logo. If not uploaded, then the default one will be used.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.OpenGraphMetaTags">
         <Value>開放圖像META標籤</Value>
@@ -7179,6 +7164,12 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PdfSettings">
         <Value>Pdf設定</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PinterestLink">
+        <Value>Pinterest page URL</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PinterestLink.Hint">
+        <Value>Specify your Pinterest page URL. Leave empty if you have no such page.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.reCaptchaPrivateKey">
         <Value>驗證碼私鑰</Value>
     </LocaleResource>
@@ -7197,12 +7188,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.reCaptchaVersion.Hint">
         <Value>選擇 reCAPTCHA版本</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ResponsiveDesignSupported">
-        <Value>響應設計支持</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ResponsiveDesignSupported.Hint">
-        <Value>檢查使響應設計。要注意您的圖形主題也應該支持它。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SecuritySettings">
         <Value>安全設定</Value>
     </LocaleResource>
@@ -7215,41 +7200,17 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SEOSettings">
         <Value>搜尋引擎優化設定</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapEnabled">
-        <Value>網站地圖啟用</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapEnabled.Hint">
-        <Value>點選以啟用網站地圖</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeCategories">
-        <Value>網站地圖包含產品分類</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeCategories.Hint">
-        <Value>網站地圖包含產品分類</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeManufacturers">
-        <Value>網站地圖包含製造商</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeManufacturers.Hint">
-        <Value>網站地圖包含製造商</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeProducts">
-        <Value>網站地圖包含商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SitemapIncludeProducts.Hint">
-        <Value>網站地圖包含商品</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosed">
         <Value>關閉商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosed.Hint">
         <Value>關閉商店</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosedAllowForAdmins">
-        <Value>關閉商店後也允許管理員訪問</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreInDatabaseContactUsForm">
+        <Value>Contact us page - stores the request in the database</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosedAllowForAdmins.Hint">
-        <Value>關閉商店後也允許管理員訪問</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreInDatabaseContactUsForm.Hint">
+        <Value>Save inquiries from the contact page - to store history</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreInformationSettings">
         <Value>商店資訊</Value>
@@ -7296,6 +7257,12 @@
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.YoutubeLink.Hint">
         <Value>YouTube頻道URL. 如果沒有就不填寫.</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GridLayout">
+        <Value>Admin layout for tabs and grids</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.GridLayout.hint">
+        <Value>Allow to set administrator layout for tabs and grid</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media">
         <Value>媒體設定</Value>
     </LocaleResource>
@@ -7335,15 +7302,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Media.AvatarPictureSize.Hint">
         <Value>頭像圖片大小</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.BlockTitle.OtherPages">
-        <Value>其他頁面</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.BlockTitle.Product">
-        <Value>商品</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.CartThumbPictureSize">
         <Value>購物車/願望清單縮略圖大小</Value>
     </LocaleResource>
@@ -7361,18 +7319,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality.Hint">
         <Value>圖片質量將被應用於已上載的圖片。如果改動它， 您需要手動刪除已經生成的索引圖片。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultPictureZoomEnabled">
-        <Value>圖片縮放</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultPictureZoomEnabled.Hint">
-        <Value>產品資訊頁面可縮放圖片</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.ImportProductImagesUsingHash">
-        <Value>使用哈希導入產品圖像</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Media.ImportProductImagesUsingHash.Hint">
-        <Value>檢查使用快速HASHBYTES（hash sum）數據庫功能來比較導入產品時的圖片。 請注意，某些數據庫不支持此功能。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ManufacturerThumbPictureSize">
         <Value>品牌縮略圖大小</Value>
@@ -7433,6 +7379,15 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ProductThumbPictureSizeOnProductDetailsPage.Hint">
         <Value>在商品頁出現的商品縮略圖大小</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.UseImageCompress">
+        <Value>Use Pingo Image Compression</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.UseImageCompress.Hint">
+        <Value>Every rendered image will be compressed via Pingo, it gives 20-80% file size reduction along with lossless quality</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Media.UseImageCompress.Info">
+        <Value>To get best result, Overlay (logo) should be a square with transparent background in .png format.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize">
         <Value>供應商縮略圖大小</Value>
@@ -7551,23 +7506,11 @@
     <LocaleResource Name="Admin.Configuration.Settings.News.AllowNotRegisteredUsersToLeaveComments.Hint">
         <Value>允許匿名用戶評論</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.BlockTitle.NewsComments">
-        <Value>新聞評論</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.News.Enabled">
         <Value>啟用新聞</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.News.Enabled.Hint">
         <Value>啟用新聞</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.MainPageBlogCount">
-        <Value>第二部份顯示篇數</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.MainPageBlogCount.hint">
-        <Value>首頁部落格分兩部分，此欄位是設定第二部分(企業資訊服務)篇數，第一部分每個分類已限制成四篇</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.News.MainPageNewsCount">
         <Value>在首頁顯示的數量</Value>
@@ -7581,12 +7524,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.News.NewsArchivePageSize.Hint">
         <Value>每頁顯示筆數</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.NewsCommentsMustBeApproved">
-        <Value>新聞評論需審核</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.NewsCommentsMustBeApproved.Hint">
-        <Value>新聞評論需被管理員審核</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.News.NotifyAboutNewNewsComments">
         <Value>有新聞評論將通知管理員</Value>
     </LocaleResource>
@@ -7599,12 +7536,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.News.ShowHeaderRSSUrl.Hint">
         <Value>在瀏覽器地址欄顯示新聞RSS訂閱快捷連結</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsCommentsPerStore">
-        <Value>顯示此商店的新聞評論</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsCommentsPerStore.Hint">
-        <Value>只顯示會員所在商店的新聞評論</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.News.ShowNewsOnMainPage">
         <Value>在首頁顯示</Value>
     </LocaleResource>
@@ -7613,12 +7544,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order">
         <Value>訂單設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ActivateGiftCardsAfterCompletingOrder">
-        <Value>禮品卡啟用時訂單狀態是"已完成"</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.AllowAdminsToBuyCallForPriceProducts.Hint">
-        <Value>當訂單狀態轉成"已完成"，啟動禮品卡</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AnonymousCheckoutAllowed">
         <Value>允許匿名用戶結算</Value>
@@ -7668,12 +7593,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Order.DisableOrderCompletedPage.Hint">
         <Value>當禁用時，會員會自動重定向到的訂單詳細資訊頁面。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ExportWithProducts">
-        <Value>匯出訂單時，同時匯出商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ExportWithProducts.Hint">
-        <Value>訂單匯出時，同時匯出商品</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.GiftCards_Activated">
         <Value>禮品卡啟用時訂單狀態是</Value>
     </LocaleResource>
@@ -7697,9 +7616,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.IsReOrderAllowed.Hint">
         <Value>允許會員重下訂單</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.configuration.settings.order.join2cusordernumberallowed">
-        <Value>Join2自訂訂單號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.MinOrderSubtotalAmount">
         <Value>訂單小計最小金額</Value>
@@ -7785,27 +7701,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestActions.Updated">
         <Value>該退貨請求已經更新成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask">
-        <Value>退貨請求編號規則</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.DD">
-        <Value>{DD} - 退貨請求建立日期</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.ID">
-        <Value>{ID} - 退貨請求流水號</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.MM">
-        <Value>{MM} - 退貨請求建立月份</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.YY">
-        <Value>{YY} - 退貨請求建立年份最後兩位數</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Description.YYYY">
-        <Value>{YYYY} - 退貨請求建立年份</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestNumberMask.Hint">
-        <Value>退貨請求編號規則， 例如： RMA-{ID}-{YYYY}-{MM}-{DD}.</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons">
         <Value>退貨原因</Value>
     </LocaleResource>
@@ -7845,12 +7740,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Updated">
         <Value>該退貨原因已經更新成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsAllowFiles">
-        <Value>允許上傳文件</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsAllowFiles.Hint">
-        <Value>允許會員在退貨申請時，可以上傳文件</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsDescription1">
         <Value>使用該功能可以查看和管理會員退款、退貨操作</Value>
     </LocaleResource>
@@ -7863,14 +7752,20 @@
     <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsEnabled.Hint">
         <Value>允許退貨</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequests_AllowToSpecifyPickupAddress">
+        <Value>Allow to specify return pickup address</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequests_AllowToSpecifyPickupAddress.Hint">
+        <Value>Check if you want to allow customers to specify return pickup address.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequests_AllowToSpecifyPickupDate">
+        <Value>Allow to specify return pickup date</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequests_AllowToSpecifyPickupDate.Hint">
+        <Value>Check if you want to allow customers to specify return pickup date.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestSettings">
         <Value>退貨請求</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceEnabled">
-        <Value>啟用服務條款</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceEnabled.Hint">
-        <Value>要求用戶在處理訂單前接受或拒絕服務條款</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage">
         <Value>服務條款（確認訂單網頁）</Value>
@@ -7884,8 +7779,8 @@
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnShoppingCartPage.Hint">
         <Value>要求會員在處理訂單之前接受或拒絕服務條款(在購物車頁面)</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.ACL">
-        <Value>權限管理列表</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.Order.UserCanCancelUnpaidOrder">
+        <Value>User can cancel orders</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.UserCanCancelUnpaidOrder.Hint">
         <Value>Show or Hide Button That Allows User to Cancel Unpaid and Unshipped Orders (Available in the Order Details)</Value>
@@ -7935,12 +7830,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.MinimumRewardPointsToUse.Hint">
         <Value>顧客在積累X紅利積點以後才可以使用。如果不想啟用此項，請設為0</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PageSize">
-        <Value>顯示筆數</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PageSize.Hint">
-        <Value>在前台會員中心的紅利積點頁面，顯示會員紅利積點的筆數</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsAccumulatedForAllStores">
         <Value>面向所有商店使用積點</Value>
     </LocaleResource>
@@ -7953,19 +7842,19 @@
     <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Amount.Hint">
         <Value>指定購買獲得的紅利積點</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_awarded">
+    <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Awarded">
         <Value>獲得紅利積點的訂單狀態</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_awarded.hint">
-        <Value>獲得紅利積點的訂單狀態..</Value>
+    <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Awarded.Hint">
+        <Value>獲得紅利積點的訂單狀態...</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Awarded.Pending">
         <Value>訂單狀態不能設定為待處理</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_canceled">
+    <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Canceled">
         <Value>取消紅利積點的訂單狀態</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.configuration.settings.rewardpoints.pointsforpurchases_canceled.hint">
+    <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Canceled.Hint">
         <Value>紅利積點被取消當訂單狀態是...</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Canceled.Pending">
@@ -7986,32 +7875,11 @@
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.AllowPickUpInStore.Hint">
         <Value>這個值代表是否啟用「店內提貨」選項在結賬過程中。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.BlockTitle.Checkout">
-        <Value>結賬</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.BlockTitle.Notifications">
-        <Value>提醒</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.BypassShippingMethodSelectionIfOnlyOne">
         <Value>如果只有一種配送方法則直接使用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.BypassShippingMethodSelectionIfOnlyOne.Hint">
         <Value>如果只有一種配送方法則直接使用。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.ConsiderAssociatedProductsDimensions">
-        <Value>計算產品屬性的尺寸和重量</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.ConsiderAssociatedProductsDimensions.Hint">
-        <Value>檢查產品屬性尺寸和運送重量，如果主要產品已經包含它們，請取消勾選。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayPickupPointsOnMap">
-        <Value>在地圖上顯示取貨地點</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayPickupPointsOnMap.Hint">
-        <Value>在地圖上顯示取貨地點</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayShipmentEventsToCustomers">
         <Value>顯示配送事件</Value>
@@ -8048,18 +7916,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.FreeShippingOverXValue.Hint">
         <Value>所有訂單超過該值將免運費。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey">
-        <Value>Google maps API key</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.GoogleMapsApiKey.Hint">
-        <Value>Specify Google maps API key.</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.HideShippingTotal">
-        <Value>商品若是不須配送，隱藏運費估算</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Shipping.HideShippingTotal.Hint">
-        <Value>商品為不須配送時，隱藏運費估算</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.NotifyCustomerAboutShippingFromMultipleLocations">
         <Value>通知會員關於從多個地點出貨</Value>
@@ -8111,15 +7967,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.AllowOutOfStockItemsToBeAddedToWishlist.Hint">
         <Value>允許將缺貨商品新增到願望清單</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.BlockTitle.MiniShoppingCart">
-        <Value>迷您購物車</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.BlockTitle.Wishlist">
-        <Value>願望清單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.CartsSharedBetweenStores">
         <Value>購物車在商店間通用</Value>
@@ -8231,21 +8078,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Tax.AllowCustomersToSelectTaxDisplayType.Hint">
         <Value>允許會員選擇稅務顯示類型</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.Payment">
-        <Value>付款方式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.Shipping">
-        <Value>配送方式</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.TaxDispaying">
-        <Value>稅務顯示</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.BlockTitle.VAT">
-        <Value>增值稅</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Tax.DefaultTaxAddress">
         <Value>預設稅務地址</Value>
@@ -8373,12 +8205,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxBasedOn.Hint">
         <Value>稅收標準</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxBasedOnPickupPointAddress">
-        <Value>根據取貨地址計算稅務</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxBasedOnPickupPointAddress.Hint">
-        <Value>使用取貨地址（當選擇提貨點時）進行稅務計算的值。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Tax.TaxCategories.None">
         <Value>none</Value>
     </LocaleResource>
@@ -8390,6 +8216,111 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor">
         <Value>供應商顯示設定</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.Address">
+        <Value>Address settings for Vendor</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CityEnabled">
+        <Value>'City' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CityEnabled.Hint">
+        <Value>Set if 'City' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CityRequired">
+        <Value>'City' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CityRequired.Hint">
+        <Value>Check if 'City' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CompanyEnabled">
+        <Value>'Company' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CompanyEnabled.Hint">
+        <Value>Set if 'Company' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CompanyRequired">
+        <Value>'Company' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CompanyRequired.Hint">
+        <Value>Check if 'Company' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CountryEnabled">
+        <Value>'Country' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.CountryEnabled.Hint">
+        <Value>Set if 'Country' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.FaxEnabled">
+        <Value>'Fax number' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.FaxEnabled.Hint">
+        <Value>Set if 'Fax number' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.FaxRequired">
+        <Value>'Fax number' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.FaxRequired.Hint">
+        <Value>Check if 'Fax number' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.PhoneEnabled">
+        <Value>'Phone number' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.PhoneEnabled.Hint">
+        <Value>Set if 'Phone number' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.PhoneRequired">
+        <Value>'Phone number' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.PhoneRequired.Hint">
+        <Value>Check if 'Phone number' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StateProvinceEnabled">
+        <Value>'State/province' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StateProvinceEnabled.Hint">
+        <Value>Set if 'State/province' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddress2Enabled">
+        <Value>'Street address 2' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddress2Enabled.Hint">
+        <Value>Set if 'Street address 2' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddress2Required">
+        <Value>'Street address 2' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddress2Required.Hint">
+        <Value>Check if 'Street address 2' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddressEnabled">
+        <Value>'Street address' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddressEnabled.Hint">
+        <Value>Set if 'Street address' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddressRequired">
+        <Value>'Street address' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.StreetAddressRequired.Hint">
+        <Value>Check if 'Street address' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.ZipPostalCodeEnabled">
+        <Value>'Zip / postal code' enabled</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.ZipPostalCodeEnabled.Hint">
+        <Value>Set if 'Zip / postal code' is enabled.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.ZipPostalCodeRequired">
+        <Value>'Zip / postal code' required</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AddressFormFields.ZipPostalCodeRequired.Hint">
+        <Value>Check if 'Zip / postal code' is required.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowAnonymousUsersToReviewVendor">
+        <Value>Allow anonymous users to write vendor reviews</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.settings.vendor.allowanonymoususerstoreviewvendor.hint">
+        <Value>Check if you want to allow anonymous user reviews</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowCustomersToApplyForVendorAccount">
         <Value>讓會員申請供應商帳戶</Value>
