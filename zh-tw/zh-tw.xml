@@ -8346,24 +8346,6 @@
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToEditInfo.Hint">
         <Value>允許供應商在前台會員中心，更改自己的基本資料。請注意，如果您有多國語言（在這種情況下只能編輯標準值），則不支持本地化屬性（name, description）。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToImportProducts">
-        <Value>允許供應商匯入商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToImportProducts.Hint">
-        <Value>允許供應商匯入商品</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Vendor.BlockTitle.Catalog">
-        <Value>目錄</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Vendor.BlockTitle.Common">
-        <Value>一般設定</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Vendor.MaximumProductNumber">
-        <Value>商品數量限制</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Settings.Vendor.MaximumProductNumber.Hint">
-        <Value>設定供應商管理商品最大數量</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange">
         <Value>供應商更改資料通知管理員</Value>
     </LocaleResource>
@@ -8382,11 +8364,11 @@
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorsBlockItemsToDisplay.Hint">
         <Value>輸入顯示在導航塊的供應商的數量</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Settings.Vendor.VendorSettings">
+        <Value>Vendor settings</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping">
         <Value>配送管理</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.DatesAndRanges">
-        <Value>交貨日期管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates">
         <Value>交付日期</Value>
@@ -8406,6 +8388,12 @@
     <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.EditDeliveryDateDetails">
         <Value>編輯交貨日期細節</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Fields.ColorSquaresRgb">
+        <Value>RGB color</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Fields.ColorSquaresRgb.Hint">
+        <Value>Choose color to be used with the color squares attribute control.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Fields.DisplayOrder">
         <Value>顯示順序</Value>
     </LocaleResource>
@@ -8421,56 +8409,8 @@
     <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Fields.Name.Required">
         <Value>請提供一個名稱。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Hint">
-        <Value>交貨日期列表，在商品詳情頁展示。</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates.Updated">
         <Value>交貨日期已經更新成功。</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures">
-        <Value>度量</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions">
-        <Value>尺寸</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.DisplayOrder">
-        <Value>顯示順序</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.IsPrimaryDimension">
-        <Value>是主尺寸</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.MarkAsPrimaryDimension">
-        <Value>標記為主尺寸</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Name">
-        <Value>名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.Ratio">
-        <Value>尺寸比率</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Dimensions.Fields.SystemKeyword">
-        <Value>系統關鍵字</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights">
-        <Value>重量</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.DisplayOrder">
-        <Value>顯示順序</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.IsPrimaryWeight">
-        <Value>是主重量</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.MarkAsPrimaryWeight">
-        <Value>標記為主重量</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Name">
-        <Value>名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.Ratio">
-        <Value>重量比率</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Measures.Weights.Fields.SystemKeyword">
-        <Value>系統關鍵字</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Methods">
         <Value>配送方式</Value>
@@ -8486,9 +8426,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Methods.Deleted">
         <Value>刪除配送方式成功</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Methods.Description">
-        <Value>離線運費計算方法（例如“Fixed Rate”或“By Weight”）使用的運送方式</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Methods.EditMethodDetails">
         <Value>編輯配送方式</Value>
@@ -8514,62 +8451,86 @@
     <LocaleResource Name="Admin.Configuration.Shipping.Methods.Fields.Name.Required">
         <Value>請輸入名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Methods.Manage">
-        <Value>配送方式</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Methods.Updated">
         <Value>修改配送方式成功</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders">
-        <Value>取貨管理</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Address">
+        <Value>Addresses</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.BackToList">
-        <Value>返回提取點列表</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Address.hint">
+        <Value>Specify a address of the pickup point.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Configure">
-        <Value>設置</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.AdminComment">
+        <Value>Admin comment</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Fields.DisplayOrder">
-        <Value>顯示順序</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.AdminComment.hint">
+        <Value>Specify a admin Comment of the pickup point.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Fields.FriendlyName">
-        <Value>友好名稱</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Description">
+        <Value>Description</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Fields.IsActive">
-        <Value>是否啟用</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Description.hint">
+        <Value>Specify a description of the pickup point.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Fields.Logo">
-        <Value>Logo</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.DisplayOrder">
+        <Value>Display order</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.PickupPointProviders.Fields.SystemName">
-        <Value>系統名稱</Value>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.DisplayOrder.hint">
+        <Value>Display order of the pickup point.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Name.hint">
+        <Value>Specify a name of the pickup point.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.PickupFee">
+        <Value>Pickup fee</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.PickupFee.hint">
+        <Value>Specify a fee for the shipping to the pickup point.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Stores">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Stores.hint">
+        <Value>A store name for which this pickup point will be available.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Warehouses">
+        <Value>Select warehouse</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Warehouses.hint">
+        <Value>Assign the warehouse for the pickup point.</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoint.selectstore">
+        <Value>Select store</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoint.selectwarehouse">
+        <Value>Select warehouse</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoints">
         <Value>提取點</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges">
-        <Value>商品可用範圍</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.added">
+        <Value>The new pickup point has been added successfully.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.AddNew">
-        <Value>新增一個新的商品可用範圍</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.addnew">
+        <Value>Add a new pickup point</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.BackToList">
-        <Value>返回商品可用範圍列表</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.backtolist">
+        <Value>Back to pickup points</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.DisplayOrder">
-        <Value>顯示順序</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.deleted">
+        <Value>The pickup point has been deleted successfully.</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.DisplayOrder.Hint">
-        <Value>這個商品可用範圍的顯示順序。1代表列表的頂部。</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.editdetails">
+        <Value>Edit a pickup point</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name">
-        <Value>名稱</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.fields.name.required">
+        <Value>Name is required</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Fields.Name.Hint">
-        <Value>輸入商品可用範圍名稱</Value>
-    </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.ProductAvailabilityRanges.Hint">
-        <Value>可用範圍選項列表，在商品詳情頁展示。</Value>
+    <LocaleResource Name="admin.configuration.shipping.pickuppoints.updated">
+        <Value>The pickup point has been updated successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Providers">
         <Value>運費計算方式</Value>
@@ -8595,9 +8556,6 @@
     <LocaleResource Name="Admin.Configuration.Shipping.Providers.Fields.SystemName">
         <Value>系統名稱</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Providers.Title">
-        <Value>運費計算方法（providers）</Value>
-    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions">
         <Value>配送方式限制</Value>
     </LocaleResource>
@@ -8607,8 +8565,14 @@
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Description">
         <Value>您可以限制不同的縣市使用不同的配送方式。</Value>
     </LocaleResource>
-    <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Manage">
+    <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Descriptioncountry">
         <Value>配送方式限制</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.DescriptionRole">
+        <Value>Please mark the checkbox(es) for the role in which you want the shipping method(s) not available</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Role">
+        <Value>Customer role</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Updated">
         <Value>修改縣市配送方式限製成功</Value>
@@ -8694,6 +8658,18 @@
     <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyAddress.Hint">
         <Value>請輸入公司地址。</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyEmail">
+        <Value>Company email</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyEmail.Hint">
+        <Value>Enter your company email.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyHours">
+        <Value>Company opening hours</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyHours.Hint">
+        <Value>Enter your company opening hours.</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyName">
         <Value>公司名稱</Value>
     </LocaleResource>
@@ -8717,6 +8693,12 @@
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage.Hint">
         <Value>此屬性允許一個商店管理員指定一個預設的語言。如果沒有指定，則預設語言顯示順序將被使用。</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultWarehouse">
+        <Value>Default warehouse</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultWarehouse.Hint">
+        <Value>This property allows a store owner to specify a default warehouse for a store.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -8802,6 +8784,15 @@
     <LocaleResource Name="Admin.Configuration.Tax.Providers.Fields.SystemName">
         <Value>系統名稱</Value>
     </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Themes.Failed">
+        <Value>Failed to upload theme. Make sure you are not uploading already existing one. If so, try deleting it manualy before resubmitting.</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Themes.Upload">
+        <Value>Upload theme</Value>
+    </LocaleResource>
+    <LocaleResource Name="Admin.Configuration.Themes.Uploaded">
+        <Value>Theme uploaded</Value>
+    </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Updated">
         <Value>修改設定成功</Value>
     </LocaleResource>
@@ -8811,8 +8802,71 @@
     <LocaleResource Name="Admin.ContentManagement.Blog">
         <Value>部落格管理</Value>
     </LocaleResource>
-    <LocaleResource Name="admin.contentmanagement.blog.blogcategory">
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategories">
         <Value>部落格分類管理</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.added">
+        <Value>Blog category has been added</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.addnew">
+        <Value>Add new blog category</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.addnewpost">
+        <Value>Add new blog post</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.backtolist">
+        <Value>back to list</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.deleted">
+        <Value>Blog category has been deleted</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.editblogcategorydetails">
+        <Value>Edit blog category</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.fields.displayorder">
+        <Value>Display Order</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.fields.displayorder.hint">
+        <Value>Specify the display order of the blog category</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.fields.name">
+        <Value>Name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.fields.name.hint">
+        <Value>Enter the name of the blog category</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.fields.name.required">
+        <Value>Name is required</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.fields.post">
+        <Value>Blog posts</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.info">
+        <Value>Info</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.posts">
+        <Value>Blog posts</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.savebeforeedit">
+        <Value>Save changes before edit</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchblogtitle">
+        <Value>Blog post title</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchblogtitle.hint">
+        <Value>Enter the title of the blog</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchstore">
+        <Value>Store</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchstore.hint">
+        <Value>Enter the store name</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.stores">
+        <Value>Stores</Value>
+    </LocaleResource>
+    <LocaleResource Name="admin.contentmanagement.blog.blogcategory.updated">
+        <Value>Blog category has been updated</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts">
         <Value>部落格日誌</Value>
@@ -8870,9 +8924,6 @@
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.EndDate.Hint">
         <Value>結束如期</Value>
-    </LocaleResource>
-    <LocaleResource Name="admin.contentmanagement.blog.blogposts.fields.id">
-        <Value>Id</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Language">
         <Value>語言</Value>
