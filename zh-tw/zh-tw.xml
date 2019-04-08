@@ -10651,7 +10651,7 @@
         <Value>Customer Reminder Deleted</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customerreminder.Edit">
-        <Value>Reminder Edit</Value>
+        <Value>編輯提醒</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customerreminder.Editcondition">
         <Value>Edit condition</Value>
@@ -13783,7 +13783,7 @@
         <Value>The newsletter category has been deleted successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Edit">
-        <Value>Edit newsletter category details</Value>
+        <Value>編輯電子報類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores">
         <Value>商店</Value>
@@ -14854,7 +14854,7 @@
         <Value>Day of week</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Edit">
-        <Value>Edit Schedule task</Value>
+        <Value>編輯排程任務</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Enabled">
         <Value>已啟用</Value>

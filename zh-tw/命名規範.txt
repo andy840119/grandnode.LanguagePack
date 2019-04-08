@@ -18,18 +18,24 @@ BackToList -> 返回...列表
 插件 -> 套件
 訪問 -> 查看
 
+進一步 -> null
+應用 -> 套用
+DisplayOrder -> 顯示順序
+
+Edit -> 編輯...
+
 -------------------
 
 Knowledge -> 知識庫
-應用 -> 套用
-進一步 -> null
+
+
 SaveBeforeEdit -> 編輯前請先儲存
 Message -> 訊息
 Banner -> 橫幅
 InteractiveForms -> 互動表格
 Newsletter -> 電子報
 ContactForm -> 聯繫表單
-VendorReviews ->
+VendorReviews -> 供應商評論
 
 ----------------------------
 
@@ -37,10 +43,11 @@ VendorReviews ->
 
 ActivityLogType -> 
  
-Edit -> 編輯
+
 ACL -> 權限管理
 Activity log -> 活動日誌
 added
 deleted
 Content -> 
-DisplayOrder -> 顯示順序
+
+Customerreminder -> 會員提醒
