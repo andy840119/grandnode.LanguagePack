@@ -10330,7 +10330,7 @@
         <Value>Custom Customer Attributes</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customerregister">
-        <Value>會員註冊</Value>
+        <Value>Customer register</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customerrole">
         <Value>Customer role</Value>
@@ -10360,10 +10360,10 @@
         <Value>Condition Type</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRegisterName">
-        <Value>會員註冊 - 欄位名稱</Value>
+        <Value>Customer registration - field name</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRegisterValue">
-        <Value>會員註冊 - 欄位值</Value>
+        <Value>Customer registration - field value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRoleName">
         <Value>Customer role</Value>
@@ -10573,7 +10573,7 @@
         <Value>Customer attribute</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customerregister">
-        <Value>會員註冊</Value>
+        <Value>Customer register</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customerrole">
         <Value>Customer Role</Value>
@@ -10603,10 +10603,10 @@
         <Value>Customer Attribute Value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistername">
-        <Value>會員註冊名稱</Value>
+        <Value>Customer Register Name</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistervalue">
-        <Value>會員註冊值</Value>
+        <Value>Customer Register Value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerrolename">
         <Value>Customer Role Name</Value>
