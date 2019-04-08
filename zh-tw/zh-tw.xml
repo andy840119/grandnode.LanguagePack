@@ -1669,7 +1669,7 @@
         <Value>免稅</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.IsTaxExempt.Hint">
-        <Value>決定這個選項是否免稅(稅不會被應用到結算選項)。</Value>
+        <Value>決定這個選項是否免稅(稅不會被套用到結算選項)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.LimitedToStores">
         <Value>只限某一商店</Value>
@@ -2041,13 +2041,13 @@
         <Value>價格調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
-        <Value>選擇此屬性值時應用的價格調整。 比如'10'加10美元。 如果勾選“使用百分比”，則為10％。</Value>
+        <Value>選擇此屬性值時套用的價格調整。 比如'10'加10美元。 如果勾選“使用百分比”，則為10％。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
         <Value>重量調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment.Hint">
-        <Value>重量調整將被應用當選擇這個屬性</Value>
+        <Value>重量調整將被套用當選擇這個屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Hint">
         <Value>當新增該屬性到某商品時，會把已先預設好的屬性值一起新增到該商品，您可不必重複輸入屬性值。</Value>
@@ -3412,7 +3412,7 @@
         <Value>免徵稅費</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.IsTaxExempt.Hint">
-        <Value>確定該商品是否免稅 (稅不會應用到此商品在簽出)。</Value>
+        <Value>確定該商品是否免稅 (稅不會套用到此商品在簽出)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.IsTelecommunicationsOrBroadcastingOrElectronicServices">
         <Value>通信， 直播和電子服務</Value>
@@ -4123,7 +4123,7 @@
         <Value>RGB顏色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.ColorSquaresRgb.Hint">
-        <Value>選擇將被應用到在顏色方形屬性控件中的顏色。</Value>
+        <Value>選擇將被套用到在顏色方形屬性控件中的顏色。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.Cost">
         <Value>成本</Value>
@@ -4171,7 +4171,7 @@
         <Value>價格調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.PriceAdjustment.Hint">
-        <Value>應用價格調整當選擇這個屬性值 例如選擇『10』將增加10元錢。</Value>
+        <Value>套用價格調整當選擇這個屬性值 例如選擇『10』將增加10元錢。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.Quantity">
         <Value>商品數量</Value>
@@ -4186,7 +4186,7 @@
         <Value>重量調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
-        <Value>應用重量調整當選擇這個屬性值</Value>
+        <Value>套用重量調整當選擇這個屬性值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.TotalValues">
         <Value>總共:</Value>
@@ -4870,7 +4870,7 @@
         <Value>新增新的貨幣</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.ApplyRate">
-        <Value>應用匯率</Value>
+        <Value>套用匯率</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.BackToList">
         <Value>返回貨幣列表</Value>
@@ -5455,7 +5455,7 @@
         <Value>在 nopCommerce目錄的 plugins文件夾中上傳插件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step2">
-        <Value>重啟應用程序(或點擊重載插件列表按扭)</Value>
+        <Value>重啟套用程序(或點擊重載插件列表按扭)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step3">
         <Value>滾動插件列表來找到最近安裝的插件</Value>
@@ -7114,13 +7114,13 @@
         <Value>在啟動時加載所有本地化屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllLocalizedPropertiesOnStartup.Hint">
-        <Value>啟用時,所有本地化屬性(比如本地化商品屬性)將在應用程序啟動時加載。應用程序將開始打開時緩慢,但後來所有頁面可以打開時會快得多。只有當您啟用了兩個或更多的語言時使用。但是當您有一個大目錄(幾千局部實體)則不推薦使用。</Value>
+        <Value>啟用時,所有本地化屬性(比如本地化商品屬性)將在套用程序啟動時加載。套用程序將開始打開時緩慢,但後來所有頁面可以打開時會快得多。只有當您啟用了兩個或更多的語言時使用。但是當您有一個大目錄(幾千局部實體)則不推薦使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllUrlRecordsOnStartup">
         <Value>在啟動時加載所有搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllUrlRecordsOnStartup.Hint">
-        <Value>當啟用時,所有slugs(搜尋引擎友好名稱)將在應用程序啟動時加載。應用程序將開始放緩,但後來所有頁面可以打開得快得多。使當您有一個大的目錄(幾千實體)不推薦使用。</Value>
+        <Value>當啟用時,所有slugs(搜尋引擎友好名稱)將在套用程序啟動時加載。套用程序將開始放緩,但後來所有頁面可以打開得快得多。使當您有一個大的目錄(幾千實體)不推薦使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LocalizationSettings">
         <Value>本地化設定</Value>
@@ -7318,7 +7318,7 @@
         <Value>預設圖片數量 (0 - 100)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality.Hint">
-        <Value>圖片質量將被應用於已上載的圖片。如果改動它， 您需要手動刪除已經生成的索引圖片。</Value>
+        <Value>圖片質量將被套用於已上載的圖片。如果改動它， 您需要手動刪除已經生成的索引圖片。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ManufacturerThumbPictureSize">
         <Value>品牌縮略圖大小</Value>
@@ -13309,7 +13309,7 @@
         <Value>新增新的折扣</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories">
-        <Value>應用到分類</Value>
+        <Value>套用到分類</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories.AddNew">
         <Value>新增一個新分類</Value>
@@ -13321,7 +13321,7 @@
         <Value>您需要保存這個優惠然後您才可以在優惠頁中新增分類。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers">
-        <Value>應用到品牌</Value>
+        <Value>套用到品牌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers.AddNew">
         <Value>新增一個新品牌</Value>
@@ -13333,7 +13333,7 @@
         <Value>您需要保存這個優惠然後您才可以在優惠頁中新增品牌。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts">
-        <Value>應用到商品</Value>
+        <Value>套用到商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts.AddNew">
         <Value>新增一個新商品</Value>
@@ -13390,7 +13390,7 @@
         <Value>制定給分類</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories.Hint">
-        <Value>優惠被應用的分類列表。您可以在分類詳細資訊頁中指定這個優惠。</Value>
+        <Value>優惠被套用的分類列表。您可以在分類詳細資訊頁中指定這個優惠。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories.NoRecords">
         <Value>沒有選擇任何分類</Value>
@@ -13480,13 +13480,13 @@
         <Value>最大優惠金額</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount.Hint">
-        <Value>最大允許的優惠金額。不輸入(留空)則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地應用到每一個商品。</Value>
+        <Value>最大允許的優惠金額。不輸入(留空)則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地套用到每一個商品。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity">
         <Value>最大優惠數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity.Hint">
-        <Value>可以享受優惠的最大優惠數量。例如， 您可以有在購物車中兩個相同的商品但是僅僅其中之一享受優惠。它可以應用於「買一送一」情況裡。不輸(空)則允許優惠任何數量。</Value>
+        <Value>可以享受優惠的最大優惠數量。例如， 您可以有在購物車中兩個相同的商品但是僅僅其中之一享受優惠。它可以套用於「買一送一」情況裡。不輸(空)則允許優惠任何數量。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.Name">
         <Value>名稱</Value>
@@ -16516,22 +16516,22 @@
         <Value>分配給所有商品</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToCategories">
-        <Value>應用到各種種類</Value>
+        <Value>套用到各種種類</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToManufacturers">
-        <Value>應用到品牌</Value>
+        <Value>套用到品牌</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToOrderSubTotal">
-        <Value>應用到訂單小計</Value>
+        <Value>套用到訂單小計</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToOrderTotal">
-        <Value>應用到訂單總計</Value>
+        <Value>套用到訂單總計</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToShipping">
-        <Value>應用到配送金額</Value>
+        <Value>套用到配送金額</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToSkus">
-        <Value>應用到商品系列商品料號(SKU)</Value>
+        <Value>套用到商品系列商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToStores">
         <Value>Assigned to stores</Value>

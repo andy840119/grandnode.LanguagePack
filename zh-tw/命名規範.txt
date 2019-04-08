@@ -8,5 +8,8 @@ Customer tags -> 會員標籤
 客戶 -> 會員
 
 CustomerNote -> 會員備註
-CustomerReminder ->
+CustomerReminder -> 會員提醒
 CustomerRegister -> 會員註冊
+
+應用 -> 套用
+SaveBeforeEdit -> 
