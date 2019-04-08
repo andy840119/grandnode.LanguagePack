@@ -9175,7 +9175,7 @@
         <Value>編輯類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.BackToList">
-        <Value>Back to list</Value>
+        <Value>返回知識庫列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.CreateKnowgledgebaseArticle">
         <Value>新增文章</Value>
@@ -9184,7 +9184,7 @@
         <Value>編輯文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.BackToList">
-        <Value>Back to list</Value>
+        <Value>返回知識庫類別列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.CreateKnowgledgebaseCategory">
         <Value>新增資料庫類別</Value>
@@ -10465,7 +10465,7 @@
         <Value>新增一個新會員屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.BackToList">
-        <Value>回會員屬性列表</Value>
+        <Value>返回員屬性列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Deleted">
         <Value>該屬性已成功刪除。</Value>
@@ -11635,16 +11635,16 @@
         <Value>Added a tag</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.AddNew">
-        <Value>Add a new tag</Value>
+        <Value>新增一個標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.BackToList">
-        <Value>back to tags list</Value>
+        <Value>返回會員標籤列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Customers">
         <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Customers.SaveBeforeEdit">
-        <Value>You need to save the tag.</Value>
+        <Value>您需要儲存標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Deleted">
         <Value>The tag has been deleted successfully.</Value>
@@ -11653,7 +11653,7 @@
         <Value>Edit customer tag details</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Count">
-        <Value>Count</Value>
+        <Value>數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Email">
         <Value>Email</Value>
@@ -13087,7 +13087,7 @@
         <Value>Add a new banner</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.BackToList">
-        <Value>back to banner list</Value>
+        <Value>返回橫幅列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.Deleted">
         <Value>The banner has been deleted successfully.</Value>
@@ -13717,7 +13717,7 @@
         <Value>Back to form</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.BackToList">
-        <Value>Back to list</Value>
+        <Value>返回互動表格列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.Deleted">
         <Value>Interactive form deleted</Value>
@@ -13777,7 +13777,7 @@
         <Value>Add a new newsletter category</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.BackToList">
-        <Value>back to newsletter categories list</Value>
+        <Value>返回電子報列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Deleted">
         <Value>The newsletter category has been deleted successfully.</Value>
@@ -14344,10 +14344,10 @@
         <Value>管理Api使用者</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm">
-        <Value>消息聯繫表格</Value>
+        <Value>聯繫表單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.BackToList">
-        <Value>Back to contact form list</Value>
+        <Value>返回聯繫表單列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Delete">
         <Value>Delete</Value>
@@ -14839,7 +14839,7 @@
         <Value>排程任務</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.BackToList">
-        <Value>Back to schedule tasks list</Value>
+        <Value>返回排程任務列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.DayOfMonth">
         <Value>Day of month</Value>
@@ -15247,7 +15247,7 @@
         <Value>Approve selected</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.BackToList">
-        <Value>back to product review list</Value>
+        <Value>返回供應商評論列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Deleted">
         <Value>Review deleted</Value>
