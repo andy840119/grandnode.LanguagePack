@@ -5449,25 +5449,25 @@
         <Value>套件管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description">
-        <Value>手動安裝插件</Value>
+        <Value>手動安裝套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step1">
-        <Value>在 nopCommerce目錄的 plugins文件夾中上傳插件</Value>
+        <Value>在 nopCommerce目錄的 plugins文件夾中上傳套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step2">
-        <Value>重啟套用程序(或點擊重載插件列表按扭)</Value>
+        <Value>重啟套用程序(或點擊重載套件列表按扭)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step3">
-        <Value>滾動插件列表來找到最近安裝的插件</Value>
+        <Value>滾動套件列表來找到最近安裝的套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step4">
-        <Value>單擊安裝連結來安裝插件</Value>
+        <Value>單擊安裝連結來安裝套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step5">
         <Value>Note: If you're running grandnode in medium trust, then it's recommended to clear your \Plugins\bin\ directory</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.EditDetails">
-        <Value>編輯插件</Value>
+        <Value>編輯套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Author">
         <Value>作者</Value>
@@ -5521,7 +5521,7 @@
         <Value>向商店有限公司</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.LimitedToStores.Hint">
-        <Value>確定該插件只在某些商店是否可用。</Value>
+        <Value>確定該套件只在某些商店是否可用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Logo">
         <Value>Logo</Value>
@@ -5545,16 +5545,16 @@
         <Value>版本</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Group">
-        <Value>插件類型</Value>
+        <Value>套件類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Group.Hint">
         <Value>板塊搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Info">
-        <Value>插件資訊</Value>
+        <Value>套件資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Installed">
-        <Value>插件安裝成功。</Value>
+        <Value>套件安裝成功。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.LoadMode">
         <Value>安裝狀態</Value>
@@ -5563,10 +5563,10 @@
         <Value>搜尋通過安裝狀態。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Local">
-        <Value>已架設插件</Value>
+        <Value>已架設套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Misc.BackToList">
-        <Value>返回插件列表</Value>
+        <Value>返回套件列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Misc.Configure">
         <Value>配置</Value>
@@ -5614,7 +5614,7 @@
         <Value>版本搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.ReloadList">
-        <Value>重載插件</Value>
+        <Value>重載套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Removed">
         <Value>套件已被移除</Value>
@@ -13069,10 +13069,10 @@
         <Value>刪除圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Plugins">
-        <Value>插件管理</Value>
+        <Value>套件管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Plugins.Saved">
-        <Value>這個插件已成功修改。</Value>
+        <Value>這個套件已成功修改。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions">
         <Value>Promotions</Value>
@@ -15196,7 +15196,7 @@
         <Value>帳號{0}沒有修改文件{1}的權限，請重新配置權限</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.IncompatiblePlugin">
-        <Value>插件{0}和您當前nopCommerce版本不兼容，請移除或升級到最新版本</Value>
+        <Value>套件{0}和您當前nopCommerce版本不兼容，請移除或升級到最新版本</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.MachineKey.NotSpecified">
         <Value>沒有指定的自定義machine key(web.config 文件)</Value>
@@ -17965,7 +17965,7 @@
         <Value>公共商店，進入一個已關閉的商店</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessWebService">
-        <Value>插件.訪問Web服務</Value>
+        <Value>套件.訪問Web服務</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AllowCustomerImpersonation">
         <Value>系統管理後台.允許會員模擬</Value>
@@ -18064,7 +18064,7 @@
         <Value>系統管理後台.付款方式管理</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.ManagePlugins">
-        <Value>系統管理後台.管理插件</Value>
+        <Value>系統管理後台.管理套件</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.ManagePolls">
         <Value>系統管理後台.管理調查</Value>
