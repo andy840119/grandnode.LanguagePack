@@ -11065,46 +11065,46 @@
         <Value>願望清單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerNotes">
-        <Value>Customer notes</Value>
+        <Value>會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.DisplayToCustomer">
-        <Value>Display to customer</Value>
+        <Value>讓會員看到</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.DisplayToCustomer.Hint">
-        <Value>A value indicating whether to display this customer note to a customer.</Value>
+        <Value>會員可以在會員中心看到會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Title">
-        <Value>Title</Value>
+        <Value>開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Title.Hint">
-        <Value>Enter this customer note title.</Value>
+        <Value>請輸入開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Note">
-        <Value>Note</Value>
+        <Value>備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Note.Hint">
-        <Value>Enter this customer note message.</Value>
+        <Value>請輸入備註訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.CreatedOn">
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download">
-        <Value>Download</Value>
+        <Value>下載</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.AddTitle">
-        <Value>Add customer note</Value>
+        <Value>新增會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.AddButton">
-        <Value>Add customer note</Value>
+        <Value>新增會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.Link">
-        <Value>Download</Value>
+        <Value>下載</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.Link.No">
-        <Value>No file attached</Value>
+        <Value>沒有附件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.HasDownload">
-        <Value>(check to upload file)</Value>
+        <Value>(點選上傳檔案)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerRoles">
         <Value>會員角色</Value>
@@ -15142,7 +15142,7 @@
         <Value>Email</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.UserApi.Email.CustomerNotExist">
-        <Value>No customer account found</Value>
+        <Value>沒有找到會員帳號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.UserApi.IsActive">
         <Value>Is active</Value>
@@ -19832,19 +19832,19 @@
         <Value>Return request details</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes">
-        <Value>Customer notes</Value>
+        <Value>會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.Attachment">
-        <Value>Attachment</Value>
+        <Value>附件</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.Createdate">
-        <Value>Create date</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.NoExists">
-        <Value>You don't have any notes</Value>
+        <Value>你沒有任何會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.Title">
-        <Value>Title</Value>
+        <Value>開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerReturnRequests.Quantity">
         <Value>數量</Value>

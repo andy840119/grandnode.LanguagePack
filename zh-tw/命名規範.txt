@@ -7,6 +7,6 @@ CustoomerRole -> 會員角色
 Customer tags -> 會員標籤
 客戶 -> 會員
 
-CustomerNote ->
+CustomerNote -> 會員備註
 CustomerReminder ->
 CustomerRegister -> 會員註冊
