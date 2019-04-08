@@ -2851,13 +2851,13 @@
         <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog">
-        <Value>Activity Log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.ActivityLogType">
-        <Value>Activity Log Type</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Comment">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.CreatedOn">
         <Value>建立日期</Value>
@@ -4681,16 +4681,16 @@
         <Value>修改日誌設定成功</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats">
-        <Value>Activity Stat</Value>
+        <Value>活動統計</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.ActivityLogType">
-        <Value>Activity Types</Value>
+        <Value>活動類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.Count">
-        <Value>Visit counter</Value>
+        <Value>訪問計數器</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.Name">
-        <Value>Catalog name</Value>
+        <Value>類別名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries">
         <Value>縣市管理</Value>
@@ -9160,7 +9160,7 @@
         <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLogType">
-        <Value>Acitivty log type</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseArticle">
         <Value>新增文章</Value>
@@ -9199,7 +9199,7 @@
         <Value>Select customer roles for which the article will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.ActivityLog">
-        <Value>Activity log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Added">
         <Value>Article added</Value>
@@ -9331,7 +9331,7 @@
         <Value>Select customer roles for which the category will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.ActivityLog">
-        <Value>Acitivity log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Added">
         <Value>Category added</Value>
@@ -10981,13 +10981,13 @@
         <Value>會員管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog">
-        <Value>活動記錄</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.ActivityLogType">
-        <Value>記錄類型</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.Comment">
-        <Value>內容</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.CreatedOn">
         <Value>建立日期</Value>

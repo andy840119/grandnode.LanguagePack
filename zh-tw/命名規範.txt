@@ -23,6 +23,9 @@ BackToList -> 返回...列表
 DisplayOrder -> 顯示順序
 
 Edit -> 編輯...
+.ActivityLog -> 活動日誌
+.ActivityLogType -> 活動日誌類型
+Comment -> 評論
 
 -------------------
 
@@ -45,7 +48,7 @@ ActivityLogType ->
  
 
 ACL -> 權限管理
-Activity log -> 活動日誌
+
 added
 deleted
 Content -> 
