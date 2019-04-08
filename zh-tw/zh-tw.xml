@@ -6133,13 +6133,13 @@
         <Value>名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsEnabled">
-        <Value>'Suggested products' enabled</Value>
+        <Value>'推薦商品' 啟用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsEnabled.Hint">
         <Value>Check to allow customers to use the 'Suggested products - customer tag' feature in your store</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsNumber">
-        <Value>Number of 'Suggested products'</Value>
+        <Value>'推薦商品' 數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsNumber.Hint">
         <Value>The number of 'Suggested products' to display when 'Suggested products' option is enabled.</Value>
@@ -6394,7 +6394,7 @@
         <Value>Check to enable auto registration when using external authentication.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationSettings">
-        <Value>External authentication settings</Value>
+        <Value>外部登入設定</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordAllowedAttempts">
         <Value>允許登入失敗次數</Value>
@@ -6427,10 +6427,10 @@
         <Value>啟用性別欄位</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideAuctionsTab">
-        <Value>Hide 'Auctions' tab</Value>
+        <Value>隱藏 '拍賣' 功能</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideAuctionsTab.hint">
-        <Value>Check to hide 'Auctions' tab on 'My account' page</Value>
+        <Value>點選後 '拍賣' 功能就不會顯示在會員中心</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideBackInStockSubscriptionsTab">
         <Value>隱藏到貨通知選項卡</Value>
@@ -10369,7 +10369,7 @@
         <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerTagName">
-        <Value>Tag name</Value>
+        <Value>標籤名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.fields.manufacturer">
         <Value>Manufacturer</Value>
@@ -11665,16 +11665,16 @@
         <Value>The name of this tag.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Name.Required">
-        <Value>Tag name is required</Value>
+        <Value>標籤名稱必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Info">
         <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products">
-        <Value>Suggested products</Value>
+        <Value>推薦商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.AddNew">
-        <Value>Suggested products assigned to the Customer Tag</Value>
+        <Value>推薦商品和會員標籤關聯</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.AddNew">
         <Value>Add new</Value>
@@ -11686,7 +11686,7 @@
         <Value>Product name</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Info">
-        <Value>In order to use this functionality you have to enable the following setting: Configuration &gt; Catalog settings &gt; General &gt; 'Suggested products' enabled</Value>
+        <Value>In order to use this functionality you have to enable the following setting: Configuration &gt; Catalog settings &gt; General &gt; '推薦商品' enabled</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.SaveBeforeEdit">
         <Value>You need to save the customer tag before you can add values for this page.</Value>
@@ -17143,7 +17143,7 @@
         <Value>Recommended products for you</Value>
     </LocaleResource>
     <LocaleResource Name="HomePage.Suggested.Products">
-        <Value>Suggested products for you</Value>
+        <Value>為你準備的推薦商品</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase">
         <Value>Knowledgebase</Value>
