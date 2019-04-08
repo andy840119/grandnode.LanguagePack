@@ -14344,7 +14344,7 @@
         <Value>管理Api使用者</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm">
-        <Value>Message Contact form</Value>
+        <Value>消息聯繫表格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.BackToList">
         <Value>Back to contact form list</Value>
@@ -15298,7 +15298,7 @@
         <Value>Select the date range</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.List.SearchText">
-        <Value>Message</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="admin.vendorreviews.list.searchtext.hint">
         <Value>Enter the text which you want to search</Value>
@@ -18136,7 +18136,7 @@
         <Value>{0}({1}票-{2}%)</Value>
     </LocaleResource>
     <LocaleResource Name="PopupInteractiveForm.EmailForm">
-        <Value>Message from form {0}</Value>
+        <Value>表單內的訊息 {0}</Value>
     </LocaleResource>
     <LocaleResource Name="PopupInteractiveForm.Fields.IsRequired">
         <Value>The value of the field {0} is required</Value>
@@ -18292,13 +18292,13 @@
         <Value>FullName is required.</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Message">
-        <Value>Message</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Message.Hint">
         <Value>Enter message</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Message.Required">
-        <Value>Message is required.</Value>
+        <Value>訊息必填</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Phone">
         <Value>Phone</Value>
@@ -19577,10 +19577,10 @@
         <Value>Send</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.MessageTextPlaceholder">
-        <Value>Message text</Value>
+        <Value>訊息文字</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.MessageTitlePlaceholder">
-        <Value>Message title</Value>
+        <Value>訊息開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.PushNotifications">
         <Value>Push notifications</Value>
@@ -19598,7 +19598,7 @@
         <Value>Warning! Press "Save" button every time you upgrade GrandNode to new version, as the settings will be wiped out in registration script.</Value>
     </LocaleResource>
     <LocaleResource Name="Pushnotifications.Pushnotications.Messages">
-        <Value>Messages</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Pushnotifications.Pushnotications.Receivers">
         <Value>Receivers</Value>
@@ -19640,7 +19640,7 @@
         <Value>Send</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.PushNotifications.Messages">
-        <Value>Messages</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch">
         <Value>Admin search</Value>
@@ -19928,7 +19928,7 @@
         <Value>Additional Shipping Charge:</Value>
     </LocaleResource>
     <LocaleResource Name="Products.GiftCard.Message">
-        <Value>Message</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Products.GiftCard.RecipientEmail">
         <Value>Recipient's Email</Value>
