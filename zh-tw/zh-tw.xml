@@ -1780,7 +1780,7 @@
         <Value>重量調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Values.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes">
         <Value>聯絡屬性</Value>
@@ -2146,7 +2146,7 @@
         <Value>相關聯的商品的數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Options.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Updated">
         <Value>修改規格成功</Value>
@@ -2452,7 +2452,7 @@
         <Value>商品管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Products.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Stores">
         <Value>商店</Value>
@@ -2698,7 +2698,7 @@
         <Value>商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Products.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Stores">
         <Value>商店</Value>
@@ -3028,7 +3028,7 @@
         <Value>商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.CrossSells.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Deleted">
         <Value>刪除商品成功</Value>
@@ -3901,7 +3901,7 @@
         <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Prices">
         <Value>價格</Value>
@@ -4258,7 +4258,7 @@
         <Value>商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.RelatedProducts.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Reviews">
         <Value>商品評論</Value>
@@ -4321,7 +4321,7 @@
         <Value>未找到商品規格屬性資訊，請先建立商品規格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Stores">
         <Value>商店</Value>
@@ -4849,7 +4849,7 @@
         <Value>是否發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.States.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.Stores">
         <Value>商店</Value>
@@ -9787,7 +9787,7 @@
         <Value>票數</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Answers.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.BackToList">
         <Value>返回投票列表</Value>
@@ -13582,7 +13582,7 @@
         <Value>移除</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Saved">
         <Value>折扣要求已保存</Value>

@@ -12,4 +12,5 @@ CustomerReminder -> 會員提醒
 CustomerRegister -> 會員註冊
 
 應用 -> 套用
+進一步 -> null
 SaveBeforeEdit -> 
