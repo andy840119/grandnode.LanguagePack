@@ -10543,7 +10543,7 @@
         <Value>請先保存會員屬性,然後才可以對該會員屬性頁面進行編輯。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customerreminder.Addcondition">
-        <Value>Add condition</Value>
+        <Value>新增情況</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.added">
         <Value>Reminder added</Value>
@@ -10582,7 +10582,7 @@
         <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.categoryname">
-        <Value>Category name</Value>
+        <Value>類別名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.ConditionId">
         <Value>Condition</Value>
