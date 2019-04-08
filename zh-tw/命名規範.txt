@@ -1,0 +1,56 @@
+﻿CreatedOn -> 建立日期
+創建 -> 建立
+
+時間 -> 日期
+Customer -> 會員
+CustoomerRole -> 會員角色
+Customer tags -> 會員標籤
+客戶 -> 會員
+
+CustomerNote -> 會員備註
+CustomerReminder -> 會員提醒
+CustomerRegister -> 會員註冊
+
+信息 -> 訊息
+Create -> 除了建立日期外，其他用新增
+
+BackToList -> 返回...列表
+插件 -> 套件
+訪問 -> 查看
+
+進一步 -> null
+應用 -> 套用
+DisplayOrder -> 顯示順序
+
+Edit -> 編輯...
+.ActivityLog -> 活動日誌
+.ActivityLogType -> 活動日誌類型
+Comment -> 評論
+
+-------------------
+
+Knowledge -> 知識庫
+
+
+SaveBeforeEdit -> 編輯前請先儲存
+Message -> 訊息
+Banner -> 橫幅
+InteractiveForms -> 互動表格
+Newsletter -> 電子報
+ContactForm -> 聯繫表單
+VendorReviews -> 供應商評論
+
+----------------------------
+
+
+
+ActivityLogType -> 
+ 
+
+ACL -> 權限管理
+
+added
+deleted
+Content -> 
+
+Customerreminder -> 會員提醒

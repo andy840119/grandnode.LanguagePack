@@ -97,7 +97,7 @@
         <Value>請輸入密碼</Value>
     </LocaleResource>
     <LocaleResource Name="Account.ChangePassword.Errors.PasswordMatchesWithPrevious">
-        <Value>您輸入的密碼與您使用的最後一個密碼相同，請創建一個新密碼。</Value>
+        <Value>您輸入的密碼與您使用的最後一個密碼相同，請建立一個新密碼。</Value>
     </LocaleResource>
     <LocaleResource Name="Account.ChangePassword.Fields.ConfirmNewPassword">
         <Value>確認新密碼</Value>
@@ -526,7 +526,7 @@
         <Value>帳號已被刪除</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Login.WrongCredentials.LockedOut">
-        <Value>客戶被鎖住</Value>
+        <Value>會員被鎖住</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Login.WrongCredentials.NotActive">
         <Value>帳號沒有啟用</Value>
@@ -805,10 +805,10 @@
         <Value>新增新的小工具(編號：{0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.CreateKnowledgebaseArticle">
-        <Value>建立知識庫文章 ('{0}')</Value>
+        <Value>新增知識庫文章 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.CreateKnowledgebaseCategory">
-        <Value>建立知識庫分類 ('{0}')</Value>
+        <Value>新增知識庫分類 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteAccount">
         <Value>會員已刪除</Value>
@@ -1210,7 +1210,7 @@
         <Value>您沒有權限執行該操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.AccessDenied.Title">
-        <Value>拒絕訪問</Value>
+        <Value>拒絕查看</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Address">
         <Value>地址</Value>
@@ -1459,7 +1459,7 @@
         <Value>友好URL名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Affiliates.Fields.FriendlyUrlName.Hint">
-        <Value>在生成的聯盟URL （聯盟ID將被使用。）中使用友好URL名將有助於協銷活動。此欄留空將使用聯盟ID。</Value>
+        <Value>在生成的聯盟URL (聯盟ID將被使用。)中使用友好URL名將有助於協銷活動。此欄留空將使用聯盟ID。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Affiliates.Fields.ID">
         <Value>加盟識別</Value>
@@ -1603,7 +1603,7 @@
         <Value>啟用條件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.EnableCondition.Hint">
-        <Value>當啟用此屬性（可見）時，檢查已指定條件（取決於其他屬性）。</Value>
+        <Value>當啟用此屬性(可見)時，檢查已指定條件(取決於其他屬性)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.NoAttributeExists">
         <Value>不存在可作為條件的屬性.</Value>
@@ -1651,13 +1651,13 @@
         <Value>允許文件擴展名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.FileAllowedExtensions.Hint">
-        <Value>指定一個以逗號分隔的文件擴展名。不填（空）允許任何文件擴展名.</Value>
+        <Value>指定一個以逗號分隔的文件擴展名。不填(空)允許任何文件擴展名.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.FileMaximumSize">
         <Value>最大文件大小 (KB)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.FileMaximumSize.Hint">
-        <Value>用KB指定最大文件大小。不填（空）跳過此驗證.</Value>
+        <Value>用KB指定最大文件大小。不填(空)跳過此驗證.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.IsRequired">
         <Value>必填</Value>
@@ -1669,7 +1669,7 @@
         <Value>免稅</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.IsTaxExempt.Hint">
-        <Value>決定這個選項是否免稅(稅不會被應用到結算選項)。</Value>
+        <Value>決定這個選項是否免稅(稅不會被套用到結算選項)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.LimitedToStores">
         <Value>只限某一商店</Value>
@@ -1780,7 +1780,7 @@
         <Value>重量調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Values.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes">
         <Value>聯絡屬性</Value>
@@ -1912,16 +1912,16 @@
         <Value>Determines whether the Contact attrubutes is subject to ACL (access control list).</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.TextPrompt">
-        <Value>Text prompt</Value>
+        <Value>文字提示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.TextPrompt.Hint">
-        <Value>Enter text prompt.</Value>
+        <Value>輸入文字提示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Info">
         <Value>屬性資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Updated">
         <Value>The attribute has been updated successfully.</Value>
@@ -2041,13 +2041,13 @@
         <Value>價格調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
-        <Value>選擇此屬性值時應用的價格調整。 比如'10'加10美元。 如果勾選“使用百分比”，則為10％。</Value>
+        <Value>選擇此屬性值時套用的價格調整。 比如'10'加10美元。 如果勾選“使用百分比”，則為10％。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
         <Value>重量調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment.Hint">
-        <Value>重量調整將被應用當選擇這個屬性</Value>
+        <Value>重量調整將被套用當選擇這個屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Hint">
         <Value>當新增該屬性到某商品時，會把已先預設好的屬性值一起新增到該商品，您可不必重複輸入屬性值。</Value>
@@ -2146,7 +2146,7 @@
         <Value>相關聯的商品的數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Options.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes.Updated">
         <Value>修改規格成功</Value>
@@ -2170,7 +2170,7 @@
         <Value>是否發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.StockQuantity">
         <Value>庫存數量</Value>
@@ -2209,7 +2209,7 @@
         <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.CreatedOn">
-        <Value>建立時間</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Customer">
         <Value>會員</Value>
@@ -2263,7 +2263,7 @@
         <Value>分類版型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Deleted">
         <Value>已刪除</Value>
@@ -2452,7 +2452,7 @@
         <Value>商品管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Products.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Stores">
         <Value>商店</Value>
@@ -2542,7 +2542,7 @@
         <Value>選擇顯示製造商的商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Deleted">
         <Value>已刪除</Value>
@@ -2698,7 +2698,7 @@
         <Value>商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Products.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Stores">
         <Value>商店</Value>
@@ -2710,22 +2710,22 @@
         <Value>You can't delete reservation with the order</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Days.Finaldatemustbegreaterthanstartdate">
-        <Value>Final date must be greater than start date</Value>
+        <Value>截止日期必須比開始日期大</Value>
     </LocaleResource>
     <LocaleResource Name="admin.catalog.productreservations.fields.endtime.required">
-        <Value>End date is required</Value>
+        <Value>結束日期必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Interval.Intervalmustbegreaterthanzero">
-        <Value>Interval must be greater than zero</Value>
+        <Value>間隔必須大於0</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Quantity.Quantitymustbegreaterthanzero">
-        <Value>Quantity must be greater than zero</Value>
+        <Value>數量必須大於0</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Resource.Required">
-        <Value>Resource name is required</Value>
+        <Value>資源名稱必填</Value>
     </LocaleResource>
     <LocaleResource Name="admin.catalog.productreservations.fields.starttime.required">
-        <Value>Start time is required</Value>
+        <Value>開始日期必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews">
         <Value>商品評論</Value>
@@ -2746,10 +2746,10 @@
         <Value>編輯商品評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Customer">
         <Value>會員</Value>
@@ -2779,7 +2779,7 @@
         <Value>回覆內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText.Hint">
-        <Value>回复文本（由店主）。 如果指定，則客戶可以看到它。 留空以忽略此功能。</Value>
+        <Value>回复文本(由店主)。 如果指定，則會員可以看到它。 留空以忽略此功能。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText">
         <Value>評論</Value>
@@ -2848,22 +2848,22 @@
         <Value>商品維護</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.AclStores">
-        <Value>ACL and Stores</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog">
-        <Value>Activity Log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.ActivityLogType">
-        <Value>Activity Log Type</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Comment">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Added">
         <Value>新增商品成功</Value>
@@ -2911,13 +2911,13 @@
         <Value>Cannot delete bid wiht order id</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.CustomerId">
-        <Value>Customer Id</Value>
+        <Value>會員ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.Date">
-        <Value>Date</Value>
+        <Value>日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.OrderId">
-        <Value>Order Id</Value>
+        <Value>訂單ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.SaveBeforeEdit">
         <Value>You need to save before editing this section</Value>
@@ -2929,7 +2929,7 @@
         <Value>Add new products</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.Product">
         <Value>Product name</Value>
@@ -2962,7 +2962,7 @@
         <Value>Generate calendar</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Calendar.OrderId">
-        <Value>Order</Value>
+        <Value>訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Calendar.Parameter">
         <Value>Parameter</Value>
@@ -2986,7 +2986,7 @@
         <Value>Category</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.IsFeaturedProduct">
         <Value>Is featured product?</Value>
@@ -3028,7 +3028,7 @@
         <Value>商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.CrossSells.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Deleted">
         <Value>刪除商品成功</Value>
@@ -3064,7 +3064,7 @@
         <Value>只允許現有的屬性組合</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AllowAddingOnlyExistingAttributeCombinations.Hint">
-        <Value>檢查允許新增購物車/收藏列表只有屬性組合存在且庫存大於零。在這種情況下,您必須創建所有現有商品屬性的組合併保證有庫存.</Value>
+        <Value>檢查允許新增購物車/收藏列表只有屬性組合存在且庫存大於零。在這種情況下,您必須建立所有現有商品屬性的組合併保證有庫存.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AllowBackInStockSubscriptions">
         <Value>允許會員預先訂購</Value>
@@ -3151,7 +3151,7 @@
         <Value>啟用PAngV (基本價格) </Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceEnabled.Hint">
-        <Value>選擇將顯示商品的基本價格。這是德國法律（PAngV）所要求的。 如果您以1.5歐元銷售500毫升的啤酒， 您不得不顯示基本價格： 3.00 每升。</Value>
+        <Value>選擇將顯示商品的基本價格。這是德國法律(PAngV)所要求的。 如果您以1.5歐元銷售500毫升的啤酒， 您不得不顯示基本價格： 3.00 每升。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceUnit">
         <Value>商品單位</Value>
@@ -3244,10 +3244,10 @@
         <Value>You can't edit the product because has been changed. Please refresh page and try to change again.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
-        <Value>建立時間</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn.Hint">
-        <Value>日期和時間創建此商品時。</Value>
+        <Value>建立商品的日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CustomerEntersPrice">
         <Value>會員輸入的價格</Value>
@@ -3328,7 +3328,7 @@
         <Value>天數</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.DownloadExpirationDays.Hint">
-        <Value>期間會員的天數保持訪問到的文件 （例如 14）。將此欄位保留為空，允許連續下載。</Value>
+        <Value>期間會員的天數保持查看到的文件 (例如 14)。將此欄位保留為空，允許連續下載。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Flag">
         <Value>Flag</Value>
@@ -3349,10 +3349,10 @@
         <Value>選擇禮品卡類型。警告: 不推薦在生產環境中更改。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.GTIN">
-        <Value>GTIN （全球貿易項目代碼）</Value>
+        <Value>GTIN (全球貿易項目代碼)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.GTIN.Hint">
-        <Value>輸入全球貿易項目代碼 (GTIN)。這些標識符包括通用商品代碼（UPC在北美洲)、 歐洲物品號(EAN歐洲)、日本物品號（JAN在日本），國際標準書號 (ISBN)。</Value>
+        <Value>輸入全球貿易項目代碼 (GTIN)。這些標識符包括通用商品代碼(UPC在北美洲)、 歐洲物品號(EAN歐洲)、日本物品號(JAN在日本)，國際標準書號 (ISBN)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.HasSampleDownload">
         <Value>已下載文件示例</Value>
@@ -3412,7 +3412,7 @@
         <Value>免徵稅費</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.IsTaxExempt.Hint">
-        <Value>確定該商品是否免稅 (稅不會應用到此商品在簽出）。</Value>
+        <Value>確定該商品是否免稅 (稅不會套用到此商品在簽出)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.IsTelecommunicationsOrBroadcastingOrElectronicServices">
         <Value>通信， 直播和電子服務</Value>
@@ -3523,7 +3523,7 @@
         <Value>低於庫存時通知管理員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.NotifyAdminForQuantityBelow.Hint">
-        <Value>低於庫存時，店主 （管理員） 將收到通知。</Value>
+        <Value>低於庫存時，店主 (管理員) 將收到通知。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.NotReturnable">
         <Value>不可退貨</Value>
@@ -3541,13 +3541,13 @@
         <Value>最大購物車數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMaximumQuantity.Hint">
-        <Value>如：設定允許最高為 5，則僅允許會員在購買當前商品為 5 或更少時合法。（限量銷售）</Value>
+        <Value>如：設定允許最高為 5，則僅允許會員在購買當前商品為 5 或更少時合法。(限量銷售)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMinimumQuantity">
         <Value>最低購物車數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMinimumQuantity.Hint">
-        <Value>如：設定允許最低為 3，則僅允許會員在購買當前商品為 3 或更多時合法。（多用於活動，或小物件）</Value>
+        <Value>如：設定允許最低為 3，則僅允許會員在購買當前商品為 3 或更多時合法。(多用於活動，或小物件)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OverriddenGiftCardAmount">
         <Value>重寫禮品卡金額</Value>
@@ -3628,7 +3628,7 @@
         <Value>所需的商品ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.RequiredProductIds.Hint">
-        <Value>指定所需的商品ID的逗號分隔列表。注意： 請確保有沒有循環引用 （例如，A 要求 B、 和 B 要求 A）。</Value>
+        <Value>指定所需的商品ID的逗號分隔列表。注意： 請確保有沒有循環引用 (例如，A 要求 B、 和 B 要求 A)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.RequireOtherProducts">
         <Value>需要其他的商品新增到購物車</Value>
@@ -3646,13 +3646,13 @@
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.SeName.Hint">
-        <Value>設定搜尋引擎友好頁名， 如『the-best-product』 從而使您的網頁URL如'http://www.yourStore.com/the-best-product'。不填任何消息（留空）將自動基於商品名字生成。</Value>
+        <Value>設定搜尋引擎友好頁名， 如『the-best-product』 從而使您的網頁URL如'http://www.yourStore.com/the-best-product'。不填任何消息(留空)將自動基於商品名字生成。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.ShipSeparately">
         <Value>獨立包裝運輸</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.ShipSeparately.Hint">
-        <Value>選擇將使這個商品包裝在單獨的盒子裡運輸 （單獨發送）. 這個商品的運費將被單獨計算不管購物車中其他的商品。請注意如果您在購物車中購買了多件這個商品， 它們將被包裝到一個盒子中出貨。</Value>
+        <Value>選擇將使這個商品包裝在單獨的盒子裡運輸 (單獨發送). 這個商品的運費將被單獨計算不管購物車中其他的商品。請注意如果您在購物車中購買了多件這個商品， 它們將被包裝到一個盒子中出貨。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.ShortDescription">
         <Value>簡短說明</Value>
@@ -3667,10 +3667,10 @@
         <Value>首頁顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Sku">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Hint">
-        <Value>商品料號（SKU）。您可以用來跟蹤此商品的內部唯一標識符。</Value>
+        <Value>商品料號(SKU)。您可以用來跟蹤此商品的內部唯一標識符。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.StartPrice">
         <Value>Start price</Value>
@@ -3709,7 +3709,7 @@
         <Value>關於更新</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.UpdatedOn.Hint">
-        <Value>更新日期和時間時這種商品了。</Value>
+        <Value>更新商品日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.UseMultipleWarehouses">
         <Value>使用多個倉庫</Value>
@@ -3772,10 +3772,10 @@
         <Value>匯出PDF文件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.List.GoDirectlyToSku">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.List.GoDirectlyToSku.Hint">
-        <Value>直接轉到商品料號（SKU）</Value>
+        <Value>直接轉到商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.List.ImportFromExcelTip">
         <Value>如果SKU已經存在，匯入的商品將不會新增，而是會更新至其相應的商品。</Value>
@@ -3850,7 +3850,7 @@
         <Value>Manufacturer mappings</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.IsFeaturedProduct">
         <Value>Is featured product?</Value>
@@ -3886,13 +3886,13 @@
         <Value>Alt</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideAltAttribute.Hint">
-        <Value>重寫「img」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 （如商品名稱）。</Value>
+        <Value>重寫「img」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 (如商品名稱)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideTitleAttribute">
         <Value>標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideTitleAttribute.Hint">
-        <Value>重寫「title」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 （如商品名稱）。</Value>
+        <Value>重寫「title」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 (如商品名稱)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.Picture">
         <Value>圖片</Value>
@@ -3901,7 +3901,7 @@
         <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Prices">
         <Value>價格</Value>
@@ -3940,7 +3940,7 @@
         <Value>屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.GTIN">
-        <Value>全球貿易項目代碼（GTIN）</Value>
+        <Value>全球貿易項目代碼(GTIN)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.GTIN.Hint">
         <Value>請輸入全球貿易項目代碼 (GTIN)。這些IDs包括UPC (在北美), EAN (在歐洲), JAN (在日本), and ISBN (書籍).</Value>
@@ -3955,13 +3955,13 @@
         <Value>提示管理員庫存數量低</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.NotifyAdminForQuantityBelow.Hint">
-        <Value>當庫存數量下降低於（達到）這個數量， 商店擁有者將受到通知。</Value>
+        <Value>當庫存數量下降低於(達到)這個數量， 商店擁有者將受到通知。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.OverriddenPrice">
         <Value>覆寫價格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.OverriddenPrice.Hint">
-        <Value>商店擁有者可覆寫商品預設的價格，輸入此欄後其他的折扣將被這個值覆蓋，不輸入任何資訊（留空）將忽略這個值。如要給予折扣，也可透過此欄位達成。</Value>
+        <Value>商店擁有者可覆寫商品預設的價格，輸入此欄後其他的折扣將被這個值覆蓋，不輸入任何資訊(留空)將忽略這個值。如要給予折扣，也可透過此欄位達成。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Picture">
         <Value>圖片</Value>
@@ -3973,10 +3973,10 @@
         <Value>沒有圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku.Hint">
-        <Value>商品料號（SKU）。您的內部唯一ID用於跟蹤這個屬性組合。</Value>
+        <Value>商品料號(SKU)。您的內部唯一ID用於跟蹤這個屬性組合。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity">
         <Value>庫存數量</Value>
@@ -3997,7 +3997,7 @@
         <Value>Tier prices</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.TierPrices.CustomerRole">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.TierPrices.Price">
         <Value>Price</Value>
@@ -4006,7 +4006,7 @@
         <Value>Quantity</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.TierPrices.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Update">
         <Value>Enter details below</Value>
@@ -4033,7 +4033,7 @@
         <Value>啟用條件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.EnableCondition.Hint">
-        <Value>檢查指定的條件（取決於其他屬性）時，此屬性應啟用（可見）。</Value>
+        <Value>檢查指定的條件(取決於其他屬性)時，此屬性應啟用(可見)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.ViewLink">
         <Value>View/Edit condition</Value>
@@ -4066,25 +4066,25 @@
         <Value>允許的文件擴展名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.FileAllowedExtensions.Hint">
-        <Value>規定允許文件擴展名為逗號分隔列表。 不填（空）將允許任何文件擴展。</Value>
+        <Value>規定允許文件擴展名為逗號分隔列表。 不填(空)將允許任何文件擴展。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.FileMaximumSize">
         <Value>文件最大值 (KB)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.FileMaximumSize.Hint">
-        <Value>規定最大文件大小為 kilobytes。不填（空）跳過此驗證。</Value>
+        <Value>規定最大文件大小為 kilobytes。不填(空)跳過此驗證。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MaxLength">
         <Value>長度最大值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MaxLength.Hint">
-        <Value>規定最大長度。 不填（空）跳過此驗證。</Value>
+        <Value>規定最大長度。 不填(空)跳過此驗證。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MinLength">
         <Value>長度最小值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MinLength.Hint">
-        <Value>規定最小長度值。 不填（空）跳過此驗證。</Value>
+        <Value>規定最小長度值。 不填(空)跳過此驗證。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.ViewLink">
         <Value>查看/編輯規則</Value>
@@ -4123,7 +4123,7 @@
         <Value>RGB顏色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.ColorSquaresRgb.Hint">
-        <Value>選擇將被應用到在顏色方形屬性控件中的顏色。</Value>
+        <Value>選擇將被套用到在顏色方形屬性控件中的顏色。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.Cost">
         <Value>成本</Value>
@@ -4171,7 +4171,7 @@
         <Value>價格調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.PriceAdjustment.Hint">
-        <Value>應用價格調整當選擇這個屬性值 例如選擇『10』將增加10元錢。</Value>
+        <Value>套用價格調整當選擇這個屬性值 例如選擇『10』將增加10元錢。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.Quantity">
         <Value>商品數量</Value>
@@ -4186,7 +4186,7 @@
         <Value>重量調整</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
-        <Value>應用重量調整當選擇這個屬性值</Value>
+        <Value>套用重量調整當選擇這個屬性值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.TotalValues">
         <Value>總共:</Value>
@@ -4201,7 +4201,7 @@
         <Value>編輯屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.NoAttributesAvailable">
-        <Value>沒有定義任何商品屬性。在映射（mapping）之前創建至少一個商品屬性。</Value>
+        <Value>沒有定義任何商品屬性。在映射(mapping)之前新增至少一個商品屬性。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.SaveBeforeEdit">
         <Value>您需要先保存產品，然後才能為此頁面添加屬性。</Value>
@@ -4258,7 +4258,7 @@
         <Value>商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.RelatedProducts.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Reviews">
         <Value>商品評論</Value>
@@ -4318,10 +4318,10 @@
         <Value>屬性規格值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.NoAttributes">
-        <Value>未找到商品規格屬性資訊，請先創建商品規格</Value>
+        <Value>未找到商品規格屬性資訊，請先新增商品規格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Stores">
         <Value>商店</Value>
@@ -4333,7 +4333,7 @@
         <Value>新增</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Edit">
-        <Value>編輯等級價格詳細信息</Value>
+        <Value>編輯等級價格詳細訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole">
         <Value>會員角色</Value>
@@ -4342,13 +4342,13 @@
         <Value>所有會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole.Hint">
-        <Value>選擇層級價格可用的客戶角色。</Value>
+        <Value>選擇層級價格可用的會員角色。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTime">
         <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTime.Hint">
-        <Value>協調世界時（UTC）中等級價格的結束日期。</Value>
+        <Value>協調世界時(UTC)中等級價格的結束日期。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Price">
         <Value>價格</Value>
@@ -4366,7 +4366,7 @@
         <Value>開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.StartDateTime.Hint">
-        <Value>協調世界時（UTC）中層級價格的開始日期。</Value>
+        <Value>協調世界時(UTC)中層級價格的開始日期。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store">
         <Value>商店</Value>
@@ -4438,7 +4438,7 @@
         <Value>Please provide a name.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Vendors.List.SearchStore">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Vendors.List.SearchStore.Hint">
         <Value>Search by a specific store.</Value>
@@ -4639,7 +4639,7 @@
         <Value>內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnFrom">
         <Value>開始日期</Value>
@@ -4681,16 +4681,16 @@
         <Value>修改日誌設定成功</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats">
-        <Value>Activity Stat</Value>
+        <Value>活動統計</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.ActivityLogType">
-        <Value>Activity Types</Value>
+        <Value>活動類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.Count">
-        <Value>Visit counter</Value>
+        <Value>訪問計數器</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityStats.Fields.Name">
-        <Value>Catalog name</Value>
+        <Value>類別名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries">
         <Value>縣市管理</Value>
@@ -4849,7 +4849,7 @@
         <Value>是否發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.States.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Countries.Stores">
         <Value>商店</Value>
@@ -4870,7 +4870,7 @@
         <Value>新增新的貨幣</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.ApplyRate">
-        <Value>應用匯率</Value>
+        <Value>套用匯率</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.BackToList">
         <Value>返回貨幣列表</Value>
@@ -4894,10 +4894,10 @@
         <Value>Select stores for which the currency will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CurrencyCode">
         <Value>貨幣代碼</Value>
@@ -5224,7 +5224,7 @@
         <Value>從右到左</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Fields.Rtl.Hint">
-        <Value>啟用從右到左的語言支持，使用中的版型也應支持RTL（要求有相應的CSS文件）。此選項只影響到商店前台</Value>
+        <Value>啟用從右到左的語言支持，使用中的版型也應支持RTL(要求有相應的CSS文件)。此選項只影響到商店前台</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Fields.UniqueSeoCode">
         <Value>唯一SEO代碼</Value>
@@ -5311,7 +5311,7 @@
         <Value>NOTE: if you change your primary dimension, then do not forget to update the appropriate ratios of the units</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryDimension">
         <Value>Is primary dimension</Value>
@@ -5338,7 +5338,7 @@
         <Value>Units</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.Name">
         <Value>Name</Value>
@@ -5356,7 +5356,7 @@
         <Value>NOTE: if you change your primary weight, then do not forget to update the appropriate ratios of the units</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.IsPrimaryWeight">
         <Value>Is primary weight</Value>
@@ -5398,7 +5398,7 @@
         <Value>Please mark the checkbox(es) for the shipping method in which you want the payment method(s) not available</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Role">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Shipping">
         <Value>Shipping method</Value>
@@ -5449,31 +5449,31 @@
         <Value>套件管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description">
-        <Value>手動安裝插件</Value>
+        <Value>手動安裝套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step1">
-        <Value>在 nopCommerce目錄的 plugins文件夾中上傳插件</Value>
+        <Value>在 nopCommerce目錄的 plugins文件夾中上傳套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step2">
-        <Value>重啟應用程序(或點擊重載插件列表按扭)</Value>
+        <Value>重啟套用程序(或點擊重載套件列表按扭)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step3">
-        <Value>滾動插件列表來找到最近安裝的插件</Value>
+        <Value>滾動套件列表來找到最近安裝的套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step4">
-        <Value>單擊安裝連結來安裝插件</Value>
+        <Value>單擊安裝連結來安裝套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Description.Step5">
         <Value>Note: If you're running grandnode in medium trust, then it's recommended to clear your \Plugins\bin\ directory</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.EditDetails">
-        <Value>編輯插件</Value>
+        <Value>編輯套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Author">
         <Value>作者</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores.Hint">
         <Value>Select stores for which the plugin will be used.</Value>
@@ -5521,7 +5521,7 @@
         <Value>向商店有限公司</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.LimitedToStores.Hint">
-        <Value>確定該插件只在某些商店是否可用。</Value>
+        <Value>確定該套件只在某些商店是否可用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.Logo">
         <Value>Logo</Value>
@@ -5545,16 +5545,16 @@
         <Value>版本</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Group">
-        <Value>插件類型</Value>
+        <Value>套件類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Group.Hint">
         <Value>板塊搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Info">
-        <Value>插件資訊</Value>
+        <Value>套件資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Installed">
-        <Value>插件安裝成功。</Value>
+        <Value>套件安裝成功。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.LoadMode">
         <Value>安裝狀態</Value>
@@ -5563,10 +5563,10 @@
         <Value>搜尋通過安裝狀態。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Local">
-        <Value>已架設插件</Value>
+        <Value>已架設套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Misc.BackToList">
-        <Value>返回插件列表</Value>
+        <Value>返回套件列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Misc.Configure">
         <Value>配置</Value>
@@ -5614,7 +5614,7 @@
         <Value>版本搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.ReloadList">
-        <Value>重載插件</Value>
+        <Value>重載套件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Removed">
         <Value>套件已被移除</Value>
@@ -5752,7 +5752,7 @@
         <Value>允許查看未發佈的商品詳細資訊頁面的</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowViewUnpublishedProductPage.Hint">
-        <Value>檢查以允許查看未發佈商品的詳細資訊頁面。這樣，搜尋引擎優化將不會受到搜尋爬蟲當一個商品暫時未公佈。請注意，店主始終有權訪問未發佈的商品。</Value>
+        <Value>檢查以允許查看未發佈商品的詳細資訊頁面。這樣，搜尋引擎優化將不會受到搜尋爬蟲當一個商品暫時未公佈。請注意，店主始終有權查看未發佈的商品。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.AskQuestionEnabled">
         <Value>'Ask question' enabled</Value>
@@ -5800,7 +5800,7 @@
         <Value>檢查顯示稅收和配送資訊的頁尾。這個選項在德國使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoOrderDetailsPage">
-        <Value>顯示稅/貨運資訊（訂單詳細資訊頁中）</Value>
+        <Value>顯示稅/貨運資訊(訂單詳細資訊頁中)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoOrderDetailsPage.Hint">
         <Value>選擇從而顯示稅/貨運資訊在訂單詳細資訊頁中。德國使用這個選項。</Value>
@@ -5818,7 +5818,7 @@
         <Value>檢查商品商品詳細資訊頁面顯示稅收和配送資訊。這個選項在德國使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoShoppingCart">
-        <Value>顯示稅務/運費資訊（購物車）</Value>
+        <Value>顯示稅務/運費資訊(購物車)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoShoppingCart.Hint">
         <Value>檢查顯示購物車頁面上的稅金和運費資訊。此選項用於在德國。</Value>
@@ -6031,13 +6031,13 @@
         <Value>搜尋頁，允許會員從預先定義的選項列表中選擇頁筆數。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize.Hint">
-        <Value>搜尋頁，選中以允許客戶從預定義的選項列表中選擇頁面大小。</Value>
+        <Value>搜尋頁，選中以允許會員從預定義的選項列表中選擇頁面大小。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions">
-        <Value>搜尋頁，顯示筆數的選項 （逗號分隔）</Value>
+        <Value>搜尋頁，顯示筆數的選項 (逗號分隔)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions.Hint">
-        <Value>搜尋頁，顯示筆數選項的逗號分隔列表 （如 10, 5, 15, 20）。第一個選項是預設的選項筆數，如果沒選擇任何選項。</Value>
+        <Value>搜尋頁，顯示筆數選項的逗號分隔列表 (如 10, 5, 15, 20)。第一個選項是預設的選項筆數，如果沒選擇任何選項。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageProductsPerPage">
         <Value>搜尋頁顯示商品數量</Value>
@@ -6109,16 +6109,16 @@
         <Value>在商品頁顯示分享按鈕</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnCatalogPages">
-        <Value>在分類頁面顯示商品料號（SKU）</Value>
+        <Value>在分類頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnCatalogPages.Hint">
-        <Value>在分類頁面顯示商品料號（SKU）</Value>
+        <Value>在分類頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage">
-        <Value>在商品資訊頁面顯示商品料號（SKU）</Value>
+        <Value>在商品資訊頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage.Hint">
-        <Value>在產品資訊頁面顯示商品料號（SKU）</Value>
+        <Value>在產品資訊頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions">
         <Value>排序選項</Value>
@@ -6133,13 +6133,13 @@
         <Value>名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsEnabled">
-        <Value>'Suggested products' enabled</Value>
+        <Value>'推薦商品' 啟用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsEnabled.Hint">
         <Value>Check to allow customers to use the 'Suggested products - customer tag' feature in your store</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsNumber">
-        <Value>Number of 'Suggested products'</Value>
+        <Value>'推薦商品' 數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SuggestedProductsNumber.Hint">
         <Value>The number of 'Suggested products' to display when 'Suggested products' option is enabled.</Value>
@@ -6358,7 +6358,7 @@
         <Value>顧客的最小年齡</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthMinimumAge.Hint">
-        <Value>輸入允許的最小年齡。留空，任何年齡的顧客都可以訪問。</Value>
+        <Value>輸入允許的最小年齡。留空，任何年齡的顧客都可以查看。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired">
         <Value>『生日日期』是必須的</Value>
@@ -6394,7 +6394,7 @@
         <Value>Check to enable auto registration when using external authentication.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.ExternalAuthenticationSettings">
-        <Value>External authentication settings</Value>
+        <Value>外部登入設定</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordAllowedAttempts">
         <Value>允許登入失敗次數</Value>
@@ -6403,10 +6403,10 @@
         <Value>如果登入失數次數超過定值，將會把帳戶鎖起來。如果不想使用此功能，將此數值設定0即可。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordLockoutMinutes">
-        <Value>鎖定時間（登錄失敗）</Value>
+        <Value>鎖定時間(登錄失敗)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordLockoutMinutes.Hint">
-        <Value>帳號鎖定（數分鐘），用於登入失敗</Value>
+        <Value>帳號鎖定(數分鐘)，用於登入失敗</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FaxEnabled">
         <Value>啟用手機號碼欄位</Value>
@@ -6427,10 +6427,10 @@
         <Value>啟用性別欄位</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideAuctionsTab">
-        <Value>Hide 'Auctions' tab</Value>
+        <Value>隱藏 '拍賣' 功能</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideAuctionsTab.hint">
-        <Value>Check to hide 'Auctions' tab on 'My account' page</Value>
+        <Value>點選後 '拍賣' 功能就不會顯示在會員中心</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideBackInStockSubscriptionsTab">
         <Value>隱藏到貨通知選項卡</Value>
@@ -6541,10 +6541,10 @@
         <Value>選擇如果『州/省』是必須的。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreLastVisitedPage">
-        <Value>保存最後一次訪問的頁面</Value>
+        <Value>保存最後一次查看的頁面</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreLastVisitedPage.Hint">
-        <Value>啟用時，能保存最後一次訪問的頁面；禁用時能提高網站性能</Value>
+        <Value>啟用時，能保存最後一次查看的頁面；禁用時能提高網站性能</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StreetAddress2Enabled">
         <Value>啟用街道地址2欄位</Value>
@@ -6574,7 +6574,7 @@
         <Value>未重複的密碼號碼</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UnduplicatedPasswordsNumber.Hint">
-        <Value>與上一個舊密碼重複的數量，如果客戶可以使用相同的密碼，則輸入0。</Value>
+        <Value>與上一個舊密碼重複的數量，如果會員可以使用相同的密碼，則輸入0。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernamesEnabled">
         <Value>使用用戶名</Value>
@@ -6760,7 +6760,7 @@
         <Value>允許進入後台的IP地址</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminAreaAllowedIpAddresses.Hint">
-        <Value>可以通過指定IP地址來限制訪問</Value>
+        <Value>可以通過指定IP地址來限制查看</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AllowCustomerToSelectTheme">
         <Value>允許會員切換商店風格</Value>
@@ -6883,7 +6883,7 @@
         <Value>禁用掛單的PDF發票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders.Hint">
-        <Value>如果選中，則不允許客戶打印掛單的PDF發票。</Value>
+        <Value>如果選中，則不允會員打印掛單的PDF發票。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayEuCookieLawWarning">
         <Value>Display EU cookie law warning</Value>
@@ -7021,7 +7021,7 @@
         <Value>生成商品META描述</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GenerateProductMetaDescription.Hint">
-        <Value>當啟用， 商品META描述將被自動生成（如果商品詳細資訊頁沒有規定） 基於商品簡要描述。</Value>
+        <Value>當啟用， 商品META描述將被自動生成(如果商品詳細資訊頁沒有規定) 基於商品簡要描述。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics">
         <Value>Google Analytics</Value>
@@ -7093,10 +7093,10 @@
         <Value>輸入的文本將出現在生成發票的底部(右列)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.KnowledgebaseSettings.Enabled">
-        <Value>Knowledge base enabled</Value>
+        <Value>知識庫已啟用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.KnowledgebaseSettings.Enabled.hint">
-        <Value>Indicates whether knowledge base should be enabled or not.</Value>
+        <Value>指示是否應啟用知識庫。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LinkedInLink">
         <Value>LinkedIn page URL</Value>
@@ -7114,13 +7114,13 @@
         <Value>在啟動時加載所有本地化屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllLocalizedPropertiesOnStartup.Hint">
-        <Value>啟用時,所有本地化屬性(比如本地化商品屬性)將在應用程序啟動時加載。應用程序將開始打開時緩慢,但後來所有頁面可以打開時會快得多。只有當您啟用了兩個或更多的語言時使用。但是當您有一個大目錄(幾千局部實體)則不推薦使用。</Value>
+        <Value>啟用時,所有本地化屬性(比如本地化商品屬性)將在套用程序啟動時加載。套用程序將開始打開時緩慢,但後來所有頁面可以打開時會快得多。只有當您啟用了兩個或更多的語言時使用。但是當您有一個大目錄(幾千局部實體)則不推薦使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllUrlRecordsOnStartup">
         <Value>在啟動時加載所有搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LoadAllUrlRecordsOnStartup.Hint">
-        <Value>當啟用時,所有slugs(搜尋引擎友好名稱)將在應用程序啟動時加載。應用程序將開始放緩,但後來所有頁面可以打開得快得多。使當您有一個大的目錄(幾千實體)不推薦使用。</Value>
+        <Value>當啟用時,所有slugs(搜尋引擎友好名稱)將在套用程序啟動時加載。套用程序將開始放緩,但後來所有頁面可以打開得快得多。使當您有一個大的目錄(幾千實體)不推薦使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LocalizationSettings">
         <Value>本地化設定</Value>
@@ -7270,31 +7270,31 @@
         <Value>Watermark On Categories</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForCategory.Hint">
-        <Value>Apply Watermark to Pictures of Categories</Value>
+        <Value>將浮水印套用在類別的圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForManufacturer">
-        <Value>Watermark On Manufacturers</Value>
+        <Value>製造商的浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForManufacturer.Hint">
-        <Value>Apply Watermark to Pictures of Manufacturers</Value>
+        <Value>套用製造商的浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForProduct">
-        <Value>Watermark On Products</Value>
+        <Value>商品上加上浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForProduct.Hint">
-        <Value>Apply Watermark to Pictures of Products</Value>
+        <Value>在商品上加上浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkOnPicturesWithOriginalSize">
-        <Value>Watermark On Original Size Pictures</Value>
+        <Value>原始尺寸圖片上加上浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkOnPicturesWithOriginalSize.Hint">
-        <Value>Indicates if pictures with no change in size should have a watermark onto them</Value>
+        <Value>原始尺寸的圖片是否應該有水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AssociatedProductPictureSize">
         <Value>關聯的商品圖像大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AssociatedProductPictureSize.Hint">
-        <Value>預設大小 （像素） 的關聯的商品圖像 （'分組' 商品的一部分）。</Value>
+        <Value>預設大小 (像素) 的關聯的商品圖像 ('分組' 商品的一部分)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AvatarPictureSize">
         <Value>頭像圖片大小</Value>
@@ -7312,13 +7312,13 @@
         <Value>分類縮略圖大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.CategoryThumbPictureSize.Hint">
-        <Value>在商品分類頁中商品索引圖片的預設大小（像素）。</Value>
+        <Value>在商品分類頁中商品索引圖片的預設大小(像素)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality">
         <Value>預設圖片數量 (0 - 100)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality.Hint">
-        <Value>圖片質量將被應用於已上載的圖片。如果改動它， 您需要手動刪除已經生成的索引圖片。</Value>
+        <Value>圖片質量將被套用於已上載的圖片。如果改動它， 您需要手動刪除已經生成的索引圖片。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ManufacturerThumbPictureSize">
         <Value>品牌縮略圖大小</Value>
@@ -7393,7 +7393,7 @@
         <Value>供應商縮略圖大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize.Hint">
-        <Value>供應商縮略圖的預設大小（像素）。</Value>
+        <Value>供應商縮略圖的預設大小(像素)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkDropShadow">
         <Value>Watermark Shadow</Value>
@@ -7420,10 +7420,10 @@
         <Value>The 1-100% value. Best between 10-30% range.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkForPicturesAboveSize">
-        <Value>Watermark Above Size</Value>
+        <Value>浮水印超過大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkForPicturesAboveSize.Hint">
-        <Value>Apply Watermark To Pictures Above Size (px)</Value>
+        <Value>將浮水印套用於尺寸以上的圖片(px)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOpacityPercent">
         <Value>Watermark % Opacity</Value>
@@ -7432,10 +7432,10 @@
         <Value>The 1-100% range of text fading</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayID">
-        <Value>Watermark Overlay Picture File</Value>
+        <Value>浮水印疊加在圖片檔案上</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayID.Hint">
-        <Value>Add a picture that will be displayed as Watermark Overlay on your Thumbnails</Value>
+        <Value>新增將在縮略圖上顯示為浮水印的圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayOpacityPercent">
         <Value>Watermark Overlay % Opacity</Value>
@@ -7477,7 +7477,7 @@
         <Value>Watermark Align Right</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkRightToLeft.Hint">
-        <Value>Text will be displayed starting from right edge of picture</Value>
+        <Value>文字將從圖片的右邊緣開始顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkStyle">
         <Value>Watermark Style</Value>
@@ -7558,10 +7558,10 @@
         <Value>檢查將PDF發票附加到「完成」的電子郵件，發送給會員。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPaidEmail">
-        <Value>附上PDF發票 （"訂單已付"電子郵件）</Value>
+        <Value>附上PDF發票 ("訂單已付"電子郵件)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPaidEmail.Hint">
-        <Value>選擇從而 附上PDF發票到發給會員的（"訂單已付"電子郵件）。</Value>
+        <Value>選擇從而 附上PDF發票到發給會員的("訂單已付"電子郵件)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPlacedEmail">
         <Value>附上PDF發票(「訂單」後發送電子郵件)</Value>
@@ -7768,10 +7768,10 @@
         <Value>退貨請求</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage">
-        <Value>服務條款（確認訂單網頁）</Value>
+        <Value>服務條款(確認訂單網頁)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage.Hint">
-        <Value>需要會員接受或拒絕服務條款在處理訂單之前（在確認訂單頁面）</Value>
+        <Value>需要會員接受或拒絕服務條款在處理訂單之前(在確認訂單頁面)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnShoppingCartPage">
         <Value>服務條款(購物車頁面)</Value>
@@ -7888,7 +7888,7 @@
         <Value>如果會員在配送詳細中顯示配送事件請勾選(需運費計算方法支持)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayShipmentEventsToStoreOwner">
-        <Value>顯示出貨事件 （商店所有者）</Value>
+        <Value>顯示出貨事件 (商店所有者)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayShipmentEventsToStoreOwner.Hint">
         <Value>選擇如果您想要在管理員頁查看出貨資訊 (如果您的運輸價格計算方式所支持).</Value>
@@ -7939,7 +7939,7 @@
         <Value>配送到相同地址</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.ShipToSameAddress.Hint">
-        <Value>結帳輸入帳單地址時，會"配送到相同地址"選項讓會員勾取，打勾表示帳單配送地址相同，會員不必再輸入一次。另請注意，所有付款縣市/地區都應支持發貨（“允許發貨”複選框勾選）。</Value>
+        <Value>結帳輸入帳單地址時，會"配送到相同地址"選項讓會員勾取，打勾表示帳單配送地址相同，會員不必再輸入一次。另請注意，所有付款縣市/地區都應支持發貨(“允許發貨”複選框勾選)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.UseWarehouseLocation">
         <Value>使用倉庫位置</Value>
@@ -7960,7 +7960,7 @@
         <Value>允許購物車編輯</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.AllowCartItemEditing.Hint">
-        <Value>檢查是否允許會員編輯已經放入購物車中項目。它可能是有用的，當您的商品屬性或任何其他欄位允許會員輸入時。（如協商附加條件）</Value>
+        <Value>檢查是否允許會員編輯已經放入購物車中項目。它可能是有用的，當您的商品屬性或任何其他欄位允許會員輸入時。(如協商附加條件)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.AllowOutOfStockItemsToBeAddedToWishlist">
         <Value>允許將缺貨商品新增到願望清單</Value>
@@ -8068,7 +8068,7 @@
         <Value>全選/取消</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.StoreScope.CheckAll.Hint">
-        <Value>（如果您要為該商店設定自定義值請勾選此項）</Value>
+        <Value>(如果您要為該商店設定自定義值請勾選此項)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Tax">
         <Value>稅務設定</Value>
@@ -8344,7 +8344,7 @@
         <Value>允許供應商更改基本資料</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToEditInfo.Hint">
-        <Value>允許供應商在前台會員中心，更改自己的基本資料。請注意，如果您有多國語言（在這種情況下只能編輯標準值），則不支持本地化屬性（name, description）。</Value>
+        <Value>允許供應商在前台會員中心，更改自己的基本資料。請注意，如果您有多國語言(在這種情況下只能編輯標準值)，則不支持本地化屬性(name, description)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange">
         <Value>供應商更改資料通知管理員</Value>
@@ -8500,7 +8500,7 @@
         <Value>Specify a description of the pickup point.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.DisplayOrder.hint">
         <Value>Display order of the pickup point.</Value>
@@ -8518,7 +8518,7 @@
         <Value>Specify a fee for the shipping to the pickup point.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Stores">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Stores.hint">
         <Value>A store name for which this pickup point will be available.</Value>
@@ -8599,7 +8599,7 @@
         <Value>Please mark the checkbox(es) for the role in which you want the shipping method(s) not available</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Role">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Updated">
         <Value>修改縣市配送方式限製成功</Value>
@@ -8713,7 +8713,7 @@
         <Value>公司VAT</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyVat.Hint">
-        <Value>請輸入公司VAT （加入稅的歐盟值）</Value>
+        <Value>請輸入公司VAT (加入稅的歐盟值)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage">
         <Value>預設語言</Value>
@@ -8884,13 +8884,13 @@
         <Value>Enter the title of the blog</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchstore">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchstore.hint">
         <Value>Enter the store name</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.updated">
         <Value>Blog category has been updated</Value>
@@ -8944,7 +8944,7 @@
         <Value>顯示評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.EndDate">
         <Value>結束日期</Value>
@@ -8983,10 +8983,10 @@
         <Value>重寫META標題。預設標題是部落格標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Picture.Hint">
-        <Value>The blog post picture.</Value>
+        <Value>部落格貼文圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.SeName">
         <Value>搜尋引擎友好名稱</Value>
@@ -9070,7 +9070,7 @@
         <Value>編輯板塊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.Description">
         <Value>描述</Value>
@@ -9124,7 +9124,7 @@
         <Value>編輯論壇分組</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -9148,58 +9148,58 @@
         <Value>管理論壇</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase">
-        <Value>Knowledgebase</Value>
+        <Value>知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Comment">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLogType">
-        <Value>Acitivty log type</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseArticle">
-        <Value>Create article</Value>
+        <Value>新增文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseCategory">
-        <Value>Create knowledgebase category</Value>
+        <Value>新增知識庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseArticle">
-        <Value>Edit article</Value>
+        <Value>編輯文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseCategory">
-        <Value>Edit category</Value>
+        <Value>編輯類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.BackToList">
-        <Value>Back to list</Value>
+        <Value>返回知識庫列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.CreateKnowgledgebaseArticle">
-        <Value>Create article</Value>
+        <Value>新增文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.EditKnowgledgebaseArticle">
-        <Value>Edit article</Value>
+        <Value>編輯文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.BackToList">
-        <Value>Back to list</Value>
+        <Value>返回知識庫類別列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.CreateKnowgledgebaseCategory">
-        <Value>Create knowledgebase category</Value>
+        <Value>新增資料庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.EditKnowgledgebaseCategory">
-        <Value>Edit knowledgebase category</Value>
+        <Value>新增資料庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl.hint">
         <Value>Select customer roles for which the article will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.ActivityLog">
-        <Value>Activity log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Added">
         <Value>Article added</Value>
@@ -9208,13 +9208,13 @@
         <Value>Article deleted</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles">
-        <Value>Acl Customer Roles</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles.Hint">
-        <Value>Acl(Access control list) Customer Roles</Value>
+        <Value>會員角色權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores.Hint">
         <Value>Select stores for which the article will be shown.</Value>
@@ -9226,7 +9226,7 @@
         <Value>The description of the knowledgebase article.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Displayorder.Hint">
         <Value>Set the knowledgebase article display order. 1 represents the top of the list.</Value>
@@ -9319,19 +9319,19 @@
         <Value>Seo</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Updated">
         <Value>Article updated</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Acl.hint">
         <Value>Select customer roles for which the category will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.ActivityLog">
-        <Value>Acitivity log</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Added">
         <Value>Category added</Value>
@@ -9346,13 +9346,13 @@
         <Value>Category deleted</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AclCustomerRoles">
-        <Value>Acl Customer Roles</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AclCustomerRoles.Hint">
         <Value>Select customer roles for which the knowledgebase category will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AvailableStores.Hint">
         <Value>Select stores for which the category will be shown.</Value>
@@ -9364,7 +9364,7 @@
         <Value>The description of the knowledgebase category.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Displayorder.Hint">
         <Value>Set the knowledgebase category display order. 1 represents the top of the list.</Value>
@@ -9442,7 +9442,7 @@
         <Value>Seo</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Updated">
         <Value>Category updated</Value>
@@ -9589,7 +9589,7 @@
         <Value>標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.Customer">
         <Value>評論會員</Value>
@@ -9601,7 +9601,7 @@
         <Value>新聞</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Added">
         <Value>新增新聞成功</Value>
@@ -9640,7 +9640,7 @@
         <Value>顯示評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.EndDate">
         <Value>結束日期</Value>
@@ -9688,10 +9688,10 @@
         <Value>重寫META標題。預設標題是新聞標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Picture.Hint">
-        <Value>The news item picture.</Value>
+        <Value>新聞項目圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Published">
         <Value>是否發佈</Value>
@@ -9754,7 +9754,7 @@
         <Value>投票設定與統計</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.polls.acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Added">
         <Value>新增投票成功</Value>
@@ -9787,7 +9787,7 @@
         <Value>票數</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Answers.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.BackToList">
         <Value>返回投票列表</Value>
@@ -9799,7 +9799,7 @@
         <Value>編輯投票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AclCustomerRoles">
-        <Value>Customer roles</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AclCustomerRoles.Hint">
         <Value>Select customer roles for which the poll will be shown.</Value>
@@ -9811,7 +9811,7 @@
         <Value>允許匿名用戶投票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AvailableStores.Hint">
         <Value>Select stores for which the category will be shown.</Value>
@@ -9883,7 +9883,7 @@
         <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Updated">
         <Value>修改投票成功</Value>
@@ -9940,22 +9940,22 @@
         <Value>主題顯示順序。1表示在列表中的第一個項目。它和屬性如「包含在主菜單中」或者「包含在頁尾裡」一起使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1">
-        <Value>包含在頁尾裡（列1）</Value>
+        <Value>包含在頁尾裡(列1)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1.Hint">
-        <Value>選擇從而包含這個主題在頁尾裡（列1）。確保您的風格支持它。</Value>
+        <Value>選擇從而包含這個主題在頁尾裡(列1)。確保您的風格支持它。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn2">
-        <Value>包含在頁尾裡（列2）</Value>
+        <Value>包含在頁尾裡(列2)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn2.Hint">
-        <Value>選擇從而包含這個主題在頁尾裡（列2）。確保您的風格支持它。</Value>
+        <Value>選擇從而包含這個主題在頁尾裡(列2)。確保您的風格支持它。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn3">
-        <Value>包含在頁尾裡（列3）</Value>
+        <Value>包含在頁尾裡(列3)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn3.Hint">
-        <Value>選擇從而包含這個主題在頁尾裡（列3）。確保您的風格支持它。</Value>
+        <Value>選擇從而包含這個主題在頁尾裡(列3)。確保您的風格支持它。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInSitemap">
         <Value>包含在網站地圖中</Value>
@@ -10024,7 +10024,7 @@
         <Value>根據ACL</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.SubjectToAcl.Hint">
-        <Value>確定主題是受ACL（權限管理列表）控制。</Value>
+        <Value>確定主題是受ACL(權限管理列表)控制。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.SystemName">
         <Value>系統關鍵字</Value>
@@ -10141,7 +10141,7 @@
         <Value>會員管理</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.actiontype">
-        <Value>Customer action type</Value>
+        <Value>會員行為類型</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.actiontype.fields.enabled">
         <Value>Is enabled</Value>
@@ -10246,16 +10246,16 @@
         <Value>Condition type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerRole">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerRole.hint">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerTag">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerTag.hint">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.fields.endDateTime">
         <Value>End datetime</Value>
@@ -10303,7 +10303,7 @@
         <Value>Create date</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.history.fields.customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.info">
         <Value>基本資訊</Value>
@@ -10330,13 +10330,13 @@
         <Value>Custom Customer Attributes</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customerregister">
-        <Value>Customer register</Value>
+        <Value>會員註冊</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customerrole">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customertag">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.fields.categoryname">
         <Value>Add category</Value>
@@ -10360,16 +10360,16 @@
         <Value>Condition Type</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRegisterName">
-        <Value>Customer registration - field name</Value>
+        <Value>會員註冊 - 欄位名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRegisterValue">
-        <Value>Customer registration - field value</Value>
+        <Value>會員註冊 - 欄位值</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRoleName">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerTagName">
-        <Value>Tag name</Value>
+        <Value>標籤名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.fields.manufacturer">
         <Value>Manufacturer</Value>
@@ -10399,7 +10399,7 @@
         <Value>Product specification value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.storeName">
-        <Value>Store name</Value>
+        <Value>商店名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActionCondition.Fields.UrlCurrentName">
         <Value>Current Url</Value>
@@ -10435,7 +10435,7 @@
         <Value>You need to save the  before you can add values for this page</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActionCondition.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.updated">
         <Value>Condition updated</Value>
@@ -10450,10 +10450,10 @@
         <Value>Vendors</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActions">
-        <Value>Customer actions</Value>
+        <Value>會員行為</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActionType">
-        <Value>Customer Action Type</Value>
+        <Value>會員行為類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes">
         <Value>自定義會員屬性</Value>
@@ -10465,7 +10465,7 @@
         <Value>新增一個新會員屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.BackToList">
-        <Value>回會員屬性列表</Value>
+        <Value>返回員屬性列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Deleted">
         <Value>該屬性已成功刪除。</Value>
@@ -10480,7 +10480,7 @@
         <Value>控件類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.AttributeControlType.Hint">
-        <Value>選擇如何顯示您的屬性值（UI）。</Value>
+        <Value>選擇如何顯示您的屬性值(UI)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -10543,7 +10543,7 @@
         <Value>請先保存會員屬性,然後才可以對該會員屬性頁面進行編輯。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customerreminder.Addcondition">
-        <Value>Add condition</Value>
+        <Value>新增情況</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.added">
         <Value>Reminder added</Value>
@@ -10570,19 +10570,19 @@
         <Value>Add new</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customcustomerattribute">
-        <Value>Customer attribute</Value>
+        <Value>會員屬性</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customerregister">
-        <Value>Customer register</Value>
+        <Value>會員註冊</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customerrole">
-        <Value>Customer Role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customertag">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.categoryname">
-        <Value>Category name</Value>
+        <Value>類別名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerReminder.Condition.Fields.ConditionId">
         <Value>Condition</Value>
@@ -10597,22 +10597,22 @@
         <Value>Select condition type</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customcustomerattributename">
-        <Value>Customer Attribute Name</Value>
+        <Value>會員屬性名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customcustomerattributevalue">
-        <Value>Customer Attribute Value</Value>
+        <Value>會員屬性值</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistername">
-        <Value>Customer Register Name</Value>
+        <Value>會員註冊名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistervalue">
-        <Value>Customer Register Value</Value>
+        <Value>會員註冊值</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerrolename">
-        <Value>Customer Role Name</Value>
+        <Value>會員角色名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customertagname">
-        <Value>Customer Tag Name</Value>
+        <Value>會員標籤名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.manufacturer">
         <Value>Manufacturer</Value>
@@ -10651,7 +10651,7 @@
         <Value>Customer Reminder Deleted</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customerreminder.Edit">
-        <Value>Reminder Edit</Value>
+        <Value>編輯提醒</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customerreminder.Editcondition">
         <Value>Edit condition</Value>
@@ -10738,7 +10738,7 @@
         <Value>Level</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.history.fields.order">
-        <Value>Ordered</Value>
+        <Value>已訂購</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.history.fields.senddate">
         <Value>Sent on</Value>
@@ -10981,16 +10981,16 @@
         <Value>會員管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog">
-        <Value>活動記錄</Value>
+        <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.ActivityLogType">
-        <Value>記錄類型</Value>
+        <Value>活動日誌類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.Comment">
-        <Value>內容</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.IpAddress">
         <Value>IP地址</Value>
@@ -11065,52 +11065,52 @@
         <Value>願望清單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerNotes">
-        <Value>Customer notes</Value>
+        <Value>會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.DisplayToCustomer">
-        <Value>Display to customer</Value>
+        <Value>讓會員看到</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.DisplayToCustomer.Hint">
-        <Value>A value indicating whether to display this customer note to a customer.</Value>
+        <Value>會員可以在會員中心看到會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Title">
-        <Value>Title</Value>
+        <Value>開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Title.Hint">
-        <Value>Enter this customer note title.</Value>
+        <Value>請輸入開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Note">
-        <Value>Note</Value>
+        <Value>備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Note.Hint">
-        <Value>Enter this customer note message.</Value>
+        <Value>請輸入備註訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download">
-        <Value>Download</Value>
+        <Value>下載</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.AddTitle">
-        <Value>Add customer note</Value>
+        <Value>新增會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.AddButton">
-        <Value>Add customer note</Value>
+        <Value>新增會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.Link">
-        <Value>Download</Value>
+        <Value>下載</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.Link.No">
-        <Value>No file attached</Value>
+        <Value>沒有附件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download.HasDownload">
-        <Value>(check to upload file)</Value>
+        <Value>(點選上傳檔案)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerRoles">
         <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerRoles.NoRoles">
-        <Value>未找到會員角色資訊，請先創建會員角色</Value>
+        <Value>未找到會員角色資訊，請先建立會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Deleted">
         <Value>刪除會員成功</Value>
@@ -11164,10 +11164,10 @@
         <Value>縣市</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CustomerRoles">
         <Value>會員角色</Value>
@@ -11407,7 +11407,7 @@
         <Value>根據會員角色篩選</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.List.CustomerTags">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.List.CustomerTags.Hint">
         <Value>Filter by customer tag.</Value>
@@ -11500,7 +11500,7 @@
         <Value>Add new product</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.ProductName">
         <Value>Product name</Value>
@@ -11611,7 +11611,7 @@
         <Value>標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.SendPM.Subject.Hint">
-        <Value>請輸入私人訊息（PM）的主題。</Value>
+        <Value>請輸入私人訊息(PM)的主題。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.SendWelcomeMessage">
         <Value>發送歡迎消息</Value>
@@ -11629,22 +11629,22 @@
         <Value>Note: if you have a vendor associated with this customer, then also ensure it is in "Vendors" customer role.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Added">
         <Value>Added a tag</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.AddNew">
-        <Value>Add a new tag</Value>
+        <Value>新增一個標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.BackToList">
-        <Value>back to tags list</Value>
+        <Value>返回會員標籤列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Customers">
-        <Value>Customers</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Customers.SaveBeforeEdit">
-        <Value>You need to save the tag.</Value>
+        <Value>您需要儲存標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Deleted">
         <Value>The tag has been deleted successfully.</Value>
@@ -11653,7 +11653,7 @@
         <Value>Edit customer tag details</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Count">
-        <Value>Count</Value>
+        <Value>數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Email">
         <Value>Email</Value>
@@ -11665,28 +11665,28 @@
         <Value>The name of this tag.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Fields.Name.Required">
-        <Value>Tag name is required</Value>
+        <Value>標籤名稱必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Info">
         <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products">
-        <Value>Suggested products</Value>
+        <Value>推薦商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.AddNew">
-        <Value>Suggested products assigned to the Customer Tag</Value>
+        <Value>推薦商品和會員標籤關聯</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.AddNew">
         <Value>Add new</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.Name">
         <Value>Product name</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Info">
-        <Value>In order to use this functionality you have to enable the following setting: Configuration &gt; Catalog settings &gt; General &gt; 'Suggested products' enabled</Value>
+        <Value>In order to use this functionality you have to enable the following setting: Configuration &gt; Catalog settings &gt; General &gt; '推薦商品' enabled</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.SaveBeforeEdit">
         <Value>You need to save the customer tag before you can add values for this page.</Value>
@@ -11713,7 +11713,7 @@
         <Value>最後瀏覽頁面</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.LastVisitedPage.Disabled">
-        <Value>「保存上次訪問頁面」設定禁用</Value>
+        <Value>「保存上次查看頁面」設定禁用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.Location">
         <Value>位置</Value>
@@ -11920,10 +11920,10 @@
         <Value>禮品卡金額</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode">
         <Value>折扣碼</Value>
@@ -12034,13 +12034,13 @@
         <Value>禮品卡折扣碼</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.List.CouponCode.Hint">
-        <Value>禮品卡折扣碼。 不輸入任何資訊（留空）將加載所有的記錄。</Value>
+        <Value>禮品卡折扣碼。 不輸入任何資訊(留空)將加載所有的記錄。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.List.RecipientName">
         <Value>收卡人姓名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.List.RecipientName.Hint">
-        <Value>用過收卡人姓名搜尋。 不輸入任何資訊（留空）將加載所有的記錄。</Value>
+        <Value>用過收卡人姓名搜尋。 不輸入任何資訊(留空)將加載所有的記錄。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Updated">
         <Value>修改禮品卡成功</Value>
@@ -12220,10 +12220,10 @@
         <Value>交易中使用的卡類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.Customer">
         <Value>會員</Value>
@@ -12580,13 +12580,13 @@
         <Value>訂單GUID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderGuid.Hint">
-        <Value>訂單GUID(全球唯一標識符)或者它的一部分所說。不輸入任何東西（留空）則匯入所有訂單。</Value>
+        <Value>訂單GUID(全球唯一標識符)或者它的一部分所說。不輸入任何東西(留空)則匯入所有訂單。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderNotes">
         <Value>訂單備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderNotes.Hint">
-        <Value>特定訂單備註搜尋。不輸入任何東西（留空）則匯入所有訂單。</Value>
+        <Value>特定訂單備註搜尋。不輸入任何東西(留空)則匯入所有訂單。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderStatus">
         <Value>訂單狀態</Value>
@@ -12652,7 +12652,7 @@
         <Value>增加訂單備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.OrderNotes.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.OrderNotes.Fields.DisplayToCustomer">
         <Value>顯示給會員</Value>
@@ -12685,7 +12685,7 @@
         <Value>發票(PDF)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.PdfInvoice.All">
-        <Value>匯出PDF賬單（所有找到的）</Value>
+        <Value>匯出PDF賬單(所有找到的)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.PdfInvoice.NoOrders">
         <Value>沒有訂單被選擇</Value>
@@ -12721,7 +12721,7 @@
         <Value>輸入數量.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.AddNew.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalExclTax">
         <Value>小計(不含稅)</Value>
@@ -12787,7 +12787,7 @@
         <Value>禮品卡</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.License">
-        <Value>許可文件（可選）</Value>
+        <Value>許可文件(可選)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.License.DownloadLicense">
         <Value>下載許可文件</Value>
@@ -12814,7 +12814,7 @@
         <Value>退貨請求:</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.Total">
         <Value>小計</Value>
@@ -12907,7 +12907,7 @@
         <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.List.EndDate.Hint">
-        <Value>結束日期（貨運創建日期）對於這個搜尋。</Value>
+        <Value>結束日期(貨運建立日期)對於這個搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.List.LoadNotShipped">
         <Value>調入沒出貨的</Value>
@@ -12988,7 +12988,7 @@
         <Value>報警: </Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.Products.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse">
         <Value>倉庫</Value>
@@ -13069,10 +13069,10 @@
         <Value>刪除圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Plugins">
-        <Value>插件管理</Value>
+        <Value>套件管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Plugins.Saved">
-        <Value>這個插件已成功修改。</Value>
+        <Value>這個套件已成功修改。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions">
         <Value>Promotions</Value>
@@ -13087,7 +13087,7 @@
         <Value>Add a new banner</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.BackToList">
-        <Value>back to banner list</Value>
+        <Value>返回橫幅列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.Deleted">
         <Value>The banner has been deleted successfully.</Value>
@@ -13105,7 +13105,7 @@
         <Value>Body is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.Fields.Name">
         <Value>Name</Value>
@@ -13159,10 +13159,10 @@
         <Value>請輸入內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom">
-        <Value>Customers created from date</Value>
+        <Value>會員建立時間</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom.hint">
         <Value>Select customers created from the date</Value>
@@ -13174,16 +13174,16 @@
         <Value>Select customers created to the date</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasOrders">
-        <Value>Customer has an order</Value>
+        <Value>會員有訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasOrders.hint">
-        <Value>Customer has an order</Value>
+        <Value>會員有訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasShoppingCart">
-        <Value>Customer has a shopping cart</Value>
+        <Value>會員有購物車</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasShoppingCart.hint">
-        <Value>Customer has a shopping cart</Value>
+        <Value>會員有購物車</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastActivityDateFrom">
         <Value>Last activity from date</Value>
@@ -13213,13 +13213,13 @@
         <Value>限定於會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRole.Hint">
-        <Value>選擇訂閱者中將收到此電子郵件的客戶角色。</Value>
+        <Value>選擇訂閱者中將收到此電子郵件的會員角色。</Value>
     </LocaleResource>
     <LocaleResource Name="admin.promotions.campaigns.fields.customertags">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.promotions.campaigns.fields.customertags.hint">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Email">
         <Value>Address email</Value>
@@ -13309,7 +13309,7 @@
         <Value>新增新的折扣</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories">
-        <Value>應用到分類</Value>
+        <Value>套用到分類</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories.AddNew">
         <Value>新增一個新分類</Value>
@@ -13321,7 +13321,7 @@
         <Value>您需要保存這個優惠然後您才可以在優惠頁中新增分類。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers">
-        <Value>應用到品牌</Value>
+        <Value>套用到品牌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers.AddNew">
         <Value>新增一個新品牌</Value>
@@ -13333,7 +13333,7 @@
         <Value>您需要保存這個優惠然後您才可以在優惠頁中新增品牌。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts">
-        <Value>應用到商品</Value>
+        <Value>套用到商品</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts.AddNew">
         <Value>新增一個新商品</Value>
@@ -13354,7 +13354,7 @@
         <Value>You need to save the discount before you can add stores for this discount page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToStores.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToVendors">
         <Value>Applied to vendors</Value>
@@ -13390,7 +13390,7 @@
         <Value>制定給分類</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories.Hint">
-        <Value>優惠被應用的分類列表。您可以在分類詳細資訊頁中指定這個優惠。</Value>
+        <Value>優惠被套用的分類列表。您可以在分類詳細資訊頁中指定這個優惠。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories.NoRecords">
         <Value>沒有選擇任何分類</Value>
@@ -13480,13 +13480,13 @@
         <Value>最大優惠金額</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount.Hint">
-        <Value>最大允許的優惠金額。不輸入（留空）則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地應用到每一個商品。</Value>
+        <Value>最大允許的優惠金額。不輸入(留空)則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地套用到每一個商品。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity">
         <Value>最大優惠數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity.Hint">
-        <Value>可以享受優惠的最大優惠數量。例如， 您可以有在購物車中兩個相同的商品但是僅僅其中之一享受優惠。它可以應用於「買一送一」情況裡。不輸（空）則允許優惠任何數量。</Value>
+        <Value>可以享受優惠的最大優惠數量。例如， 您可以有在購物車中兩個相同的商品但是僅僅其中之一享受優惠。它可以套用於「買一送一」情況裡。不輸(空)則允許優惠任何數量。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.Name">
         <Value>名稱</Value>
@@ -13531,7 +13531,7 @@
         <Value>歷史記錄</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.History.CreatedOn">
-        <Value>使用時間</Value>
+        <Value>使用日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.History.Order">
         <Value>訂單</Value>
@@ -13582,7 +13582,7 @@
         <Value>移除</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.SaveBeforeEdit">
-        <Value>您需要先保存才能進一步操作</Value>
+        <Value>您需要先保存才能操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Requirements.Saved">
         <Value>折扣要求已保存</Value>
@@ -13717,7 +13717,7 @@
         <Value>Back to form</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.BackToList">
-        <Value>Back to list</Value>
+        <Value>返回互動表格列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.InteractiveForms.Deleted">
         <Value>Interactive form deleted</Value>
@@ -13777,16 +13777,16 @@
         <Value>Add a new newsletter category</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.BackToList">
-        <Value>back to newsletter categories list</Value>
+        <Value>返回電子報列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Deleted">
         <Value>The newsletter category has been deleted successfully.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Edit">
-        <Value>Edit newsletter category details</Value>
+        <Value>編輯電子報類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores.hint">
         <Value>Select stores for which the newsletter category will be shown.</Value>
@@ -13798,7 +13798,7 @@
         <Value>The description of the newsletter category.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.DisplayOrder.hint">
         <Value>The display order of the newsletter category.</Value>
@@ -13828,7 +13828,7 @@
         <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Updated">
         <Value>The newsletter category has been updated successfully</Value>
@@ -13843,7 +13843,7 @@
         <Value>Assigned to categories</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Email">
         <Value>電子信箱</Value>
@@ -13978,7 +13978,7 @@
         <Value>取消定期付款</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.NextPaymentDate">
         <Value>下一次付款日期是</Value>
@@ -13993,7 +13993,7 @@
         <Value>付款狀態</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.ProcessNextPayment">
-        <Value>下一個付款(創建一個新的訂單)</Value>
+        <Value>下一個付款(建立一個新的訂單)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.ShippingStatus">
         <Value>配送狀態</Value>
@@ -14026,7 +14026,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.Customer">
         <Value>會員</Value>
@@ -14104,7 +14104,7 @@
         <Value>Enter return number and click Go.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.List.SearchCustomerEmail">
-        <Value>Customer Email</Value>
+        <Value>會員Email</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.List.SearchCustomerEmail.Hint">
         <Value>Search by a customer email.</Value>
@@ -14344,10 +14344,10 @@
         <Value>管理Api使用者</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm">
-        <Value>Message Contact form</Value>
+        <Value>聯繫表單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.BackToList">
-        <Value>Back to contact form list</Value>
+        <Value>返回聯繫表單列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Delete">
         <Value>Delete</Value>
@@ -14371,10 +14371,10 @@
         <Value>Selected attribute description</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.CreatedOn.hint">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Email">
         <Value>Email</Value>
@@ -14383,10 +14383,10 @@
         <Value>Email</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.EmailAccountName">
-        <Value>Email account</Value>
+        <Value>Email 帳號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.EmailAccountName.hint">
-        <Value>The email account that will be used to send this email.</Value>
+        <Value>這個email帳號會用來寄送信件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Enquiry">
         <Value>Enquiry</Value>
@@ -14410,10 +14410,10 @@
         <Value>IP Address</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Store">
-        <Value>Store name</Value>
+        <Value>商店名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Store.hint">
-        <Value>Store name</Value>
+        <Value>商店名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Subject">
         <Value>Subject</Value>
@@ -14440,7 +14440,7 @@
         <Value>The start date for the search</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.List.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.List.Store.hint">
         <Value>Search by a specific store.</Value>
@@ -14473,7 +14473,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Log.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Log.Fields.Customer">
         <Value>會員</Value>
@@ -14554,10 +14554,10 @@
         <Value>刪除購物車資料</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.OlderThan">
-        <Value>在創建前</Value>
+        <Value>在建立前</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.OlderThan.Hint">
-        <Value>刪除在這個特定日期前創建前購物車中的項目。</Value>
+        <Value>刪除在這個特定日期前建立前購物車中的項目。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.TotalDeleted">
         <Value>{0}項目已被刪除</Value>
@@ -14665,10 +14665,10 @@
         <Value>Cc地址。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.CreatedOn">
-        <Value>創建於</Value>
+        <Value>建立於</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.CreatedOn.Hint">
-        <Value>日期/時間 消息已加入隊中。</Value>
+        <Value>消息存入柱列中的日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.DontSendBeforeDate">
         <Value>計劃發送日期</Value>
@@ -14713,13 +14713,13 @@
         <Value>回覆到</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyTo.Hint">
-        <Value>回覆到 地址（可選）。</Value>
+        <Value>回覆到 地址(可選)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyToName">
         <Value>回覆到 姓名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyToName.Hint">
-        <Value>回覆到 姓名（可選）</Value>
+        <Value>回覆到 姓名(可選)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.SendImmediately">
         <Value>立即發送</Value>
@@ -14731,7 +14731,7 @@
         <Value>發送於</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.SentOn.Hint">
-        <Value>日期/時間消息已發送。</Value>
+        <Value>消息發送日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.SentOn.NotSent">
         <Value>還未發送</Value>
@@ -14839,7 +14839,7 @@
         <Value>排程任務</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.BackToList">
-        <Value>Back to schedule tasks list</Value>
+        <Value>返回排程任務列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.DayOfMonth">
         <Value>Day of month</Value>
@@ -14854,7 +14854,7 @@
         <Value>Day of week</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Edit">
-        <Value>Edit Schedule task</Value>
+        <Value>編輯排程任務</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ScheduleTasks.Enabled">
         <Value>已啟用</Value>
@@ -15142,7 +15142,7 @@
         <Value>Email</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.UserApi.Email.CustomerNotExist">
-        <Value>No customer account found</Value>
+        <Value>沒有找到會員帳號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.UserApi.IsActive">
         <Value>Is active</Value>
@@ -15196,7 +15196,7 @@
         <Value>帳號{0}沒有修改文件{1}的權限，請重新配置權限</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.IncompatiblePlugin">
-        <Value>插件{0}和您當前nopCommerce版本不兼容，請移除或升級到最新版本</Value>
+        <Value>套件{0}和您當前nopCommerce版本不兼容，請移除或升級到最新版本</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.MachineKey.NotSpecified">
         <Value>沒有指定的自定義machine key(web.config 文件)</Value>
@@ -15211,7 +15211,7 @@
         <Value>付款方式已經設定</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreAcl">
-        <Value>性能. 建議僅在您不能正常使用時才忽略權限管理R（ACL）</Value>
+        <Value>性能. 建議僅在您不能正常使用時才忽略權限管理R(ACL)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreAcl.Notification">
         <Value>為了使用這個功能您必須關閉隨後的設定： 設定 &gt; 分類設定 &gt; 性能 &gt; 忽略ACL規則 (網站範圍)。</Value>
@@ -15247,7 +15247,7 @@
         <Value>Approve selected</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.BackToList">
-        <Value>back to product review list</Value>
+        <Value>返回供應商評論列表</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Deleted">
         <Value>Review deleted</Value>
@@ -15259,10 +15259,10 @@
         <Value>Edit vendor review details</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.IsApproved">
         <Value>Is approved</Value>
@@ -15298,7 +15298,7 @@
         <Value>Select the date range</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.List.SearchText">
-        <Value>Message</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="admin.vendorreviews.list.searchtext.hint">
         <Value>Enter the text which you want to search</Value>
@@ -15367,7 +15367,7 @@
         <Value>顧客</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AssociatedCustomerEmails.Hint">
-        <Value>此供應商名下能管理訂單和商品的顧客列表（可以訪問供應商頁面）。您可以在顧客詳細資訊頁關聯供應商帳戶。如果您不想此供應商有訪問權限，請不要關聯任何帳戶。</Value>
+        <Value>此供應商名下能管理訂單和商品的顧客列表(可以查看供應商頁面)。您可以在顧客詳細資訊頁關聯供應商帳戶。如果您不想此供應商有查看權限，請不要關聯任何帳戶。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AssociatedCustomerEmails.None">
         <Value>沒有顧客帳戶和此供應商關聯</Value>
@@ -15448,7 +15448,7 @@
         <Value>設定一個搜尋引擎友好的頁面名稱。「the-best-vendor」讓您的頁面的URL http://www.yourStore.com/the-best-vendor。留下空的自動生成,基於供應商的名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.Store.hint">
         <Value>A store name for which products of vendor will be available.</Value>
@@ -15493,7 +15493,7 @@
         <Value>Page size should have unique items</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Category.Fields.PictureId.NotExists">
-        <Value>Picture Id does not exist</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Category.Fields.ParentCategoryId.NotExists">
         <Value>Category Id does not exist</Value>
@@ -15511,7 +15511,7 @@
         <Value>Page size should have unique items</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Manufacturer.Fields.PictureId.NotExists">
-        <Value>Picture Id does not exist</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Manufacturer.Fields.ManufacturerTemplateId.NotExists">
         <Value>Manufacturer template Id does not exist</Value>
@@ -15535,7 +15535,7 @@
         <Value>Manufacturer Id does not exist</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.ProductPicture.Fields.PictureId.NotExists">
-        <Value>Picture Id does not exist</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.ProductSpecificationAttribute.Fields.SpecificationAttributeId.NotExists">
         <Value>Specification attribute Id does not exist</Value>
@@ -15598,13 +15598,13 @@
         <Value>Specification attribute option name is required</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Common.Picture.Fields.PictureBinary.Required">
-        <Value>Picture binary is required</Value>
+        <Value>需要圖片檔案</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Common.Picture.Fields.MimeType.Required">
         <Value>MIME Type is required</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Common.Picture.Fields.Id.NotRequired">
-        <Value>Picture Id is not required</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.Address.Fields.FirstName.Required">
         <Value>First name is required</Value>
@@ -15649,13 +15649,13 @@
         <Value>Fax is required</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRole.Fields.Name.Required">
-        <Value>Customer role name is required</Value>
+        <Value>會員角色名稱必填</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRole.Fields.PurchasedWithProductId.NotExists">
         <Value>Purchased with Product Id does not exist</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRole.Fields.Id.NotExists">
-        <Value>Customer role Id does not exist</Value>
+        <Value>會員角色ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRoles.Fields.Active.CantEditSystem">
         <Value>You can not edit system roles</Value>
@@ -15700,7 +15700,7 @@
         <Value>Guid exists</Value>
     </LocaleResource>
     <LocaleResource Name="api.customers.customer.fields.storeid.notexists">
-        <Value>Store ID doesn't exist</Value>
+        <Value>商店ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="BackInStockSubscriptions.AlreadySubscribed">
         <Value>你已經訂閱該商品的到貨通知了，確定要移除訂閱嗎？</Value>
@@ -15754,7 +15754,7 @@
         <Value>輸入評論</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Comments.CreatedOn">
-        <Value>建立時間</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Comments.LeaveYourComment">
         <Value>留下您的評論</Value>
@@ -15790,10 +15790,10 @@
         <Value>點擊這裡時自動被告知我們，新項目新增到我們的網站</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Search">
-        <Value>Search</Value>
+        <Value>搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.SearchPlaceholder">
-        <Value>Search in blog...</Value>
+        <Value>在部落格中搜尋...</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.TagCloud">
         <Value>熱門關鍵字</Value>
@@ -15805,7 +15805,7 @@
         <Value>標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.ViewAll">
-        <Value>View All Blog Posts</Value>
+        <Value>顯示所有部落格貼文</Value>
     </LocaleResource>
     <LocaleResource Name="Catalog.OrderBy">
         <Value>排序由</Value>
@@ -16144,7 +16144,7 @@
         <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
     </LocaleResource>
     <LocaleResource Name="Common.WrongCaptchaV3">
-        <Value>The reCAPTCHA response is invalid or malformed. Please try again.</Value>
+        <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
     </LocaleResource>
     <LocaleResource Name="Common.WrongEmail">
         <Value>電子信箱無效</Value>
@@ -16192,7 +16192,7 @@
         <Value>請輸您的全名</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.SelectAttribute">
-        <Value>Please select: {0}</Value>
+        <Value>請選擇: {0}</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.Subject">
         <Value>主題</Value>
@@ -16204,10 +16204,10 @@
         <Value>請輸入主題</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.TextboxMaximumLength">
-        <Value>{0} : maximum length is {1} chars</Value>
+        <Value>{0} : 最多只能輸入 {1} 個字</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.TextboxMinimumLength">
-        <Value>{0} : minimum length is {1} chars</Value>
+        <Value>{0} : 最少要輸入 {1} 個字</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.YourEnquiryHasBeenSent">
         <Value>您的正式的查詢已經發送給了電子商店的擁有者。</Value>
@@ -16267,7 +16267,7 @@
         <Value>貨幣</Value>
     </LocaleResource>
     <LocaleResource Name="Customer.Notes.Download">
-        <Value>Download file</Value>
+        <Value>下載檔案</Value>
     </LocaleResource>
     <LocaleResource Name="Customer.Guest">
         <Value>匿名用戶</Value>
@@ -16390,7 +16390,7 @@
         <Value>Best Sellers</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.MostViewed">
         <Value>Most Viewed</Value>
@@ -16480,7 +16480,7 @@
         <Value>雜湊</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding001">
-        <Value>Default rounding</Value>
+        <Value>預設的進位方式</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding005Down">
         <Value>Rounding down with 0.05 intervals (0.06 round to 0.05)</Value>
@@ -16516,22 +16516,22 @@
         <Value>分配給所有商品</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToCategories">
-        <Value>應用到各種種類</Value>
+        <Value>套用到各種種類</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToManufacturers">
-        <Value>應用到品牌</Value>
+        <Value>套用到品牌</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToOrderSubTotal">
-        <Value>應用到訂單小計</Value>
+        <Value>套用到訂單小計</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToOrderTotal">
-        <Value>應用到訂單總計</Value>
+        <Value>套用到訂單總計</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToShipping">
-        <Value>應用到配送金額</Value>
+        <Value>套用到配送金額</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToSkus">
-        <Value>應用到商品系列商品料號（SKU）</Value>
+        <Value>套用到商品系列商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToStores">
         <Value>Assigned to stores</Value>
@@ -16993,7 +16993,7 @@
         <Value>進階搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.Search.LimitResultsToPrevious">
-        <Value>發表時間</Value>
+        <Value>發表日期</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.Search.LimitResultsToPrevious.1day">
         <Value>1天</Value>
@@ -17128,7 +17128,7 @@
         <Value>發件人: {0} &lt;{1}&gt;</Value>
     </LocaleResource>
     <LocaleResource Name="Grand.Knowledgebase.AddArticleComment.Result">
-        <Value>Enter the comment</Value>
+        <Value>輸入評論</Value>
     </LocaleResource>
     <LocaleResource Name="HomePage">
         <Value>首頁</Value>
@@ -17143,28 +17143,28 @@
         <Value>Recommended products for you</Value>
     </LocaleResource>
     <LocaleResource Name="HomePage.Suggested.Products">
-        <Value>Suggested products for you</Value>
+        <Value>為你準備的推薦商品</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase">
         <Value>Knowledgebase</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.RelatedArticles">
-        <Value>Related articles</Value>
+        <Value>相關文章</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Categories">
-        <Value>Categories</Value>
+        <Value>類別</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Notfound">
-        <Value>No articles were found that matched your criteria</Value>
+        <Value>沒有找到符合您標準的文章</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Search">
-        <Value>Search</Value>
+        <Value>搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.SearchPlaceholder">
         <Value>Search in knowledgebase...</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.ResultsFor">
-        <Value>Results for</Value>
+        <Value>結果</Value>
     </LocaleResource>
     <LocaleResource Name="Languages">
         <Value>語言</Value>
@@ -17182,7 +17182,7 @@
         <Value>顯示所有</Value>
     </LocaleResource>
     <LocaleResource Name="Media.Blog.ImageAlternateTextFormat">
-        <Value>Picture for blog post {0}</Value>
+        <Value>部落格圖片 {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Media.Blog.ImageLinkTitleFormat">
         <Value>Show blog post for {0}</Value>
@@ -17269,7 +17269,7 @@
         <Value>數量</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.Order.Product(s).SKU">
-        <Value>商品料號（SKU）: {0}</Value>
+        <Value>商品料號(SKU): {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.Order.Product(s).Total">
         <Value>合計</Value>
@@ -17299,19 +17299,19 @@
         <Value>商品名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.RecentlyViewedProducts.Product(s).Picture">
-        <Value>照片</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.RecommendedProducts.Product(s).Name">
         <Value>照片名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.RecommendedProducts.Product(s).Picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.ShoppingCart.Product(s).Name">
         <Value>Product(s) Name</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.ShoppingCart.Product(s).picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.ShoppingCart.Product(s).Quantity">
         <Value>Quantity</Value>
@@ -17341,7 +17341,7 @@
         <Value>請輸入評論標題</Value>
     </LocaleResource>
     <LocaleResource Name="News.Comments.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="News.Comments.LeaveYourComment">
         <Value>寫下您的評論</Value>
@@ -17431,7 +17431,7 @@
         <Value>訂單備註</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Notes.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Notes.Download">
         <Value>下載附加文件</Value>
@@ -17488,7 +17488,7 @@
         <Value>數量</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Product(s).SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Product(s).Total">
         <Value>小計</Value>
@@ -17548,7 +17548,7 @@
         <Value>配送數量</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Shipments.Product(s).SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Shipments.ShippedDate">
         <Value>配送日期</Value>
@@ -17683,7 +17683,7 @@
         <Value>論壇訂閱</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.Knowledgebase">
-        <Value>Knowledgebase</Value>
+        <Value>知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.Login">
         <Value>登入</Value>
@@ -17824,7 +17824,7 @@
         <Value>縣市：{0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.Discount">
         <Value>折扣：</Value>
@@ -17851,7 +17851,7 @@
         <Value>說明：</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.OrderNotes.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.OrderNotes.Note">
         <Value>備註</Value>
@@ -17899,7 +17899,7 @@
         <Value>配送方式：{0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.Sub-Total">
         <Value>小計：</Value>
@@ -17944,13 +17944,13 @@
         <Value>配送方式：{0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFPackagingSlip.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="PDFProductCatalog.Price">
         <Value>價格</Value>
     </LocaleResource>
     <LocaleResource Name="PDFProductCatalog.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="PDFProductCatalog.StockQuantity">
         <Value>庫存數量</Value>
@@ -17959,13 +17959,13 @@
         <Value>重量</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessAdminPanel">
-        <Value>訪問系統管理後台</Value>
+        <Value>查看系統管理後台</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessClosedStore">
         <Value>公共商店，進入一個已關閉的商店</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessWebService">
-        <Value>插件.訪問Web服務</Value>
+        <Value>套件.查看Web服務</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AllowCustomerImpersonation">
         <Value>系統管理後台.允許會員模擬</Value>
@@ -18064,7 +18064,7 @@
         <Value>系統管理後台.付款方式管理</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.ManagePlugins">
-        <Value>系統管理後台.管理插件</Value>
+        <Value>系統管理後台.管理套件</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.ManagePolls">
         <Value>系統管理後台.管理調查</Value>
@@ -18112,7 +18112,7 @@
         <Value>系統管理後台.管理部件</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.OrderCountryReport">
-        <Value>系統管理後台。訪問訂單區域交易分析</Value>
+        <Value>系統管理後台。查看訂單區域交易分析</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.PublicStoreAllowNavigation">
         <Value>公共商店。允許導航</Value>
@@ -18136,7 +18136,7 @@
         <Value>{0}({1}票-{2}%)</Value>
     </LocaleResource>
     <LocaleResource Name="PopupInteractiveForm.EmailForm">
-        <Value>Message from form {0}</Value>
+        <Value>表單內的訊息 {0}</Value>
     </LocaleResource>
     <LocaleResource Name="PopupInteractiveForm.Fields.IsRequired">
         <Value>The value of the field {0} is required</Value>
@@ -18292,13 +18292,13 @@
         <Value>FullName is required.</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Message">
-        <Value>Message</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Message.Hint">
         <Value>Enter message</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Message.Required">
-        <Value>Message is required.</Value>
+        <Value>訊息必填</Value>
     </LocaleResource>
     <LocaleResource Name="Products.AskQuestion.Phone">
         <Value>Phone</Value>
@@ -18568,19 +18568,19 @@
         <Value>保留時間</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reservation.DateFrom">
-        <Value>保留開始時間</Value>
+        <Value>保留開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reservation.DateTo">
-        <Value>保留結束時間</Value>
+        <Value>保留結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reservation.Hour">
         <Value>保留小時數</Value>
     </LocaleResource>
     <LocaleResource Name="Products.ReservationEndDate">
-        <Value>結束時間</Value>
+        <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.ReservationStartDate">
-        <Value>開始時間</Value>
+        <Value>開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reviews">
         <Value>評論</Value>
@@ -18943,7 +18943,7 @@
         <Value>Clear cart</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.ConflictingShipmentSchedules">
-        <Value>您的購物車有自動出貨 （定期） 項目與裝運時間衝突。只有一個汽車船時間表被允許每個訂單。</Value>
+        <Value>您的購物車有自動出貨 (定期) 項目與裝運時間衝突。只有一個汽車船時間表被允許每個訂單。</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.ContinueShopping">
         <Value>繼續購物</Value>
@@ -19303,7 +19303,7 @@
         <Value>進入</Value>
     </LocaleResource>
     <LocaleResource Name="Topic.EnterPassword">
-        <Value>請輸入密碼來訪問此內容：</Value>
+        <Value>請輸入密碼來查看此內容：</Value>
     </LocaleResource>
     <LocaleResource Name="Topic.WrongPassword">
         <Value>密碼錯誤</Value>
@@ -19529,10 +19529,10 @@
         <Value>Page that will be opened after user clicks on notification</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PictureId">
-        <Value>Picture Id</Value>
+        <Value>圖片ID</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PushMessageText">
-        <Value>Message text</Value>
+        <Value>文字訊息</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PushTitle">
         <Value>Title</Value>
@@ -19577,10 +19577,10 @@
         <Value>Send</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.MessageTextPlaceholder">
-        <Value>Message text</Value>
+        <Value>訊息文字</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.MessageTitlePlaceholder">
-        <Value>Message title</Value>
+        <Value>訊息開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.PushNotifications">
         <Value>Push notifications</Value>
@@ -19598,7 +19598,7 @@
         <Value>Warning! Press "Save" button every time you upgrade GrandNode to new version, as the settings will be wiped out in registration script.</Value>
     </LocaleResource>
     <LocaleResource Name="Pushnotifications.Pushnotications.Messages">
-        <Value>Messages</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Pushnotifications.Pushnotications.Receivers">
         <Value>Receivers</Value>
@@ -19640,7 +19640,7 @@
         <Value>Send</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.PushNotifications.Messages">
-        <Value>Messages</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch">
         <Value>Admin search</Value>
@@ -19724,10 +19724,10 @@
         <Value>Blogs display order</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.CustomersDisplayOrder">
-        <Value>Customers display order</Value>
+        <Value>會員顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.OrdersDisplayOrder">
-        <Value>Orders display order</Value>
+        <Value>訂單顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.ProductsDisplayOrder.Hint">
         <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
@@ -19769,43 +19769,43 @@
         <Value>Menu</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AllowComments">
-        <Value>Allow comments</Value>
+        <Value>允許評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AllowComments.Hint">
-        <Value>When checked, customers can leave comments about your article.</Value>
+        <Value>如果點選，會員可以在您的文章下留言</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.CommentText">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.CommentText.Required">
-        <Value>Enter comment</Value>
+        <Value>輸入評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.LeaveYourComment">
-        <Value>Leave your comment</Value>
+        <Value>留下您的評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments">
-        <Value>Comments</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.SubmitButton">
-        <Value>New comment</Value>
+        <Value>新的評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments">
-        <Value>Allow not registered users to leave comments</Value>
+        <Value>允許沒有註冊的用戶留下評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments.Hint">
-        <Value>Check to allow not registered users to leave comments.</Value>
+        <Value>如果點選，沒有註冊的用戶可以在您的文章下留言</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.OnlyRegisteredUsersLeaveComments">
-        <Value>Only registered users can leave comments.</Value>
+        <Value>只有註冊過的用戶可以留下評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.NotifyAboutNewArticleComments">
-        <Value>Notify about new article comments</Value>
+        <Value>如果有會員留下評論，通知我</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.NotifyAboutNewArticleComments.Hint">
-        <Value>Check to notify store owner about new article comments.</Value>
+        <Value>選中以通知店主有關新文章評論的訊息</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.PublicStore.AddArticleComment">
         <Value>Added an article comment</Value>
@@ -19817,7 +19817,7 @@
         <Value>Check to show CAPTCHA on article page when writing a comment.</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.SuccessfullyAdded">
-        <Value>Article comment was successfully added.</Value>
+        <Value>文章評論新增成功</Value>
     </LocaleResource>
     <LocaleResource Name="ReturnRequests.SelectPickupAddressOrEnterNewOne">
         <Value>Select a pickup address from your address book or enter a new address.</Value>
@@ -19832,19 +19832,19 @@
         <Value>Return request details</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes">
-        <Value>Customer notes</Value>
+        <Value>會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.Attachment">
-        <Value>Attachment</Value>
+        <Value>附件</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.Createdate">
-        <Value>Create date</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.NoExists">
-        <Value>You don't have any notes</Value>
+        <Value>你沒有任何會員備註</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerNotes.Title">
-        <Value>Title</Value>
+        <Value>開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Account.CustomerReturnRequests.Quantity">
         <Value>數量</Value>
@@ -19928,7 +19928,7 @@
         <Value>Additional Shipping Charge:</Value>
     </LocaleResource>
     <LocaleResource Name="Products.GiftCard.Message">
-        <Value>Message</Value>
+        <Value>訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Products.GiftCard.RecipientEmail">
         <Value>Recipient's Email</Value>
