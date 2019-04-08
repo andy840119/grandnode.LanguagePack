@@ -2929,7 +2929,7 @@
         <Value>Add new products</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.BundleProducts.Fields.Product">
         <Value>Product name</Value>
@@ -2986,7 +2986,7 @@
         <Value>Category</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Categories.Fields.IsFeaturedProduct">
         <Value>Is featured product?</Value>
@@ -3850,7 +3850,7 @@
         <Value>Manufacturer mappings</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Manufacturers.Fields.IsFeaturedProduct">
         <Value>Is featured product?</Value>
@@ -5311,7 +5311,7 @@
         <Value>NOTE: if you change your primary dimension, then do not forget to update the appropriate ratios of the units</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryDimension">
         <Value>Is primary dimension</Value>
@@ -5338,7 +5338,7 @@
         <Value>Units</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Units.Fields.Name">
         <Value>Name</Value>
@@ -5356,7 +5356,7 @@
         <Value>NOTE: if you change your primary weight, then do not forget to update the appropriate ratios of the units</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Measures.Weights.Fields.IsPrimaryWeight">
         <Value>Is primary weight</Value>
@@ -8500,7 +8500,7 @@
         <Value>Specify a description of the pickup point.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.DisplayOrder.hint">
         <Value>Display order of the pickup point.</Value>
@@ -9226,7 +9226,7 @@
         <Value>The description of the knowledgebase article.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Displayorder.Hint">
         <Value>Set the knowledgebase article display order. 1 represents the top of the list.</Value>
@@ -9364,7 +9364,7 @@
         <Value>The description of the knowledgebase category.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.Displayorder.Hint">
         <Value>Set the knowledgebase category display order. 1 represents the top of the list.</Value>
@@ -11500,7 +11500,7 @@
         <Value>Add new product</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.PersonalizedProduct.ProductName">
         <Value>Product name</Value>
@@ -11680,7 +11680,7 @@
         <Value>Add new</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Products.Fields.Name">
         <Value>Product name</Value>
@@ -13798,7 +13798,7 @@
         <Value>The description of the newsletter category.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.DisplayOrder">
-        <Value>Display order</Value>
+        <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.DisplayOrder.hint">
         <Value>The display order of the newsletter category.</Value>
