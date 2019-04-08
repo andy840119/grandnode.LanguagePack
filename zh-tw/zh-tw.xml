@@ -97,7 +97,7 @@
         <Value>請輸入密碼</Value>
     </LocaleResource>
     <LocaleResource Name="Account.ChangePassword.Errors.PasswordMatchesWithPrevious">
-        <Value>您輸入的密碼與您使用的最後一個密碼相同，請創建一個新密碼。</Value>
+        <Value>您輸入的密碼與您使用的最後一個密碼相同，請建立一個新密碼。</Value>
     </LocaleResource>
     <LocaleResource Name="Account.ChangePassword.Fields.ConfirmNewPassword">
         <Value>確認新密碼</Value>
@@ -2263,7 +2263,7 @@
         <Value>分類版型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.Fields.Deleted">
         <Value>已刪除</Value>
@@ -2542,7 +2542,7 @@
         <Value>選擇顯示製造商的商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Manufacturers.Fields.Deleted">
         <Value>已刪除</Value>
@@ -2746,10 +2746,10 @@
         <Value>編輯商品評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Customer">
         <Value>會員</Value>
@@ -2860,7 +2860,7 @@
         <Value>Comment</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Customer">
         <Value>Customer</Value>
@@ -3064,7 +3064,7 @@
         <Value>只允許現有的屬性組合</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AllowAddingOnlyExistingAttributeCombinations.Hint">
-        <Value>檢查允許新增購物車/收藏列表只有屬性組合存在且庫存大於零。在這種情況下,您必須創建所有現有商品屬性的組合併保證有庫存.</Value>
+        <Value>檢查允許新增購物車/收藏列表只有屬性組合存在且庫存大於零。在這種情況下,您必須建立所有現有商品屬性的組合併保證有庫存.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.AllowBackInStockSubscriptions">
         <Value>允許會員預先訂購</Value>
@@ -3244,10 +3244,10 @@
         <Value>You can't edit the product because has been changed. Please refresh page and try to change again.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn">
-        <Value>建立時間</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CreatedOn.Hint">
-        <Value>日期和時間創建此商品時。</Value>
+        <Value>建立商品的日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.CustomerEntersPrice">
         <Value>會員輸入的價格</Value>
@@ -4201,7 +4201,7 @@
         <Value>編輯屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.NoAttributesAvailable">
-        <Value>沒有定義任何商品屬性。在映射(mapping)之前創建至少一個商品屬性。</Value>
+        <Value>沒有定義任何商品屬性。在映射(mapping)之前建立至少一個商品屬性。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.SaveBeforeEdit">
         <Value>您需要先保存產品，然後才能為此頁面添加屬性。</Value>
@@ -4318,7 +4318,7 @@
         <Value>屬性規格值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.NoAttributes">
-        <Value>未找到商品規格屬性資訊，請先創建商品規格</Value>
+        <Value>未找到商品規格屬性資訊，請先建立商品規格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.SaveBeforeEdit">
         <Value>您需要先保存才能進一步操作</Value>
@@ -4639,7 +4639,7 @@
         <Value>內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.ActivityLog.ActivityLog.Fields.CreatedOnFrom">
         <Value>開始日期</Value>
@@ -4894,10 +4894,10 @@
         <Value>Select stores for which the currency will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Currencies.Fields.CurrencyCode">
         <Value>貨幣代碼</Value>
@@ -8944,7 +8944,7 @@
         <Value>顯示評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.EndDate">
         <Value>結束日期</Value>
@@ -9070,7 +9070,7 @@
         <Value>編輯板塊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.Forum.Fields.Description">
         <Value>描述</Value>
@@ -9124,7 +9124,7 @@
         <Value>編輯論壇分組</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -9154,7 +9154,7 @@
         <Value>Comment</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Customer">
         <Value>Customer</Value>
@@ -9589,7 +9589,7 @@
         <Value>標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.Customer">
         <Value>評論會員</Value>
@@ -9640,7 +9640,7 @@
         <Value>顯示評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.EndDate">
         <Value>結束日期</Value>
@@ -10990,7 +10990,7 @@
         <Value>內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.ActivityLog.IpAddress">
         <Value>IP地址</Value>
@@ -11086,7 +11086,7 @@
         <Value>Enter this customer note message.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerNotes.Fields.Download">
         <Value>Download</Value>
@@ -11110,7 +11110,7 @@
         <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.CustomerRoles.NoRoles">
-        <Value>未找到會員角色資訊，請先創建會員角色</Value>
+        <Value>未找到會員角色資訊，請先建立會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Deleted">
         <Value>刪除會員成功</Value>
@@ -11164,10 +11164,10 @@
         <Value>縣市</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.Fields.CustomerRoles">
         <Value>會員角色</Value>
@@ -11920,10 +11920,10 @@
         <Value>禮品卡金額</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode">
         <Value>折扣碼</Value>
@@ -12220,10 +12220,10 @@
         <Value>交易中使用的卡類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Fields.Customer">
         <Value>會員</Value>
@@ -12652,7 +12652,7 @@
         <Value>增加訂單備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.OrderNotes.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.OrderNotes.Fields.DisplayToCustomer">
         <Value>顯示給會員</Value>
@@ -12907,7 +12907,7 @@
         <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.List.EndDate.Hint">
-        <Value>結束日期(貨運創建日期)對於這個搜尋。</Value>
+        <Value>結束日期(貨運建立日期)對於這個搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.List.LoadNotShipped">
         <Value>調入沒出貨的</Value>
@@ -13105,7 +13105,7 @@
         <Value>Body is required</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Banners.Fields.Name">
         <Value>Name</Value>
@@ -13159,7 +13159,7 @@
         <Value>請輸入內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom">
         <Value>Customers created from date</Value>
@@ -13843,7 +13843,7 @@
         <Value>Assigned to categories</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Email">
         <Value>電子信箱</Value>
@@ -13978,7 +13978,7 @@
         <Value>取消定期付款</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.NextPaymentDate">
         <Value>下一次付款日期是</Value>
@@ -13993,7 +13993,7 @@
         <Value>付款狀態</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.ProcessNextPayment">
-        <Value>下一個付款(創建一個新的訂單)</Value>
+        <Value>下一個付款(建立一個新的訂單)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.RecurringPayments.History.ShippingStatus">
         <Value>配送狀態</Value>
@@ -14026,7 +14026,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.Fields.Customer">
         <Value>會員</Value>
@@ -14371,10 +14371,10 @@
         <Value>Selected attribute description</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.CreatedOn.hint">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Email">
         <Value>Email</Value>
@@ -14473,7 +14473,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Log.Fields.CreatedOn.Hint">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Log.Fields.Customer">
         <Value>會員</Value>
@@ -14554,10 +14554,10 @@
         <Value>刪除購物車資料</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.OlderThan">
-        <Value>在創建前</Value>
+        <Value>在建立前</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.OlderThan.Hint">
-        <Value>刪除在這個特定日期前創建前購物車中的項目。</Value>
+        <Value>刪除在這個特定日期前建立前購物車中的項目。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteAbandonedCarts.TotalDeleted">
         <Value>{0}項目已被刪除</Value>
@@ -14665,7 +14665,7 @@
         <Value>Cc地址。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.CreatedOn">
-        <Value>創建於</Value>
+        <Value>建立於</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.CreatedOn.Hint">
         <Value>日期/時間 消息已加入隊中。</Value>
@@ -15259,7 +15259,7 @@
         <Value>Edit vendor review details</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.Customer">
         <Value>Customer</Value>
@@ -16390,7 +16390,7 @@
         <Value>Best Sellers</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.MostViewed">
         <Value>Most Viewed</Value>
@@ -17341,7 +17341,7 @@
         <Value>請輸入評論標題</Value>
     </LocaleResource>
     <LocaleResource Name="News.Comments.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="News.Comments.LeaveYourComment">
         <Value>寫下您的評論</Value>
@@ -17431,7 +17431,7 @@
         <Value>訂單備註</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Notes.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Notes.Download">
         <Value>下載附加文件</Value>
@@ -17824,7 +17824,7 @@
         <Value>縣市：{0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.Discount">
         <Value>折扣：</Value>
@@ -17851,7 +17851,7 @@
         <Value>說明：</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.OrderNotes.CreatedOn">
-        <Value>創建日期</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.OrderNotes.Note">
         <Value>備註</Value>
@@ -19790,7 +19790,7 @@
         <Value>New comment</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.CreatedOn">
-        <Value>Created on</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments">
         <Value>Allow not registered users to leave comments</Value>
