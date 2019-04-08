@@ -1912,16 +1912,16 @@
         <Value>Determines whether the Contact attrubutes is subject to ACL (access control list).</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.TextPrompt">
-        <Value>Text prompt</Value>
+        <Value>文字提示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Fields.TextPrompt.Hint">
-        <Value>Enter text prompt.</Value>
+        <Value>輸入文字提示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Info">
         <Value>屬性資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.ContactAttributes.Updated">
         <Value>The attribute has been updated successfully.</Value>
@@ -4006,7 +4006,7 @@
         <Value>Quantity</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.TierPrices.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Update">
         <Value>Enter details below</Value>
@@ -4438,7 +4438,7 @@
         <Value>Please provide a name.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Vendors.List.SearchStore">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Vendors.List.SearchStore.Hint">
         <Value>Search by a specific store.</Value>
@@ -5473,7 +5473,7 @@
         <Value>作者</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Plugins.Fields.AvailableStores.Hint">
         <Value>Select stores for which the plugin will be used.</Value>
@@ -8518,7 +8518,7 @@
         <Value>Specify a fee for the shipping to the pickup point.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Stores">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.PickupPoint.Fields.Stores.hint">
         <Value>A store name for which this pickup point will be available.</Value>
@@ -8884,13 +8884,13 @@
         <Value>Enter the title of the blog</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchstore">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.searchstore.hint">
         <Value>Enter the store name</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.blog.blogcategory.updated">
         <Value>Blog category has been updated</Value>
@@ -9214,7 +9214,7 @@
         <Value>會員角色權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores.Hint">
         <Value>Select stores for which the article will be shown.</Value>
@@ -9319,7 +9319,7 @@
         <Value>Seo</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Updated">
         <Value>Article updated</Value>
@@ -9352,7 +9352,7 @@
         <Value>Select customer roles for which the knowledgebase category will be shown.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AvailableStores.Hint">
         <Value>Select stores for which the category will be shown.</Value>
@@ -9442,7 +9442,7 @@
         <Value>Seo</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Updated">
         <Value>Category updated</Value>
@@ -9811,7 +9811,7 @@
         <Value>允許匿名用戶投票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AvailableStores.Hint">
         <Value>Select stores for which the category will be shown.</Value>
@@ -9883,7 +9883,7 @@
         <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Updated">
         <Value>修改投票成功</Value>
@@ -10399,7 +10399,7 @@
         <Value>Product specification value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.storeName">
-        <Value>Store name</Value>
+        <Value>商店名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActionCondition.Fields.UrlCurrentName">
         <Value>Current Url</Value>
@@ -10435,7 +10435,7 @@
         <Value>You need to save the  before you can add values for this page</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActionCondition.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.updated">
         <Value>Condition updated</Value>
@@ -13354,7 +13354,7 @@
         <Value>You need to save the discount before you can add stores for this discount page.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToStores.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.AppliedToVendors">
         <Value>Applied to vendors</Value>
@@ -13786,7 +13786,7 @@
         <Value>Edit newsletter category details</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Fields.AvailableStores.hint">
         <Value>Select stores for which the newsletter category will be shown.</Value>
@@ -13828,7 +13828,7 @@
         <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Stores">
-        <Value>Stores</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.NewsletterCategory.Updated">
         <Value>The newsletter category has been updated successfully</Value>
@@ -14410,10 +14410,10 @@
         <Value>IP Address</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Store">
-        <Value>Store name</Value>
+        <Value>商店名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Store.hint">
-        <Value>Store name</Value>
+        <Value>商店名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Subject">
         <Value>Subject</Value>
@@ -14440,7 +14440,7 @@
         <Value>The start date for the search</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.List.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.List.Store.hint">
         <Value>Search by a specific store.</Value>
@@ -15448,7 +15448,7 @@
         <Value>設定一個搜尋引擎友好的頁面名稱。「the-best-vendor」讓您的頁面的URL http://www.yourStore.com/the-best-vendor。留下空的自動生成,基於供應商的名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.Store">
-        <Value>Store</Value>
+        <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.Store.hint">
         <Value>A store name for which products of vendor will be available.</Value>
@@ -15700,7 +15700,7 @@
         <Value>Guid exists</Value>
     </LocaleResource>
     <LocaleResource Name="api.customers.customer.fields.storeid.notexists">
-        <Value>Store ID doesn't exist</Value>
+        <Value>商店ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="BackInStockSubscriptions.AlreadySubscribed">
         <Value>你已經訂閱該商品的到貨通知了，確定要移除訂閱嗎？</Value>
