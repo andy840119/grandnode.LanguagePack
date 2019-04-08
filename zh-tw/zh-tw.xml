@@ -805,10 +805,10 @@
         <Value>新增新的小工具(編號：{0})</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.CreateKnowledgebaseArticle">
-        <Value>建立知識庫文章 ('{0}')</Value>
+        <Value>新增知識庫文章 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.CreateKnowledgebaseCategory">
-        <Value>建立知識庫分類 ('{0}')</Value>
+        <Value>新增知識庫分類 ('{0}')</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.DeleteAccount">
         <Value>會員已刪除</Value>
@@ -4201,7 +4201,7 @@
         <Value>編輯屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.NoAttributesAvailable">
-        <Value>沒有定義任何商品屬性。在映射(mapping)之前建立至少一個商品屬性。</Value>
+        <Value>沒有定義任何商品屬性。在映射(mapping)之前新增至少一個商品屬性。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.SaveBeforeEdit">
         <Value>您需要先保存產品，然後才能為此頁面添加屬性。</Value>
@@ -4318,7 +4318,7 @@
         <Value>屬性規格值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.NoAttributes">
-        <Value>未找到商品規格屬性資訊，請先建立商品規格</Value>
+        <Value>未找到商品規格屬性資訊，請先新增商品規格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.SaveBeforeEdit">
         <Value>您需要先保存才能操作</Value>
@@ -4333,7 +4333,7 @@
         <Value>新增</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Edit">
-        <Value>編輯等級價格詳細信息</Value>
+        <Value>編輯等級價格詳細訊息</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole">
         <Value>會員角色</Value>
@@ -9163,10 +9163,10 @@
         <Value>Acitivty log type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseArticle">
-        <Value>建立文章</Value>
+        <Value>新增文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseCategory">
-        <Value>建立知識庫類別</Value>
+        <Value>新增知識庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseArticle">
         <Value>編輯文章</Value>
@@ -9178,7 +9178,7 @@
         <Value>Back to list</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.CreateKnowgledgebaseArticle">
-        <Value>建立文章</Value>
+        <Value>新增文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.EditKnowgledgebaseArticle">
         <Value>編輯文章</Value>
@@ -9187,10 +9187,10 @@
         <Value>Back to list</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.CreateKnowgledgebaseCategory">
-        <Value>建立資料庫類別</Value>
+        <Value>新增資料庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.EditKnowgledgebaseCategory">
-        <Value>建立資料庫類別</Value>
+        <Value>新增資料庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl">
         <Value>權限管理</Value>
