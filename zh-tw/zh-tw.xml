@@ -2725,7 +2725,7 @@
         <Value>Resource name is required</Value>
     </LocaleResource>
     <LocaleResource Name="admin.catalog.productreservations.fields.starttime.required">
-        <Value>Start time is required</Value>
+        <Value>開始時間必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews">
         <Value>商品評論</Value>
@@ -2848,7 +2848,7 @@
         <Value>商品維護</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.AclStores">
-        <Value>ACL and Stores</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog">
         <Value>Activity Log</Value>
@@ -9193,7 +9193,7 @@
         <Value>Edit knowledgebase category</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl.hint">
         <Value>Select customer roles for which the article will be shown.</Value>
@@ -9208,10 +9208,10 @@
         <Value>Article deleted</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles">
-        <Value>Acl Customer Roles</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles.Hint">
-        <Value>Acl(Access control list) Customer Roles</Value>
+        <Value>會員角色權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores">
         <Value>Stores</Value>
@@ -9325,7 +9325,7 @@
         <Value>Article updated</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Acl.hint">
         <Value>Select customer roles for which the category will be shown.</Value>
@@ -9346,7 +9346,7 @@
         <Value>Category deleted</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AclCustomerRoles">
-        <Value>Acl Customer Roles</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseCategory.Fields.AclCustomerRoles.Hint">
         <Value>Select customer roles for which the knowledgebase category will be shown.</Value>
@@ -9601,7 +9601,7 @@
         <Value>新聞</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Added">
         <Value>新增新聞成功</Value>
@@ -9754,7 +9754,7 @@
         <Value>投票設定與統計</Value>
     </LocaleResource>
     <LocaleResource Name="admin.contentmanagement.polls.acl">
-        <Value>Access control list</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Added">
         <Value>新增投票成功</Value>
@@ -9799,7 +9799,7 @@
         <Value>編輯投票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AclCustomerRoles">
-        <Value>Customer roles</Value>
+        <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Polls.Fields.AclCustomerRoles.Hint">
         <Value>Select customer roles for which the poll will be shown.</Value>
