@@ -1459,7 +1459,7 @@
         <Value>友好URL名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Affiliates.Fields.FriendlyUrlName.Hint">
-        <Value>在生成的聯盟URL （聯盟ID將被使用。）中使用友好URL名將有助於協銷活動。此欄留空將使用聯盟ID。</Value>
+        <Value>在生成的聯盟URL (聯盟ID將被使用。)中使用友好URL名將有助於協銷活動。此欄留空將使用聯盟ID。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Affiliates.Fields.ID">
         <Value>加盟識別</Value>
@@ -1603,7 +1603,7 @@
         <Value>啟用條件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.EnableCondition.Hint">
-        <Value>當啟用此屬性（可見）時，檢查已指定條件（取決於其他屬性）。</Value>
+        <Value>當啟用此屬性(可見)時，檢查已指定條件(取決於其他屬性)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Condition.NoAttributeExists">
         <Value>不存在可作為條件的屬性.</Value>
@@ -1651,13 +1651,13 @@
         <Value>允許文件擴展名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.FileAllowedExtensions.Hint">
-        <Value>指定一個以逗號分隔的文件擴展名。不填（空）允許任何文件擴展名.</Value>
+        <Value>指定一個以逗號分隔的文件擴展名。不填(空)允許任何文件擴展名.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.FileMaximumSize">
         <Value>最大文件大小 (KB)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.FileMaximumSize.Hint">
-        <Value>用KB指定最大文件大小。不填（空）跳過此驗證.</Value>
+        <Value>用KB指定最大文件大小。不填(空)跳過此驗證.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Fields.IsRequired">
         <Value>必填</Value>
@@ -2170,7 +2170,7 @@
         <Value>是否發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.BulkEdit.Fields.StockQuantity">
         <Value>庫存數量</Value>
@@ -2779,7 +2779,7 @@
         <Value>回覆內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText.Hint">
-        <Value>回复文本（由店主）。 如果指定，則客戶可以看到它。 留空以忽略此功能。</Value>
+        <Value>回复文本(由店主)。 如果指定，則客戶可以看到它。 留空以忽略此功能。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText">
         <Value>評論</Value>
@@ -3151,7 +3151,7 @@
         <Value>啟用PAngV (基本價格) </Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceEnabled.Hint">
-        <Value>選擇將顯示商品的基本價格。這是德國法律（PAngV）所要求的。 如果您以1.5歐元銷售500毫升的啤酒， 您不得不顯示基本價格： 3.00 每升。</Value>
+        <Value>選擇將顯示商品的基本價格。這是德國法律(PAngV)所要求的。 如果您以1.5歐元銷售500毫升的啤酒， 您不得不顯示基本價格： 3.00 每升。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceUnit">
         <Value>商品單位</Value>
@@ -3328,7 +3328,7 @@
         <Value>天數</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.DownloadExpirationDays.Hint">
-        <Value>期間會員的天數保持訪問到的文件 （例如 14）。將此欄位保留為空，允許連續下載。</Value>
+        <Value>期間會員的天數保持訪問到的文件 (例如 14)。將此欄位保留為空，允許連續下載。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Flag">
         <Value>Flag</Value>
@@ -3349,10 +3349,10 @@
         <Value>選擇禮品卡類型。警告: 不推薦在生產環境中更改。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.GTIN">
-        <Value>GTIN （全球貿易項目代碼）</Value>
+        <Value>GTIN (全球貿易項目代碼)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.GTIN.Hint">
-        <Value>輸入全球貿易項目代碼 (GTIN)。這些標識符包括通用商品代碼（UPC在北美洲)、 歐洲物品號(EAN歐洲)、日本物品號（JAN在日本），國際標準書號 (ISBN)。</Value>
+        <Value>輸入全球貿易項目代碼 (GTIN)。這些標識符包括通用商品代碼(UPC在北美洲)、 歐洲物品號(EAN歐洲)、日本物品號(JAN在日本)，國際標準書號 (ISBN)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.HasSampleDownload">
         <Value>已下載文件示例</Value>
@@ -3412,7 +3412,7 @@
         <Value>免徵稅費</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.IsTaxExempt.Hint">
-        <Value>確定該商品是否免稅 (稅不會應用到此商品在簽出）。</Value>
+        <Value>確定該商品是否免稅 (稅不會應用到此商品在簽出)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.IsTelecommunicationsOrBroadcastingOrElectronicServices">
         <Value>通信， 直播和電子服務</Value>
@@ -3523,7 +3523,7 @@
         <Value>低於庫存時通知管理員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.NotifyAdminForQuantityBelow.Hint">
-        <Value>低於庫存時，店主 （管理員） 將收到通知。</Value>
+        <Value>低於庫存時，店主 (管理員) 將收到通知。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.NotReturnable">
         <Value>不可退貨</Value>
@@ -3541,13 +3541,13 @@
         <Value>最大購物車數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMaximumQuantity.Hint">
-        <Value>如：設定允許最高為 5，則僅允許會員在購買當前商品為 5 或更少時合法。（限量銷售）</Value>
+        <Value>如：設定允許最高為 5，則僅允許會員在購買當前商品為 5 或更少時合法。(限量銷售)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMinimumQuantity">
         <Value>最低購物車數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OrderMinimumQuantity.Hint">
-        <Value>如：設定允許最低為 3，則僅允許會員在購買當前商品為 3 或更多時合法。（多用於活動，或小物件）</Value>
+        <Value>如：設定允許最低為 3，則僅允許會員在購買當前商品為 3 或更多時合法。(多用於活動，或小物件)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.OverriddenGiftCardAmount">
         <Value>重寫禮品卡金額</Value>
@@ -3628,7 +3628,7 @@
         <Value>所需的商品ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.RequiredProductIds.Hint">
-        <Value>指定所需的商品ID的逗號分隔列表。注意： 請確保有沒有循環引用 （例如，A 要求 B、 和 B 要求 A）。</Value>
+        <Value>指定所需的商品ID的逗號分隔列表。注意： 請確保有沒有循環引用 (例如，A 要求 B、 和 B 要求 A)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.RequireOtherProducts">
         <Value>需要其他的商品新增到購物車</Value>
@@ -3646,13 +3646,13 @@
         <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.SeName.Hint">
-        <Value>設定搜尋引擎友好頁名， 如『the-best-product』 從而使您的網頁URL如'http://www.yourStore.com/the-best-product'。不填任何消息（留空）將自動基於商品名字生成。</Value>
+        <Value>設定搜尋引擎友好頁名， 如『the-best-product』 從而使您的網頁URL如'http://www.yourStore.com/the-best-product'。不填任何消息(留空)將自動基於商品名字生成。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.ShipSeparately">
         <Value>獨立包裝運輸</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.ShipSeparately.Hint">
-        <Value>選擇將使這個商品包裝在單獨的盒子裡運輸 （單獨發送）. 這個商品的運費將被單獨計算不管購物車中其他的商品。請注意如果您在購物車中購買了多件這個商品， 它們將被包裝到一個盒子中出貨。</Value>
+        <Value>選擇將使這個商品包裝在單獨的盒子裡運輸 (單獨發送). 這個商品的運費將被單獨計算不管購物車中其他的商品。請注意如果您在購物車中購買了多件這個商品， 它們將被包裝到一個盒子中出貨。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.ShortDescription">
         <Value>簡短說明</Value>
@@ -3667,10 +3667,10 @@
         <Value>首頁顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Sku">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Hint">
-        <Value>商品料號（SKU）。您可以用來跟蹤此商品的內部唯一標識符。</Value>
+        <Value>商品料號(SKU)。您可以用來跟蹤此商品的內部唯一標識符。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.StartPrice">
         <Value>Start price</Value>
@@ -3772,10 +3772,10 @@
         <Value>匯出PDF文件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.List.GoDirectlyToSku">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.List.GoDirectlyToSku.Hint">
-        <Value>直接轉到商品料號（SKU）</Value>
+        <Value>直接轉到商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.List.ImportFromExcelTip">
         <Value>如果SKU已經存在，匯入的商品將不會新增，而是會更新至其相應的商品。</Value>
@@ -3886,13 +3886,13 @@
         <Value>Alt</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideAltAttribute.Hint">
-        <Value>重寫「img」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 （如商品名稱）。</Value>
+        <Value>重寫「img」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 (如商品名稱)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideTitleAttribute">
         <Value>標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideTitleAttribute.Hint">
-        <Value>重寫「title」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 （如商品名稱）。</Value>
+        <Value>重寫「title」HTML單元裡的「alt」屬性。如果空， 則將使用預設的規則 (如商品名稱)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.Picture">
         <Value>圖片</Value>
@@ -3940,7 +3940,7 @@
         <Value>屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.GTIN">
-        <Value>全球貿易項目代碼（GTIN）</Value>
+        <Value>全球貿易項目代碼(GTIN)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.GTIN.Hint">
         <Value>請輸入全球貿易項目代碼 (GTIN)。這些IDs包括UPC (在北美), EAN (在歐洲), JAN (在日本), and ISBN (書籍).</Value>
@@ -3955,13 +3955,13 @@
         <Value>提示管理員庫存數量低</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.NotifyAdminForQuantityBelow.Hint">
-        <Value>當庫存數量下降低於（達到）這個數量， 商店擁有者將受到通知。</Value>
+        <Value>當庫存數量下降低於(達到)這個數量， 商店擁有者將受到通知。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.OverriddenPrice">
         <Value>覆寫價格</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.OverriddenPrice.Hint">
-        <Value>商店擁有者可覆寫商品預設的價格，輸入此欄後其他的折扣將被這個值覆蓋，不輸入任何資訊（留空）將忽略這個值。如要給予折扣，也可透過此欄位達成。</Value>
+        <Value>商店擁有者可覆寫商品預設的價格，輸入此欄後其他的折扣將被這個值覆蓋，不輸入任何資訊(留空)將忽略這個值。如要給予折扣，也可透過此欄位達成。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Picture">
         <Value>圖片</Value>
@@ -3973,10 +3973,10 @@
         <Value>沒有圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Sku.Hint">
-        <Value>商品料號（SKU）。您的內部唯一ID用於跟蹤這個屬性組合。</Value>
+        <Value>商品料號(SKU)。您的內部唯一ID用於跟蹤這個屬性組合。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.StockQuantity">
         <Value>庫存數量</Value>
@@ -4033,7 +4033,7 @@
         <Value>啟用條件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.EnableCondition.Hint">
-        <Value>檢查指定的條件（取決於其他屬性）時，此屬性應啟用（可見）。</Value>
+        <Value>檢查指定的條件(取決於其他屬性)時，此屬性應啟用(可見)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.ViewLink">
         <Value>View/Edit condition</Value>
@@ -4066,25 +4066,25 @@
         <Value>允許的文件擴展名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.FileAllowedExtensions.Hint">
-        <Value>規定允許文件擴展名為逗號分隔列表。 不填（空）將允許任何文件擴展。</Value>
+        <Value>規定允許文件擴展名為逗號分隔列表。 不填(空)將允許任何文件擴展。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.FileMaximumSize">
         <Value>文件最大值 (KB)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.FileMaximumSize.Hint">
-        <Value>規定最大文件大小為 kilobytes。不填（空）跳過此驗證。</Value>
+        <Value>規定最大文件大小為 kilobytes。不填(空)跳過此驗證。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MaxLength">
         <Value>長度最大值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MaxLength.Hint">
-        <Value>規定最大長度。 不填（空）跳過此驗證。</Value>
+        <Value>規定最大長度。 不填(空)跳過此驗證。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MinLength">
         <Value>長度最小值</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.MinLength.Hint">
-        <Value>規定最小長度值。 不填（空）跳過此驗證。</Value>
+        <Value>規定最小長度值。 不填(空)跳過此驗證。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.ValidationRules.ViewLink">
         <Value>查看/編輯規則</Value>
@@ -4201,7 +4201,7 @@
         <Value>編輯屬性</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.NoAttributesAvailable">
-        <Value>沒有定義任何商品屬性。在映射（mapping）之前創建至少一個商品屬性。</Value>
+        <Value>沒有定義任何商品屬性。在映射(mapping)之前創建至少一個商品屬性。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.SaveBeforeEdit">
         <Value>您需要先保存產品，然後才能為此頁面添加屬性。</Value>
@@ -4348,7 +4348,7 @@
         <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTime.Hint">
-        <Value>協調世界時（UTC）中等級價格的結束日期。</Value>
+        <Value>協調世界時(UTC)中等級價格的結束日期。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Price">
         <Value>價格</Value>
@@ -4366,7 +4366,7 @@
         <Value>開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.StartDateTime.Hint">
-        <Value>協調世界時（UTC）中層級價格的開始日期。</Value>
+        <Value>協調世界時(UTC)中層級價格的開始日期。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.Store">
         <Value>商店</Value>
@@ -5224,7 +5224,7 @@
         <Value>從右到左</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Fields.Rtl.Hint">
-        <Value>啟用從右到左的語言支持，使用中的版型也應支持RTL（要求有相應的CSS文件）。此選項只影響到商店前台</Value>
+        <Value>啟用從右到左的語言支持，使用中的版型也應支持RTL(要求有相應的CSS文件)。此選項只影響到商店前台</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Languages.Fields.UniqueSeoCode">
         <Value>唯一SEO代碼</Value>
@@ -5800,7 +5800,7 @@
         <Value>檢查顯示稅收和配送資訊的頁尾。這個選項在德國使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoOrderDetailsPage">
-        <Value>顯示稅/貨運資訊（訂單詳細資訊頁中）</Value>
+        <Value>顯示稅/貨運資訊(訂單詳細資訊頁中)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoOrderDetailsPage.Hint">
         <Value>選擇從而顯示稅/貨運資訊在訂單詳細資訊頁中。德國使用這個選項。</Value>
@@ -5818,7 +5818,7 @@
         <Value>檢查商品商品詳細資訊頁面顯示稅收和配送資訊。這個選項在德國使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoShoppingCart">
-        <Value>顯示稅務/運費資訊（購物車）</Value>
+        <Value>顯示稅務/運費資訊(購物車)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoShoppingCart.Hint">
         <Value>檢查顯示購物車頁面上的稅金和運費資訊。此選項用於在德國。</Value>
@@ -6034,10 +6034,10 @@
         <Value>搜尋頁，選中以允許客戶從預定義的選項列表中選擇頁面大小。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions">
-        <Value>搜尋頁，顯示筆數的選項 （逗號分隔）</Value>
+        <Value>搜尋頁，顯示筆數的選項 (逗號分隔)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions.Hint">
-        <Value>搜尋頁，顯示筆數選項的逗號分隔列表 （如 10, 5, 15, 20）。第一個選項是預設的選項筆數，如果沒選擇任何選項。</Value>
+        <Value>搜尋頁，顯示筆數選項的逗號分隔列表 (如 10, 5, 15, 20)。第一個選項是預設的選項筆數，如果沒選擇任何選項。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageProductsPerPage">
         <Value>搜尋頁顯示商品數量</Value>
@@ -6109,16 +6109,16 @@
         <Value>在商品頁顯示分享按鈕</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnCatalogPages">
-        <Value>在分類頁面顯示商品料號（SKU）</Value>
+        <Value>在分類頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnCatalogPages.Hint">
-        <Value>在分類頁面顯示商品料號（SKU）</Value>
+        <Value>在分類頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage">
-        <Value>在商品資訊頁面顯示商品料號（SKU）</Value>
+        <Value>在商品資訊頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowSkuOnProductDetailsPage.Hint">
-        <Value>在產品資訊頁面顯示商品料號（SKU）</Value>
+        <Value>在產品資訊頁面顯示商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions">
         <Value>排序選項</Value>
@@ -6403,10 +6403,10 @@
         <Value>如果登入失數次數超過定值，將會把帳戶鎖起來。如果不想使用此功能，將此數值設定0即可。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordLockoutMinutes">
-        <Value>鎖定時間（登錄失敗）</Value>
+        <Value>鎖定時間(登錄失敗)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FailedPasswordLockoutMinutes.Hint">
-        <Value>帳號鎖定（數分鐘），用於登入失敗</Value>
+        <Value>帳號鎖定(數分鐘)，用於登入失敗</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.FaxEnabled">
         <Value>啟用手機號碼欄位</Value>
@@ -7021,7 +7021,7 @@
         <Value>生成商品META描述</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GenerateProductMetaDescription.Hint">
-        <Value>當啟用， 商品META描述將被自動生成（如果商品詳細資訊頁沒有規定） 基於商品簡要描述。</Value>
+        <Value>當啟用， 商品META描述將被自動生成(如果商品詳細資訊頁沒有規定) 基於商品簡要描述。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics">
         <Value>Google Analytics</Value>
@@ -7294,7 +7294,7 @@
         <Value>關聯的商品圖像大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AssociatedProductPictureSize.Hint">
-        <Value>預設大小 （像素） 的關聯的商品圖像 （'分組' 商品的一部分）。</Value>
+        <Value>預設大小 (像素) 的關聯的商品圖像 ('分組' 商品的一部分)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AvatarPictureSize">
         <Value>頭像圖片大小</Value>
@@ -7312,7 +7312,7 @@
         <Value>分類縮略圖大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.CategoryThumbPictureSize.Hint">
-        <Value>在商品分類頁中商品索引圖片的預設大小（像素）。</Value>
+        <Value>在商品分類頁中商品索引圖片的預設大小(像素)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality">
         <Value>預設圖片數量 (0 - 100)</Value>
@@ -7393,7 +7393,7 @@
         <Value>供應商縮略圖大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize.Hint">
-        <Value>供應商縮略圖的預設大小（像素）。</Value>
+        <Value>供應商縮略圖的預設大小(像素)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkDropShadow">
         <Value>Watermark Shadow</Value>
@@ -7558,10 +7558,10 @@
         <Value>檢查將PDF發票附加到「完成」的電子郵件，發送給會員。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPaidEmail">
-        <Value>附上PDF發票 （"訂單已付"電子郵件）</Value>
+        <Value>附上PDF發票 ("訂單已付"電子郵件)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPaidEmail.Hint">
-        <Value>選擇從而 附上PDF發票到發給會員的（"訂單已付"電子郵件）。</Value>
+        <Value>選擇從而 附上PDF發票到發給會員的("訂單已付"電子郵件)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.AttachPdfInvoiceToOrderPlacedEmail">
         <Value>附上PDF發票(「訂單」後發送電子郵件)</Value>
@@ -7768,10 +7768,10 @@
         <Value>退貨請求</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage">
-        <Value>服務條款（確認訂單網頁）</Value>
+        <Value>服務條款(確認訂單網頁)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage.Hint">
-        <Value>需要會員接受或拒絕服務條款在處理訂單之前（在確認訂單頁面）</Value>
+        <Value>需要會員接受或拒絕服務條款在處理訂單之前(在確認訂單頁面)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnShoppingCartPage">
         <Value>服務條款(購物車頁面)</Value>
@@ -7888,7 +7888,7 @@
         <Value>如果會員在配送詳細中顯示配送事件請勾選(需運費計算方法支持)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayShipmentEventsToStoreOwner">
-        <Value>顯示出貨事件 （商店所有者）</Value>
+        <Value>顯示出貨事件 (商店所有者)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.DisplayShipmentEventsToStoreOwner.Hint">
         <Value>選擇如果您想要在管理員頁查看出貨資訊 (如果您的運輸價格計算方式所支持).</Value>
@@ -7939,7 +7939,7 @@
         <Value>配送到相同地址</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.ShipToSameAddress.Hint">
-        <Value>結帳輸入帳單地址時，會"配送到相同地址"選項讓會員勾取，打勾表示帳單配送地址相同，會員不必再輸入一次。另請注意，所有付款縣市/地區都應支持發貨（“允許發貨”複選框勾選）。</Value>
+        <Value>結帳輸入帳單地址時，會"配送到相同地址"選項讓會員勾取，打勾表示帳單配送地址相同，會員不必再輸入一次。另請注意，所有付款縣市/地區都應支持發貨(“允許發貨”複選框勾選)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Shipping.UseWarehouseLocation">
         <Value>使用倉庫位置</Value>
@@ -7960,7 +7960,7 @@
         <Value>允許購物車編輯</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.AllowCartItemEditing.Hint">
-        <Value>檢查是否允許會員編輯已經放入購物車中項目。它可能是有用的，當您的商品屬性或任何其他欄位允許會員輸入時。（如協商附加條件）</Value>
+        <Value>檢查是否允許會員編輯已經放入購物車中項目。它可能是有用的，當您的商品屬性或任何其他欄位允許會員輸入時。(如協商附加條件)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.ShoppingCart.AllowOutOfStockItemsToBeAddedToWishlist">
         <Value>允許將缺貨商品新增到願望清單</Value>
@@ -8068,7 +8068,7 @@
         <Value>全選/取消</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.StoreScope.CheckAll.Hint">
-        <Value>（如果您要為該商店設定自定義值請勾選此項）</Value>
+        <Value>(如果您要為該商店設定自定義值請勾選此項)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Tax">
         <Value>稅務設定</Value>
@@ -8344,7 +8344,7 @@
         <Value>允許供應商更改基本資料</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowVendorsToEditInfo.Hint">
-        <Value>允許供應商在前台會員中心，更改自己的基本資料。請注意，如果您有多國語言（在這種情況下只能編輯標準值），則不支持本地化屬性（name, description）。</Value>
+        <Value>允許供應商在前台會員中心，更改自己的基本資料。請注意，如果您有多國語言(在這種情況下只能編輯標準值)，則不支持本地化屬性(name, description)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Vendor.NotifyStoreOwnerAboutVendorInformationChange">
         <Value>供應商更改資料通知管理員</Value>
@@ -8713,7 +8713,7 @@
         <Value>公司VAT</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyVat.Hint">
-        <Value>請輸入公司VAT （加入稅的歐盟值）</Value>
+        <Value>請輸入公司VAT (加入稅的歐盟值)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage">
         <Value>預設語言</Value>
@@ -9940,22 +9940,22 @@
         <Value>主題顯示順序。1表示在列表中的第一個項目。它和屬性如「包含在主菜單中」或者「包含在頁尾裡」一起使用。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1">
-        <Value>包含在頁尾裡（列1）</Value>
+        <Value>包含在頁尾裡(列1)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1.Hint">
-        <Value>選擇從而包含這個主題在頁尾裡（列1）。確保您的風格支持它。</Value>
+        <Value>選擇從而包含這個主題在頁尾裡(列1)。確保您的風格支持它。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn2">
-        <Value>包含在頁尾裡（列2）</Value>
+        <Value>包含在頁尾裡(列2)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn2.Hint">
-        <Value>選擇從而包含這個主題在頁尾裡（列2）。確保您的風格支持它。</Value>
+        <Value>選擇從而包含這個主題在頁尾裡(列2)。確保您的風格支持它。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn3">
-        <Value>包含在頁尾裡（列3）</Value>
+        <Value>包含在頁尾裡(列3)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn3.Hint">
-        <Value>選擇從而包含這個主題在頁尾裡（列3）。確保您的風格支持它。</Value>
+        <Value>選擇從而包含這個主題在頁尾裡(列3)。確保您的風格支持它。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInSitemap">
         <Value>包含在網站地圖中</Value>
@@ -10024,7 +10024,7 @@
         <Value>根據ACL</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.SubjectToAcl.Hint">
-        <Value>確定主題是受ACL（權限管理列表）控制。</Value>
+        <Value>確定主題是受ACL(權限管理列表)控制。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Topics.Fields.SystemName">
         <Value>系統關鍵字</Value>
@@ -10480,7 +10480,7 @@
         <Value>控件類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.AttributeControlType.Hint">
-        <Value>選擇如何顯示您的屬性值（UI）。</Value>
+        <Value>選擇如何顯示您的屬性值(UI)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.DisplayOrder">
         <Value>顯示順序</Value>
@@ -11611,7 +11611,7 @@
         <Value>標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.SendPM.Subject.Hint">
-        <Value>請輸入私人訊息（PM）的主題。</Value>
+        <Value>請輸入私人訊息(PM)的主題。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.SendWelcomeMessage">
         <Value>發送歡迎消息</Value>
@@ -12034,13 +12034,13 @@
         <Value>禮品卡折扣碼</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.List.CouponCode.Hint">
-        <Value>禮品卡折扣碼。 不輸入任何資訊（留空）將加載所有的記錄。</Value>
+        <Value>禮品卡折扣碼。 不輸入任何資訊(留空)將加載所有的記錄。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.List.RecipientName">
         <Value>收卡人姓名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.List.RecipientName.Hint">
-        <Value>用過收卡人姓名搜尋。 不輸入任何資訊（留空）將加載所有的記錄。</Value>
+        <Value>用過收卡人姓名搜尋。 不輸入任何資訊(留空)將加載所有的記錄。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.GiftCards.Updated">
         <Value>修改禮品卡成功</Value>
@@ -12580,13 +12580,13 @@
         <Value>訂單GUID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderGuid.Hint">
-        <Value>訂單GUID(全球唯一標識符)或者它的一部分所說。不輸入任何東西（留空）則匯入所有訂單。</Value>
+        <Value>訂單GUID(全球唯一標識符)或者它的一部分所說。不輸入任何東西(留空)則匯入所有訂單。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderNotes">
         <Value>訂單備註</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderNotes.Hint">
-        <Value>特定訂單備註搜尋。不輸入任何東西（留空）則匯入所有訂單。</Value>
+        <Value>特定訂單備註搜尋。不輸入任何東西(留空)則匯入所有訂單。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.List.OrderStatus">
         <Value>訂單狀態</Value>
@@ -12685,7 +12685,7 @@
         <Value>發票(PDF)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.PdfInvoice.All">
-        <Value>匯出PDF賬單（所有找到的）</Value>
+        <Value>匯出PDF賬單(所有找到的)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.PdfInvoice.NoOrders">
         <Value>沒有訂單被選擇</Value>
@@ -12721,7 +12721,7 @@
         <Value>輸入數量.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.AddNew.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalExclTax">
         <Value>小計(不含稅)</Value>
@@ -12787,7 +12787,7 @@
         <Value>禮品卡</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.License">
-        <Value>許可文件（可選）</Value>
+        <Value>許可文件(可選)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.License.DownloadLicense">
         <Value>下載許可文件</Value>
@@ -12814,7 +12814,7 @@
         <Value>退貨請求:</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Products.Total">
         <Value>小計</Value>
@@ -12907,7 +12907,7 @@
         <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.List.EndDate.Hint">
-        <Value>結束日期（貨運創建日期）對於這個搜尋。</Value>
+        <Value>結束日期(貨運創建日期)對於這個搜尋。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.List.LoadNotShipped">
         <Value>調入沒出貨的</Value>
@@ -12988,7 +12988,7 @@
         <Value>報警: </Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.Products.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse">
         <Value>倉庫</Value>
@@ -13480,13 +13480,13 @@
         <Value>最大優惠金額</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount.Hint">
-        <Value>最大允許的優惠金額。不輸入（留空）則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地應用到每一個商品。</Value>
+        <Value>最大允許的優惠金額。不輸入(留空)則有些任何優惠金額。如果您正在使用「指定商品」優惠類型， 它被單獨地應用到每一個商品。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity">
         <Value>最大優惠數量</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity.Hint">
-        <Value>可以享受優惠的最大優惠數量。例如， 您可以有在購物車中兩個相同的商品但是僅僅其中之一享受優惠。它可以應用於「買一送一」情況裡。不輸（空）則允許優惠任何數量。</Value>
+        <Value>可以享受優惠的最大優惠數量。例如， 您可以有在購物車中兩個相同的商品但是僅僅其中之一享受優惠。它可以應用於「買一送一」情況裡。不輸(空)則允許優惠任何數量。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.Fields.Name">
         <Value>名稱</Value>
@@ -14713,13 +14713,13 @@
         <Value>回覆到</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyTo.Hint">
-        <Value>回覆到 地址（可選）。</Value>
+        <Value>回覆到 地址(可選)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyToName">
         <Value>回覆到 姓名</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.ReplyToName.Hint">
-        <Value>回覆到 姓名（可選）</Value>
+        <Value>回覆到 姓名(可選)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.SendImmediately">
         <Value>立即發送</Value>
@@ -15211,7 +15211,7 @@
         <Value>付款方式已經設定</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreAcl">
-        <Value>性能. 建議僅在您不能正常使用時才忽略權限管理R（ACL）</Value>
+        <Value>性能. 建議僅在您不能正常使用時才忽略權限管理R(ACL)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Warnings.Performance.IgnoreAcl.Notification">
         <Value>為了使用這個功能您必須關閉隨後的設定： 設定 &gt; 分類設定 &gt; 性能 &gt; 忽略ACL規則 (網站範圍)。</Value>
@@ -15367,7 +15367,7 @@
         <Value>顧客</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AssociatedCustomerEmails.Hint">
-        <Value>此供應商名下能管理訂單和商品的顧客列表（可以訪問供應商頁面）。您可以在顧客詳細資訊頁關聯供應商帳戶。如果您不想此供應商有訪問權限，請不要關聯任何帳戶。</Value>
+        <Value>此供應商名下能管理訂單和商品的顧客列表(可以訪問供應商頁面)。您可以在顧客詳細資訊頁關聯供應商帳戶。如果您不想此供應商有訪問權限，請不要關聯任何帳戶。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AssociatedCustomerEmails.None">
         <Value>沒有顧客帳戶和此供應商關聯</Value>
@@ -16531,7 +16531,7 @@
         <Value>應用到配送金額</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToSkus">
-        <Value>應用到商品系列商品料號（SKU）</Value>
+        <Value>應用到商品系列商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Discounts.DiscountType.AssignedToStores">
         <Value>Assigned to stores</Value>
@@ -17269,7 +17269,7 @@
         <Value>數量</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.Order.Product(s).SKU">
-        <Value>商品料號（SKU）: {0}</Value>
+        <Value>商品料號(SKU): {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.Order.Product(s).Total">
         <Value>合計</Value>
@@ -17488,7 +17488,7 @@
         <Value>數量</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Product(s).SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Product(s).Total">
         <Value>小計</Value>
@@ -17548,7 +17548,7 @@
         <Value>配送數量</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Shipments.Product(s).SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="Order.Shipments.ShippedDate">
         <Value>配送日期</Value>
@@ -17899,7 +17899,7 @@
         <Value>配送方式：{0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="PDFInvoice.Sub-Total">
         <Value>小計：</Value>
@@ -17944,13 +17944,13 @@
         <Value>配送方式：{0}</Value>
     </LocaleResource>
     <LocaleResource Name="PDFPackagingSlip.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="PDFProductCatalog.Price">
         <Value>價格</Value>
     </LocaleResource>
     <LocaleResource Name="PDFProductCatalog.SKU">
-        <Value>商品料號（SKU）</Value>
+        <Value>商品料號(SKU)</Value>
     </LocaleResource>
     <LocaleResource Name="PDFProductCatalog.StockQuantity">
         <Value>庫存數量</Value>
@@ -18943,7 +18943,7 @@
         <Value>Clear cart</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.ConflictingShipmentSchedules">
-        <Value>您的購物車有自動出貨 （定期） 項目與裝運時間衝突。只有一個汽車船時間表被允許每個訂單。</Value>
+        <Value>您的購物車有自動出貨 (定期) 項目與裝運時間衝突。只有一個汽車船時間表被允許每個訂單。</Value>
     </LocaleResource>
     <LocaleResource Name="ShoppingCart.ContinueShopping">
         <Value>繼續購物</Value>
