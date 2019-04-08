@@ -2710,19 +2710,19 @@
         <Value>You can't delete reservation with the order</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Days.Finaldatemustbegreaterthanstartdate">
-        <Value>Final date must be greater than start date</Value>
+        <Value>截止日期必須比開始日期大</Value>
     </LocaleResource>
     <LocaleResource Name="admin.catalog.productreservations.fields.endtime.required">
-        <Value>End date is required</Value>
+        <Value>結束日期必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Interval.Intervalmustbegreaterthanzero">
-        <Value>Interval must be greater than zero</Value>
+        <Value>間隔必須大於0</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Quantity.Quantitymustbegreaterthanzero">
-        <Value>Quantity must be greater than zero</Value>
+        <Value>數量必須大於0</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReservations.Fields.Resource.Required">
-        <Value>Resource name is required</Value>
+        <Value>資源名稱必填</Value>
     </LocaleResource>
     <LocaleResource Name="admin.catalog.productreservations.fields.starttime.required">
         <Value>開始日期必填</Value>
@@ -2914,10 +2914,10 @@
         <Value>會員ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.Date">
-        <Value>Date</Value>
+        <Value>日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.OrderId">
-        <Value>Order Id</Value>
+        <Value>訂單ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.SaveBeforeEdit">
         <Value>You need to save before editing this section</Value>
@@ -2962,7 +2962,7 @@
         <Value>Generate calendar</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Calendar.OrderId">
-        <Value>Order</Value>
+        <Value>訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Calendar.Parameter">
         <Value>Parameter</Value>
@@ -10738,7 +10738,7 @@
         <Value>Level</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.history.fields.order">
-        <Value>Ordered</Value>
+        <Value>已訂購</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.history.fields.senddate">
         <Value>Sent on</Value>
@@ -19727,7 +19727,7 @@
         <Value>會員顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.OrdersDisplayOrder">
-        <Value>Orders display order</Value>
+        <Value>訂單顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.ProductsDisplayOrder.Hint">
         <Value>Display order of results for this search, e.g. if you want found categories to be shown before products, set 0 for categories and 1 for products.</Value>
