@@ -7270,25 +7270,25 @@
         <Value>Watermark On Categories</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForCategory.Hint">
-        <Value>Apply Watermark to Pictures of Categories</Value>
+        <Value>將浮水印套用在類別的圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForManufacturer">
-        <Value>Watermark On Manufacturers</Value>
+        <Value>製造商的浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForManufacturer.Hint">
-        <Value>Apply Watermark to Pictures of Manufacturers</Value>
+        <Value>套用製造商的浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForProduct">
-        <Value>Watermark On Products</Value>
+        <Value>商品上加上浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkForProduct.Hint">
-        <Value>Apply Watermark to Pictures of Products</Value>
+        <Value>在商品上加上浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkOnPicturesWithOriginalSize">
-        <Value>Watermark On Original Size Pictures</Value>
+        <Value>原始尺寸圖片上加上浮水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.ApplyWatermarkOnPicturesWithOriginalSize.Hint">
-        <Value>Indicates if pictures with no change in size should have a watermark onto them</Value>
+        <Value>原始尺寸的圖片是否應該有水印</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.AssociatedProductPictureSize">
         <Value>關聯的商品圖像大小</Value>
@@ -7420,10 +7420,10 @@
         <Value>The 1-100% value. Best between 10-30% range.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkForPicturesAboveSize">
-        <Value>Watermark Above Size</Value>
+        <Value>浮水印超過大小</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkForPicturesAboveSize.Hint">
-        <Value>Apply Watermark To Pictures Above Size (px)</Value>
+        <Value>將浮水印套用於尺寸以上的圖片(px)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOpacityPercent">
         <Value>Watermark % Opacity</Value>
@@ -7432,10 +7432,10 @@
         <Value>The 1-100% range of text fading</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayID">
-        <Value>Watermark Overlay Picture File</Value>
+        <Value>浮水印疊加在圖片檔案上</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayID.Hint">
-        <Value>Add a picture that will be displayed as Watermark Overlay on your Thumbnails</Value>
+        <Value>新增將在縮略圖上顯示為浮水印的圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkOverlayOpacityPercent">
         <Value>Watermark Overlay % Opacity</Value>
@@ -7477,7 +7477,7 @@
         <Value>Watermark Align Right</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkRightToLeft.Hint">
-        <Value>Text will be displayed starting from right edge of picture</Value>
+        <Value>文字將從圖片的右邊緣開始顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Media.WatermarkStyle">
         <Value>Watermark Style</Value>
@@ -8983,10 +8983,10 @@
         <Value>重寫META標題。預設標題是部落格標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Picture.Hint">
-        <Value>The blog post picture.</Value>
+        <Value>部落格貼文圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.SeName">
         <Value>搜尋引擎友好名稱</Value>
@@ -9688,10 +9688,10 @@
         <Value>重寫META標題。預設標題是新聞標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Picture.Hint">
-        <Value>The news item picture.</Value>
+        <Value>新聞項目圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Published">
         <Value>是否發佈</Value>
@@ -15493,7 +15493,7 @@
         <Value>Page size should have unique items</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Category.Fields.PictureId.NotExists">
-        <Value>Picture Id does not exist</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Category.Fields.ParentCategoryId.NotExists">
         <Value>Category Id does not exist</Value>
@@ -15511,7 +15511,7 @@
         <Value>Page size should have unique items</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Manufacturer.Fields.PictureId.NotExists">
-        <Value>Picture Id does not exist</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.Manufacturer.Fields.ManufacturerTemplateId.NotExists">
         <Value>Manufacturer template Id does not exist</Value>
@@ -15535,7 +15535,7 @@
         <Value>Manufacturer Id does not exist</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.ProductPicture.Fields.PictureId.NotExists">
-        <Value>Picture Id does not exist</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Catalog.ProductSpecificationAttribute.Fields.SpecificationAttributeId.NotExists">
         <Value>Specification attribute Id does not exist</Value>
@@ -15598,13 +15598,13 @@
         <Value>Specification attribute option name is required</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Common.Picture.Fields.PictureBinary.Required">
-        <Value>Picture binary is required</Value>
+        <Value>需要圖片檔案</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Common.Picture.Fields.MimeType.Required">
         <Value>MIME Type is required</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Common.Picture.Fields.Id.NotRequired">
-        <Value>Picture Id is not required</Value>
+        <Value>圖片ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.Address.Fields.FirstName.Required">
         <Value>First name is required</Value>
@@ -17182,7 +17182,7 @@
         <Value>顯示所有</Value>
     </LocaleResource>
     <LocaleResource Name="Media.Blog.ImageAlternateTextFormat">
-        <Value>Picture for blog post {0}</Value>
+        <Value>部落格圖片 {0}</Value>
     </LocaleResource>
     <LocaleResource Name="Media.Blog.ImageLinkTitleFormat">
         <Value>Show blog post for {0}</Value>
@@ -17299,7 +17299,7 @@
         <Value>商品名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.RecentlyViewedProducts.Product(s).Picture">
-        <Value>照片</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.RecommendedProducts.Product(s).Name">
         <Value>照片名稱</Value>
