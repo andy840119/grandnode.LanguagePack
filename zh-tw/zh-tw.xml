@@ -1210,7 +1210,7 @@
         <Value>您沒有權限執行該操作</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.AccessDenied.Title">
-        <Value>拒絕訪問</Value>
+        <Value>拒絕查看</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Address">
         <Value>地址</Value>
@@ -3328,7 +3328,7 @@
         <Value>天數</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.DownloadExpirationDays.Hint">
-        <Value>期間會員的天數保持訪問到的文件 (例如 14)。將此欄位保留為空，允許連續下載。</Value>
+        <Value>期間會員的天數保持查看到的文件 (例如 14)。將此欄位保留為空，允許連續下載。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.Flag">
         <Value>Flag</Value>
@@ -5752,7 +5752,7 @@
         <Value>允許查看未發佈的商品詳細資訊頁面的</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowViewUnpublishedProductPage.Hint">
-        <Value>檢查以允許查看未發佈商品的詳細資訊頁面。這樣，搜尋引擎優化將不會受到搜尋爬蟲當一個商品暫時未公佈。請注意，店主始終有權訪問未發佈的商品。</Value>
+        <Value>檢查以允許查看未發佈商品的詳細資訊頁面。這樣，搜尋引擎優化將不會受到搜尋爬蟲當一個商品暫時未公佈。請注意，店主始終有權查看未發佈的商品。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.AskQuestionEnabled">
         <Value>'Ask question' enabled</Value>
@@ -6358,7 +6358,7 @@
         <Value>顧客的最小年齡</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthMinimumAge.Hint">
-        <Value>輸入允許的最小年齡。留空，任何年齡的顧客都可以訪問。</Value>
+        <Value>輸入允許的最小年齡。留空，任何年齡的顧客都可以查看。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired">
         <Value>『生日日期』是必須的</Value>
@@ -6541,10 +6541,10 @@
         <Value>選擇如果『州/省』是必須的。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreLastVisitedPage">
-        <Value>保存最後一次訪問的頁面</Value>
+        <Value>保存最後一次查看的頁面</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StoreLastVisitedPage.Hint">
-        <Value>啟用時，能保存最後一次訪問的頁面；禁用時能提高網站性能</Value>
+        <Value>啟用時，能保存最後一次查看的頁面；禁用時能提高網站性能</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.StreetAddress2Enabled">
         <Value>啟用街道地址2欄位</Value>
@@ -6760,7 +6760,7 @@
         <Value>允許進入後台的IP地址</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AdminAreaAllowedIpAddresses.Hint">
-        <Value>可以通過指定IP地址來限制訪問</Value>
+        <Value>可以通過指定IP地址來限制查看</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.AllowCustomerToSelectTheme">
         <Value>允許會員切換商店風格</Value>
@@ -11713,7 +11713,7 @@
         <Value>最後瀏覽頁面</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.LastVisitedPage.Disabled">
-        <Value>「保存上次訪問頁面」設定禁用</Value>
+        <Value>「保存上次查看頁面」設定禁用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.Location">
         <Value>位置</Value>
@@ -15367,7 +15367,7 @@
         <Value>顧客</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AssociatedCustomerEmails.Hint">
-        <Value>此供應商名下能管理訂單和商品的顧客列表(可以訪問供應商頁面)。您可以在顧客詳細資訊頁關聯供應商帳戶。如果您不想此供應商有訪問權限，請不要關聯任何帳戶。</Value>
+        <Value>此供應商名下能管理訂單和商品的顧客列表(可以查看供應商頁面)。您可以在顧客詳細資訊頁關聯供應商帳戶。如果您不想此供應商有查看權限，請不要關聯任何帳戶。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Vendors.Fields.AssociatedCustomerEmails.None">
         <Value>沒有顧客帳戶和此供應商關聯</Value>
@@ -17959,13 +17959,13 @@
         <Value>重量</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessAdminPanel">
-        <Value>訪問系統管理後台</Value>
+        <Value>查看系統管理後台</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessClosedStore">
         <Value>公共商店，進入一個已關閉的商店</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AccessWebService">
-        <Value>套件.訪問Web服務</Value>
+        <Value>套件.查看Web服務</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.AllowCustomerImpersonation">
         <Value>系統管理後台.允許會員模擬</Value>
@@ -18112,7 +18112,7 @@
         <Value>系統管理後台.管理部件</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.OrderCountryReport">
-        <Value>系統管理後台。訪問訂單區域交易分析</Value>
+        <Value>系統管理後台。查看訂單區域交易分析</Value>
     </LocaleResource>
     <LocaleResource Name="Permission.PublicStoreAllowNavigation">
         <Value>公共商店。允許導航</Value>
@@ -19303,7 +19303,7 @@
         <Value>進入</Value>
     </LocaleResource>
     <LocaleResource Name="Topic.EnterPassword">
-        <Value>請輸入密碼來訪問此內容：</Value>
+        <Value>請輸入密碼來查看此內容：</Value>
     </LocaleResource>
     <LocaleResource Name="Topic.WrongPassword">
         <Value>密碼錯誤</Value>
