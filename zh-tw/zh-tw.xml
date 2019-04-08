@@ -15790,10 +15790,10 @@
         <Value>點擊這裡時自動被告知我們，新項目新增到我們的網站</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Search">
-        <Value>Search</Value>
+        <Value>搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.SearchPlaceholder">
-        <Value>Search in blog...</Value>
+        <Value>在部落格中搜尋...</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.TagCloud">
         <Value>熱門關鍵字</Value>
@@ -15805,7 +15805,7 @@
         <Value>標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.ViewAll">
-        <Value>View All Blog Posts</Value>
+        <Value>顯示所有部落格貼文</Value>
     </LocaleResource>
     <LocaleResource Name="Catalog.OrderBy">
         <Value>排序由</Value>
@@ -16144,7 +16144,7 @@
         <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
     </LocaleResource>
     <LocaleResource Name="Common.WrongCaptchaV3">
-        <Value>The reCAPTCHA response is invalid or malformed. Please try again.</Value>
+        <Value>reCAPTCHA輸入無效或格式錯誤，請再試一次。</Value>
     </LocaleResource>
     <LocaleResource Name="Common.WrongEmail">
         <Value>電子信箱無效</Value>
@@ -16192,7 +16192,7 @@
         <Value>請輸您的全名</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.SelectAttribute">
-        <Value>Please select: {0}</Value>
+        <Value>請選擇: {0}</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.Subject">
         <Value>主題</Value>
@@ -16204,10 +16204,10 @@
         <Value>請輸入主題</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.TextboxMaximumLength">
-        <Value>{0} : maximum length is {1} chars</Value>
+        <Value>{0} : 最多只能輸入 {1} 個字</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.TextboxMinimumLength">
-        <Value>{0} : minimum length is {1} chars</Value>
+        <Value>{0} : 最少要輸入 {1} 個字</Value>
     </LocaleResource>
     <LocaleResource Name="ContactUs.YourEnquiryHasBeenSent">
         <Value>您的正式的查詢已經發送給了電子商店的擁有者。</Value>
@@ -16267,7 +16267,7 @@
         <Value>貨幣</Value>
     </LocaleResource>
     <LocaleResource Name="Customer.Notes.Download">
-        <Value>Download file</Value>
+        <Value>下載檔案</Value>
     </LocaleResource>
     <LocaleResource Name="Customer.Guest">
         <Value>匿名用戶</Value>
@@ -16480,7 +16480,7 @@
         <Value>雜湊</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding001">
-        <Value>Default rounding</Value>
+        <Value>預設的進位方式</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Directory.RoundingType.Rounding005Down">
         <Value>Rounding down with 0.05 intervals (0.06 round to 0.05)</Value>
@@ -17128,7 +17128,7 @@
         <Value>發件人: {0} &lt;{1}&gt;</Value>
     </LocaleResource>
     <LocaleResource Name="Grand.Knowledgebase.AddArticleComment.Result">
-        <Value>Enter the comment</Value>
+        <Value>輸入評論</Value>
     </LocaleResource>
     <LocaleResource Name="HomePage">
         <Value>首頁</Value>
@@ -17149,22 +17149,22 @@
         <Value>Knowledgebase</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.RelatedArticles">
-        <Value>Related articles</Value>
+        <Value>相關文章</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Categories">
-        <Value>Categories</Value>
+        <Value>類別</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Notfound">
-        <Value>No articles were found that matched your criteria</Value>
+        <Value>沒有找到符合您標準的文章</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Search">
-        <Value>Search</Value>
+        <Value>搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.SearchPlaceholder">
         <Value>Search in knowledgebase...</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.ResultsFor">
-        <Value>Results for</Value>
+        <Value>結果</Value>
     </LocaleResource>
     <LocaleResource Name="Languages">
         <Value>語言</Value>
@@ -17305,13 +17305,13 @@
         <Value>照片名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.RecommendedProducts.Product(s).Picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.ShoppingCart.Product(s).Name">
         <Value>Product(s) Name</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.ShoppingCart.Product(s).picture">
-        <Value>Picture</Value>
+        <Value>圖片</Value>
     </LocaleResource>
     <LocaleResource Name="Messages.ShoppingCart.Product(s).Quantity">
         <Value>Quantity</Value>
@@ -19529,10 +19529,10 @@
         <Value>Page that will be opened after user clicks on notification</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PictureId">
-        <Value>Picture Id</Value>
+        <Value>圖片ID</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PushMessageText">
-        <Value>Message text</Value>
+        <Value>文字訊息</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PushTitle">
         <Value>Title</Value>
