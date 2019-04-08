@@ -526,7 +526,7 @@
         <Value>帳號已被刪除</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Login.WrongCredentials.LockedOut">
-        <Value>客戶被鎖住</Value>
+        <Value>會員被鎖住</Value>
     </LocaleResource>
     <LocaleResource Name="Account.Login.WrongCredentials.NotActive">
         <Value>帳號沒有啟用</Value>
@@ -2209,7 +2209,7 @@
         <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.CreatedOn">
-        <Value>建立時間</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Categories.ActivityLog.Customer">
         <Value>會員</Value>
@@ -2725,7 +2725,7 @@
         <Value>Resource name is required</Value>
     </LocaleResource>
     <LocaleResource Name="admin.catalog.productreservations.fields.starttime.required">
-        <Value>開始時間必填</Value>
+        <Value>開始日期必填</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews">
         <Value>商品評論</Value>
@@ -2779,7 +2779,7 @@
         <Value>回覆內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReplyText.Hint">
-        <Value>回复文本(由店主)。 如果指定，則客戶可以看到它。 留空以忽略此功能。</Value>
+        <Value>回复文本(由店主)。 如果指定，則會員可以看到它。 留空以忽略此功能。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.ProductReviews.Fields.ReviewText">
         <Value>評論</Value>
@@ -2863,7 +2863,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ActivityLog.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Added">
         <Value>新增商品成功</Value>
@@ -2911,7 +2911,7 @@
         <Value>Cannot delete bid wiht order id</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.CustomerId">
-        <Value>Customer Id</Value>
+        <Value>會員ID</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Bids.Date">
         <Value>Date</Value>
@@ -3709,7 +3709,7 @@
         <Value>關於更新</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.UpdatedOn.Hint">
-        <Value>更新日期和時間時這種商品了。</Value>
+        <Value>更新商品日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.Fields.UseMultipleWarehouses">
         <Value>使用多個倉庫</Value>
@@ -3997,7 +3997,7 @@
         <Value>Tier prices</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.TierPrices.CustomerRole">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.TierPrices.Price">
         <Value>Price</Value>
@@ -4342,7 +4342,7 @@
         <Value>所有會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.CustomerRole.Hint">
-        <Value>選擇層級價格可用的客戶角色。</Value>
+        <Value>選擇層級價格可用的會員角色。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Catalog.Products.TierPrices.Fields.EndDateTime">
         <Value>結束日期</Value>
@@ -5398,7 +5398,7 @@
         <Value>Please mark the checkbox(es) for the shipping method in which you want the payment method(s) not available</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Role">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Payment.MethodRestrictions.Shipping">
         <Value>Shipping method</Value>
@@ -6031,7 +6031,7 @@
         <Value>搜尋頁，允許會員從預先定義的選項列表中選擇頁筆數。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize.Hint">
-        <Value>搜尋頁，選中以允許客戶從預定義的選項列表中選擇頁面大小。</Value>
+        <Value>搜尋頁，選中以允許會員從預定義的選項列表中選擇頁面大小。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPagePageSizeOptions">
         <Value>搜尋頁，顯示筆數的選項 (逗號分隔)</Value>
@@ -6574,7 +6574,7 @@
         <Value>未重複的密碼號碼</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UnduplicatedPasswordsNumber.Hint">
-        <Value>與上一個舊密碼重複的數量，如果客戶可以使用相同的密碼，則輸入0。</Value>
+        <Value>與上一個舊密碼重複的數量，如果會員可以使用相同的密碼，則輸入0。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.UsernamesEnabled">
         <Value>使用用戶名</Value>
@@ -6883,7 +6883,7 @@
         <Value>禁用掛單的PDF發票</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders.Hint">
-        <Value>如果選中，則不允許客戶打印掛單的PDF發票。</Value>
+        <Value>如果選中，則不允會員打印掛單的PDF發票。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayEuCookieLawWarning">
         <Value>Display EU cookie law warning</Value>
@@ -8599,7 +8599,7 @@
         <Value>Please mark the checkbox(es) for the role in which you want the shipping method(s) not available</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Role">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Shipping.Restrictions.Updated">
         <Value>修改縣市配送方式限製成功</Value>
@@ -9157,7 +9157,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLogType">
         <Value>Acitivty log type</Value>
@@ -10141,7 +10141,7 @@
         <Value>會員管理</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.actiontype">
-        <Value>Customer action type</Value>
+        <Value>會員行為類型</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.actiontype.fields.enabled">
         <Value>Is enabled</Value>
@@ -10246,16 +10246,16 @@
         <Value>Condition type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerRole">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerRole.hint">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerTag">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAction.Fields.CustomerTag.hint">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.fields.endDateTime">
         <Value>End datetime</Value>
@@ -10303,7 +10303,7 @@
         <Value>Create date</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.history.fields.customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeraction.info">
         <Value>基本資訊</Value>
@@ -10333,10 +10333,10 @@
         <Value>Customer register</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customerrole">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.customertag">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customeractioncondition.fields.categoryname">
         <Value>Add category</Value>
@@ -10366,7 +10366,7 @@
         <Value>Customer registration - field value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerRoleName">
-        <Value>Customer role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerActionCondition.fields.customerTagName">
         <Value>Tag name</Value>
@@ -10450,10 +10450,10 @@
         <Value>Vendors</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActions">
-        <Value>Customer actions</Value>
+        <Value>會員行為</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerActionType">
-        <Value>Customer Action Type</Value>
+        <Value>會員行為類型</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerAttributes">
         <Value>自定義會員屬性</Value>
@@ -10570,16 +10570,16 @@
         <Value>Add new</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customcustomerattribute">
-        <Value>Customer attribute</Value>
+        <Value>會員屬性</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customerregister">
         <Value>Customer register</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customerrole">
-        <Value>Customer Role</Value>
+        <Value>會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.customertag">
-        <Value>Customer tag</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.categoryname">
         <Value>Category name</Value>
@@ -10597,10 +10597,10 @@
         <Value>Select condition type</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customcustomerattributename">
-        <Value>Customer Attribute Name</Value>
+        <Value>會員屬性名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customcustomerattributevalue">
-        <Value>Customer Attribute Value</Value>
+        <Value>會員屬性值</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerregistername">
         <Value>Customer Register Name</Value>
@@ -10609,10 +10609,10 @@
         <Value>Customer Register Value</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customerrolename">
-        <Value>Customer Role Name</Value>
+        <Value>會員角色名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.customertagname">
-        <Value>Customer Tag Name</Value>
+        <Value>會員標籤名稱</Value>
     </LocaleResource>
     <LocaleResource Name="admin.customers.customerreminder.condition.fields.manufacturer">
         <Value>Manufacturer</Value>
@@ -11407,7 +11407,7 @@
         <Value>根據會員角色篩選</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.List.CustomerTags">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.Customers.List.CustomerTags.Hint">
         <Value>Filter by customer tag.</Value>
@@ -11629,7 +11629,7 @@
         <Value>Note: if you have a vendor associated with this customer, then also ensure it is in "Vendors" customer role.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Added">
         <Value>Added a tag</Value>
@@ -11641,7 +11641,7 @@
         <Value>back to tags list</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Customers">
-        <Value>Customers</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Customers.CustomerTags.Customers.SaveBeforeEdit">
         <Value>You need to save the tag.</Value>
@@ -13162,7 +13162,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom">
-        <Value>Customers created from date</Value>
+        <Value>會員建立時間</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerCreatedDateFrom.hint">
         <Value>Select customers created from the date</Value>
@@ -13174,16 +13174,16 @@
         <Value>Select customers created to the date</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasOrders">
-        <Value>Customer has an order</Value>
+        <Value>會員有訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasOrders.hint">
-        <Value>Customer has an order</Value>
+        <Value>會員有訂單</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasShoppingCart">
-        <Value>Customer has a shopping cart</Value>
+        <Value>會員有購物車</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerHasShoppingCart.hint">
-        <Value>Customer has a shopping cart</Value>
+        <Value>會員有購物車</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerLastActivityDateFrom">
         <Value>Last activity from date</Value>
@@ -13213,13 +13213,13 @@
         <Value>限定於會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.CustomerRole.Hint">
-        <Value>選擇訂閱者中將收到此電子郵件的客戶角色。</Value>
+        <Value>選擇訂閱者中將收到此電子郵件的會員角色。</Value>
     </LocaleResource>
     <LocaleResource Name="admin.promotions.campaigns.fields.customertags">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="admin.promotions.campaigns.fields.customertags.hint">
-        <Value>Customer tags</Value>
+        <Value>會員標籤</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Campaigns.Fields.Email">
         <Value>Address email</Value>
@@ -13531,7 +13531,7 @@
         <Value>歷史記錄</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.History.CreatedOn">
-        <Value>使用時間</Value>
+        <Value>使用日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Promotions.Discounts.History.Order">
         <Value>訂單</Value>
@@ -14104,7 +14104,7 @@
         <Value>Enter return number and click Go.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.List.SearchCustomerEmail">
-        <Value>Customer Email</Value>
+        <Value>會員Email</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ReturnRequests.List.SearchCustomerEmail.Hint">
         <Value>Search by a customer email.</Value>
@@ -14668,7 +14668,7 @@
         <Value>建立於</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.CreatedOn.Hint">
-        <Value>日期/時間 消息已加入隊中。</Value>
+        <Value>消息存入柱列中的日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.DontSendBeforeDate">
         <Value>計劃發送日期</Value>
@@ -14731,7 +14731,7 @@
         <Value>發送於</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.SentOn.Hint">
-        <Value>日期/時間消息已發送。</Value>
+        <Value>消息發送日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.QueuedEmails.Fields.SentOn.NotSent">
         <Value>還未發送</Value>
@@ -15262,7 +15262,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.Customer">
-        <Value>Customer</Value>
+        <Value>會員</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.VendorReviews.Fields.IsApproved">
         <Value>Is approved</Value>
@@ -15649,13 +15649,13 @@
         <Value>Fax is required</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRole.Fields.Name.Required">
-        <Value>Customer role name is required</Value>
+        <Value>會員角色名稱必填</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRole.Fields.PurchasedWithProductId.NotExists">
         <Value>Purchased with Product Id does not exist</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRole.Fields.Id.NotExists">
-        <Value>Customer role Id does not exist</Value>
+        <Value>會員角色ID不存在</Value>
     </LocaleResource>
     <LocaleResource Name="Api.Customers.CustomerRoles.Fields.Active.CantEditSystem">
         <Value>You can not edit system roles</Value>
@@ -15754,7 +15754,7 @@
         <Value>輸入評論</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Comments.CreatedOn">
-        <Value>建立時間</Value>
+        <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Blog.Comments.LeaveYourComment">
         <Value>留下您的評論</Value>
@@ -16993,7 +16993,7 @@
         <Value>進階搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.Search.LimitResultsToPrevious">
-        <Value>發表時間</Value>
+        <Value>發表日期</Value>
     </LocaleResource>
     <LocaleResource Name="Forum.Search.LimitResultsToPrevious.1day">
         <Value>1天</Value>
@@ -18568,19 +18568,19 @@
         <Value>保留時間</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reservation.DateFrom">
-        <Value>保留開始時間</Value>
+        <Value>保留開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reservation.DateTo">
-        <Value>保留結束時間</Value>
+        <Value>保留結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reservation.Hour">
         <Value>保留小時數</Value>
     </LocaleResource>
     <LocaleResource Name="Products.ReservationEndDate">
-        <Value>結束時間</Value>
+        <Value>結束日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.ReservationStartDate">
-        <Value>開始時間</Value>
+        <Value>開始日期</Value>
     </LocaleResource>
     <LocaleResource Name="Products.Reviews">
         <Value>評論</Value>
@@ -19724,7 +19724,7 @@
         <Value>Blogs display order</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.CustomersDisplayOrder">
-        <Value>Customers display order</Value>
+        <Value>會員顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.AdminSearch.Fields.OrdersDisplayOrder">
         <Value>Orders display order</Value>
