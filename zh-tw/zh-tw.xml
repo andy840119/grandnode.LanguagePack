@@ -7093,10 +7093,10 @@
         <Value>輸入的文本將出現在生成發票的底部(右列)。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.KnowledgebaseSettings.Enabled">
-        <Value>Knowledge base enabled</Value>
+        <Value>知識庫已啟用</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.KnowledgebaseSettings.Enabled.hint">
-        <Value>Indicates whether knowledge base should be enabled or not.</Value>
+        <Value>指示是否應啟用知識庫。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LinkedInLink">
         <Value>LinkedIn page URL</Value>
@@ -9148,10 +9148,10 @@
         <Value>管理論壇</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase">
-        <Value>Knowledgebase</Value>
+        <Value>知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.Comment">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.ActivityLog.CreatedOn">
         <Value>建立日期</Value>
@@ -9163,34 +9163,34 @@
         <Value>Acitivty log type</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseArticle">
-        <Value>Create article</Value>
+        <Value>建立文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.CreateKnowledgebaseCategory">
-        <Value>Create knowledgebase category</Value>
+        <Value>建立知識庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseArticle">
-        <Value>Edit article</Value>
+        <Value>編輯文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.EditKnowledgebaseCategory">
-        <Value>Edit category</Value>
+        <Value>編輯類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.BackToList">
         <Value>Back to list</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.CreateKnowgledgebaseArticle">
-        <Value>Create article</Value>
+        <Value>建立文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseArticle.EditKnowgledgebaseArticle">
-        <Value>Edit article</Value>
+        <Value>編輯文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.BackToList">
         <Value>Back to list</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.CreateKnowgledgebaseCategory">
-        <Value>Create knowledgebase category</Value>
+        <Value>建立資料庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowgledgebaseCategory.EditKnowgledgebaseCategory">
-        <Value>Edit knowledgebase category</Value>
+        <Value>建立資料庫類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl">
         <Value>權限管理</Value>
@@ -14383,10 +14383,10 @@
         <Value>Email</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.EmailAccountName">
-        <Value>Email account</Value>
+        <Value>Email 帳號</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.EmailAccountName.hint">
-        <Value>The email account that will be used to send this email.</Value>
+        <Value>這個email帳號會用來寄送信件</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.ContactForm.Fields.Enquiry">
         <Value>Enquiry</Value>
@@ -17683,7 +17683,7 @@
         <Value>論壇訂閱</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.Knowledgebase">
-        <Value>Knowledgebase</Value>
+        <Value>知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="PageTitle.Login">
         <Value>登入</Value>
@@ -19769,43 +19769,43 @@
         <Value>Menu</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AllowComments">
-        <Value>Allow comments</Value>
+        <Value>允許評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AllowComments.Hint">
-        <Value>When checked, customers can leave comments about your article.</Value>
+        <Value>如果點選，會員可以在您的文章下留言</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.CommentText">
-        <Value>Comment</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.CommentText.Required">
-        <Value>Enter comment</Value>
+        <Value>輸入評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.LeaveYourComment">
-        <Value>Leave your comment</Value>
+        <Value>留下您的評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments">
-        <Value>Comments</Value>
+        <Value>評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.SubmitButton">
-        <Value>New comment</Value>
+        <Value>新的評論</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.CreatedOn">
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments">
-        <Value>Allow not registered users to leave comments</Value>
+        <Value>允許沒有註冊的用戶留下評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.AllowNotRegisteredUsersToLeaveComments.Hint">
-        <Value>Check to allow not registered users to leave comments.</Value>
+        <Value>如果點選，沒有註冊的用戶可以在您的文章下留言</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.OnlyRegisteredUsersLeaveComments">
-        <Value>Only registered users can leave comments.</Value>
+        <Value>只有註冊過的用戶可以留下評論</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.NotifyAboutNewArticleComments">
-        <Value>Notify about new article comments</Value>
+        <Value>如果有會員留下評論，通知我</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Knowledgebase.NotifyAboutNewArticleComments.Hint">
-        <Value>Check to notify store owner about new article comments.</Value>
+        <Value>選中以通知店主有關新文章評論的訊息</Value>
     </LocaleResource>
     <LocaleResource Name="ActivityLog.PublicStore.AddArticleComment">
         <Value>Added an article comment</Value>
@@ -19817,7 +19817,7 @@
         <Value>Check to show CAPTCHA on article page when writing a comment.</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.Comments.SuccessfullyAdded">
-        <Value>Article comment was successfully added.</Value>
+        <Value>文章評論新增成功</Value>
     </LocaleResource>
     <LocaleResource Name="ReturnRequests.SelectPickupAddressOrEnterNewOne">
         <Value>Select a pickup address from your address book or enter a new address.</Value>

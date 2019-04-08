@@ -11,6 +11,24 @@ CustomerNote -> 會員備註
 CustomerReminder -> 會員提醒
 CustomerRegister -> 會員註冊
 
+-------------------
+
+Knowledge -> 知識庫
 應用 -> 套用
 進一步 -> null
 SaveBeforeEdit -> 
+Message -> 訊息
+
+----------------------------
+
+信息 -> 訊息
+Create -> 建立
+ActivityLogType -> 
+BackToList -> 回到列表? 
+Edit -> 編輯
+ACL -> 權限管理
+Activity log -> 活動日誌
+added
+deleted
+Content -> 
+DisplayOrder -> 顯示順序
