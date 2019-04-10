@@ -5824,10 +5824,10 @@
         <Value>檢查顯示購物車頁面上的稅金和運費資訊。此選項用於在德國。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoWishlist">
-        <Value>顯示稅/貨運資訊 (希望清單)</Value>
+        <Value>顯示稅/貨運資訊 (願望清單)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoWishlist.Hint">
-        <Value>選擇從而顯示稅和貨運資訊在希望清單頁面。德國使用這個選項。</Value>
+        <Value>選擇從而顯示稅和貨運資訊在願望清單頁面。德國使用這個選項。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.Catalog.EmailAFriendEnabled">
         <Value>啟用電子郵件發送給朋友</Value>
@@ -14599,7 +14599,7 @@
         <Value>僅限沒有購物車</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteGuests.OnlyWithoutShoppingCart.Hint">
-        <Value>這個值代表是否我們需要找到沒有購物車/希望清單的會員。如果不選擇， 則所有會員將被查找。</Value>
+        <Value>這個值代表是否我們需要找到沒有購物車/願望清單的會員。如果不選擇， 則所有會員將被查找。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.Maintenance.DeleteGuests.StartDate">
         <Value>開始日期</Value>
