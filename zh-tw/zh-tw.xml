@@ -7039,7 +7039,7 @@
         <Value>2. Go to https://console.cloud.google.com/apis/credentials &gt; select credentials for your project &gt; New Credentials &gt; Service account key &gt; download a .json file from your account, and open it with text editor.</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help3">
-        <Value>3. Copy the value of "private_key" e.g. -----BEGIN PRIVATE KEY-----\n ... -----END PRIVATE KEY-----\n</Value>
+        <Value>3. Copy the value of "private_key" e.g. -----BEGIN 私鑰-----\n ... -----END 私鑰-----\n</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalytics_help4">
         <Value>4. Copy the value of "client_email" e.g. asymmetric-rite-000000@appspot.gserviceaccount.com</Value>
@@ -7051,10 +7051,10 @@
         <Value>6. If you changed your certificate password, then you will need it too -  but by default the value of certificate password is "notasecret".</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsPrivateKey">
-        <Value>Private Key</Value>
+        <Value>私鑰</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsPrivateKey.hint">
-        <Value>Private Key</Value>
+        <Value>私鑰</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.GoogleAnalyticsServiceAccountEmail">
         <Value>Service AccountEmail</Value>
@@ -16333,7 +16333,7 @@
         <Value>與商品相關聯</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.AttributeValueType.Simple">
-        <Value>簡單</Value>
+        <Value>單一</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.BackorderMode.AllowQtyBelow0">
         <Value>允許缺貨銷售</Value>
@@ -16423,7 +16423,7 @@
         <Value>Reservation</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.SimpleProduct">
-        <Value>簡單的商品</Value>
+        <Value>單一的商品</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.RecurringProductCyclePeriod.Days">
         <Value>日</Value>
@@ -19496,10 +19496,10 @@
         <Value>Send</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PrivateApiKey">
-        <Value>Private Api Key</Value>
+        <Value>私人Api金鑰</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.PushApiKey">
-        <Value>Public Api Key</Value>
+        <Value>公開Api金鑰</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.SenderId">
         <Value>Sender Id</Value>
@@ -19511,7 +19511,7 @@
         <Value>Database URL</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.ProjectId">
-        <Value>Project Id</Value>
+        <Value>專案ID</Value>
     </LocaleResource>
     <LocaleResource Name="PushNotifications.Fields.StorageBucket">
         <Value>Storage Bucket</Value>
