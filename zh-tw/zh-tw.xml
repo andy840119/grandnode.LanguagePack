@@ -9196,16 +9196,16 @@
         <Value>權限管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Acl.hint">
-        <Value>Select customer roles for which the article will be shown.</Value>
+        <Value>選擇會員角色</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.ActivityLog">
         <Value>活動日誌</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Added">
-        <Value>Article added</Value>
+        <Value>新增文章</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Deleted">
-        <Value>Article deleted</Value>
+        <Value>文章已刪除</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AclCustomerRoles">
         <Value>權限管理</Value>
@@ -9217,103 +9217,103 @@
         <Value>商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.AvailableStores.Hint">
-        <Value>Select stores for which the article will be shown.</Value>
+        <Value>商店管理</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Content">
-        <Value>Content</Value>
+        <Value>內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Content.Hint">
-        <Value>The description of the knowledgebase article.</Value>
+        <Value>知識庫內容</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.DisplayOrder">
         <Value>顯示順序</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Displayorder.Hint">
-        <Value>Set the knowledgebase article display order. 1 represents the top of the list.</Value>
+        <Value>知識庫文章顯示順序，1表示最大</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.LimitedToStores">
-        <Value>Limited to stores</Value>
+        <Value>限制商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.LimitedToStores.Hint">
-        <Value>Determines whether the article is available only at certain stores.</Value>
+        <Value>限制知識庫文章只顯示於某商店</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaDescription">
-        <Value>Meta description</Value>
+        <Value>Meta 描述</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaDescription.Hint">
-        <Value>Meta description to be added to page header.</Value>
+        <Value>Meta 描述</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaKeywords">
-        <Value>Meta keywords</Value>
+        <Value>Meta 關鍵字</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaKeywords.Hint">
-        <Value>Meta keywords to be added to page header.</Value>
+        <Value>Meta 關鍵字</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaTitle">
-        <Value>Meta title</Value>
+        <Value>Meta 標題</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.MetaTitle.Hint">
-        <Value>Override the page title. The default is the name of the category.</Value>
+        <Value>重寫頁面的標題，預設名稱為知識庫的名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Name">
-        <Value>Title</Value>
+        <Value>名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Name.Hint">
-        <Value>Title of the article</Value>
+        <Value>知識庫的名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Name.Required">
-        <Value>Name is required</Value>
+        <Value>請輸入名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId">
-        <Value>Parent category</Value>
+        <Value>父類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId.Hint">
-        <Value>Parent category (id)</Value>
+        <Value>父類別(id)</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId.MustExist">
-        <Value>Parent category must exist</Value>
+        <Value>父類別必須存在</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ParentCategoryId.Required">
-        <Value>Parent category is required</Value>
+        <Value>請輸入父類別</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Published">
-        <Value>Published</Value>
+        <Value>發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.Published.Hint">
-        <Value>Published</Value>
+        <Value>發佈</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SeName">
-        <Value>SeName</Value>
+        <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SeName.Hint">
-        <Value>Set a search engine friendly page name. Leave empty to generate it automatically based on the name of the article.</Value>
+        <Value>搜尋引擎友好名稱</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ShowOnHomepage">
-        <Value>Show on homepage</Value>
+        <Value>在首頁顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.ShowOnHomepage.Hint">
-        <Value>Indicates whether to show this article on knowledgebase homepage or not.</Value>
+        <Value>要不要在首頁顯示</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SubjectToAcl">
-        <Value>Subject to ACL</Value>
+        <Value>根據ACL</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Fields.SubjectToAcl.Hint">
-        <Value>Determines whether the knowledgebase article is subject to ACL (access control list).</Value>
+        <Value>確定知識庫是受ACL(權限管理列表)控制。</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Info">
-        <Value>Info</Value>
+        <Value>基本資訊</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related">
-        <Value>Related articles</Value>
+        <Value>重新載入知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related.AddNew">
-        <Value>Add new related article</Value>
+        <Value>嘉樹上關聯的知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related.SaveBeforeEdit">
-        <Value>Save article before editing this section</Value>
+        <Value>編輯前請先儲存</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Related.SearchArticleName">
-        <Value>Search article title</Value>
+        <Value>搜尋知識庫開頭</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.ContentManagement.Knowledgebase.KnowledgebaseArticle.Seo">
         <Value>Seo</Value>
@@ -16393,7 +16393,7 @@
         <Value>建立日期</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.MostViewed">
-        <Value>Most Viewed</Value>
+        <Value>最多人觀看</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductSortingEnum.NameAsc">
         <Value>名稱: A 到 Z</Value>
@@ -16420,7 +16420,7 @@
         <Value>分組的商品</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.Reservation">
-        <Value>Reservation</Value>
+        <Value>預定</Value>
     </LocaleResource>
     <LocaleResource Name="Enums.Grand.Core.Domain.Catalog.ProductType.SimpleProduct">
         <Value>單一的商品</Value>
@@ -17146,7 +17146,7 @@
         <Value>為你準備的推薦商品</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase">
-        <Value>Knowledgebase</Value>
+        <Value>知識庫</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.Article.RelatedArticles">
         <Value>相關文章</Value>
@@ -17161,7 +17161,7 @@
         <Value>搜尋</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.SearchPlaceholder">
-        <Value>Search in knowledgebase...</Value>
+        <Value>在知識庫中搜尋...</Value>
     </LocaleResource>
     <LocaleResource Name="Knowledgebase.ResultsFor">
         <Value>結果</Value>

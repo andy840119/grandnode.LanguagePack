@@ -30,10 +30,24 @@ Comment -> 評論
 希望清單 -> 願望清單
 Private Key -> 私鑰
 
+
+
 -------------------
 
 Knowledge -> 知識庫
 
+ParentCategoryId -> 父類別
+
+Published -> 發佈
+
+SeName -> 搜尋引擎友好名稱
+
+SubjectToAcl -> 根據ACL
+SubjectToAcl.Hint -> 確定主題是受ACL(權限管理列表)控制。
+
+Info-> 基本資訊
+
+Seo->
 
 SaveBeforeEdit -> 編輯前請先儲存
 Message -> 訊息
